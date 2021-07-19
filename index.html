@@ -30,10 +30,16 @@
     <link rel="stylesheet" href="/css/header.css" />
     <title>RidoBiko</title>
   </head>
-  <body>
+  <body class="">
+    <!-- Background Image  -->
+    <img
+      class="background-img"
+      src="/images/background.jpeg"
+      alt="Background Image"
+    />
     <!-- Header HTML  -->
-    <div class="header d-flex justify-content-between">
-      <img src="/images/icon.png" alt="error" />
+    <div class="header d-flex justify-content-between" id="fixedHeader">
+      <img class="logo" src="/images/icon.png" alt="error" />
       <div class="navbar text-white w-50">
         <div class="item-header d-flex align-items-center">
           <span class="material-icons-outlined icon"> home </span>
@@ -64,6 +70,7 @@
       </div>
     </div>
   </body>
+  <script src="/js/scroll.js"></script>
   <script
     src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
     integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"

@@ -1,0 +1,18 @@
+.trip-main {
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding: 1.5% 2%;
+}
+.pickup-details {
+  border-radius: 15px;
+  border: 2px solid #d9d9d9;
+}
+.pick-item {
+  /* margin: 1% 2%; */
+}
+.location {
+  /* border-right: 2px solid black; */
+}
+.ant-radio-input:focus .outstation-trip {
+  background-color: black;
+}

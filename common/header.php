@@ -1,5 +1,5 @@
 <div class="header d-flex justify-content-between" id="fixedHeader">
-      <img class="logo" src="/images/icon.png" alt="error" />
+    <?php echo "<img class=\"logo\" src=\"images/icon.png\" alt=\"error\" />"; ?>
       <div class="navbar text-white w-50">
         <div class="item-header d-flex align-items-center">
           <span class="material-icons-outlined icon"> home </span>

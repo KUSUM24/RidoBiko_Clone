@@ -5,13 +5,16 @@
 }
 .pickup-details {
   border-radius: 15px;
-  border: 2px solid #d9d9d9;
+  /* border: 2px solid #d9d9d9; */
 }
 .pick-item {
-  /* margin: 1% 2%; */
+  padding: 0%;
+}
+.ridobiko-btn {
+  background-color: teal;
 }
 .location {
-  /* border-right: 2px solid black; */
+  border-right: 2px solid black !important;
 }
 .ant-radio-input:focus .outstation-trip {
   background-color: black;

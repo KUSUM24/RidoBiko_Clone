@@ -58,7 +58,14 @@
               aria-expanded="false"
             >
               <div class="pickup-text">DEPARTURE</div>
-              <div class="city bold-text h1">12:00 AM</div>
+              <div class="d-flex align-items-center">
+                <div class="city bold-text h1">23</div>
+                <div class="month">
+                  JUL'21
+                </div>
+              </div>
+              <div class="day">FRIDAY</div>
+
             </a>
 
             <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
@@ -78,7 +85,14 @@
               aria-expanded="false"
             >
               <div class="pickup-text">RETURN</div>
-              <div class="city bold-text h1">12:00 AM</div>
+              <div class="d-flex align-items-center">
+              <div class="city bold-text h1">23</div>
+                <div class="month">
+                  JUL'21
+                </div>
+              </div>
+              <div class="day">FRIDAY</div>
+
             </a>
 
             <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
@@ -135,5 +149,8 @@
           </div>
         </div>
       </div>
-      <div class="ridobiko-btn">RIDOBIKO</div>
+      <div class="ridobiko-btn">
+        
+        RIDOBIKO
+      </div>
     </div>

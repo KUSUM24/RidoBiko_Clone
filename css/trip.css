@@ -5,7 +5,7 @@
 }
 .pickup-details {
   border-radius: 15px;
-  /* border: 2px solid #d9d9d9; */
+  border: 2px solid #d9d9d9;
 }
 .pick-item {
   padding: 0%;
@@ -13,8 +13,28 @@
 .ridobiko-btn {
   background-color: teal;
 }
-.location {
-  border-right: 2px solid black !important;
+.pick-item {
+  border-right: 2px solid #d9d9d9 !important;
+}
+.drop-time {
+  border: none !important;
+}
+.dropdown {
+  background-color: transparent;
+}
+.bold-text {
+  font-weight: 650;
+  font-size: 35px;
+}
+.dropdown-btn {
+  background-color: transparent;
+  padding: 0%;
+  text-align: start;
+}
+.pickup-text {
+  font-weight: 500;
+  font-size: 15px;
+  color: #4a4a4a;
 }
 .ant-radio-input:focus .outstation-trip {
   background-color: black;

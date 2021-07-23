@@ -23,10 +23,10 @@
         </div>
       </div>
       <div class="row pickup-details d-flex w-100 justify-content-start">
-        <div class="location pick-item col-md-3 col-xs-12">
+        <div class="location pick-item col-md-3 col-xs-15">
           <div class="dropdown show">
             <a
-              class="btn btn-light"
+              class="btn dropdown-btn"
               href="#"
               role="button"
               id="dropdownMenuLink"
@@ -35,7 +35,7 @@
               aria-expanded="false"
             >
               <div class="pickup-text">PICKUP LOCATION</div>
-              <div class="city">Mumbai</div>
+              <div class="city bold-text h1">Mumbai</div>
             </a>
 
             <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
@@ -45,10 +45,11 @@
             </div>
           </div>
         </div>
-        <div class="date pick-item col-md-5">
+        <div class="date pick-item col-md-4 col-xs-15">
+          <div class="date-flex d-flex justify-content-around">
           <div class="dropdown show">
             <a
-              class="btn btn-light"
+              class="btn dropdown-btn"
               href="#"
               role="button"
               id="dropdownMenuLink"
@@ -56,8 +57,28 @@
               aria-haspopup="true"
               aria-expanded="false"
             >
-              <div class="pickup-text">PICKUP TIME</div>
-              <div class="city">12:00 AM</div>
+              <div class="pickup-text">DEPARTURE</div>
+              <div class="city bold-text h1">12:00 AM</div>
+            </a>
+
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </div>
+          <div class="dropdown show">
+            <a
+              class="btn dropdown-btn"
+              href="#"
+              role="button"
+              id="dropdownMenuLink"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              <div class="pickup-text">RETURN</div>
+              <div class="city bold-text h1">12:00 AM</div>
             </a>
 
             <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
@@ -67,10 +88,12 @@
             </div>
         </div>
         </div>
-        <div class="pickup-time pick-item col-md-2">
+
+        </div>
+        <div class="pickup-time pick-item col-md-3 col-xs-15">
           <div class="dropdown show">
             <a
-              class="btn btn-light"
+              class="btn dropdown-btn"
               href="#"
               role="button"
               id="dropdownMenuLink"
@@ -79,7 +102,7 @@
               aria-expanded="false"
             >
               <div class="pickup-text">PICKUP TIME</div>
-              <div class="city">12:00 AM</div>
+              <div class="city bold-text h1 ">12:00 AM</div>
             </a>
 
             <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
@@ -89,10 +112,10 @@
             </div>
           </div>
         </div>
-        <div class="drop-time pick-item col-md-2">
+        <div class="drop-time pick-item col-md-2 col-xs-15">
           <div class="dropdown show">
             <a
-              class="btn btn-light"
+              class="btn dropdown-btn"
               href="#"
               role="button"
               id="dropdownMenuLink"
@@ -101,7 +124,7 @@
               aria-expanded="false"
             >
               <div class="pickup-text">DROP TIME</div>
-              <div class="city">12:00 AM</div>
+              <div class="city bold-text h1">12:00 AM</div>
             </a>
 
             <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">

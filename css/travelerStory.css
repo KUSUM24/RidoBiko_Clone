@@ -1,16 +1,13 @@
-.motorcycle {
+.traveler-story {
   background-color: #ffffff;
   border-radius: 15px;
   padding: 1.5% 2%;
   margin: 5% 8% !important;
 }
-.motorcycle-heading {
+.traveler-header {
   font-weight: 550;
 }
-.scroll-title-main {
-  border: 2px solid gray;
-}
-.scroll-icons-1 {
+.scroll-icons-2 {
   box-shadow: 0 1px 6px 0 rgb(0 0 0 / 20%);
   border-radius: 20px;
   width: 60px;
@@ -18,4 +15,7 @@
   justify-content: space-between;
   align-items: center;
   font-size: 20px;
+}
+.scroll-icon {
+  cursor: pointer;
 }

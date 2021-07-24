@@ -13,6 +13,7 @@ include "common/link.php";
     <link rel="stylesheet" href="css/copyright.css">
     <link rel="stylesheet" href="css/motorcycle.css">
     <link rel="stylesheet" href="css/booking.css">
+    <link rel="stylesheet" href="css/travelerStory.css">
     <title>RidoBiko</title>
     
 </head>
@@ -28,7 +29,7 @@ include "common/link.php";
     <!-- Why Book With Us  -->
     <?php include "components/booking.php"; ?>
     <!-- Traveler Stories  -->
-    <?php include "components/story.php"; ?>
+    <?php include "components/travelerStory.php"; ?>
     <!-- Footer -->
     <?php include "common/footer.php"; ?>
     <!-- Copyright  -->

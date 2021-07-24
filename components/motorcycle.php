@@ -1,15 +1,13 @@
 <div class="motorcycle">
     <div class="motorcycle-heading h1 text-center">
-        <b>
             Select From 1000+ Motorcycles
-        </b>
     </div>
-    <div class="motorcycle-scroll d-flex justify-content-between">
+    <div class="motorcycle-scroll d-flex justify-content-between align-items-center">
         <div class="scroll-title-main d-flex">
             <div class="scroll-title">ANything</div>
             <div class="scroll-title">Nothing</div>
         </div>
-        <div class="scroll-icons d-flex">
+        <div class="scroll-icons-1 d-flex">
             <div class="scroll-icon">
             <span class="material-icons-outlined">
                 chevron_left

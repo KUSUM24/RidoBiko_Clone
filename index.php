@@ -12,6 +12,7 @@ include "common/link.php";
     <link rel="stylesheet" href="css/trip.css">
     <link rel="stylesheet" href="css/copyright.css">
     <link rel="stylesheet" href="css/motorcycle.css">
+    <link rel="stylesheet" href="css/booking.css">
     <title>RidoBiko</title>
     
 </head>

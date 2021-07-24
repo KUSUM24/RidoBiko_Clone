@@ -1,6 +1,8 @@
 <div class="motorcycle">
     <div class="motorcycle-heading h1 text-center">
-    Select From 1000+ Motorcycles
+        <b>
+            Select From 1000+ Motorcycles
+        </b>
     </div>
     <div class="motorcycle-scroll d-flex justify-content-between">
         <div class="scroll-title-main d-flex">

@@ -1,5 +1,6 @@
 .footer {
   background-color: #f7f7f7;
+  flex-direction: row;
 }
 .counts {
   justify-content: space-around;

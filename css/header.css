@@ -1,3 +1,6 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
 .background-img {
   position: fixed;
   height: 800px;
@@ -17,6 +20,7 @@
   background-color: black;
   padding: 0.5% 2%;
   background-color: transparent;
+  z-index: 1100;
 }
 .text-header {
   padding: 0px 10px 0px 0px;
@@ -33,4 +37,5 @@
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 1100;
 }

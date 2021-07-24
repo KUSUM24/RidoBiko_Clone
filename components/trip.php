@@ -1,14 +1,13 @@
 <div
       class="
         trip-main
-        container
         d-flex
         justify-content-center
         flex-column
         align-items-center
       "
     >
-      <div class="radio-div d-flex w-25 justify-content-center">
+      <div class="radio-div d-flex w-25 justify-content-between align-items-center">
         <div class="outstation-trip d-flex align-items-center">
           <span class="radio"
             ><input type="radio" class="ant-radio-input" value="0"

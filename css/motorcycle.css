@@ -1,0 +1,11 @@
+.motorcycle {
+  background-color: #ffffff;
+  border-radius: 15px;
+  padding: 1.5% 2%;
+  margin: 5% 8% !important;
+}
+.motorcycle-scroll {
+}
+.scroll-title-main {
+  border: 2px solid gray;
+}

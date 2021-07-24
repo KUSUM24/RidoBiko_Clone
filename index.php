@@ -24,6 +24,12 @@ include "common/link.php";
     <?php include "components/trip.php"; ?>
     <!-- Motorcycle Section  -->
     <?php include "components/motorcycle.php"; ?>
+    <!-- Why Book With Us  -->
+    <?php include "components/booking.php"; ?>
+    <!-- Traveler Stories  -->
+    <?php include "components/story.php"; ?>
+    <!-- Footer -->
+    <?php include "common/footer.php"; ?>
     <!-- Copyright  -->
     <?php include "common/copyright.php" ?>
     <script src="js/scroll.js"></script>

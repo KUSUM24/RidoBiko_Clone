@@ -14,6 +14,7 @@ include "common/link.php";
     <link rel="stylesheet" href="css/motorcycle.css">
     <link rel="stylesheet" href="css/booking.css">
     <link rel="stylesheet" href="css/travelerStory.css">
+    <link rel="stylesheet" href="css/footer.css">
     <title>RidoBiko</title>
     
 </head>

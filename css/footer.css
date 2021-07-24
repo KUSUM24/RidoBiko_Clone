@@ -1,0 +1,22 @@
+.footer {
+  background-color: #f7f7f7;
+}
+.counts {
+  justify-content: space-around;
+  align-items: center;
+}
+.count-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.number-count {
+  color: #1dc2a4;
+  font-size: 450%;
+}
+.plus-icon {
+  color: #6c7278;
+}
+.count-text {
+  color: #6c7278;
+}

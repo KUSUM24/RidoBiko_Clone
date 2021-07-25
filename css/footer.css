@@ -22,3 +22,50 @@
 .count-text {
   color: #6c7278;
 }
+.social-icon {
+  color: #1dc2a4 !important;
+  font-size: 180%;
+  padding: 1%;
+  margin: 5%;
+}
+.heading-footer {
+  font-size: 180%;
+}
+.content-footer {
+  color: gray;
+}
+.content-footer-submit form {
+  margin: 0%;
+}
+.email-input {
+  border-radius: 5px;
+  border: 1px solid gray;
+  padding: 3px 5px;
+}
+.submit-footer {
+  background-color: #1dc2a4;
+  color: white;
+  margin-bottom: 3px;
+}
+.location {
+  padding: 3% 5%;
+}
+.location-content {
+  padding: 2% 0%;
+}
+.location button {
+  border: none;
+  background-color: transparent;
+}
+.location button.active {
+  border-bottom: 2px solid black;
+  color: #1dc2a4;
+}
+.tab-link {
+  padding: 0% 1% 1% 1%;
+}
+.location button:focus {
+  color: #1dc2a4;
+  border-bottom: 2px solid #1dc2a4;
+  outline: none;
+}

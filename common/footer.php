@@ -40,9 +40,7 @@
         </div>
         <div class="footer-item address">
         <div class="heading-footer h5">
-            <b>
               Address
-            </b>
           </div>
           <div class="content-footer d-flex flex-column">
             <span>
@@ -59,27 +57,23 @@
         </div>
         <div class="footer-item explore">
         <div class="heading-footer h5 ">
-              <b>
                 Explore
-              </b>
             </div>
             <div class="content-footer d-flex flex-column">
               <span>
-                Blog
+                About Us
               </span>
               <span>
-                Become a partner
+                Career
               </span>
               <span>
-                Coupons
+                Team
               </span>
             </div>
         </div>
         <div class="footer-item help">
         <div class="heading-footer h5">
-              <b>
                 Help
-              </b>
               
             </div>
             <div class="content-footer d-flex flex-column">
@@ -96,30 +90,66 @@
         </div>
         <div class="footer-item subscribe">
         <div class="heading-footer h5">
-              <b>
                 Subscribe
-              </b>
             </div>
             <div class="content-footer content-footer-submit d-flex flex-column">
               
               <span>
                 <form action="subscribe.html">
                   <input class="email-input" type="text" name="email" placeholder="Your email address">
-                  <input class="submit-footer" type="submit" name="submit" value="Submit">
+                  <input class="btn btn-sm submit-footer" type="submit" name="submit" value="Submit">
                 </form>
               </span>
               <span>
               Subscribe now to get updates on promotions and coupons.
-                          </span>
+              </span>
               <span>
-               <div class="social-media d-flex">
-               <span class="material-icons-outlined">
-facebook
-</span>
+               <div class="social-media d-flex w-50 justify-content-between">
+                 <a href="https://www.facebook.com/ridobikoIN/" target="_blank">
+                 <i class="social-icon fab fa-facebook-square"></i>
+                </a>
+                 <a href="https://www.linkedin.com/company/ridobiko/" target="_blank">
+                 <i class="social-icon fab fa-linkedin"></i>
+                </a>
+                 <a href="https://www.instagram.com/explore/locations/499278393736469/ridobiko-bike-rental/" target="_blank">
+                 <i class="social-icon fab fa-instagram"></i>
+                </a>
+                 <a href="https://twitter.com/ridobiko" target="_blank">
+                 <i class="social-icon fab fa-twitter-square"></i>
+                </a>
                </div>
               </span>
             </div>
         </div>
     </div>
     <hr>
+    <!-- Location Section  -->
+    <div class="location">
+      <div class="location-header d-flex">
+        <button class="tab-link" id="popular" onclick="setLocation(event,'popular')">
+          <b>
+            Popular location
+          </b>
+        </button>
+        <button class="tab-link" id="comingSoon" onclick="setLocation(event,'comingSoon')">
+          <b>
+            Coming soon
+          </b>
+        </button>
+        <button class="tab-link" id="about" onclick="setLocation(event,'about')">
+          <b>
+            About Ridobiko
+          </b>
+        </button>
+        <button class="tab-link" id="vision" onclick="setLocation(event,'vision')">
+          <b>
+            Vision
+          </b>
+        </button>
+
+      </div>
+      <div class="location-content" id="location-content">
+        Bike rent in Rishikesh | Bike rent in Alwar | Bike rent in Dharamshala | Bike rent in Chandigarh | Bike rent in Nainital | Bike rent in Manali | Bike rent in Shimla | Bike rent in Ahmedabad | Bike rent in Jaisalmer | Bike rent in Mount Abu | Bike rent in Delhi | Bike rent in Kolkata | Bike rent in Srinagar | Bike rent in Bhopal | Bike rent in Kullu | Bike rent in Mahabalipuram | Bike rent in Siliguri | Bike rent in Gangtok | Bike rent in Udaipur | Bike rent in Gandhi Nagar | Bike rent in Dehradun | Bike rent in Agra | Bike rent in Amritsar | Bike rent in Mumbai | Bike rent in Pune | Bike rent in Goa | Bike rent in Gurgaon | Bike rent in Bhubaneswar | Bike rent in Roorkee | Bike rent in Indore | Bike rent in Haridwar | Bike rent in Pondicherry | Bike rent in Kolhapur | Bike rent in Chengalpattu | Bike rent in Jaipur |
+      </div>
+    </div>
 </div>

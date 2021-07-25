@@ -36,5 +36,6 @@ include "common/link.php";
     <!-- Copyright  -->
     <?php include "common/copyright.php" ?>
     <script src="js/scroll.js"></script>
+    <script src="js/location.js"></script>
   </body>
 </html>

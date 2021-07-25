@@ -34,8 +34,10 @@
         </div>
     </div>
     <hr>
-    <div class="footer d-flex">
-        <div class="footer-item logo"></div>
+    <div class="main-footer d-flex justify-content-around align-items-center">
+        <div class="footer-item logo">
+          <img src="images/ridobiko-logo-2.png" alt="">
+        </div>
         <div class="footer-item address">
         <div class="heading-footer h5">
             <b>
@@ -50,11 +52,9 @@
               LSC 7, Savita Vihar
             </span>
             <span>
-              Delhi, 110092
+              Delhi, 110092 India
             </span>
-            <span>
-              India</div>
-            </span>
+            
             </div>
         </div>
         <div class="footer-item explore">
@@ -101,9 +101,7 @@
               </b>
             </div>
             <div class="content-footer content-footer-submit d-flex flex-column">
-              <span>
-                Sign up for News Letter
-              </span>
+              
               <span>
                 <form action="subscribe.html">
                   <input class="email-input" type="text" name="email" placeholder="Your email address">
@@ -111,10 +109,14 @@
                 </form>
               </span>
               <span>
-                Register now to get updates on
-              </span>
+              Subscribe now to get updates on promotions and coupons.
+                          </span>
               <span>
-                promotions and coupons
+               <div class="social-media d-flex">
+               <span class="material-icons-outlined">
+facebook
+</span>
+               </div>
               </span>
             </div>
         </div>

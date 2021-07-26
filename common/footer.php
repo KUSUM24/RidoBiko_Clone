@@ -126,7 +126,7 @@
     <!-- Location Section  -->
     <div class="location">
       <div class="location-header d-flex">
-        <button class="tab-link" id="popular" onclick="setLocation(event,'popular')">
+        <button class="tab-link active " autofocus id="popular" onclick="setLocation(event,'popular')">
           <b>
             Popular location
           </b>

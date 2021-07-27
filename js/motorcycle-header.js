@@ -6,7 +6,7 @@ const setHeaderTitle = (title) => {
     motorcycleContent.innerHTML = "Name: Kusum";
     document.getElementById("bikes").classList.remove("active-title");
   } else if (title == "bikes") {
-    motorcycleContent.innerHTML = "Name: Jai";
+    motorcycleContent.innerHTML = "Name: Khushboo";
     document.getElementById("offers").classList.remove("active-title");
   }
 };

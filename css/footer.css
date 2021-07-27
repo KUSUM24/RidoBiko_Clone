@@ -59,7 +59,7 @@
   background-color: transparent;
 }
 .location button.active {
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid #1dc2a4;
   color: #1dc2a4;
 }
 .tab-link {

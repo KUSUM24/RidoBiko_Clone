@@ -37,5 +37,6 @@ include "common/link.php";
     <?php include "common/copyright.php" ?>
     <script src="js/scroll.js"></script>
     <script src="js/location.js"></script>
+    <script src="js/motorcycle-header.js"></script>
   </body>
 </html>

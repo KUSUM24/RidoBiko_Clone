@@ -1,8 +1,8 @@
 const setLocation = (e, status) => {
   document.getElementById("popular").classList.remove("active");
   let locationContent = document.getElementById("location-content");
+  document.getElementById(status).classList.add("active");
   if (status == "popular") {
-    // document.getElementById(status).classList.add("active");
     locationContent.classList.remove("text-center");
     locationContent.innerHTML =
       "Bike rent in Rishikesh | Bike rent in Alwar | Bike rent in Dharamshala | Bike rent in Chandigarh | Bike rent in Nainital | Bike rent in Manali | Bike rent in Shimla | Bike rent in Ahmedabad | Bike rent in Jaisalmer | Bike rent in Mount Abu | Bike rent in Delhi | Bike rent in Kolkata | Bike rent in Srinagar | Bike rent in Bhopal | Bike rent in Kullu | Bike rent in Mahabalipuram | Bike rent in Siliguri | Bike rent in Gangtok | Bike rent in Udaipur | Bike rent in Gandhi Nagar | Bike rent in Dehradun | Bike rent in Agra | Bike rent in Amritsar | Bike rent in Mumbai | Bike rent in Pune | Bike rent in Goa | Bike rent in Gurgaon | Bike rent in Bhubaneswar | Bike rent in Roorkee | Bike rent in Indore | Bike rent in Haridwar | Bike rent in Pondicherry | Bike rent in Kolhapur | Bike rent in Chengalpattu | Bike rent in Jaipur |";

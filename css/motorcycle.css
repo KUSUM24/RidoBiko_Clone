@@ -7,8 +7,17 @@
 .motorcycle-heading {
   font-weight: 550;
 }
-.scroll-title-main {
-  /* border: 2px solid gray; */
+.scroll-title-main .active-title {
+  border-bottom: 2px solid #1dc2a4;
+  color: #1dc2a4;
+}
+.scroll-title {
+  cursor: pointer;
+  padding: 5% 2%;
+}
+.scroll-title :focus {
+  border-bottom: 2px solid #1dc2a4;
+  color: #1dc2a4;
 }
 .scroll-icons-1 {
   box-shadow: 0 1px 6px 0 rgb(0 0 0 / 20%);
@@ -18,4 +27,8 @@
   justify-content: space-between;
   align-items: center;
   font-size: 20px;
+}
+.hr-motor {
+  position: relative;
+  top: -17px;
 }

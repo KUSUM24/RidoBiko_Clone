@@ -35,7 +35,7 @@
     </div>
     <hr>
     <div class="main-footer d-flex justify-content-around align-items-center">
-        <div class="footer-item logo">
+        <div class="footer-item logo-footer">
           <img src="images/ridobiko-logo-2.png" alt="">
         </div>
         <div class="footer-item address">

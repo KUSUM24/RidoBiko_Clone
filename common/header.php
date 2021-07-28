@@ -1,5 +1,5 @@
 <div class="header-main">
-  <div class="header d-flex justify-content-between" id="fixedHeader">
+  <div class="header d-flex justify-content-between align-items-center" id="fixedHeader">
     <img class="logo" src="images/icon.png" alt="LOGO" />
     <div class="navbar text-white w-50">
       <div class="item-header d-flex align-items-center">

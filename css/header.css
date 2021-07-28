@@ -7,7 +7,10 @@ body {
   width: 100%;
   z-index: -10;
 }
-
+.logo {
+  width: 130px;
+  height: 50px;
+}
 .icon {
   font-size: 100%;
   padding: 0% 5%;
@@ -39,9 +42,9 @@ body {
   z-index: 1100;
 }
 @media screen and (max-width: 1000px) {
-  .header-main {
-    overflow-x: scroll;
+  .header {
+    /* overflow-x: scroll; */
     overflow-y: scroll;
-    overflow: scroll;
+    /* overflow: scroll; */
   }
 }

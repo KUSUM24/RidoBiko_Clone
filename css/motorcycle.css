@@ -22,6 +22,9 @@
   border-bottom: 2px solid #1dc2a4;
   color: #1dc2a4;
 }
+.card-motorcycle .image-logo {
+  /* float: right; */
+}
 .scroll-icons-1 {
   box-shadow: 0 1px 6px 0 rgb(0 0 0 / 20%);
   border-radius: 20px;
@@ -34,6 +37,33 @@
 .hr-motor {
   position: relative;
   top: -17px;
+}
+/* .hr-bike {
+  color: #1dc2a4;
+  background-color: #1dc2a4;
+  line-height: 20px;
+} */
+.card-motorcycle {
+  box-shadow: 0px 0px 5px rgb(197, 196, 196);
+  border-radius: 2px;
+  /* padding: 0px 20px; */
+}
+.bike-coupon {
+  padding: 5% 0%;
+}
+.coupon-name {
+  color: #1dc2a4;
+}
+.book-now {
+  color: #1dc2a4;
+}
+.bike-image-motor {
+  box-shadow: 0px 0px 10px rgb(197, 196, 196);
+  margin: 0% 3%;
+  margin-top: -25px;
+}
+.bike-offer {
+  font-weight: 700;
 }
 @media screen and (max-width: 1000px) {
   .scroll-title-main {

@@ -22,7 +22,7 @@
         </div>
       </div>
       <div class="row pickup-details d-flex w-100 justify-content-start">
-        <div class="location pick-item col-md-3 col-xs-15">
+        <div class="location-title pick-item col-md-3 col-xs-15">
           <div class="dropdown show">
             <a
               class="btn dropdown-btn"

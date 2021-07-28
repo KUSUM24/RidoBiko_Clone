@@ -17,7 +17,6 @@ body {
   cursor: pointer;
 }
 .header {
-  background-color: black;
   padding: 0.5% 2%;
   background-color: transparent;
   z-index: 1100;
@@ -38,4 +37,11 @@ body {
   top: 0;
   width: 100%;
   z-index: 1100;
+}
+@media screen and (max-width: 1000px) {
+  .header-main {
+    overflow-x: scroll;
+    overflow-y: scroll;
+    overflow: scroll;
+  }
 }

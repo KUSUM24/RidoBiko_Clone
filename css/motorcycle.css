@@ -11,6 +11,9 @@
   border-bottom: 2px solid #1dc2a4;
   color: #1dc2a4;
 }
+.scroll-title-main {
+  width: 25% !important;
+}
 .scroll-title {
   cursor: pointer;
   padding: 5% 2%;
@@ -31,4 +34,14 @@
 .hr-motor {
   position: relative;
   top: -17px;
+}
+@media screen and (max-width: 1000px) {
+  .scroll-title-main {
+    width: 50% !important;
+  }
+}
+@media screen and (max-width: 500px) {
+  .scroll-title-main {
+    width: 100% !important;
+  }
 }

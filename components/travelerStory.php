@@ -1,4 +1,5 @@
-<div class="traveler-story">
+<div class="motorcycle">
+    
     <div class="d-flex justify-content-between align-items-center">
         <div class="traveler-heading h1">
             <b>
@@ -18,58 +19,61 @@
             </div>
         </div>
     </div>
-    <hr>
-    <div class="motorcycle-content my-5 d-flex justify-content-between" id="motorcycle-content" >
-        <div class="card-motorcycle">
+    
+    <div class="traveler-content-main d-flex justify-content-between" id="motorcycle-content" >
+        <div class="card-traveler">
             <div class="d-flex align-items-center">
-                <img class="bike-image-motor" src="images/Bikes/Bike-1.jpg" alt="">
-                <div class="d-flex flex-column text-bike">
-                    <div class="bike-offer">10% instant off on you first ride</div>
-                    <hr class="hr-bike" />
-                    <div class="limited">Limited period offer</div>
+                <div class="image-expire d-flex flex-column text-center align-items-center">
+                    <img class="bike-image-motor" src="images/Traveler/Travel-1.jpg" alt="">
+                    <div class="traveler-date">16 Jan 20</div>
+                </div>
+                    <div class="d-flex flex-column text-bike">
+                    <div class="bike-offer">One Mile At A Time, Rajasthan This Time</div>
+                    <div class="limited">Traveller : Mr. Ritik</div>
                 </div>
             </div>
-            <div class="bike-coupon text-center">
-                COUPON: <span class="coupon-name">RIDOBIKOFIRST</span>
+            <div class="traveler-content">
+            Ritik is self–employed and runs his own coaching institute in Bhopal, Madhya Pradesh for the students who are preparing for the engineering and medical entrance exams
             </div>
-            <div class="bike-footer d-flex justify-content-around">
-                <div class="terms">T&C's Apply</div>
-                <div class="book-now">Book Now</div>
+            <div class="bike-footer d-flex justify-content-around align-items-center">
+                <div class="read-more">Read More</div>
             </div>
 
         </div>
-        <div class="card-motorcycle">
+        <div class="card-traveler">
         <div class="d-flex align-items-center">
-                <img class="bike-image-motor" src="images/Bikes/Bike-1.jpg" alt="">
+        <div class="image-expire d-flex flex-column text-center align-items-center">
+                    <img class="bike-image-motor" src="images/Traveler/Travel-2.jpg" alt="">
+                    <div class="traveler-date">16 Jan 20</div>
+                </div>
                 <div class="d-flex flex-column text-bike">
-                    <div class="bike-offer">10% instant off on you first ride</div>
-                    <hr/>
-                    <div class="limited">Limited period offer</div>
+                    <div class="bike-offer">One Mile At A Time, Rajasthan This Time</div>
+                    <div class="limited">Traveller : Mr. Ritik</div>
                 </div>
             </div>
-            <div class="bike-coupon text-center">
-                COUPON: <span class="coupon-name">RIDOBIKOFIRST</span>
+            <div class="traveler-content">
+            Ritik is self–employed and runs his own coaching institute in Bhopal, Madhya Pradesh for the students who are preparing for the engineering and medical entrance exams
             </div>
-            <div class="d-flex justify-content-around">
-                <div class="terms">T&C's Apply</div>
-                <div class="book-now">Book Now</div>
+            <div class="bike-footer d-flex justify-content-around align-items-center">
+                <div class="read-more">Read More</div>
             </div>
         </div>
-        <div class="card-motorcycle">
+        <div class="card-traveler">
         <div class="d-flex align-items-center justify-content-between">
-                <img class="bike-image-motor" src="images/Bikes/Bike-1.jpg" alt="">
+        <div class="image-expire d-flex flex-column text-center align-items-center">
+                    <img class="bike-image-motor" src="images/Traveler/Travel-3.jpg" alt="">
+                    <div class="traveler-date">16 Jan 20</div>
+                </div>
                 <div class="d-flex flex-column text-bike">
-                    <div class="bike-offer ">10% instant off on you first ride</div>
-                    <hr/>
-                    <div class="limited">Limited period offer</div>
+                    <div class="bike-offer ">One Mile At A Time, Rajasthan This Time</div>
+                    <div class="limited">Traveller : Mr. Ritik</div>
                 </div>
             </div>
-            <div class="bike-coupon text-center">
-                COUPON: <span class="coupon-name">RIDOBIKOFIRST</span>
+            <div class="traveler-content">
+            Ritik is self–employed and runs his own coaching institute in Bhopal, Madhya Pradesh for the students who are preparing for the engineering and medical entrance exams
             </div>
-            <div class="d-flex justify-content-around">
-                <div class="terms">T&C's Apply</div>
-                <div class="book-now">Book Now</div>
+            <div class="bike-footer d-flex justify-content-around align-items-center">
+                <div class="read-more">Read More</div>
             </div>
         </div>
     </div>

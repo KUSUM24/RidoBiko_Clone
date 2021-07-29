@@ -1,7 +1,6 @@
 const setLocation = (e, status) => {
   document.getElementById("popular").classList.remove("active");
   let locationContent = document.getElementById("location-content");
-  document.getElementById(status).classList.add("active");
   if (status == "popular") {
     locationContent.classList.remove("text-center");
     locationContent.innerHTML =

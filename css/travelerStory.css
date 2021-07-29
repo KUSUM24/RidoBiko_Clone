@@ -19,3 +19,29 @@
 .scroll-icon {
   cursor: pointer;
 }
+.traveler-content {
+  padding: 20px;
+}
+.read-more {
+  font-size: 15px;
+  color: #1dc2a4;
+  /* padding-bottom: 1%; */
+}
+.traveler-content-main {
+  margin: 5% 0% 1% 0%;
+}
+.card-traveler {
+  box-shadow: 0px 0px 5px rgb(197, 196, 196);
+  border-radius: 2px;
+  padding: 20px 0px;
+  margin: 0% 1%;
+}
+.traveler-date {
+  background-color: #1dc2a4;
+  color: white;
+  border-radius: 10px;
+  font-size: 13px;
+  width: 90%;
+  padding: 0px 5px;
+  margin-top: -10px;
+}

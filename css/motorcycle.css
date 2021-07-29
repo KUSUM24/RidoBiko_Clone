@@ -36,11 +36,9 @@
   position: relative;
   top: -17px;
 }
-/* .hr-bike {
-  color: #1dc2a4;
-  background-color: #1dc2a4;
-  line-height: 20px;
-} */
+.motorcycle-content {
+  padding: 2% 0%;
+}
 .card-motorcycle {
   box-shadow: 0px 0px 5px rgb(197, 196, 196);
   border-radius: 2px;

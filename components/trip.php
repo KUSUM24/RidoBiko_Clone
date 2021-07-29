@@ -25,7 +25,7 @@
         <div class="location-title pick-item col-md-3 col-xs-15">
           <div class="dropdown show">
             <a
-              class="btn dropdown-btn"
+              class="btn dropdown-btn dropdown-toggle"
               href="#"
               role="button"
               id="dropdownMenuLink"
@@ -33,8 +33,10 @@
               aria-haspopup="true"
               aria-expanded="false"
             >
-              <div class="pickup-text">PICKUP LOCATION</div>
-              <div class="city bold-text h1">Mumbai</div>
+              <span>
+                <div class="pickup-text">PICKUP LOCATION</div>
+                <span class="city bold-text h1">Mumbai</span>
+            </span>
             </a>
 
             <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
@@ -106,7 +108,7 @@
         <div class="pickup-time pick-item col-md-3 col-xs-15">
           <div class="dropdown show">
             <a
-              class="btn dropdown-btn"
+              class="btn dropdown-btn dropdown-toggle"
               href="#"
               role="button"
               id="dropdownMenuLink"
@@ -114,8 +116,11 @@
               aria-haspopup="true"
               aria-expanded="false"
             >
+            <span>
+
               <div class="pickup-text">PICKUP TIME</div>
-              <div class="city bold-text h1 ">12:00 AM</div>
+              <span class="city bold-text h1 ">12:00 AM</span>
+            </span>
             </a>
 
             <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
@@ -128,7 +133,7 @@
         <div class="drop-time pick-item col-md-2 col-xs-15">
           <div class="dropdown show">
             <a
-              class="btn dropdown-btn"
+              class="btn dropdown-btn dropdown-toggle"
               href="#"
               role="button"
               id="dropdownMenuLink"
@@ -136,8 +141,11 @@
               aria-haspopup="true"
               aria-expanded="false"
             >
+            <span>
+
               <div class="pickup-text">DROP TIME</div>
-              <div class="city bold-text h1">12:00 AM</div>
+              <span class="city bold-text h1">12:00 AM</span>
+            </span>
             </a>
 
             <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
@@ -148,8 +156,9 @@
           </div>
         </div>
       </div>
-      <div class="ridobiko-btn">
-        
+      <button class="ridobiko-btn">
+        <a class="btn-inner" href="https://www.ridobiko.com/Blog" target="_blank">
         RIDOBIKO
-      </div>
+      </a>
+      </button>
     </div>

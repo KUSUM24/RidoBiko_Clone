@@ -24,7 +24,7 @@
         <div class="card-traveler">
             <div class="d-flex align-items-center">
                 <div class="image-expire d-flex flex-column text-center align-items-center">
-                    <img class="bike-image-motor" src="images/Traveler/Travel-1.jpg" alt="">
+                    <img class="bike-image-travel" src="images/Traveler/Travel-1.jpg" alt="">
                     <div class="traveler-date">16 Jan 20</div>
                 </div>
                     <div class="d-flex flex-column text-bike">
@@ -43,7 +43,7 @@
         <div class="card-traveler">
         <div class="d-flex align-items-center">
         <div class="image-expire d-flex flex-column text-center align-items-center">
-                    <img class="bike-image-motor" src="images/Traveler/Travel-2.jpg" alt="">
+                    <img class="bike-image-travel" src="images/Traveler/Travel-2.jpg" alt="">
                     <div class="traveler-date">16 Jan 20</div>
                 </div>
                 <div class="d-flex flex-column text-bike">
@@ -61,7 +61,7 @@
         <div class="card-traveler">
         <div class="d-flex align-items-center justify-content-between">
         <div class="image-expire d-flex flex-column text-center align-items-center">
-                    <img class="bike-image-motor" src="images/Traveler/Travel-3.jpg" alt="">
+                    <img class="bike-image-travel" src="images/Traveler/Travel-3.jpg" alt="">
                     <div class="traveler-date">16 Jan 20</div>
                 </div>
                 <div class="d-flex flex-column text-bike">

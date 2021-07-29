@@ -49,3 +49,7 @@
   font-weight: 700;
   font-size: 17px;
 }
+.bike-image-travel {
+  box-shadow: 0px 0px 10px rgb(197, 196, 196);
+  margin-top: -35px;
+}

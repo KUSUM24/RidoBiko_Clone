@@ -14,13 +14,32 @@
 }
 
 .ridobiko-btn {
-  background-color: #1dc2a4;
-  border-radius: 20px;
-  padding: 0.25% 4%;
+  /* padding: 0.25% 4%; */
   color: white;
   letter-spacing: 1.5px;
   font-size: 130%;
   font-weight: 500;
+  cursor: pointer;
+  outline: none;
+  background-color: transparent;
+  border: 2px solid transparent;
+  /* border-color: #1dc2a4; */
+}
+.ridobiko-btn a {
+  color: white;
+  text-decoration: none;
+}
+.ridobiko-btn :hover {
+  background-color: rgb(35, 226, 207);
+}
+.ridobiko-btn:focus {
+  border: none;
+  outline: none;
+}
+.btn-inner {
+  background-color: #1dc2a4;
+  border-radius: 20px;
+  padding: 7% 30%;
 }
 .month {
   font-weight: 500;

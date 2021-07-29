@@ -83,6 +83,7 @@
 .scooter-card {
   box-shadow: 0px 0px 5px rgb(197, 196, 196);
   border-radius: 2px;
+  padding: 0.5% 1%;
 }
 .activa-img {
   width: 200px;
@@ -90,8 +91,8 @@
 }
 .details-div {
   background-color: #1dc2a4;
-  width: 25px;
-  height: 25px;
+  width: 35px;
+  height: 35px;
   border-radius: 50%;
   vertical-align: middle;
   text-align: center;

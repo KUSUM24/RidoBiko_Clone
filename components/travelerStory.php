@@ -1,6 +1,6 @@
-<div class="motorcycle">
+<div class="traveler-story">
     
-    <div class="d-flex justify-content-between align-items-center">
+    <div class="d-flex justify-content-between align-items-center px-3">
         <div class="traveler-heading h1">
             <b>
                 Traveler Stories
@@ -20,7 +20,7 @@
         </div>
     </div>
     
-    <div class="traveler-content-main d-flex justify-content-between" id="motorcycle-content" >
+    <div class="traveler-content-main d-flex justify-content-between " id="motorcycle-content" >
         <div class="card-traveler">
             <div class="d-flex align-items-center">
                 <div class="image-expire d-flex flex-column text-center align-items-center">
@@ -28,8 +28,8 @@
                     <div class="traveler-date">16 Jan 20</div>
                 </div>
                     <div class="d-flex flex-column text-bike">
-                    <div class="bike-offer">One Mile At A Time, Rajasthan This Time</div>
-                    <div class="limited">Traveller : Mr. Ritik</div>
+                    <div class="traveler-title">One Mile At A Time, Rajasthan This Time</div>
+                    <div class="traveler-name">Traveller : Mr. Ritik</div>
                 </div>
             </div>
             <div class="traveler-content">
@@ -47,8 +47,8 @@
                     <div class="traveler-date">16 Jan 20</div>
                 </div>
                 <div class="d-flex flex-column text-bike">
-                    <div class="bike-offer">One Mile At A Time, Rajasthan This Time</div>
-                    <div class="limited">Traveller : Mr. Ritik</div>
+                    <div class="traveler-title">One Mile At A Time, Rajasthan This Time</div>
+                    <div class="traveler-name">Traveller : Mr. Ritik</div>
                 </div>
             </div>
             <div class="traveler-content">
@@ -65,8 +65,8 @@
                     <div class="traveler-date">16 Jan 20</div>
                 </div>
                 <div class="d-flex flex-column text-bike">
-                    <div class="bike-offer ">One Mile At A Time, Rajasthan This Time</div>
-                    <div class="limited">Traveller : Mr. Ritik</div>
+                    <div class="traveler-title ">One Mile At A Time, Rajasthan This Time</div>
+                    <div class="traveler-name">Traveller : Mr. Ritik</div>
                 </div>
             </div>
             <div class="traveler-content">

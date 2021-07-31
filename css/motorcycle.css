@@ -98,13 +98,43 @@
 .activa-details-icon {
   color: white;
 }
+@media screen and (max-width: 1300px) {
+  .scroll-title-main {
+    width: 30% !important;
+  }
+}
 @media screen and (max-width: 1000px) {
+  .motorcycle-content {
+    flex-direction: column;
+    align-items: center;
+  }
+  .card-motorcycle {
+    padding: 0%;
+    margin: 2% 0% 6% 0%;
+    width: 60%;
+  }
+  .scroll-title-main {
+    width: 40% !important;
+  }
+}
+
+@media screen and (max-width: 780px) {
   .scroll-title-main {
     width: 50% !important;
+  }
+  .card-motorcycle {
+    padding: 0%;
+    margin: 2% 0% 8% 0%;
+    width: 80%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .scroll-title-main {
+    width: 60% !important;
   }
 }
 @media screen and (max-width: 500px) {
   .scroll-title-main {
-    width: 100% !important;
+    width: 80% !important;
   }
 }

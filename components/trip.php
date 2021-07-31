@@ -48,7 +48,7 @@
         </div>
         <div class="date pick-item col-md-4 col-xs-15">
           <div class="date-flex d-flex justify-content-around">
-          <div class="dropdown show">
+          <!-- <div class="dropdown show">
             <a
               class="btn dropdown-btn"
               href="#"
@@ -58,7 +58,12 @@
               aria-haspopup="true"
               aria-expanded="false"
             >
-              <div class="pickup-text">DEPARTURE</div>
+              <div class="pickup-text d-flex align-items-center">
+                DEPARTURE
+                <span class="material-icons-outlined">
+                  keyboard_arrow_down
+                </span>
+              </div>
               <div class="d-flex align-items-center">
                 <div class="city bold-text h1">23</div>
                 <div class="month">
@@ -74,7 +79,8 @@
               <a class="dropdown-item" href="#">Another action</a>
               <a class="dropdown-item" href="#">Something else here</a>
             </div>
-          </div>
+          </div> -->
+          <input type="date" value="2018-07-22">
           <div class="dropdown show">
             <a
               class="btn dropdown-btn"
@@ -85,7 +91,11 @@
               aria-haspopup="true"
               aria-expanded="false"
             >
-              <div class="pickup-text">RETURN</div>
+              <div class="pickup-text d-flex align-items-center">RETURN
+                <span class="material-icons-outlined">
+                  keyboard_arrow_down
+                </span>
+              </div>
               <div class="d-flex align-items-center">
               <div class="city bold-text h1">23</div>
                 <div class="month">

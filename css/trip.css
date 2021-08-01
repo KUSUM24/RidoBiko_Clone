@@ -17,8 +17,8 @@
   padding: 5%;
 }
 
-.radio-text {
-  margin-bottom: 0rem 0.5rem !important ;
+.outstation-trip,
+.hourly-rental {
   background-color: #e7e7e7;
   border-radius: 10px;
 }
@@ -83,6 +83,6 @@
   background-color: black;
 }
 .dropdown-menu {
-  height: 100px;
+  height: 300px;
   overflow-y: scroll;
 }

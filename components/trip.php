@@ -80,7 +80,12 @@
               <a class="dropdown-item" href="#">Something else here</a>
             </div>
           </div> -->
-          <input type="date" value="2018-07-22">
+          <label for="abcd">
+            <!-- <button >Toggle</button> -->
+            ANything
+            </label>
+            <input class="input-date" id="abcd" type="date" value="2018-07-22">
+
           <div class="dropdown show">
             <a
               class="btn dropdown-btn"
@@ -91,18 +96,18 @@
               aria-haspopup="true"
               aria-expanded="false"
             >
-              <div class="pickup-text d-flex align-items-center">RETURN
+              <div class="pickup-text d-flex align-items-center" >RETURN
                 <span class="material-icons-outlined">
                   keyboard_arrow_down
                 </span>
               </div>
               <div class="d-flex align-items-center">
-              <div class="city bold-text h1">23</div>
-                <div class="month">
+              <div class="date-return bold-text h1" id="date-return">23</div>
+                <div class="month-return" id="month-return">
                   JUL'21
                 </div>
               </div>
-              <div class="day">FRIDAY</div>
+              <div class="day-return">FRIDAY</div>
 
             </a>
 

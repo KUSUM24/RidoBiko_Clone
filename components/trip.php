@@ -8,18 +8,14 @@
       "
     >
       <div class="radio-div d-flex justify-content-between align-items-center">
-        <div class="outstation-trip d-flex align-items-center mx-4">
-          <span class="radio"
-            ><input type="radio" id='radio-1' class="ant-radio-input" value="0"
-          /></span>
-          <label for='radio-1' class="radio-text my-0 mx-2">OUTSTATION ROUND TRIP</label>
-        </div>
-        <div class="hourly-rental d-flex align-items-center">
-          <span class="radio"
-            ><input type="radio" id='radio-2' class="ant-radio-input" value="0"
-          /></span>
-          <label for='radio-2' class="radio-text my-0 mx-2">HOURLY RENTAL</label>
-        </div>
+        <label id="radio-1" class="radio-btn trip-time-container radio-1">OUTSTATION ROUND TRIP
+          <input onchange="changeRadioInput(1)" type="radio" name="trip-time">
+          <span class="trip-time-checkmark"></span>
+        </label>
+        <label id="radio-2" class="radio-btn trip-time-container  radio-2">HOURLY RENTAL
+          <input onchange="changeRadioInput(2)" type="radio" name="trip-time">
+          <span class="trip-time-checkmark"></span>
+        </label>
       </div>
       <div class="row pickup-details d-flex w-100 justify-content-start">
         <div class="location-title pick-item col-md-3 col-xs-15">

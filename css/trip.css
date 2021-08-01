@@ -86,3 +86,77 @@
   height: 300px;
   overflow-y: scroll;
 }
+.radio-btn {
+  padding: 2px 8px;
+  border-radius: 30px;
+}
+.radio-btn--checked {
+  background-color: #e7e7e7;
+}
+.radio-2 {
+  margin: 0px 20px;
+}
+.trip-time-container {
+  display: block;
+  position: relative;
+  padding-left: 25px;
+  margin-bottom: 0px;
+  cursor: pointer;
+  font-size: 13px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.trip-time-container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom radio button */
+.trip-time-checkmark {
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  height: 18px;
+  width: 18px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.trip-time-container:hover input ~ .trip-time-checkmark {
+  background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.trip-time-container input:checked ~ .trip-time-checkmark {
+  background-color: #fff;
+  border: 1px solid #1dc2a4;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.trip-time-checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.trip-time-container input:checked ~ .trip-time-checkmark:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.trip-time-container .trip-time-checkmark:after {
+  top: 3px;
+  left: 3px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+
+  background: #1dc2a4;
+}

@@ -1,5 +1,8 @@
 <div class="header-main">
-  <div class="header d-flex justify-content-between align-items-center" id="fixedHeader">
+  <div
+    class="header d-flex justify-content-between align-items-center"
+    id="fixedHeader"
+  >
     <img class="logo" src="images/icon.png" alt="LOGO" />
     <div class="navbar text-white w-50">
       <div class="item-header d-flex align-items-center">
@@ -12,9 +15,7 @@
       </div>
       <div class="item-header d-flex align-items-center">
         <div class="text-header">More</div>
-        <span class="material-icons-outlined icon">
-          keyboard_arrow_down
-        </span>
+        <span class="material-icons-outlined icon"> keyboard_arrow_down </span>
       </div>
       <div class="item-header d-flex align-items-center">
         <span class="material-icons-outlined icon"> shopping_cart </span>

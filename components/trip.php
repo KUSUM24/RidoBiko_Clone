@@ -7,23 +7,23 @@
         align-items-center
       "
     >
-      <div class="radio-div d-flex w-25 justify-content-between align-items-center">
-        <div class="outstation-trip d-flex align-items-center">
+      <div class="radio-div d-flex justify-content-between align-items-center">
+        <div class="outstation-trip d-flex align-items-center mx-4">
           <span class="radio"
-            ><input type="radio" class="ant-radio-input" value="0"
+            ><input type="radio" id='radio-1' class="ant-radio-input" value="0"
           /></span>
-          <div class="radio-text">Outstation Trip</div>
+          <label for='radio-1' class="radio-text my-0 mx-2">OUTSTATION ROUND TRIP</label>
         </div>
         <div class="hourly-rental d-flex align-items-center">
           <span class="radio"
-            ><input type="radio" class="ant-radio-input" value="0"
+            ><input type="radio" id='radio-2' class="ant-radio-input" value="0"
           /></span>
-          <div class="radio-text">Hourly Rental</div>
+          <label for='radio-2' class="radio-text my-0 mx-2">HOURLY RENTAL</label>
         </div>
       </div>
       <div class="row pickup-details d-flex w-100 justify-content-start">
         <div class="location-title pick-item col-md-3 col-xs-15">
-          <div class="dropdown show">
+          <div class="dropdown show location-drop">
             <a
               class="btn dropdown-btn dropdown-toggle"
               href="#"
@@ -39,10 +39,8 @@
             </span>
             </a>
 
-            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <a class="dropdown-item" href="#">Something else here</a>
+            <div class="dropdown-menu" id='location-items' aria-labelledby="dropdownMenuLink">
+              
             </div>
           </div>
         </div>
@@ -85,9 +83,9 @@
             </label> -->
             <input class="input-date" id="abcd" type="date" value="2018-07-22">
 
-          <div class="dropdown show">
+          <!-- <div class="dropdown show"> -->
             <a
-              class="btn dropdown-btn"
+              class="btn "
               href="#"
               role="button"
               id="dropdownMenuLink"
@@ -106,16 +104,12 @@
                   JUL'21
                 </div>
               </div>
-              <div class="day-return">FRIDAY</div>
+              <div class="day-return" id='day-return'>FRIDAY</div>
 
             </a>
 
-            <div class="dropdown-menu" id="pickup-items" aria-labelledby="dropdownMenuLink">
-              <!-- <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <a class="dropdown-item" href="#">Something else here</a> -->
-            </div>
-        </div>
+            
+        <!-- </div> -->
         </div>
 
         </div>
@@ -137,10 +131,21 @@
             </span>
             </a>
 
-            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <a class="dropdown-item" href="#">Something else here</a>
+            <div class="dropdown-menu" id='pickup-timing'  aria-labelledby="dropdownMenuLink">
+              <a class="dropdown-item" href="#">12:30 AM</a>
+              <a class="dropdown-item" href="#">1:00 AM</a>
+              <a class="dropdown-item" href="#">1:30 AM</a>
+              <a class="dropdown-item" href="#">2:00 AM</a>
+              <a class="dropdown-item" href="#">2:30 AM</a>
+              <a class="dropdown-item" href="#">3:00 AM</a>
+              <a class="dropdown-item" href="#">3:30 AM</a>
+              <a class="dropdown-item" href="#">4:00 AM</a>
+              <a class="dropdown-item" href="#">4:30 AM</a>
+              <a class="dropdown-item" href="#">5:00 AM</a>
+              <a class="dropdown-item" href="#">5:30 AM</a>
+              <a class="dropdown-item" href="#">6:00 AM</a>
+              <a class="dropdown-item" href="#">6:30 AM</a>
+              <a class="dropdown-item" href="#">7:00 AM</a>
             </div>
           </div>
         </div>
@@ -162,10 +167,7 @@
             </span>
             </a>
 
-            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <a class="dropdown-item" href="#">Something else here</a>
+            <div class="dropdown-menu" id='drop-timing' aria-labelledby="dropdownMenuLink">
             </div>
           </div>
         </div>

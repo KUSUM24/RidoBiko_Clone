@@ -39,5 +39,7 @@ include "common/link.php";
     <script src="js/location.js"></script>
     <script src="js/motorcycle-header.js"></script>
     <script src="js/date.js"></script>
+    <script src="js/dropdown.js"></script>
+
   </body>
 </html>

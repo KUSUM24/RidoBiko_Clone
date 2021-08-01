@@ -23,7 +23,7 @@ document.getElementById("month-return").innerHTML = finalDate;
 
 let dayIndex = today.getDay();
 let day = days[dayIndex];
-console.log(day);
+console.log(day.toUpperCase());
 
 // Day
-document.getElementById("day-return").innerHTML = day;
+document.getElementById("day-return").innerHTML = day.toUpperCase();

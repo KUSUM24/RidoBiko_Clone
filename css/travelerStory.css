@@ -1,8 +1,13 @@
+.traveler-main {
+  background-color: #f0f2f5 !important;
+  margin: 0%;
+  padding: 5%;
+}
 .traveler-story {
   background-color: #ffffff;
   border-radius: 15px;
   padding: 1.5% 1%;
-  margin: 5% 8% !important;
+  margin: 0% 8% !important;
 }
 .traveler-header {
   font-weight: 550;

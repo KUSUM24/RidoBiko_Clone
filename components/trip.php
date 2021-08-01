@@ -80,10 +80,9 @@
               <a class="dropdown-item" href="#">Something else here</a>
             </div>
           </div> -->
-          <label for="abcd">
-            <!-- <button >Toggle</button> -->
-            ANything
-            </label>
+          <!-- <label for="abcd">
+            button
+            </label> -->
             <input class="input-date" id="abcd" type="date" value="2018-07-22">
 
           <div class="dropdown show">
@@ -111,10 +110,10 @@
 
             </a>
 
-            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-              <a class="dropdown-item" href="#">Action</a>
+            <div class="dropdown-menu" id="pickup-items" aria-labelledby="dropdownMenuLink">
+              <!-- <a class="dropdown-item" href="#">Action</a>
               <a class="dropdown-item" href="#">Another action</a>
-              <a class="dropdown-item" href="#">Something else here</a>
+              <a class="dropdown-item" href="#">Something else here</a> -->
             </div>
         </div>
         </div>

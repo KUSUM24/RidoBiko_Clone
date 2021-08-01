@@ -16,8 +16,14 @@ let dateArr = today.toDateString().split(" ");
 let dateReturn = dateArr[2] + " ";
 let finalDate = dateArr[1] + "'" + year;
 console.log(finalDate);
+// Date
 document.getElementById("date-return").innerHTML = dateReturn;
+// Month and Year
 document.getElementById("month-return").innerHTML = finalDate;
+
 let dayIndex = today.getDay();
 let day = days[dayIndex];
 console.log(day);
+
+// Day
+document.getElementById("day-return").innerHTML = day;

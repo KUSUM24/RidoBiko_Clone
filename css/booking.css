@@ -1,13 +1,13 @@
 .booking-main {
   background-color: #f0f2f5 !important;
   margin: 0%;
-  padding: 0%;
+  padding: 5%;
 }
 .booking {
   background-color: #ffffff;
   border-radius: 15px;
   padding: 3% 2%;
-  margin: 5% 8% !important;
+  margin: 0% 8% !important;
 }
 .booking-heading {
   font-weight: 550;

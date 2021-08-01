@@ -1,7 +1,8 @@
-<div class="booking">
-    <div class="booking-heading h1 text-center">
+<div class="booking-main">
+    <div class="booking">
+        <div class="booking-heading h1 text-center">
             Why Book with Ridobiko ?
-    </div>
+        </div>
     <hr>
     <div class="row images-main">
         <div class="img-col col-md-3">
@@ -17,4 +18,5 @@
             <img class="book-4 img-book" src="images/booking/book-4.png" alt="error">
         </div>
     </div>
+</div>
 </div>

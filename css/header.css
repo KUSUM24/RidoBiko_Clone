@@ -1,9 +1,10 @@
 body {
   font-family: "Roboto", sans-serif;
+  background-color: #f0f2f5;
 }
 .background-img {
   position: fixed;
-  height: 800px;
+  height: 550px;
   width: 100%;
   z-index: -10;
 }

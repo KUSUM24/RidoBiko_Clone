@@ -42,7 +42,7 @@
         </div>
         <div class="date pick-item col-md-4 col-xs-15">
           <div class="date-flex d-flex justify-content-around">
-          <!-- <div class="dropdown show">
+          <div class="dropdown show">
             <a
               class="btn dropdown-btn"
               href="#"
@@ -73,12 +73,12 @@
               <a class="dropdown-item" href="#">Another action</a>
               <a class="dropdown-item" href="#">Something else here</a>
             </div>
-          </div> -->
+          </div>
           <!-- <label for="abcd">
             button
             </label> -->
-            <input class="input-date" id="abcd" type="date" value="2018-07-22">
-
+            <!-- <input class="input-date" id="abcd" type="date" value="2018-07-22"> -->
+            <!-- <input type="date" id="datetimepicker4" class='form-control'> -->
           <!-- <div class="dropdown show"> -->
             <a
               class="btn "
@@ -103,6 +103,7 @@
               <div class="day-return" id='day-return'>FRIDAY</div>
 
             </a>
+            
 
             
         <!-- </div> -->

@@ -8,8 +8,8 @@
       "
     >
       <div class="radio-div d-flex justify-content-between align-items-center">
-        <label id="radio-1" class="radio-btn trip-time-container radio-1">OUTSTATION ROUND TRIP
-          <input onchange="changeRadioInput(1)" type="radio" name="trip-time">
+        <label id="radio-1" class="radio-btn trip-time-container radio-1 radio-btn--checked">OUTSTATION ROUND TRIP
+          <input  onchange="changeRadioInput(1)" type="radio" name="trip-time" checked>
           <span class="trip-time-checkmark"></span>
         </label>
         <label id="radio-2" class="radio-btn trip-time-container  radio-2">HOURLY RENTAL

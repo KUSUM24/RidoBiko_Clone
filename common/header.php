@@ -5,7 +5,7 @@
   >
     <img class="logo" src="images/icon.png" alt="LOGO" />
     <div class="navbar text-white w-50">
-      <div class="item-header d-flex align-items-center">
+      <div class="item-header item-header--clicked d-flex align-items-center" id='item-header' onclick="document.getElementById('item-header').style.color = '#1dc0a2' ">
         <span class="material-icons-outlined icon"> home </span>
         <div class="text-header">Home</div>
       </div>

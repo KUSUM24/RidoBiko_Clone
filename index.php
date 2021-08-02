@@ -38,8 +38,6 @@ include "common/link.php";
     <script src="js/scroll.js"></script>
     <script src="js/location.js"></script>
     <script src="js/motorcycle-header.js"></script>
-    <script src="js/date.js"></script>
-    <script src="js/dropdown.js"></script>
     <script src="js/trip.js"></script>
 
   </body>

@@ -20,6 +20,9 @@ body {
   color: #1dc0a2;
   cursor: pointer;
 }
+.item-header--clicked {
+  color: #1dc0a2;
+}
 .header {
   padding: 0.5% 2%;
   background-color: transparent;

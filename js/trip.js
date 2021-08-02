@@ -86,3 +86,10 @@ dropArr.map((item) => {
 console.log(timingList);
 document.getElementById("pickup-timing").innerHTML = timingList;
 document.getElementById("drop-timing").innerHTML = timingList;
+const showDate = () => {
+  const dateInput = document.getElementById("date-input");
+  const dateView = document.getElementById("date-view");
+  console.log(dateView);
+  dateView.style.display = "none !important";
+  dateInput.style.display = "flex";
+};

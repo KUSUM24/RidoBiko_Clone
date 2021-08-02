@@ -9,6 +9,7 @@ include "common/link.php";
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/trip.scss">
     <link rel="stylesheet" href="css/trip.css">
     <link rel="stylesheet" href="css/copyright.css">
     <link rel="stylesheet" href="css/motorcycle.css">
@@ -24,7 +25,7 @@ include "common/link.php";
     <!-- Header HTML  -->
     <?php include "common/header.php"; ?>
     <!-- Trip Section  -->
-    <?php include "components/trip.php"; ?>
+    <?php include "components/trip.html"; ?>
     <!-- Motorcycle Section  -->
     <?php include "components/motorcycle.php"; ?>
     <!-- Why Book With Us  -->
@@ -39,6 +40,6 @@ include "common/link.php";
     <script src="js/location.js"></script>
     <script src="js/motorcycle-header.js"></script>
     <script src="js/trip.js"></script>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js"></script>
   </body>
 </html>

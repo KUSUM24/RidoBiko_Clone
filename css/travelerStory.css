@@ -78,7 +78,7 @@
 }
 @media screen and (max-width: 500px) {
   .traveler-main {
-    padding: 0% !important;
+    padding: 5% 0% !important;
   }
   .traveler-story {
     border-radius: 0%;

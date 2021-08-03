@@ -70,6 +70,9 @@
   border-bottom: 2px solid #1dc2a4;
   outline: none;
 }
+.help-subs {
+  width: 60%;
+}
 @media screen and (max-width: 1000px) {
   .main-footer {
     flex-direction: column;

@@ -17,7 +17,7 @@
       <div class="number-count h1">
         <b> 123<span class="plus-icon">+</span> </b>
       </div>
-      <div class="count-text h4">Registered Bussiness partner</div>
+      <div class="count-text text-center h4">Registered Bussiness partner</div>
     </div>
   </div>
   <hr />
@@ -25,74 +25,80 @@
     <div class="footer-item logo-footer">
       <img src="images/ridobiko-logo-2.png" alt="" />
     </div>
-    <div class="footer-item address">
-      <div class="heading-footer h5">Address</div>
-      <div class="content-footer d-flex flex-column">
-        <span> 203. Alliance Tower 2 </span>
-        <span> LSC 7, Savita Vihar </span>
-        <span> Delhi, 110092 India </span>
+    <!-- <div class="d-flex justify-content-between w-25"> -->
+
+      <div class="footer-item address">
+        <div class="heading-footer h5">Address</div>
+        <div class="content-footer d-flex flex-column">
+          <span> 203. Alliance Tower 2 </span>
+          <span> LSC 7, Savita Vihar </span>
+          <span> Delhi, 110092 India </span>
+        </div>
       </div>
-    </div>
-    <div class="footer-item explore">
-      <div class="heading-footer h5">Explore</div>
-      <div class="content-footer d-flex flex-column">
-        <span> About Us </span>
-        <span> Career </span>
-        <span> Team </span>
+      <div class="footer-item explore">
+        <div class="heading-footer h5">Explore</div>
+        <div class="content-footer d-flex flex-column">
+          <span> About Us </span>
+          <span> Career </span>
+          <span> Team </span>
+        </div>
       </div>
-    </div>
-    <div class="footer-item help">
-      <div class="heading-footer h5">Help</div>
-      <div class="content-footer d-flex flex-column">
-        <span> Contact us </span>
-        <span> Privacy policies </span>
-        <span> Terms and conditions </span>
+    <!-- </div> -->
+    <!-- <div class="help-subs d-flex  justify-content-between "> -->
+      <div class="footer-item help">
+        <div class="heading-footer h5">Help</div>
+        <div class="content-footer d-flex flex-column">
+          <span> Contact us </span>
+          <span> Privacy policies </span>
+          <span> Terms and conditions </span>
+        </div>
       </div>
-    </div>
-    <div class="footer-item subscribe">
-      <div class="heading-footer h5">Subscribe</div>
-      <div class="content-footer content-footer-submit d-flex flex-column">
-        <span>
-          <form action="subscribe.html">
-            <input
-              class="email-input"
-              type="text"
-              name="email"
-              placeholder="Your email address"
-            />
-            <input
-              class="btn btn-sm submit-footer"
-              type="submit"
-              name="submit"
-              value="Submit"
-            />
-          </form>
-        </span>
-        <span> Subscribe now to get updates on promotions and coupons. </span>
-        <span>
-          <div class="social-media d-flex w-50 justify-content-between">
-            <a href="https://www.facebook.com/ridobikoIN/" target="_blank">
-              <i class="social-icon fab fa-facebook-square"></i>
-            </a>
-            <a
-              href="https://www.linkedin.com/company/ridobiko/"
-              target="_blank"
-            >
-              <i class="social-icon fab fa-linkedin"></i>
-            </a>
-            <a
-              href="https://www.instagram.com/explore/locations/499278393736469/ridobiko-bike-rental/"
-              target="_blank"
-            >
-              <i class="social-icon fab fa-instagram"></i>
-            </a>
-            <a href="https://twitter.com/ridobiko" target="_blank">
-              <i class="social-icon fab fa-twitter-square"></i>
-            </a>
-          </div>
-        </span>
+      <div class="footer-item subscribe">
+        <div class="heading-footer h5">Subscribe</div>
+        <div class="content-footer content-footer-submit d-flex flex-column">
+          <span>
+            <form action="subscribe.html">
+              <input
+                class="email-input"
+                type="text"
+                name="email"
+                placeholder="Your email address"
+              />
+              <input
+                class="btn btn-sm submit-footer"
+                type="submit"
+                name="submit"
+                value="Submit"
+              />
+            </form>
+          </span>
+          <span>Subscribe now to get updates on promotions and coupons. </span>
+          <span>
+            <div class="social-media d-flex w-50 justify-content-between">
+              <a href="https://www.facebook.com/ridobikoIN/" target="_blank">
+                <i class="social-icon fab fa-facebook-square"></i>
+              </a>
+              <a
+                href="https://www.linkedin.com/company/ridobiko/"
+                target="_blank"
+              >
+                <i class="social-icon fab fa-linkedin"></i>
+              </a>
+              <a
+                href="https://www.instagram.com/explore/locations/499278393736469/ridobiko-bike-rental/"
+                target="_blank"
+              >
+                <i class="social-icon fab fa-instagram"></i>
+              </a>
+              <a href="https://twitter.com/ridobiko" target="_blank">
+                <i class="social-icon fab fa-twitter-square"></i>
+              </a>
+            </div>
+          </span>
+        </div>
       </div>
-    </div>
+    <!-- </div> -->
+
   </div>
   <hr />
   <!-- Location Section  -->

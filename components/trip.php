@@ -20,7 +20,7 @@
       <span class="trip-time-checkmark"></span>
     </label>
   </div>
-  <div class="row pickup-details d-flex w-100 justify-content-start">
+  <div class="row pickup-details d-flex w-100 justify-content-start" id='trip-content'>
     <div class="location-title pick-item col-md-3 col-xs-15">
       <div class="dropdown show location-drop">
         <a
@@ -72,11 +72,7 @@
             <div class="day">FRIDAY</div>
           </a>
 
-          <!-- <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <a class="dropdown-item" href="#">Something else here</a>
-          </div> -->
+         
         </div>
         <a
           class="btn"
@@ -125,20 +121,7 @@
           id="pickup-timing"
           aria-labelledby="dropdownMenuLink"
         >
-          <a class="dropdown-item" href="#">12:30 AM</a>
-          <a class="dropdown-item" href="#">1:00 AM</a>
-          <a class="dropdown-item" href="#">1:30 AM</a>
-          <a class="dropdown-item" href="#">2:00 AM</a>
-          <a class="dropdown-item" href="#">2:30 AM</a>
-          <a class="dropdown-item" href="#">3:00 AM</a>
-          <a class="dropdown-item" href="#">3:30 AM</a>
-          <a class="dropdown-item" href="#">4:00 AM</a>
-          <a class="dropdown-item" href="#">4:30 AM</a>
-          <a class="dropdown-item" href="#">5:00 AM</a>
-          <a class="dropdown-item" href="#">5:30 AM</a>
-          <a class="dropdown-item" href="#">6:00 AM</a>
-          <a class="dropdown-item" href="#">6:30 AM</a>
-          <a class="dropdown-item" href="#">7:00 AM</a>
+          
         </div>
       </div>
     </div>
@@ -166,6 +149,7 @@
         ></div>
       </div>
     </div>
+
   </div>
   <button class="ridobiko-btn">
     <a class="btn-inner" href="https://www.ridobiko.com/Blog" target="_blank">

@@ -25,7 +25,7 @@ include "common/link.php";
     <!-- Header HTML  -->
     <?php include "common/header.php"; ?>
     <!-- Trip Section  -->
-    <?php include "components/trip.html"; ?>
+    <?php include "components/trip.php"; ?>
     <!-- Motorcycle Section  -->
     <?php include "components/motorcycle.php"; ?>
     <!-- Why Book With Us  -->

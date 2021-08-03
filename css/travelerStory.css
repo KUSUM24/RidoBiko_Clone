@@ -69,3 +69,23 @@
     width: 60%;
   }
 }
+@media screen and (max-width: 780px) {
+  .card-traveler {
+    padding: 0%;
+    margin: 2% 0% 8% 0%;
+    width: 80%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .traveler-main {
+    padding: 0% !important;
+  }
+  .traveler-story {
+    border-radius: 0%;
+    margin: 0% !important;
+  }
+  .card-traveler {
+    width: 90%;
+    margin: 3% 0% 10% 0%;
+  }
+}

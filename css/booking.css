@@ -14,6 +14,7 @@
 }
 .images-main {
   padding: 1% 0%;
+  width: 90% !important;
 }
 .img-col {
   text-align: center;
@@ -26,4 +27,28 @@
 .book-3 {
   width: 115px;
   height: 115px;
+}
+@media screen and (max-width: 1200px) {
+  .pair-images {
+    justify-content: space-around !important;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .pair-images {
+    justify-content: space-between !important;
+  }
+}
+@media screen and (max-width: 780px) {
+  .images-main {
+    width: 100% !important;
+  }
+}
+@media screen and (max-width: 500px) {
+  .booking-main {
+    padding: 0% !important;
+  }
+  .booking {
+    border-radius: 0%;
+    margin: 0% !important;
+  }
 }

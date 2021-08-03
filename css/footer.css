@@ -80,4 +80,8 @@
   .counts {
     flex-direction: column;
   }
+  /* .number-count {
+    color: #1dc2a4;
+    font-size: 450%;
+  } */
 }

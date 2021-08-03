@@ -173,7 +173,7 @@ const changeRadioInput = (radioIndex) => {
     <div
       onclick="showDate()"
       id="date-view"
-      class="date-flex d-flex justify-content-around"
+      class="date-flex d-flex justify-content-start"
     >
       <div class="dropdown show">
         <a

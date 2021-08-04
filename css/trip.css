@@ -63,7 +63,8 @@
 .btn-inner {
   background-color: #1dc2a4;
   border-radius: 20px;
-  padding: 7% 30%;
+  width: 100%;
+  /* padding: 7% 30%; */
 }
 .month {
   font-weight: 500;
@@ -186,7 +187,13 @@
 .select-css {
   font-size: 35px;
   font-weight: 700;
+  background-color: transparent;
   color: black !important;
+  border: none;
+}
+.select-css:focus {
+  background-color: transparent;
+  box-shadow: none;
 }
 option {
   font-size: 23px;
@@ -225,9 +232,40 @@ focus {
   width: 50%;
   padding: 0% !important;
 }
+.input-date {
+  background-color: transparent !important;
+  border: none !important;
+}
+.input-date:focus {
+  background-color: transparent !important;
+  border: none !important;
+}
+.select-css-timing {
+  background-color: transparent;
+  border: none;
+}
+.select-css-timing:focus {
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+}
+.brand-stamp {
+  position: relative;
+  top: 40px;
+}
 @media screen and (max-width: 500px) {
   .trip-main {
     margin: 2% 0% 5% 0% !important;
     border-radius: 0%;
+  }
+  .ridobiko-btn {
+    width: 50% !important;
+  }
+  .btn-inner {
+    width: 100%;
+  }
+  .brand-stamp {
+    position: relative;
+    top: 25px;
   }
 }

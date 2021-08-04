@@ -8,7 +8,7 @@ const changeRadioInput = (radioIndex) => {
     document.getElementById(
       "trip-content"
     ).innerHTML = `<div class="location-title pick-item col-md-3 col-xs-15">
-    <div class="dropdown show location-drop">
+    <!-- <div class="dropdown show location-drop">
       <a
         class="btn dropdown-btn dropdown-toggle"
         href="#"
@@ -29,68 +29,66 @@ const changeRadioInput = (radioIndex) => {
         id="location-items"
         aria-labelledby="dropdownMenuLink"
       ></div>
-    </div>
+    </div> -->
+    <label for="sel1">
+      <span>
+          <div class="pickup-text">PICKUP LOCATION</div>
+          <!-- <span class="city bold-text h1">Mumbai</span> -->
+    </span>
+  </label>
+    <select class="select-css form-control" id="sel1" name="sellist1" >
+      <option >
+        Mumbai
+      </option>
+      <option>Bengaluru</option>
+      <option>Ludiana</option>
+      <option>Delhi</option>
+      <option>Jaipur</option>
+      <option>Mysore</option>
+      <option>Barmer</option>
+      <option>Patiala</option>
+      <option>Gurgaon</option>
+    </select>
   </div>
   <div class="date pick-item col-md-4 col-xs-15">
     <div
-      onclick="showDate()"
       id="date-view"
       class="date-flex d-flex justify-content-around"
     >
-      <div class="dropdown show">
         <a
-          class="btn dropdown-btn"
-          href="#"
-          role="button"
-          id="dropdownMenuLink"
-          data-toggle="dropdown"
-          aria-haspopup="true"
-          aria-expanded="false"
+          class="date-div btn "
+          
         >
           <div class="pickup-text d-flex align-items-center">
             DEPARTURE
             <span class="material-icons-outlined"> keyboard_arrow_down </span>
           </div>
-          <div class="d-flex align-items-center">
-            <div class="city bold-text h1">23</div>
-            <div class="month">JUL'21</div>
-          </div>
-          <div class="day">FRIDAY</div>
-        </a>
+          
+          <input type="date">
 
-        <!-- <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <a class="dropdown-item" href="#">Something else here</a>
-        </div> -->
-      </div>
+        </a>
+       
       <a
-        class="btn"
-        href="#"
-        role="button"
-        id="dropdownMenuLink"
-        data-toggle="dropdown"
-        aria-haspopup="true"
-        aria-expanded="false"
+        class="date-div btn"
+       
       >
         <div class="pickup-text d-flex align-items-center">
           RETURN
           <span class="material-icons-outlined"> keyboard_arrow_down </span>
         </div>
-        <div class="d-flex align-items-center">
+        <!-- <div class="d-flex align-items-center">
           <div class="date-return bold-text h1" id="date-return">23</div>
           <div class="month-return" id="month-return">JUL'21</div>
         </div>
-        <div class="day-return" id="day-return">FRIDAY</div>
+        <div class="day-return" id="day-return">FRIDAY</div> -->
+        <input type="date">
+
       </a>
     </div>
-    <div id="date-input" class="date-input">
-      <input type="date" class="form-control" />
-      <input type="date" class="form-control" />
-    </div>
+    
   </div>
   <div class="pickup-time pick-item col-md-3 col-xs-15">
-    <div class="dropdown show">
+    <!-- <div class="dropdown show">
       <a
         class="btn dropdown-btn dropdown-toggle"
         href="#"
@@ -113,10 +111,34 @@ const changeRadioInput = (radioIndex) => {
       >
         
       </div>
-    </div>
+    </div> -->
+    <label for="sel1">
+      <span>
+      <div class="pickup-text">PICKUP TIME</div>
+    </span>
+  </label>
+    <select class="select-css-timing form-control" id="sel1" name="sellist1" >
+      <option >12:00 AM</option>
+      <option>12:30 AM</option>
+      <option>1:00 AM</option>
+      <option>1:30 AM</option>
+      <option>2:00 AM</option>
+      <option>2:30 AM</option>
+      <option>3:00 AM</option>
+      <option>3:30 AM</option>
+      <option>4:00 AM</option>
+      <option>4:30 AM</option>
+      <option>5:00 AM</option>
+      <option>5:30 AM</option>
+      <option>6:00 AM</option>
+      <option>6:30 AM</option>
+      <option>7:00 AM</option>
+
+    </select>
+
   </div>
   <div class="drop-time pick-item col-md-2 col-xs-15">
-    <div class="dropdown show">
+    <!-- <div class="dropdown show">
       <a
         class="btn dropdown-btn dropdown-toggle"
         href="#"
@@ -128,7 +150,7 @@ const changeRadioInput = (radioIndex) => {
       >
         <span>
           <div class="pickup-text">DROP TIME</div>
-          <span class="city bold-text h1">12:00 AM</span>
+          <span class="city h1">12:00 AM</span>
         </span>
       </a>
 
@@ -137,7 +159,29 @@ const changeRadioInput = (radioIndex) => {
         id="drop-timing"
         aria-labelledby="dropdownMenuLink"
       ></div>
-    </div>
+    </div> -->
+    <label for="sel1">
+      <span>
+      <div class="pickup-text">DROP TIME</div>
+    </span>
+  </label>
+    <select class="select-css-timing form-control" id="drop-timing" name="sellist1" >
+    <option >12:00 AM</option>
+      <option>12:30 AM</option>
+      <option>1:00 AM</option>
+      <option>1:30 AM</option>
+      <option>2:00 AM</option>
+      <option>2:30 AM</option>
+      <option>3:00 AM</option>
+      <option>3:30 AM</option>
+      <option>4:00 AM</option>
+      <option>4:30 AM</option>
+      <option>5:00 AM</option>
+      <option>5:30 AM</option>
+      <option>6:00 AM</option>
+      <option>6:30 AM</option>
+      <option>7:00 AM</option>
+    </select>
   </div>`;
   }
   if (radioIndex == 2) {
@@ -146,28 +190,25 @@ const changeRadioInput = (radioIndex) => {
     document.getElementById(
       "trip-content"
     ).innerHTML = `<div class="location-title pick-item col-md-4 col-xs-15">
-    <div class="dropdown show location-drop">
-      <a
-        class="btn dropdown-btn dropdown-toggle"
-        href="#"
-        role="button"
-        id="dropdownMenuLink"
-        data-toggle="dropdown"
-        aria-haspopup="true"
-        aria-expanded="false"
-      >
+    <label for="sel1">
         <span>
-          <div class="pickup-text">PICKUP LOCATION</div>
-          <span class="city bold-text h1">Mumbai</span>
-        </span>
-      </a>
-
-      <div
-        class="dropdown-menu"
-        id="location-items"
-        aria-labelledby="dropdownMenuLink"
-      ></div>
-    </div>
+            <div class="pickup-text">PICKUP LOCATION</div>
+            <!-- <span class="city bold-text h1">Mumbai</span> -->
+      </span>
+    </label>
+      <select class="select-css form-control" id="sel1" name="sellist1" >
+        <option >
+          Mumbai
+        </option>
+        <option>Bengaluru</option>
+        <option>Ludiana</option>
+        <option>Delhi</option>
+        <option>Jaipur</option>
+        <option>Mysore</option>
+        <option>Barmer</option>
+        <option>Patiala</option>
+        <option>Gurgaon</option>
+      </select>
   </div>
   <div class="date pick-item col-md-3 col-xs-15">
     <div
@@ -178,22 +219,14 @@ const changeRadioInput = (radioIndex) => {
       <div class="dropdown show">
         <a
           class="btn dropdown-btn"
-          href="#"
-          role="button"
-          id="dropdownMenuLink"
-          data-toggle="dropdown"
-          aria-haspopup="true"
-          aria-expanded="false"
+          
         >
           <div class="pickup-text d-flex align-items-center">
             DEPARTURE
             <span class="material-icons-outlined"> keyboard_arrow_down </span>
           </div>
-          <div class="d-flex align-items-center">
-            <div class="city bold-text h1">23</div>
-            <div class="month">JUL'21</div>
-          </div>
-          <div class="day">FRIDAY</div>
+          <input type="date">
+
         </a>
       </div>
       
@@ -204,54 +237,49 @@ const changeRadioInput = (radioIndex) => {
     </div>
   </div>
   <div class="pickup-time pick-item col-md-2 col-xs-15">
-    <div class="dropdown show">
-      <a
-        class="btn dropdown-btn dropdown-toggle"
-        href="#"
-        role="button"
-        id="dropdownMenuLink"
-        data-toggle="dropdown"
-        aria-haspopup="true"
-        aria-expanded="false"
-      >
+  <label for="sel1">
         <span>
-          <div class="pickup-text">PICKUP TIME</div>
-          <span class="time-pickup bold-text h1">12:00 AM</span>
-        </span>
-      </a>
+        <div class="pickup-text">PICKUP TIME</div>
+      </span>
+    </label>
+      <select class="select-css form-control" id="sel1" name="sellist1" >
+        <option >12:00 AM</option>
+        <option>12:30 AM</option>
+        <option>1:00 AM</option>
+        <option>1:30 AM</option>
+        <option>2:00 AM</option>
+        <option>2:30 AM</option>
+        <option>3:00 AM</option>
+        <option>3:30 AM</option>
+        <option>4:00 AM</option>
+        <option>4:30 AM</option>
+        <option>5:00 AM</option>
+        <option>5:30 AM</option>
+        <option>6:00 AM</option>
+        <option>6:30 AM</option>
+        <option>7:00 AM</option>
 
-      <div
-        class="dropdown-menu"
-        id="pickup-timing"
-        aria-labelledby="dropdownMenuLink"
-      >
-        
-      </div>
-    </div>
+      </select>
   </div>
   <div class="drop-time pick-item col-md-3 col-xs-15">
-    <div class="dropdown show">
-      <a
-        class="btn dropdown-btn dropdown-toggle"
-        href="#"
-        role="button"
-        id="dropdownMenuLink"
-        data-toggle="dropdown"
-        aria-haspopup="true"
-        aria-expanded="false"
-      >
+    
+    <label for="sel1">
         <span>
-          <div class="pickup-text">DURATION </div>
-          <span class="duration bold-text h1">2hrs 20km</span>
-        </span>
-      </a>
-
-      <div
-        class="dropdown-menu"
-        id="duration-list"
-        aria-labelledby="dropdownMenuLink"
-      ></div>
-    </div>
+        <div class="pickup-text">DURATION </div>
+      </span>
+    </label>
+      <select class="select-css form-control" id="sel1" name="sellist1" >
+        <option >1hrs 10kms</option>
+        <option>2hrs 20kms</option>
+        <option>3hrs 30kms</option>
+        <option>4hrs 40kms</option>
+        <option>5hrs 50kms</option>
+        <option>6hrs 60kms</option>
+        <option>7hrs 70kms</option>
+        <option>8hrs 80kms</option>
+        <option>9hrs 90kms</option>
+        <option>10hrs 100kms</option>
+      </select>
   </div>`;
   }
 };
@@ -304,7 +332,7 @@ let locateArr = [
 let cityList = "";
 
 locateArr.map((item) => {
-  return (cityList += `<a class="dropdown-item" href="#">${item}</a>`);
+  return (cityList += `<option>${item}</option>`);
 });
 document.getElementById("location-items").innerHTML = cityList;
 
@@ -326,20 +354,21 @@ let dropArr = [
 ];
 let timingList = "";
 dropArr.map((item) => {
-  return (timingList += `<a class="dropdown-item" href="#">${item}</a>`);
+  return (timingList += `<option>${item}</option>`);
 });
+console.log(timingList);
 document.getElementById("pickup-timing").innerHTML = timingList;
 document.getElementById("drop-timing").innerHTML = timingList;
-const showDate = () => {
-  const dateInput = document.getElementById("date-input");
-  const dateView = document.getElementById("date-view");
-  console.log(dateView);
-  dateView.style.display = "none !important";
-  dateInput.style.display = "flex";
-};
+// const showDate = () => {
+//   const dateInput = document.getElementById("date-input");
+//   const dateView = document.getElementById("date-view");
+//   console.log(dateView);
+//   // dateView.style.display = "none !important";
+//   dateInput.style.display = "flex";
+// };
 
 let durationArr = [
-  "1hrs 10km",
+  "1hrs 10kms",
   "2hrs 20km",
   "3hrs 30km",
   "4hrs 40km",
@@ -352,6 +381,6 @@ let durationArr = [
 ];
 const durationList = "";
 durationArr.map((item) => {
-  return (durationList += `<a class="dropdown-item" href="#">${item}</a>`);
+  return (durationList += `<option>${item}</option>`);
 });
 document.getElementById("duration-list").innerHTML = durationList;

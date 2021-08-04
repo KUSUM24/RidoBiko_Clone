@@ -1,11 +1,21 @@
+/* Details  */
+.details-main {
+  padding: 0% 5%;
+}
 .details-item {
   background-color: white;
   border-radius: 5px;
-  padding: 1%;
   border: 1px solid gray;
+  padding: 5px !important;
 }
 .details-card-text {
-  font-size: 10px;
-  font-weight: 500;
-  color: #4a4a4a;
+  font-size: 15px;
+  font-weight: 550;
+  color: #7c7a7a;
+}
+.card-text-2 {
+  font-size: 20px;
+}
+.de {
+  margin-left: 1%;
 }

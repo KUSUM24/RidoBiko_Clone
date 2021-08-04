@@ -11,7 +11,7 @@ include "common/link.php";
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/second-page.css">
-    <title>RidoBiko</title>
+    <title>RidoBiko-Second</title>
 </head>
 <body>
     

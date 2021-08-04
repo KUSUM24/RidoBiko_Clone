@@ -1,0 +1,11 @@
+.details-item {
+  background-color: white;
+  border-radius: 5px;
+  padding: 1%;
+  border: 1px solid gray;
+}
+.details-card-text {
+  font-size: 10px;
+  font-weight: 500;
+  color: #4a4a4a;
+}

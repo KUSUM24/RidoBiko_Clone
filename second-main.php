@@ -9,22 +9,18 @@ include "common/link.php";
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/header.css">
-
-    <link rel="stylesheet" href="css/first-page.css">
     <link rel="stylesheet" href="css/footer.css">
-    <title>RidoBiko-Second</title>
-    
+    <link rel="stylesheet" href="css/second-page.css">
+    <title>RidoBiko</title>
 </head>
 <body>
-    <!-- Background Image  -->
-    <img class="background-img" src="images/background.jpeg" alt="BACKGROUND">
+    
     <!-- Header HTML  -->
     <?php include "common/header.php"; ?>
-    <!-- Main Section  -->
-    <?php include "components/first-page.php"; ?>
+    <!-- Details  -->
+    <?php include "components/second-page.php" ?>
     <!-- Footer -->
     <?php include "common/footer.php"; ?>
-
 
     <script src="js/scroll.js"></script>
     <script src="js/location.js"></script>

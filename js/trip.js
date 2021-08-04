@@ -242,7 +242,7 @@ const changeRadioInput = (radioIndex) => {
         <div class="pickup-text">PICKUP TIME</div>
       </span>
     </label>
-      <select class="select-css form-control" id="sel1" name="sellist1" >
+      <select class="select-css-timing form-control" id="sel1" name="sellist1" >
         <option >12:00 AM</option>
         <option>12:30 AM</option>
         <option>1:00 AM</option>

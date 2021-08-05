@@ -1,6 +1,7 @@
 /* Details  */
 .details-main {
   padding: 0% 5%;
+  margin: 2% 0%;
 }
 .details-item {
   background-color: white;
@@ -16,6 +17,93 @@
 .card-text-2 {
   font-size: 20px;
 }
-.de {
-  margin-left: 1%;
+.ridobiko-btn {
+  border-radius: 10px;
+  border: 1px solid white;
+  padding: 0%;
+  cursor: pointer;
+}
+
+/* Main CSS  */
+.filters {
+  background-color: white;
+  padding: 2%;
+  font-size: 20px;
+}
+.bike-list-main {
+  background-color: white;
+  margin: 0% 3% 0% 1%;
+}
+.card-bike-img {
+  width: 250px;
+  height: 180px;
+}
+.bike-card {
+  padding: 1.5%;
+}
+.more-locations {
+  color: #1dc2a4;
+}
+.hr-bike {
+  display: block;
+  width: 100%;
+  margin: 5px 0px;
+}
+.terms {
+  color: #1dc2a4;
+}
+.main-card {
+  border: 2px solid #e5e6e6;
+  margin: 10;
+}
+.all-details {
+  padding: 0% 2%;
+}
+.bike-name {
+  font-size: 20px;
+  font-weight: 600;
+}
+.bike-location {
+  margin: 2% 0%;
+  color: #616161;
+  /* font-weight: 600; */
+}
+.location-arrow {
+  font-size: 18px;
+}
+.location-1 {
+  margin: 0% 1%;
+}
+.bold-text {
+  color: #6a6a6a;
+}
+.facilities {
+  color: #7d7d7d;
+}
+.more-details {
+  color: #7d7d7d;
+  margin: 1% 0%;
+}
+.rating {
+  background-color: #f2f2f2;
+  padding: 1.5%;
+}
+.book-now {
+  background-color: #1dc2a4;
+  color: white;
+  font-size: 15px;
+  padding: 5%;
+  border-radius: 25px;
+  outline: none;
+  border: none;
+}
+.book-now :focus {
+  border: none;
+  outline: none;
+}
+.rate-checked {
+  color: #1dc2a4 !important;
+}
+.rate-unchecked {
+  color: #c2c0c0 !important;
 }

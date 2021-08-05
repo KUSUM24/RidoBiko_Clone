@@ -21,18 +21,37 @@
       <span class="trip-time-checkmark"></span>
     </label>
   </div>
-  <div class="row pickup-details d-flex w-100 justify-content-start" id='trip-content'>
+  <div
+    class="row pickup-details w-100 justify-content-start"
+    style="display: flex"
+    id="outstation-trip"
+  >
     <div class="location-title pick-item col-md-3 col-xs-15">
-     
-      <label for="3">
+      <!-- <div class="dropdown show location-drop">
+      <a
+        class="btn dropdown-btn dropdown-toggle"
+        href="#"
+        role="button"
+        id="dropdownMenuLink"
+        data-toggle="dropdown"
+        aria-haspopup="true"
+        aria-expanded="false"
+      >
         <span>
-            <div class="pickup-text">PICKUP LOCATION</div>
-      </span>
-    </label>
-      <select class="select-css form-control" id="3" name="sellist1" >
-        <option >
-          Mumbai
-        </option>
+          <div class="pickup-text">PICKUP LOCATION</div>
+          <span class="city bold-text h1">Mumbai</span>
+        </span>
+      </a>
+
+      <div
+        class="dropdown-menu"
+        id="location-items"
+        aria-labelledby="dropdownMenuLink"
+      ></div>
+    </div> -->
+      <label class="pickup-text" for="sel1"> PICKUP LOCATION </label>
+      <select class="select-css form-control" id="sel1" name="sellist1">
+        <option>Mumbai</option>
         <option>Bengaluru</option>
         <option>Ludiana</option>
         <option>Delhi</option>
@@ -44,47 +63,62 @@
       </select>
     </div>
     <div class="date pick-item col-md-4 col-xs-15">
-      <div
-        id="date-view"
-        class="date-flex d-flex justify-content-around"
-      >
-          <a
-            class="date-div btn "
-            
-          >
-            <div class="pickup-text d-flex align-items-center">
-              DEPARTURE
-              <span class="material-icons-outlined"> keyboard_arrow_down </span>
-            </div>
-            
-            <input type="date">
+      <div id="date-view" class="date-flex d-flex justify-content-around">
+        <a class="date-div btn">
+          <div class="pickup-text d-flex align-items-center">
+            DEPARTURE
+            <span class="material-icons-outlined"> keyboard_arrow_down </span>
+          </div>
 
-          </a>
-         
-        <a
-          class="date-div btn"
-         
-        >
+          <input class="input-date" type="date" />
+        </a>
+
+        <a class="date-div btn">
           <div class="pickup-text d-flex align-items-center">
             RETURN
             <span class="material-icons-outlined"> keyboard_arrow_down </span>
           </div>
-          
-          <input type="date">
-
+          <!-- <div class="d-flex align-items-center">
+          <div class="date-return bold-text h1" id="date-return">23</div>
+          <div class="month-return" id="month-return">JUL'21</div>
+        </div>
+        <div class="day-return" id="day-return">FRIDAY</div> -->
+          <input class="input-date" type="date" />
         </a>
       </div>
-      
     </div>
     <div class="pickup-time pick-item col-md-3 col-xs-15">
-      
-      <label for="sel2">
+      <!-- <div class="dropdown show">
+      <a
+        class="btn dropdown-btn dropdown-toggle"
+        href="#"
+        role="button"
+        id="dropdownMenuLink"
+        data-toggle="dropdown"
+        aria-haspopup="true"
+        aria-expanded="false"
+      >
         <span>
-        <div class="pickup-text">PICKUP TIME</div>
-      </span>
-    </label>
-      <select class="select-css-timing form-control" id="sel2" name="sellist1" >
-        <option >12:00 AM</option>
+          <div class="pickup-text">PICKUP TIME</div>
+          <span class="city bold-text h1">12:00 AM</span>
+        </span>
+      </a>
+
+      <div
+        class="dropdown-menu"
+        id="pickup-timing"
+        aria-labelledby="dropdownMenuLink"
+      >
+        
+      </div>
+    </div> -->
+      <label for="sel1">
+        <span>
+          <div class="pickup-text">PICKUP TIME</div>
+        </span>
+      </label>
+      <select class="select-css-timing form-control" id="sel1" name="sellist1">
+        <option>12:00 AM</option>
         <option>12:30 AM</option>
         <option>1:00 AM</option>
         <option>1:30 AM</option>
@@ -99,19 +133,42 @@
         <option>6:00 AM</option>
         <option>6:30 AM</option>
         <option>7:00 AM</option>
-
       </select>
-
     </div>
     <div class="drop-time pick-item col-md-2 col-xs-15">
-      
-      <label for="sel3">
+      <!-- <div class="dropdown show">
+      <a
+        class="btn dropdown-btn dropdown-toggle"
+        href="#"
+        role="button"
+        id="dropdownMenuLink"
+        data-toggle="dropdown"
+        aria-haspopup="true"
+        aria-expanded="false"
+      >
         <span>
-        <div class="pickup-text">DROP TIME</div>
-      </span>
-    </label>
-      <select class="select-css-timing form-control" id="sel3 drop-timing" name="sellist1" >
-      <option >12:00 AM</option>
+          <div class="pickup-text">DROP TIME</div>
+          <span class="city h1">12:00 AM</span>
+        </span>
+      </a>
+
+      <div
+        class="dropdown-menu"
+        id="drop-timing"
+        aria-labelledby="dropdownMenuLink"
+      ></div>
+    </div> -->
+      <label for="sel1">
+        <span>
+          <div class="pickup-text">DROP TIME</div>
+        </span>
+      </label>
+      <select
+        class="select-css-timing form-control"
+        id="drop-timing"
+        name="sellist1"
+      >
+        <option>12:00 AM</option>
         <option>12:30 AM</option>
         <option>1:00 AM</option>
         <option>1:30 AM</option>
@@ -128,10 +185,96 @@
         <option>7:00 AM</option>
       </select>
     </div>
-
-    
   </div>
-  
+  <div
+    class="row pickup-details w-100 justify-content-start"
+    id="hourly-trip"
+    style="display: none"
+  >
+    <div class="location-title pick-item col-md-4 col-xs-15">
+      <label for="sel1">
+        <span>
+          <div class="pickup-text">PICKUP LOCATION</div>
+          <!-- <span class="city bold-text h1">Mumbai</span> -->
+        </span>
+      </label>
+      <select class="select-css form-control" id="sel1" name="sellist1">
+        <option>Mumbai</option>
+        <option>Bengaluru</option>
+        <option>Ludiana</option>
+        <option>Delhi</option>
+        <option>Jaipur</option>
+        <option>Mysore</option>
+        <option>Barmer</option>
+        <option>Patiala</option>
+        <option>Gurgaon</option>
+      </select>
+    </div>
+    <div class="date pick-item col-md-3 col-xs-15">
+      <div
+        onclick="showDate()"
+        id="date-view"
+        class="date-flex d-flex justify-content-start"
+      >
+        <div class="dropdown show">
+          <a class="btn dropdown-btn">
+            <div class="pickup-text d-flex align-items-center">
+              DEPARTURE
+              <span class="material-icons-outlined"> keyboard_arrow_down </span>
+            </div>
+            <input class="input-date" type="date" />
+          </a>
+        </div>
+      </div>
+      <div id="date-input" class="date-input">
+        <input type="date" class="input-date form-control" />
+        <input type="date" class="input-date form-control" />
+      </div>
+    </div>
+    <div class="pickup-time pick-item col-md-2 col-xs-15">
+      <label for="sel1">
+        <span>
+          <div class="pickup-text">PICKUP TIME</div>
+        </span>
+      </label>
+      <select class="select-css form-control" id="sel1" name="sellist1">
+        <option>12:00 AM</option>
+        <option>12:30 AM</option>
+        <option>1:00 AM</option>
+        <option>1:30 AM</option>
+        <option>2:00 AM</option>
+        <option>2:30 AM</option>
+        <option>3:00 AM</option>
+        <option>3:30 AM</option>
+        <option>4:00 AM</option>
+        <option>4:30 AM</option>
+        <option>5:00 AM</option>
+        <option>5:30 AM</option>
+        <option>6:00 AM</option>
+        <option>6:30 AM</option>
+        <option>7:00 AM</option>
+      </select>
+    </div>
+    <div class="drop-time pick-item col-md-3 col-xs-15">
+      <label for="sel1">
+        <span>
+          <div class="pickup-text">DURATION</div>
+        </span>
+      </label>
+      <select class="select-css form-control" id="sel1" name="sellist1">
+        <option>1hrs 10kms</option>
+        <option>2hrs 20kms</option>
+        <option>3hrs 30kms</option>
+        <option>4hrs 40kms</option>
+        <option>5hrs 50kms</option>
+        <option>6hrs 60kms</option>
+        <option>7hrs 70kms</option>
+        <option>8hrs 80kms</option>
+        <option>9hrs 90kms</option>
+        <option>10hrs 100kms</option>
+      </select>
+    </div>
+  </div>
   <button class="ridobiko-btn">
     <a class="btn-inner" href="second-main.php" target="_blank">
       RIDOBIKO

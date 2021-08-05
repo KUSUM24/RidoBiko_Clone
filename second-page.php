@@ -202,8 +202,281 @@
                 <button class="book-now">BOOK NOW</button>
             </div>
         </div>
-        <div class="bike-card d-flex"></div>
-        <div class="bike-card d-flex"></div>
-        <div class="bike-card d-flex"></div>
+        <div class="main-card d-flex">
+        <div class="bike-card d-flex w-100">
+                <img class="card-bike-img" src="images/Bikes/Bike_Second.png" alt="error">
+                <div class="all-details d-flex flex-column w-100">
+                    <div class="d-flex align-items-center justify-content-between w-100">
+                        <div class="left-bike">
+                            <span class="bike-name">Avenger, </span>
+                            <span class="company-name">Bajaj</span>
+                        </div>
+                        <div class="right-bike">
+                            <div class="available">
+                                4 Bikes Available
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bike-location d-flex align-items-center">
+                        <span class="material-icons-outlined location-arrow">
+                            arrow_downward
+                        </span>
+                        <div class="location-1">Karol Bagh </div>
+                        <div class="more-locations"> and 3 more locations </div>
+                    </div>
+                    <hr class="hr-bike">
+                    <div class="facilities d-flex justify-content-between w-75">
+                        <div class="facility-text">Facilities: </div>
+                        <div class="helmet d-flex align-items-center">
+                            <span class="material-icons-outlined">
+                            health_and_safety
+                            </span>
+                            1 Helmet
+                        </div>
+                        <div class="support d-flex align-items-center">
+                            <span class="material-icons-outlined">
+                            lightbulb
+                            </span>
+                            24/7 Support
+                        </div>
+                    </div>
+                    <hr class="hr-bike">
+                    <div class="more-details d-flex justify-content-between ">
+                        <div class="deposit">
+                            <div class="details-text">
+                                Deposit:
+                            </div>
+                            <b class="bold-text">₹5000</b>
+                        </div>
+                        <div class="km-limit">
+                            <div class="details-text">
+                                KM Limit:
+                            </div>
+                            <b class="bold-text">100km/day</b>
+                        </div>
+                        <div class="speed-limit">
+                            <div class="details-text">
+                                Speed Limit:
+                            </div>
+                            <b class="bold-text">80km/hr</b>
+                        </div>
+                        <div class="terms d-flex">
+                            T & C 
+                                <span class="material-icons-outlined">
+                                expand_more
+                                </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="rating d-flex flex-column w-25">
+                <div class="d-flex flex-column align-items-end">
+                        <div class="d-flex">
+                            <span class="material-icons-outlined rate-checked">
+                            star
+                            </span>
+                            <span class="material-icons-outlined rate-checked">
+                            star
+                            </span>
+                            <span class="material-icons-outlined rate-checked">
+                            star
+                            </span>
+                            <span class="material-icons-outlined rate-checked">
+                            star
+                            </span>
+                            <span class="material-icons-outlined rate-unchecked">
+                            star
+                            </span>
+                        </div>
+                        <s class="original-price">1300</s>
+                        <b class="price" >₹ 1245</b>
+                </div>
+                <button class="book-now">BOOK NOW</button>
+            </div>
+        </div>
+        <div class="main-card d-flex">
+        <div class="bike-card d-flex w-100">
+                <img class="card-bike-img" src="images/Bikes/Bike_Second.png" alt="error">
+                <div class="all-details d-flex flex-column w-100">
+                    <div class="d-flex align-items-center justify-content-between w-100">
+                        <div class="left-bike">
+                            <span class="bike-name">Avenger, </span>
+                            <span class="company-name">Bajaj</span>
+                        </div>
+                        <div class="right-bike">
+                            <div class="available">
+                                4 Bikes Available
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bike-location d-flex align-items-center">
+                        <span class="material-icons-outlined location-arrow">
+                            arrow_downward
+                        </span>
+                        <div class="location-1">Karol Bagh </div>
+                        <div class="more-locations"> and 3 more locations </div>
+                    </div>
+                    <hr class="hr-bike">
+                    <div class="facilities d-flex justify-content-between w-75">
+                        <div class="facility-text">Facilities: </div>
+                        <div class="helmet d-flex align-items-center">
+                            <span class="material-icons-outlined">
+                            health_and_safety
+                            </span>
+                            1 Helmet
+                        </div>
+                        <div class="support d-flex align-items-center">
+                            <span class="material-icons-outlined">
+                            lightbulb
+                            </span>
+                            24/7 Support
+                        </div>
+                    </div>
+                    <hr class="hr-bike">
+                    <div class="more-details d-flex justify-content-between ">
+                        <div class="deposit">
+                            <div class="details-text">
+                                Deposit:
+                            </div>
+                            <b class="bold-text">₹5000</b>
+                        </div>
+                        <div class="km-limit">
+                            <div class="details-text">
+                                KM Limit:
+                            </div>
+                            <b class="bold-text">100km/day</b>
+                        </div>
+                        <div class="speed-limit">
+                            <div class="details-text">
+                                Speed Limit:
+                            </div>
+                            <b class="bold-text">80km/hr</b>
+                        </div>
+                        <div class="terms d-flex">
+                            T & C 
+                                <span class="material-icons-outlined">
+                                expand_more
+                                </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="rating d-flex flex-column w-25">
+                <div class="d-flex flex-column align-items-end">
+                        <div class="d-flex">
+                            <span class="material-icons-outlined rate-checked">
+                            star
+                            </span>
+                            <span class="material-icons-outlined rate-checked">
+                            star
+                            </span>
+                            <span class="material-icons-outlined rate-checked">
+                            star
+                            </span>
+                            <span class="material-icons-outlined rate-checked">
+                            star
+                            </span>
+                            <span class="material-icons-outlined rate-unchecked">
+                            star
+                            </span>
+                        </div>
+                        <s class="original-price">1300</s>
+                        <b class="price" >₹ 1245</b>
+                </div>
+                <button class="book-now">BOOK NOW</button>
+            </div>
+        </div>
+        <div class="main-card d-flex">
+        <div class="bike-card d-flex w-100">
+                <img class="card-bike-img" src="images/Bikes/Bike_Second.png" alt="error">
+                <div class="all-details d-flex flex-column w-100">
+                    <div class="d-flex align-items-center justify-content-between w-100">
+                        <div class="left-bike">
+                            <span class="bike-name">Avenger, </span>
+                            <span class="company-name">Bajaj</span>
+                        </div>
+                        <div class="right-bike">
+                            <div class="available">
+                                4 Bikes Available
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bike-location d-flex align-items-center">
+                        <span class="material-icons-outlined location-arrow">
+                            arrow_downward
+                        </span>
+                        <div class="location-1">Karol Bagh </div>
+                        <div class="more-locations"> and 3 more locations </div>
+                    </div>
+                    <hr class="hr-bike">
+                    <div class="facilities d-flex justify-content-between w-75">
+                        <div class="facility-text">Facilities: </div>
+                        <div class="helmet d-flex align-items-center">
+                            <span class="material-icons-outlined">
+                            health_and_safety
+                            </span>
+                            1 Helmet
+                        </div>
+                        <div class="support d-flex align-items-center">
+                            <span class="material-icons-outlined">
+                            lightbulb
+                            </span>
+                            24/7 Support
+                        </div>
+                    </div>
+                    <hr class="hr-bike">
+                    <div class="more-details d-flex justify-content-between ">
+                        <div class="deposit">
+                            <div class="details-text">
+                                Deposit:
+                            </div>
+                            <b class="bold-text">₹5000</b>
+                        </div>
+                        <div class="km-limit">
+                            <div class="details-text">
+                                KM Limit:
+                            </div>
+                            <b class="bold-text">100km/day</b>
+                        </div>
+                        <div class="speed-limit">
+                            <div class="details-text">
+                                Speed Limit:
+                            </div>
+                            <b class="bold-text">80km/hr</b>
+                        </div>
+                        <div class="terms d-flex">
+                            T & C 
+                                <span class="material-icons-outlined">
+                                expand_more
+                                </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="rating d-flex flex-column w-25">
+                <div class="d-flex flex-column align-items-end">
+                        <div class="d-flex">
+                            <span class="material-icons-outlined rate-checked">
+                            star
+                            </span>
+                            <span class="material-icons-outlined rate-checked">
+                            star
+                            </span>
+                            <span class="material-icons-outlined rate-checked">
+                            star
+                            </span>
+                            <span class="material-icons-outlined rate-checked">
+                            star
+                            </span>
+                            <span class="material-icons-outlined rate-unchecked">
+                            star
+                            </span>
+                        </div>
+                        <s class="original-price">1300</s>
+                        <b class="price" >₹ 1245</b>
+                </div>
+                <button class="book-now">BOOK NOW</button>
+            </div>
+        </div>
     </div>
 </div>

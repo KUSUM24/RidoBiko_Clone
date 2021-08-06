@@ -26,7 +26,7 @@
     style="display: flex"
     id="outstation-trip"
   >
-    <div class="location-title pick-item col-md-3 col-xs-15">
+    <div class="location-title city-main pick-item col-md-3 col-xs-15">
       <label class="pickup-text" for="sel1"> PICKUP LOCATION </label>
       <select class="select-css form-control" id="sel1" name="sellist1">
         <option>Mumbai</option>
@@ -120,7 +120,7 @@
     id="hourly-trip"
     style="display: none"
   >
-    <div class="location-title pick-item col-md-4 col-xs-15">
+    <div class="location-title city-main pick-item col-md-4 col-xs-15">
       <label for="sel1">
         <span>
           <div class="pickup-text">PICKUP LOCATION</div>

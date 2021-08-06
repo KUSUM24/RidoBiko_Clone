@@ -14,18 +14,18 @@
 }
 .pick-item {
   padding: 5px;
+}
+.city-main {
   border-radius: 15px 0px 0px 15px;
 }
 .pick-item:hover {
   border: 1px solid #1dc2a4;
   transition: 0.2s;
-
   background-color: #f2fdfb;
 }
 .pick-item:active {
   border: 1px solid #1dc2a4;
   transition: 0.2s;
-
   background-color: #f2fdfb;
 }
 .location-drop {
@@ -76,7 +76,7 @@
   border-right: 2px solid #d9d9d9 !important;
 }
 .drop-time {
-  border: none !important;
+  border-radius: 0px 15px 15px 0px;
 }
 .dropdown {
   background-color: transparent;

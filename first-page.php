@@ -27,28 +27,6 @@
     id="outstation-trip"
   >
     <div class="location-title pick-item col-md-3 col-xs-15">
-      <!-- <div class="dropdown show location-drop">
-      <a
-        class="btn dropdown-btn dropdown-toggle"
-        href="#"
-        role="button"
-        id="dropdownMenuLink"
-        data-toggle="dropdown"
-        aria-haspopup="true"
-        aria-expanded="false"
-      >
-        <span>
-          <div class="pickup-text">PICKUP LOCATION</div>
-          <span class="city bold-text h1">Mumbai</span>
-        </span>
-      </a>
-
-      <div
-        class="dropdown-menu"
-        id="location-items"
-        aria-labelledby="dropdownMenuLink"
-      ></div>
-    </div> -->
       <label class="pickup-text" for="sel1"> PICKUP LOCATION </label>
       <select class="select-css form-control" id="sel1" name="sellist1">
         <option>Mumbai</option>
@@ -78,40 +56,13 @@
             RETURN
             <span class="material-icons-outlined"> keyboard_arrow_down </span>
           </div>
-          <!-- <div class="d-flex align-items-center">
-          <div class="date-return bold-text h1" id="date-return">23</div>
-          <div class="month-return" id="month-return">JUL'21</div>
-        </div>
-        <div class="day-return" id="day-return">FRIDAY</div> -->
+          
           <input class="input-date" type="date" />
         </a>
       </div>
     </div>
     <div class="pickup-time pick-item col-md-3 col-xs-15">
-      <!-- <div class="dropdown show">
-      <a
-        class="btn dropdown-btn dropdown-toggle"
-        href="#"
-        role="button"
-        id="dropdownMenuLink"
-        data-toggle="dropdown"
-        aria-haspopup="true"
-        aria-expanded="false"
-      >
-        <span>
-          <div class="pickup-text">PICKUP TIME</div>
-          <span class="city bold-text h1">12:00 AM</span>
-        </span>
-      </a>
-
-      <div
-        class="dropdown-menu"
-        id="pickup-timing"
-        aria-labelledby="dropdownMenuLink"
-      >
-        
-      </div>
-    </div> -->
+      
       <label for="sel1">
         <span>
           <div class="pickup-text">PICKUP TIME</div>
@@ -136,28 +87,6 @@
       </select>
     </div>
     <div class="drop-time pick-item col-md-2 col-xs-15">
-      <!-- <div class="dropdown show">
-      <a
-        class="btn dropdown-btn dropdown-toggle"
-        href="#"
-        role="button"
-        id="dropdownMenuLink"
-        data-toggle="dropdown"
-        aria-haspopup="true"
-        aria-expanded="false"
-      >
-        <span>
-          <div class="pickup-text">DROP TIME</div>
-          <span class="city h1">12:00 AM</span>
-        </span>
-      </a>
-
-      <div
-        class="dropdown-menu"
-        id="drop-timing"
-        aria-labelledby="dropdownMenuLink"
-      ></div>
-    </div> -->
       <label for="sel1">
         <span>
           <div class="pickup-text">DROP TIME</div>
@@ -195,7 +124,6 @@
       <label for="sel1">
         <span>
           <div class="pickup-text">PICKUP LOCATION</div>
-          <!-- <span class="city bold-text h1">Mumbai</span> -->
         </span>
       </label>
       <select class="select-css form-control" id="sel1" name="sellist1">
@@ -237,7 +165,7 @@
           <div class="pickup-text">PICKUP TIME</div>
         </span>
       </label>
-      <select class="select-css form-control" id="sel1" name="sellist1">
+      <select class="select-css-timing form-control" id="sel1" name="sellist1">
         <option>12:00 AM</option>
         <option>12:30 AM</option>
         <option>1:00 AM</option>
@@ -261,7 +189,7 @@
           <div class="pickup-text">DURATION</div>
         </span>
       </label>
-      <select class="select-css form-control" id="sel1" name="sellist1">
+      <select class="select-css-timing form-control" id="sel1" name="sellist1">
         <option>1hrs 10kms</option>
         <option>2hrs 20kms</option>
         <option>3hrs 30kms</option>

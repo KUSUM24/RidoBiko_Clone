@@ -197,7 +197,7 @@
                             </span>
                         </div>
                         <s class="original-price">1300</s>
-                        <b class="price" >₹ 1245</b>
+                        <b class="discount-price" >₹ 1245</b>
                 </div>
                 <button class="book-now">BOOK NOW</button>
             </div>
@@ -289,7 +289,7 @@
                             </span>
                         </div>
                         <s class="original-price">1300</s>
-                        <b class="price" >₹ 1245</b>
+                        <b class="discount-price" >₹ 1245</b>
                 </div>
                 <button class="book-now">BOOK NOW</button>
             </div>
@@ -381,7 +381,7 @@
                             </span>
                         </div>
                         <s class="original-price">1300</s>
-                        <b class="price" >₹ 1245</b>
+                        <b class="discount-price" >₹ 1245</b>
                 </div>
                 <button class="book-now">BOOK NOW</button>
             </div>
@@ -473,7 +473,7 @@
                             </span>
                         </div>
                         <s class="original-price">1300</s>
-                        <b class="price" >₹ 1245</b>
+                        <b class="discount-price" >₹ 1245</b>
                 </div>
                 <button class="book-now">BOOK NOW</button>
             </div>

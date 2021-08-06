@@ -34,12 +34,22 @@
   background-color: white;
   margin: 0% 3% 0% 1%;
 }
-.card-bike-img {
-  width: 250px;
-  height: 180px;
+.main-card {
+  border: 1px solid #e5e6e6;
+  margin: 10;
+}
+.main-card:hover {
+  border: 1px solid #1dc2a4;
 }
 .bike-card {
   padding: 1.5%;
+}
+.bike-card:hover {
+  background-color: #f2fdfb;
+}
+.card-bike-img {
+  width: 250px;
+  height: 180px;
 }
 .more-locations {
   color: #1dc2a4;
@@ -52,10 +62,7 @@
 .terms {
   color: #1dc2a4;
 }
-.main-card {
-  border: 2px solid #e5e6e6;
-  margin: 10;
-}
+
 .all-details {
   padding: 0% 2%;
 }
@@ -106,4 +113,12 @@
 }
 .rate-unchecked {
   color: #c2c0c0 !important;
+}
+.original-price {
+  margin: 10% 0% 5% 0%;
+  font-size: 20px;
+}
+.discount-price {
+  margin: 0% 0% 10% 0%;
+  font-size: 30px;
 }

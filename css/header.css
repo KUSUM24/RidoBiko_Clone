@@ -1,3 +1,6 @@
+:root {
+  --darkRed: #fc3831;
+}
 body {
   font-family: "Roboto", sans-serif;
   background-color: #f0f2f5;
@@ -17,11 +20,11 @@ body {
   padding: 0% 5%;
 }
 .item-header:hover {
-  color: #1dc0a2;
+  color: var(--darkRed);
   cursor: pointer;
 }
 .item-header--clicked {
-  color: #1dc0a2;
+  color: var(--darkRed);
 }
 .header {
   padding: 0.5% 2%;

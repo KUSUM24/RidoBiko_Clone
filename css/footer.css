@@ -1,3 +1,6 @@
+:root {
+  --darkRed: #fc3831;
+}
 .footer {
   background-color: #f7f7f7;
   flex-direction: row;
@@ -14,7 +17,7 @@
   align-items: center;
 }
 .number-count {
-  color: #1dc2a4;
+  color: var(--darkRed);
   font-size: 450%;
 }
 .plus-icon {
@@ -24,7 +27,7 @@
   color: #6c7278;
 }
 .social-icon {
-  color: #1dc2a4 !important;
+  color: var(--darkRed) !important;
   font-size: 180%;
   padding: 1%;
   margin: 5%;
@@ -44,7 +47,7 @@
   padding: 3px 5px;
 }
 .submit-footer {
-  background-color: #1dc2a4;
+  background-color: var(--darkRed);
   color: white;
   margin-bottom: 3px;
 }
@@ -59,15 +62,15 @@
   background-color: transparent;
 }
 .location button.active {
-  border-bottom: 2px solid #1dc2a4;
-  color: #1dc2a4;
+  border-bottom: 2px solid var(--darkRed);
+  color: var(--darkRed);
 }
 .tab-link {
   padding: 0% 1% 1% 1%;
 }
 .location button:focus {
-  color: #1dc2a4;
-  border-bottom: 2px solid #1dc2a4;
+  color: var(--darkRed);
+  border-bottom: 2px solid var(--darkRed);
   outline: none;
 }
 .help-subs {
@@ -84,7 +87,7 @@
     flex-direction: column;
   }
   /* .number-count {
-    color: #1dc2a4;
+    color: var(--darkRed);
     font-size: 450%;
   } */
 }

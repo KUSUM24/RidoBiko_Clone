@@ -76,6 +76,10 @@
 .help-subs {
   width: 60%;
 }
+.footer-logo {
+  width: 200px;
+  height: auto;
+}
 @media screen and (max-width: 1000px) {
   .main-footer {
     flex-direction: column;

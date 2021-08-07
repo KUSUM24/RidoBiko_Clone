@@ -1,3 +1,8 @@
+:root {
+  --darkRed: #fc3831;
+  --lightRed: #fdedec;
+}
+
 /* Details  */
 .details-main {
   padding: 0% 5%;
@@ -39,20 +44,20 @@
   margin: 10;
 }
 .main-card:hover {
-  border: 1px solid #1dc2a4;
+  border: 1px solid var(--darkRed);
 }
 .bike-card {
   padding: 1.5%;
 }
 .bike-card:hover {
-  background-color: #f2fdfb;
+  background-color: var(--lightRed);
 }
 .card-bike-img {
   width: 250px;
   height: 180px;
 }
 .more-locations {
-  color: #1dc2a4;
+  color: var(--darkRed);
 }
 .hr-bike {
   display: block;
@@ -60,7 +65,7 @@
   margin: 5px 0px;
 }
 .terms {
-  color: #1dc2a4;
+  color: var(--darkRed);
 }
 
 .all-details {
@@ -96,7 +101,7 @@
   padding: 1.5%;
 }
 .book-now {
-  background-color: #1dc2a4;
+  background-color: var(--darkRed);
   color: white;
   font-size: 15px;
   padding: 5%;
@@ -109,7 +114,7 @@
   outline: none;
 }
 .rate-checked {
-  color: #1dc2a4 !important;
+  color: var(--darkRed) !important;
 }
 .rate-unchecked {
   color: #c2c0c0 !important;

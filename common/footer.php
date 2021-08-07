@@ -23,7 +23,7 @@
   <hr />
   <div class="main-footer d-flex justify-content-around align-items-center">
     <div class="footer-item logo-footer">
-      <img src="images/ridobiko-logo-2.png" alt="" />
+      <img class="footer-logo" src="images/logo.png" alt="" />
     </div>
     <!-- <div class="d-flex justify-content-between w-25"> -->
 
@@ -145,7 +145,7 @@
       Bike rent in Jaipur |
     </div>
   </div>
-  
+
   <!-- Copyright  -->
   <div class="copyright">
     © 2019 Ridobiko Solutions Private Limited | All Rights Reserved

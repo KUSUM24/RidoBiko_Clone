@@ -125,6 +125,27 @@
                             </div>
                         </div>
                     </div>
+                    <div class="delivery-section d-flex justify-content-between">
+                        <div class="availability d-flex">
+                        <div class="support d-flex align-items-center">
+                            <span class="material-icons-outlined">
+                            lightbulb
+                            </span>
+                            24/7 Support 
+                        </div>
+                        <div class="age-limit">
+                            | Age Limit: 18+
+                        </div>
+                        </div>
+                        <div class="home-delivery d-flex">
+                                <span class="material-icons home-icon">
+                                home
+                                </span>
+                            <div class="delivery-text">
+                                Home Delivery Available
+                            </div>
+                        </div>
+                    </div>
                     <div class="bike-location d-flex align-items-center">
                         <span class="material-icons-outlined location-arrow">
                             arrow_downward
@@ -132,7 +153,7 @@
                         <div class="location-1">Karol Bagh </div>
                         <div class="more-locations"> and 3 more locations </div>
                     </div>
-                    <hr class="hr-bike">
+                    <!-- <hr class="hr-bike">
                     <div class="facilities d-flex justify-content-between w-75">
                         <div class="facility-text">Facilities: </div>
                         <div class="helmet d-flex align-items-center">
@@ -174,12 +195,12 @@
                                 expand_more
                                 </span>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
             <div class="rating d-flex flex-column w-25">
                 <div class="d-flex flex-column align-items-end">
-                        <div class="d-flex">
+                        <!-- <div class="d-flex">
                             <span class="material-icons-outlined rate-checked">
                             star
                             </span>
@@ -195,7 +216,7 @@
                             <span class="material-icons-outlined rate-unchecked">
                             star
                             </span>
-                        </div>
+                        </div> -->
                         <s class="original-price">1300</s>
                         <b class="discount-price" >₹ 1245</b>
                 </div>
@@ -217,6 +238,19 @@
                             </div>
                         </div>
                     </div>
+                    <div class="delivery-section d-flex justify-content-between">
+                        <div class="availability">
+                            4 Bikes Available | Age Limit: 18+
+                        </div>
+                        <div class="home-delivery d-flex">
+                                <span class="material-icons home-icon">
+                                home
+                                </span>
+                            <div class="delivery-text">
+                                Home Delivery Available
+                            </div>
+                        </div>
+                    </div>
                     <div class="bike-location d-flex align-items-center">
                         <span class="material-icons-outlined location-arrow">
                             arrow_downward
@@ -271,7 +305,7 @@
             </div>
             <div class="rating d-flex flex-column w-25">
                 <div class="d-flex flex-column align-items-end">
-                        <div class="d-flex">
+                        <!-- <div class="d-flex">
                             <span class="material-icons-outlined rate-checked">
                             star
                             </span>
@@ -287,7 +321,7 @@
                             <span class="material-icons-outlined rate-unchecked">
                             star
                             </span>
-                        </div>
+                        </div> -->
                         <s class="original-price">1300</s>
                         <b class="discount-price" >₹ 1245</b>
                 </div>
@@ -309,6 +343,19 @@
                             </div>
                         </div>
                     </div>
+                    <div class="delivery-section d-flex justify-content-between">
+                        <div class="availability">
+                            4 Bikes Available | Age Limit: 18+
+                        </div>
+                        <div class="home-delivery d-flex">
+                                <span class="material-icons home-icon">
+                                home
+                                </span>
+                            <div class="delivery-text">
+                                Home Delivery Available
+                            </div>
+                        </div>
+                    </div>
                     <div class="bike-location d-flex align-items-center">
                         <span class="material-icons-outlined location-arrow">
                             arrow_downward
@@ -363,7 +410,7 @@
             </div>
             <div class="rating d-flex flex-column w-25">
                 <div class="d-flex flex-column align-items-end">
-                        <div class="d-flex">
+                        <!-- <div class="d-flex">
                             <span class="material-icons-outlined rate-checked">
                             star
                             </span>
@@ -379,7 +426,7 @@
                             <span class="material-icons-outlined rate-unchecked">
                             star
                             </span>
-                        </div>
+                        </div> -->
                         <s class="original-price">1300</s>
                         <b class="discount-price" >₹ 1245</b>
                 </div>
@@ -401,6 +448,19 @@
                             </div>
                         </div>
                     </div>
+                    <div class="delivery-section d-flex justify-content-between">
+                        <div class="availability">
+                            4 Bikes Available | Age Limit: 18+
+                        </div>
+                        <div class="home-delivery d-flex">
+                                <span class="material-icons home-icon">
+                                home
+                                </span>
+                            <div class="delivery-text">
+                                Home Delivery Available
+                            </div>
+                        </div>
+                    </div>
                     <div class="bike-location d-flex align-items-center">
                         <span class="material-icons-outlined location-arrow">
                             arrow_downward
@@ -455,7 +515,7 @@
             </div>
             <div class="rating d-flex flex-column w-25">
                 <div class="d-flex flex-column align-items-end">
-                        <div class="d-flex">
+                        <!-- <div class="d-flex">
                             <span class="material-icons-outlined rate-checked">
                             star
                             </span>
@@ -471,7 +531,7 @@
                             <span class="material-icons-outlined rate-unchecked">
                             star
                             </span>
-                        </div>
+                        </div> -->
                         <s class="original-price">1300</s>
                         <b class="discount-price" >₹ 1245</b>
                 </div>

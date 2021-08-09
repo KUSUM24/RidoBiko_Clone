@@ -143,6 +143,7 @@
   position: relative;
   left: 40%;
   text-align: center;
+  display: flex;
 }
 .more-details:hover {
   border: 2px solid rgb(189, 187, 187);
@@ -203,5 +204,5 @@
   cursor: pointer;
 }
 #more-details-btn {
-  display: flex !important;
+  display: flex;
 }

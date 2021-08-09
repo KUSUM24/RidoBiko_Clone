@@ -65,34 +65,26 @@ const setHeaderTitle = (title) => {
   } else if (title == "bikes") {
     motorcycleContent.innerHTML = `<div class="scooter-card d-flex align-items-start">
     <img class="activa-img" src="images/Bikes/Activa-1.png" alt="">
-    <div class="details-div d-flex flex-column justify-content-center align-items-center">
-        <div class="activa-details-icon">.</div>
-        <div class="activa-details-icon">.</div>
-        <div class="activa-details-icon">.</div>
+    <div  class="details-div d-flex flex-column justify-content-center align-items-center">
+        nothing
     </div>
 </div>
 <div class="scooter-card d-flex align-items-start">
 <img class="activa-img" src="images/Bikes/Activa-1.png" alt="">
     <div class="details-div d-flex flex-column justify-content-center align-items-center">
-        <div class="activa-details-icon">.</div>
-        <div class="activa-details-icon">.</div>
-        <div class="activa-details-icon">.</div>
+        anything
     </div>
 </div>
 <div class="scooter-card d-flex align-items-start">
 <img class="activa-img" src="images/Bikes/Activa-1.png" alt="">
     <div class="details-div d-flex flex-column justify-content-center align-items-center">
-        <div class="activa-details-icon">.</div>
-        <div class="activa-details-icon">.</div>
-        <div class="activa-details-icon">.</div>
+        no
     </div>
 </div>
 <div class="scooter-card d-flex align-items-start">
 <img class="activa-img" src="images/Bikes/Activa-1.png" alt="">
     <div class="details-div d-flex flex-column justify-content-center align-items-center">
-        <div class="activa-details-icon">.</div>
-        <div class="activa-details-icon">.</div>
-        <div class="activa-details-icon">.</div>
+        no
     </div>
 </div>`;
     document.getElementById("offers").classList.remove("active-title");

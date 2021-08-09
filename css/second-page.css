@@ -1,6 +1,7 @@
 :root {
   --darkRed: #fc3831;
   --lightRed: #fcf3f3;
+  --midRed: #fae8e8;
 }
 
 /* Details  */
@@ -47,14 +48,14 @@
   border: 1px solid var(--darkRed);
 }
 .bike-card {
-  padding: 1.5%;
+  padding: 1.5% 0% 0% 0%;
 }
 .bike-card:hover {
   background-color: var(--lightRed);
 }
 .card-bike-img {
-  width: 200px;
-  height: 150px;
+  width: 180px;
+  height: 130px;
 }
 .more-locations {
   color: var(--darkRed);
@@ -62,12 +63,11 @@
 .hr-bike {
   display: block;
   width: 100%;
-  margin: 5px 0px;
+  margin-bottom: 0%;
 }
 .terms {
   color: var(--darkRed);
 }
-
 .all-details {
   padding: 0% 2%;
 }
@@ -76,9 +76,8 @@
   font-weight: 600;
 }
 .bike-location {
-  margin: 2% 0%;
+  margin: 1% 0%;
   color: #616161;
-  /* font-weight: 600; */
 }
 .location-arrow {
   font-size: 18px;
@@ -98,7 +97,7 @@
 }
 .rating {
   background-color: #f2f2f2;
-  padding: 1.5%;
+  padding: 1%;
 }
 .book-now {
   background-color: var(--darkRed);
@@ -120,13 +119,89 @@
   color: #c2c0c0 !important;
 }
 .original-price {
-  margin: 5% 0%;
+  margin: 0% 0%;
   font-size: 20px;
 }
 .discount-price {
-  margin: 0% 0% 5% 0%;
+  margin: 0% 0% 0% 0%;
   font-size: 30px;
 }
 .home-icon {
   color: var(--darkRed);
+}
+.delivery-section {
+  margin-top: 2%;
+}
+.more-details {
+  color: var(--darkRed);
+  border: 2px solid #dfdcdc;
+  border-radius: 15px;
+  padding: 0.2% 1% 0.2% 2%;
+  margin-top: -25px;
+  background-color: white;
+  width: 155px;
+  position: relative;
+  left: 40%;
+  text-align: center;
+}
+.more-details:hover {
+  border: 2px solid rgb(189, 187, 187);
+  cursor: pointer;
+}
+.more-down-details {
+  color: black;
+}
+.hr-bike-card-main {
+  display: block;
+  width: 100%;
+  margin-top: 0%;
+}
+.more-detail-heading {
+  font-size: 20px;
+  font-weight: 700;
+  color: gray;
+}
+.compulsion {
+  background-color: var(--midRed);
+  padding: 1%;
+  margin: 1% 0%;
+}
+.policies {
+  padding: 0% 5%;
+  margin-bottom: 2%;
+}
+.policy {
+  margin-left: 2%;
+}
+.vehicle-damage-policy {
+  margin-left: 4%;
+}
+.text {
+  width: 200px;
+}
+.more-policies {
+  margin-top: 2%;
+}
+.more-details-section {
+  display: none;
+}
+.less-details {
+  color: var(--darkRed);
+  border: 2px solid #dfdcdc;
+  border-radius: 15px;
+  padding: 0.2% 1% 0.2% 2%;
+  margin-top: -25px;
+  background-color: white;
+  width: 155px;
+  position: relative;
+  left: 40%;
+  text-align: center;
+  display: none;
+}
+.less-details:hover {
+  border: 2px solid rgb(189, 187, 187);
+  cursor: pointer;
+}
+#more-details-btn {
+  display: flex !important;
 }

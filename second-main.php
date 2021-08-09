@@ -24,6 +24,7 @@ include "common/link.php";
 
     <script src="js/scroll.js"></script>
     <script src="js/location.js"></script>
+    <script src="js/second-page.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js"></script>
   </body>
 </html>

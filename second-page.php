@@ -156,70 +156,12 @@
                             <div class="location-1">Karol Bagh </div>
                             <div class="more-locations"> and 3 more locations </div>
                         </div>
-                        <!-- <hr class="hr-bike">
-                        <div class="facilities d-flex justify-content-between w-75">
-                            <div class="facility-text">Facilities: </div>
-                            <div class="helmet d-flex align-items-center">
-                                <span class="material-icons-outlined">
-                                health_and_safety
-                                </span>
-                                1 Helmet
-                            </div>
-                            <div class="support d-flex align-items-center">
-                                <span class="material-icons-outlined">
-                                lightbulb
-                                </span>
-                                24/7 Support
-                            </div>
-                        </div>
-                        <hr class="hr-bike">
-                        <div class="more-details d-flex justify-content-between ">
-                            <div class="deposit">
-                                <div class="details-text">
-                                    Deposit:
-                                </div>
-                                <b class="bold-text">₹5000</b>
-                            </div>
-                            <div class="km-limit">
-                                <div class="details-text">
-                                    KM Limit:
-                                </div>
-                                <b class="bold-text">100km/day</b>
-                            </div>
-                            <div class="speed-limit">
-                                <div class="details-text">
-                                    Speed Limit:
-                                </div>
-                                <b class="bold-text">80km/hr</b>
-                            </div>
-                            <div class="terms d-flex">
-                                T & C 
-                                    <span class="material-icons-outlined">
-                                    expand_more
-                                    </span>
-                            </div>
-                        </div> -->
+                        
                     </div>
                 </div>
                 <div class="rating d-flex flex-column justify-content-between w-25">
                     <div class="d-flex flex-column align-items-end">
-                            <!-- <div class="d-flex">
-                                <span class="material-icons-outlined rate-checked">
-                                star
-                                </span>
-                                <span class="material-icons-outlined rate-checked">
-                                star
-                                </span>
-                                <span class="material-icons-outlined rate-checked">
-                                star
-                                </span>
-                                <span class="material-icons-outlined rate-checked">
-                                star
-                                </span>
-                                <span class="material-icons-outlined rate-unchecked">
-                                star
-                                </span>
-                            </div> -->
+                            
                             <s class="original-price">1300</s>
                             <b class="discount-price" >₹ 1245</b>
                     </div>
@@ -314,13 +256,13 @@
                 </div>    
                     <!-- </div> -->
         </div>
-            <div class="more-details justify-content-between" id="more-details-btn" onclick="getMoreDetails('more-details-1')">
+            <div class="more-details justify-content-between" id="more-details-btn-1" onclick="getMoreDetails('more-details-1','more-details-btn-1', 'less-details-1')">
                 More Details
                 <span class="more-down-details material-icons-outlined">
                     expand_more
                 </span>
             </div>
-            <div class="less-details justify-content-between"id="less-details" onclick="getLessDetails('more-details-1')">
+            <div class="less-details justify-content-between"id="less-details-1" onclick="getLessDetails('more-details-1','more-details-btn-1', 'less-details-1')">
                 Less Details
                 <span class="more-down-details material-icons-outlined">
                     expand_less
@@ -371,70 +313,12 @@
                             <div class="location-1">Karol Bagh </div>
                             <div class="more-locations"> and 3 more locations </div>
                         </div>
-                        <!-- <hr class="hr-bike">
-                        <div class="facilities d-flex justify-content-between w-75">
-                            <div class="facility-text">Facilities: </div>
-                            <div class="helmet d-flex align-items-center">
-                                <span class="material-icons-outlined">
-                                health_and_safety
-                                </span>
-                                1 Helmet
-                            </div>
-                            <div class="support d-flex align-items-center">
-                                <span class="material-icons-outlined">
-                                lightbulb
-                                </span>
-                                24/7 Support
-                            </div>
-                        </div>
-                        <hr class="hr-bike">
-                        <div class="more-details d-flex justify-content-between ">
-                            <div class="deposit">
-                                <div class="details-text">
-                                    Deposit:
-                                </div>
-                                <b class="bold-text">₹5000</b>
-                            </div>
-                            <div class="km-limit">
-                                <div class="details-text">
-                                    KM Limit:
-                                </div>
-                                <b class="bold-text">100km/day</b>
-                            </div>
-                            <div class="speed-limit">
-                                <div class="details-text">
-                                    Speed Limit:
-                                </div>
-                                <b class="bold-text">80km/hr</b>
-                            </div>
-                            <div class="terms d-flex">
-                                T & C 
-                                    <span class="material-icons-outlined">
-                                    expand_more
-                                    </span>
-                            </div>
-                        </div> -->
+                        
                     </div>
                 </div>
                 <div class="rating d-flex flex-column justify-content-between w-25">
                     <div class="d-flex flex-column align-items-end">
-                            <!-- <div class="d-flex">
-                                <span class="material-icons-outlined rate-checked">
-                                star
-                                </span>
-                                <span class="material-icons-outlined rate-checked">
-                                star
-                                </span>
-                                <span class="material-icons-outlined rate-checked">
-                                star
-                                </span>
-                                <span class="material-icons-outlined rate-checked">
-                                star
-                                </span>
-                                <span class="material-icons-outlined rate-unchecked">
-                                star
-                                </span>
-                            </div> -->
+                            
                             <s class="original-price">1300</s>
                             <b class="discount-price" >₹ 1245</b>
                     </div>
@@ -529,13 +413,13 @@
                 </div>    
                     <!-- </div> -->
         </div>
-            <div class="more-details justify-content-between" id="more-details-btn" onclick="getMoreDetails('more-details-2')">
+            <div class="more-details justify-content-between" id="more-details-btn-2" onclick="getMoreDetails('more-details-2','more-details-btn-2','less-details-2')">
                 More Details
                 <span class="more-down-details material-icons-outlined">
                     expand_more
                 </span>
             </div>
-            <div class="less-details justify-content-between"id="less-details" onclick="getLessDetails('more-details-2')">
+            <div class="less-details justify-content-between"id="less-details-2" onclick="getLessDetails('more-details-2','more-details-btn-2','less-details-2')">
                 Less Details
                 <span class="more-down-details material-icons-outlined">
                     expand_less
@@ -586,70 +470,12 @@
                             <div class="location-1">Karol Bagh </div>
                             <div class="more-locations"> and 3 more locations </div>
                         </div>
-                        <!-- <hr class="hr-bike">
-                        <div class="facilities d-flex justify-content-between w-75">
-                            <div class="facility-text">Facilities: </div>
-                            <div class="helmet d-flex align-items-center">
-                                <span class="material-icons-outlined">
-                                health_and_safety
-                                </span>
-                                1 Helmet
-                            </div>
-                            <div class="support d-flex align-items-center">
-                                <span class="material-icons-outlined">
-                                lightbulb
-                                </span>
-                                24/7 Support
-                            </div>
-                        </div>
-                        <hr class="hr-bike">
-                        <div class="more-details d-flex justify-content-between ">
-                            <div class="deposit">
-                                <div class="details-text">
-                                    Deposit:
-                                </div>
-                                <b class="bold-text">₹5000</b>
-                            </div>
-                            <div class="km-limit">
-                                <div class="details-text">
-                                    KM Limit:
-                                </div>
-                                <b class="bold-text">100km/day</b>
-                            </div>
-                            <div class="speed-limit">
-                                <div class="details-text">
-                                    Speed Limit:
-                                </div>
-                                <b class="bold-text">80km/hr</b>
-                            </div>
-                            <div class="terms d-flex">
-                                T & C 
-                                    <span class="material-icons-outlined">
-                                    expand_more
-                                    </span>
-                            </div>
-                        </div> -->
+                        
                     </div>
                 </div>
                 <div class="rating d-flex flex-column justify-content-between w-25">
                     <div class="d-flex flex-column align-items-end">
-                            <!-- <div class="d-flex">
-                                <span class="material-icons-outlined rate-checked">
-                                star
-                                </span>
-                                <span class="material-icons-outlined rate-checked">
-                                star
-                                </span>
-                                <span class="material-icons-outlined rate-checked">
-                                star
-                                </span>
-                                <span class="material-icons-outlined rate-checked">
-                                star
-                                </span>
-                                <span class="material-icons-outlined rate-unchecked">
-                                star
-                                </span>
-                            </div> -->
+                            
                             <s class="original-price">1300</s>
                             <b class="discount-price" >₹ 1245</b>
                     </div>
@@ -744,13 +570,13 @@
                 </div>    
                     <!-- </div> -->
         </div>
-            <div class="more-details justify-content-between" id="more-details-btn" onclick="getMoreDetails('more-details-3')">
+            <div class="more-details justify-content-between" id="more-details-btn-3" onclick="getMoreDetails('more-details-3','more-details-btn-3','less-details-3')">
                 More Details
                 <span class="more-down-details material-icons-outlined">
                     expand_more
                 </span>
             </div>
-            <div class="less-details justify-content-between"id="less-details" onclick="getLessDetails('more-details-3')">
+            <div class="less-details justify-content-between"id="less-details-3" onclick="getLessDetails('more-details-3','more-details-btn-3','less-details-3')">
                 Less Details
                 <span class="more-down-details material-icons-outlined">
                     expand_less

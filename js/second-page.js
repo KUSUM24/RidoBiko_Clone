@@ -1,11 +1,11 @@
-const getMoreDetails = (id) => {
+const getMoreDetails = (id, moreId, lessId) => {
   document.getElementById(id).style.display = "block";
-  document.getElementById("less-details").style.display = "flex";
-  document.getElementById("more-details-btn").classList.remove("d-flex");
-  document.getElementById("more-details-btn").style.display = "none";
+  document.getElementById(lessId).style.display = "flex";
+  document.getElementById(moreId).classList.remove("d-flex");
+  document.getElementById(moreId).style.display = "none";
 };
-const getLessDetails = (id) => {
+const getLessDetails = (id, moreId, lessId) => {
   document.getElementById(id).style.display = "none";
-  document.getElementById("less-details").style.display = "none";
-  document.getElementById("more-details-btn").style.display = "flex";
+  document.getElementById(lessId).style.display = "none";
+  document.getElementById(moreId).style.display = "flex";
 };

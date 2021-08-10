@@ -234,7 +234,7 @@
         </div>
     </div>
     <hr class="hr-motor">
-    <div class="motorcycle-content " id="motorcycle-content" >
+    <div class="motorcycle-content" id="motorcycle-content" >
       <div class="offers-section d-flex justify-content-between" id='offers-section'>
         <div class="card-motorcycle">
           <div class="d-flex align-items-center">

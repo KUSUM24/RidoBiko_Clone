@@ -46,12 +46,12 @@
 }
 .main-card:hover {
   border: 1px solid var(--darkRed);
+  background-color: var(--lightRed);
 }
 .bike-card {
   padding: 1.5% 0% 0% 0%;
 }
 .bike-card:hover {
-  background-color: var(--lightRed);
 }
 .card-bike-img {
   width: 180px;
@@ -96,7 +96,7 @@
   margin: 1% 0%;
 }
 .rating {
-  background-color: #f2f2f2;
+  border-left: 2px solid #f2f2f2;
   padding: 1%;
 }
 .book-now {

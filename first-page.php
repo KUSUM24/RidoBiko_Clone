@@ -234,9 +234,10 @@
         </div>
     </div>
     <hr class="hr-motor">
-    <div class="motorcycle-content d-flex justify-content-between" id="motorcycle-content" >
-        <!-- <div class="card-motorcycle">
-            <div class="d-flex align-items-center">
+    <div class="motorcycle-content " id="motorcycle-content" >
+      <div class="offers-section d-flex justify-content-between" id='offers-section'>
+        <div class="card-motorcycle">
+          <div class="d-flex align-items-center">
                 <div class="image-expire d-flex flex-column text-center align-items-center">
                     <img class="bike-image-motor" src="images/Bikes/Bike-1.jpg" alt="">
                     <div class="expire-date">Expires 16 Jan 20</div>
@@ -263,39 +264,41 @@
                 <div class="d-flex flex-column text-bike">
                     <div class="bike-offer">10% instant off on you first ride</div>
                     <div class="limited">Limited period offer</div>
+                  </div>
                 </div>
-              </div>
-              <div class="bike-coupon text-center">
-                COUPON: <span class="coupon-name">RIDOBIKOFIRST</span>
-              </div>
-              <div class="bike-footer d-flex justify-content-around align-items-center">
-                <div class="terms">T&C's Apply</div>
+                <div class="bike-coupon text-center">
+                  COUPON: <span class="coupon-name">RIDOBIKOFIRST</span>
+                </div>
+                <div class="bike-footer d-flex justify-content-around align-items-center">
+                  <div class="terms">T&C's Apply</div>
                 <div class="book-now">Book Now</div>
               </div>
             </div>
           <div class="card-motorcycle">
             <div class="d-flex align-items-center justify-content-between">
-                <div class="image-expire d-flex flex-column text-center align-items-center">
-                    <img class="bike-image-motor" src="images/Bikes/Bike-3.jpg" alt="">
-                    <div class="expire-date">Expires 16 Jan 20</div>
-                </div>
-                <div class="d-flex flex-column text-bike">
-                    <div class="bike-offer ">10% instant off on you first ride</div>
-                    <div class="limited">Limited period offer</div>
-                </div>
+              <div class="image-expire d-flex flex-column text-center align-items-center">
+                <img class="bike-image-motor" src="images/Bikes/Bike-3.jpg" alt="">
+                <div class="expire-date">Expires 16 Jan 20</div>
+              </div>
+              <div class="d-flex flex-column text-bike">
+                <div class="bike-offer ">10% instant off on you first ride</div>
+                <div class="limited">Limited period offer</div>
+              </div>
             </div>
             <div class="bike-coupon text-center">
-                COUPON: <span class="coupon-name">RIDOBIKOFIRST</span>
+              COUPON: <span class="coupon-name">RIDOBIKOFIRST</span>
             </div>
             <div class="bike-footer d-flex justify-content-around align-items-center">
                 <div class="terms">T&C's Apply</div>
                 <div class="book-now">Book Now</div>
             </div>
-          </div> -->
+          </div>
+        </div>
+        <div class="activa-section justify-content-between"  id='activa-section'>
           <div class="scooter-card d-flex align-items-start">
             <img onmouseover="getActivaDetails('img-activa-1', 'activa-1')" onmouseout="removeActivaDetails('img-activa-1', 'activa-1')" id='img-activa-1' class="activa-img" src="images/Bikes/Activa-1.png" alt="error">
             <div id="activa-1" class="details-div  flex-column justify-content-center align-items-center">
-                <div>Activa</div>
+              <div>Activa</div>
                 <hr class="activa-hr">
                 Your first activa ride on us
                 <div>Starting from <span class="activa-price">₹450</span></div>
@@ -306,9 +309,9 @@
                     Book Now
                   </div>
                 </div>
+              </div>
             </div>
-          </div>
-          <div class="scooter-card d-flex align-items-start">
+          <div class="scooter-card d-flex align-items-start" >
             <img onmouseover="getActivaDetails('img-activa-2', 'activa-2')" onmouseout="removeActivaDetails('img-activa-2', 'activa-2')" class="activa-img" src="images/Bikes/Activa-1.png" id='img-activa-2' alt="error">
             <div  id="activa-2" class="details-div flex-column justify-content-center align-items-center">
             <div>Activa</div>
@@ -322,12 +325,12 @@
                     Book Now
                   </div>
                 </div>
-            </div>
+              </div>
           </div>
           <div class="scooter-card d-flex align-items-start">
             <img onmouseover="getActivaDetails('img-activa-3', 'activa-3')" onmouseout="removeActivaDetails('img-activa-3', 'activa-3')" class="activa-img" src="images/Bikes/Activa-1.png" id='img-activa-3' alt="error">
             <div  id="activa-3" class="details-div flex-column justify-content-center align-items-center">
-            <div>Activa</div>
+              <div>Activa</div>
                 <hr class="activa-hr">
                 Your first activa ride on us
                 <div>Starting from <span class="activa-price">₹450</span></div>
@@ -338,12 +341,12 @@
                     Book Now
                   </div>
                 </div>
+              </div>
             </div>
-          </div>
-          <div class="scooter-card d-flex align-items-start">
-            <img onmouseover="getActivaDetails('img-activa-4', 'activa-4')" onmouseout="removeActivaDetails('img-activa-4', 'activa-4')" class="activa-img" src="images/Bikes/Activa-1.png" id='img-activa-4' alt="error">
-            <div  id="activa-4" class="details-div flex-column justify-content-center align-items-center">
-            <div>Activa</div>
+            <div class="scooter-card d-flex align-items-start">
+              <img onmouseover="getActivaDetails('img-activa-4', 'activa-4')" onmouseout="removeActivaDetails('img-activa-4', 'activa-4')" class="activa-img" src="images/Bikes/Activa-1.png" id='img-activa-4' alt="error">
+              <div  id="activa-4" class="details-div flex-column justify-content-center align-items-center">
+                <div>Activa</div>
                 <hr class="activa-hr">
                 Your first activa ride on us
                 <div>Starting from <span class="activa-price">₹450</span></div>
@@ -354,6 +357,7 @@
                     Book Now
                   </div>
                 </div>
+              </div>
             </div>
           </div>
     </div>
@@ -469,4 +473,96 @@
         </div>
     </div>
 </div>
+</div>
+
+<!-- Carousel Trial  -->
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<div class="container-fluid">
+    <div id="carouselExample" class="carousel slide" data-ride="carousel" data-interval="9000">
+        <div class="carousel-inner row w-100 mx-auto" role="listbox">
+            <div class="carousel-item col-md-3  active">
+               <div class="panel panel-default">
+                  <div class="panel-thumbnail">
+                    <a href="#" title="image 1" class="thumb">
+                      <img class="img-fluid mx-auto d-block" src="//via.placeholder.com/600x400?text=1" alt="slide 1">
+                    </a>
+                  </div>
+                </div>
+            </div>
+            <div class="carousel-item col-md-3 ">
+               <div class="panel panel-default">
+                  <div class="panel-thumbnail">
+                    <a href="#" title="image 3" class="thumb">
+                     <img class="img-fluid mx-auto d-block" src="//via.placeholder.com/600x400?text=2" alt="slide 2">
+                    </a>
+                  </div>
+                </div>
+            </div>
+            <div class="carousel-item col-md-3 ">
+               <div class="panel panel-default">
+                  <div class="panel-thumbnail">
+                    <a href="#" title="image 4" class="thumb">
+                     <img class="img-fluid mx-auto d-block" src="//via.placeholder.com/600x400?text=3" alt="slide 3">
+                    </a>
+                  </div>
+                </div>
+            </div>
+            <div class="carousel-item col-md-3 ">
+                <div class="panel panel-default">
+                  <div class="panel-thumbnail">
+                    <a href="#" title="image 5" class="thumb">
+                     <img class="img-fluid mx-auto d-block" src="//via.placeholder.com/600x400?text=4" alt="slide 4">
+                    </a>
+                  </div>
+                </div>
+            </div>
+            <div class="carousel-item col-md-3 ">
+              <div class="panel panel-default">
+                  <div class="panel-thumbnail">
+                    <a href="#" title="image 6" class="thumb">
+                      <img class="img-fluid mx-auto d-block" src="//via.placeholder.com/600x400?text=5" alt="slide 5">
+                    </a>
+                  </div>
+                </div>
+            </div>
+            <div class="carousel-item col-md-3 ">
+               <div class="panel panel-default">
+                  <div class="panel-thumbnail">
+                    <a href="#" title="image 7" class="thumb">
+                      <img class="img-fluid mx-auto d-block" src="//via.placeholder.com/600x400?text=6" alt="slide 6">
+                    </a>
+                  </div>
+                </div>
+            </div>
+            <div class="carousel-item col-md-3 ">
+               <div class="panel panel-default">
+                  <div class="panel-thumbnail">
+                    <a href="#" title="image 8" class="thumb">
+                      <img class="img-fluid mx-auto d-block" src="//via.placeholder.com/600x400?text=7" alt="slide 7">
+                    </a>
+                  </div>
+                </div>
+            </div>
+             <div class="carousel-item col-md-3  ">
+                <div class="panel panel-default">
+                  <div class="panel-thumbnail">
+                    <a href="#" title="image 2" class="thumb">
+                     <img class="img-fluid mx-auto d-block" src="//via.placeholder.com/600x400?text=8" alt="slide 8">
+                    </a>
+                  </div>
+                  
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next text-faded" href="#carouselExample" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
 </div>

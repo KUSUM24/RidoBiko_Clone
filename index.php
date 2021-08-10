@@ -29,6 +29,7 @@ include "common/link.php";
     <script src="js/location.js"></script>
     <script src="js/motorcycle-header.js"></script>
     <script src="js/trip.js"></script>
+    <script src="js/carousel.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js"></script>
     <script>
       const getActivaDetails = (imageId, activaId) => {

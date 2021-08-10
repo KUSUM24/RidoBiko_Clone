@@ -48,14 +48,14 @@
   border: 1px solid var(--darkRed);
   background-color: var(--lightRed);
 }
-.bike-card {
-  padding: 1.5% 0% 0% 0%;
-}
-.bike-card:hover {
+.all-details {
+  padding: 1.5% 2% 0% 2%;
+  border-left: 2px solid #e5e6e6;
 }
 .card-bike-img {
   width: 180px;
   height: 130px;
+  margin: 1%;
 }
 .more-locations {
   color: var(--darkRed);
@@ -68,9 +68,7 @@
 .terms {
   color: var(--darkRed);
 }
-.all-details {
-  padding: 0% 2%;
-}
+
 .bike-name {
   font-size: 20px;
   font-weight: 600;

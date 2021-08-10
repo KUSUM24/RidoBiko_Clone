@@ -30,5 +30,16 @@ include "common/link.php";
     <script src="js/motorcycle-header.js"></script>
     <script src="js/trip.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js"></script>
+    <script>
+      const getActivaDetails = (imageId, activaId) => {
+        document.getElementById(activaId).style.display = "flex"
+        document.getElementById(imageId).style.display = "none";
+      };
+      const removeActivaDetails = (imageId, activaId) => {
+        document.getElementById(imageId).style.display = "block";
+        document.getElementById(activaId).style.display = "none";
+        console.log("mouse out")
+      }
+    </script>
   </body>
 </html>

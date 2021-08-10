@@ -325,19 +325,37 @@ focus {
   padding: 0.5% 1%;
 }
 .activa-img {
-  width: 200px;
-  height: 150px;
+  width: 250px;
+  height: 180px;
 }
 .details-div {
-  background-color: var(--darkRed);
-  width: 35px;
-  height: 35px;
-  border-radius: 50%;
+  background-color: black;
+  width: 250px;
+  height: 180px;
   vertical-align: middle;
   text-align: center;
+  display: none;
+  color: white;
+  transition: 1s ease-in-out;
 }
 .activa-details-icon {
   color: white;
+}
+.activa-hr {
+  width: 50% !important;
+  color: var(--darkRed);
+  border-top: 1px solid var(--darkRed);
+}
+.activa-price {
+  color: var(--darkRed);
+}
+.book-now-activa {
+  color: var(--darkRed);
+  /* text-decoration: underline; */
+  cursor: pointer;
+}
+.terms_book {
+  margin: 2% 0%;
 }
 @media screen and (max-width: 1300px) {
   .scroll-title-main {

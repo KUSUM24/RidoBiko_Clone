@@ -235,7 +235,7 @@
     </div>
     <hr class="hr-motor">
     <div class="motorcycle-content d-flex justify-content-between" id="motorcycle-content" >
-        <div class="card-motorcycle">
+        <!-- <div class="card-motorcycle">
             <div class="d-flex align-items-center">
                 <div class="image-expire d-flex flex-column text-center align-items-center">
                     <img class="bike-image-motor" src="images/Bikes/Bike-1.jpg" alt="">
@@ -253,11 +253,10 @@
                 <div class="terms">T&C's Apply</div>
                 <div class="book-now">Book Now</div>
             </div>
-
         </div>
-        <div class="card-motorcycle">
-        <div class="d-flex align-items-center">
-        <div class="image-expire d-flex flex-column text-center align-items-center">
+            <div class="card-motorcycle">
+              <div class="d-flex align-items-center">
+                <div class="image-expire d-flex flex-column text-center align-items-center">
                     <img class="bike-image-motor" src="images/Bikes/Bike-2.jpg" alt="">
                     <div class="expire-date">Expires 16 Jan 20</div>
                 </div>
@@ -265,18 +264,18 @@
                     <div class="bike-offer">10% instant off on you first ride</div>
                     <div class="limited">Limited period offer</div>
                 </div>
-            </div>
-            <div class="bike-coupon text-center">
+              </div>
+              <div class="bike-coupon text-center">
                 COUPON: <span class="coupon-name">RIDOBIKOFIRST</span>
-            </div>
-            <div class="bike-footer d-flex justify-content-around align-items-center">
+              </div>
+              <div class="bike-footer d-flex justify-content-around align-items-center">
                 <div class="terms">T&C's Apply</div>
                 <div class="book-now">Book Now</div>
+              </div>
             </div>
-        </div>
-        <div class="card-motorcycle">
-        <div class="d-flex align-items-center justify-content-between">
-        <div class="image-expire d-flex flex-column text-center align-items-center">
+          <div class="card-motorcycle">
+            <div class="d-flex align-items-center justify-content-between">
+                <div class="image-expire d-flex flex-column text-center align-items-center">
                     <img class="bike-image-motor" src="images/Bikes/Bike-3.jpg" alt="">
                     <div class="expire-date">Expires 16 Jan 20</div>
                 </div>
@@ -292,7 +291,71 @@
                 <div class="terms">T&C's Apply</div>
                 <div class="book-now">Book Now</div>
             </div>
-        </div>
+          </div> -->
+          <div class="scooter-card d-flex align-items-start">
+            <img onmouseover="getActivaDetails('img-activa-1', 'activa-1')" onmouseout="removeActivaDetails('img-activa-1', 'activa-1')" id='img-activa-1' class="activa-img" src="images/Bikes/Activa-1.png" alt="error">
+            <div id="activa-1" class="details-div  flex-column justify-content-center align-items-center">
+                <div>Activa</div>
+                <hr class="activa-hr">
+                Your first activa ride on us
+                <div>Starting from <span class="activa-price">₹450</span></div>
+                <div class="terms_book d-flex justify-content-between w-75">
+                  <div>T&C apply</div>
+                  <div class="book-now-activa">
+                    <a href="google.com"></a>
+                    Book Now
+                  </div>
+                </div>
+            </div>
+          </div>
+          <div class="scooter-card d-flex align-items-start">
+            <img onmouseover="getActivaDetails('img-activa-2', 'activa-2')" onmouseout="removeActivaDetails('img-activa-2', 'activa-2')" class="activa-img" src="images/Bikes/Activa-1.png" id='img-activa-2' alt="error">
+            <div  id="activa-2" class="details-div flex-column justify-content-center align-items-center">
+            <div>Activa</div>
+                <hr class="activa-hr">
+                Your first activa ride on us
+                <div>Starting from <span class="activa-price">₹450</span></div>
+                <div class="terms_book d-flex justify-content-between w-75">
+                  <div>T&C apply</div>
+                  <div class="book-now-activa">
+                    <a href="google.com"></a>
+                    Book Now
+                  </div>
+                </div>
+            </div>
+          </div>
+          <div class="scooter-card d-flex align-items-start">
+            <img onmouseover="getActivaDetails('img-activa-3', 'activa-3')" onmouseout="removeActivaDetails('img-activa-3', 'activa-3')" class="activa-img" src="images/Bikes/Activa-1.png" id='img-activa-3' alt="error">
+            <div  id="activa-3" class="details-div flex-column justify-content-center align-items-center">
+            <div>Activa</div>
+                <hr class="activa-hr">
+                Your first activa ride on us
+                <div>Starting from <span class="activa-price">₹450</span></div>
+                <div class="terms_book d-flex justify-content-between w-75">
+                  <div>T&C apply</div>
+                  <div class="book-now-activa">
+                    <a href="google.com"></a>
+                    Book Now
+                  </div>
+                </div>
+            </div>
+          </div>
+          <div class="scooter-card d-flex align-items-start">
+            <img onmouseover="getActivaDetails('img-activa-4', 'activa-4')" onmouseout="removeActivaDetails('img-activa-4', 'activa-4')" class="activa-img" src="images/Bikes/Activa-1.png" id='img-activa-4' alt="error">
+            <div  id="activa-4" class="details-div flex-column justify-content-center align-items-center">
+            <div>Activa</div>
+                <hr class="activa-hr">
+                Your first activa ride on us
+                <div>Starting from <span class="activa-price">₹450</span></div>
+                <div class="terms_book d-flex justify-content-between w-75">
+                  <div>T&C apply</div>
+                  <div class="book-now-activa">
+                    <a href="google.com"></a>
+                    Book Now
+                  </div>
+                </div>
+            </div>
+          </div>
     </div>
 </div>
 

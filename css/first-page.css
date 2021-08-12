@@ -189,6 +189,9 @@
 .date-input {
   display: none;
 }
+select.form-control {
+}
+
 .select-css {
   font-size: 35px;
   font-weight: 700;

@@ -15,9 +15,6 @@ const changeRadioInput = (radioIndex) => {
     document.getElementById("hourly-trip").style.display = `flex`;
   }
 };
-
-// Radio HTML
-
 // Date.js
 var days = [
   "Sunday",

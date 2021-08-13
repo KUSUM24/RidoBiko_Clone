@@ -11,6 +11,8 @@ include "common/link.php";
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/first-page.css">
     <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/carousel.css">
+
     <title>RidoBiko</title>
     
 </head>

@@ -189,8 +189,6 @@
 .date-input {
   display: none;
 }
-select.form-control {
-}
 
 .select-css {
   font-size: 35px;
@@ -208,7 +206,6 @@ option {
 }
 
 input[type="date"] {
-  color: #95a5a6;
   font-family: "Helvetica", arial, sans-serif;
   font-size: 18px;
   border: 1px solid #c8c9c9;

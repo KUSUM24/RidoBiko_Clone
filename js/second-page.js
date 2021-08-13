@@ -1,3 +1,4 @@
+// More Details Section
 const getMoreDetails = (id, moreId, lessId) => {
   document.getElementById(id).style.display = "block";
   document.getElementById(lessId).style.display = "flex";

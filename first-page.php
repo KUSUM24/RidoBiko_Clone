@@ -48,7 +48,7 @@
             <span class="material-icons-outlined"> keyboard_arrow_down </span>
           </div>
 
-          <input class="input-date" type="date" />
+          <input class="input-date" type="date" value="<?php echo date('Y-m-d'); ?>" />
         </a>
 
         <a class="date-div btn">
@@ -57,7 +57,7 @@
             <span class="material-icons-outlined"> keyboard_arrow_down </span>
           </div>
           
-          <input class="input-date" type="date" />
+          <input class="input-date" type="date" value="<?php echo date('Y-m-d'); ?>" />
         </a>
       </div>
     </div>
@@ -150,14 +150,11 @@
               DEPARTURE
               <span class="material-icons-outlined"> keyboard_arrow_down </span>
             </div>
-            <input class="input-date" type="date" />
+            <input class="input-date" type="date"  />
           </a>
         </div>
       </div>
-      <div id="date-input" class="date-input">
-        <input type="date" class="input-date form-control" />
-        <input type="date" class="input-date form-control" />
-      </div>
+      
     </div>
     <div class="pickup-time pick-item col-md-2 col-xs-15">
       <label for="sel1">
@@ -205,7 +202,7 @@
   </div>
   <button class="ridobiko-btn">
     <a class="btn-inner" href="second-main.php" target="_blank">
-      RIDOBIKO
+      SEARCH
     </a>
   </button>
 </div>
@@ -235,7 +232,7 @@
     </div>
     <hr class="hr-motor">
     <div class="motorcycle-content" id="motorcycle-content" >
-      <div class="offers-section carousel slide d-flex justify-content-between" id='offers-section carouselExample' data-ride="carousel">
+      <div class="offers-section d-flex justify-content-between" id='offers-section' data-ride="carousel">
         <div class="card-motorcycle">
           <div class="d-flex align-items-center">
                 <div class="image-expire d-flex flex-column text-center align-items-center">
@@ -529,25 +526,7 @@
                <div class="panel panel-default">
                   <div class="panel-thumbnail">
                     <a href="#" title="image 7" class="thumb">
-                    <div class="card-motorcycle">
-                      <div class="d-flex align-items-center justify-content-between">
-                        <div class="image-expire d-flex flex-column text-center align-items-center">
-                          <img class="bike-image-motor" src="images/Bikes/Bike-3.jpg" alt="">
-                          <div class="expire-date">Expires 16 Jan 20</div>
-                        </div>
-                        <div class="d-flex flex-column text-bike">
-                          <div class="bike-offer ">10% instant off on you first ride</div>
-                          <div class="limited">Limited period offer</div>
-                        </div>
-                      </div>
-                      <div class="bike-coupon text-center">
-                        COUPON: <span class="coupon-name">RIDOBIKOFIRST</span>
-                      </div>
-                      <div class="bike-footer d-flex justify-content-around align-items-center">
-                          <div class="terms">T&C's Apply</div>
-                          <div class="book-now">Book Now</div>
-                      </div>
-                    </div>
+                      <img class="img-fluid mx-auto d-block" src="//via.placeholder.com/600x400?text=6" alt="slide 6">
                     </a>
                   </div>
                 </div>

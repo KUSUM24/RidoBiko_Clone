@@ -1,117 +1,188 @@
-<div class="details-main ">
-    <div class="details row d-flex justify-content-around">
-        <div class="details-item col-2">
-        <label for="sel4">
-            <div class="details-card-text">BIKE SEARCH TYPE</div>
-        </label>
+<!-- Main Section  -->
 
-        <select class="select-css form-control" id="sel4" name="sellist1" >
-        <option >
-          Outstation Round Trip
-        </option>
-        <option>Hourly Rental</option>
-      
-      </select>      
-      </div>
-        <div class="details-item col-2">
-        <label for="sel5">
-        <div class="details-card-text">PICKUP LOCATION</div>
-        </label>
-        <select class="select-css form-control" id="sel5" name="sellist1" >
-        <option >
-          Mumbai
-        </option>
-        <option>Bengaluru</option>
-        <option>Ludiana</option>
-        <option>Delhi</option>
-        <option>Jaipur</option>
-        <option>Mysore</option>
-        <option>Barmer</option>
-        <option>Patiala</option>
-        <option>Gurgaon</option>
-      </select>   
+<div class="d-flex">
+    <!-- Filters  -->
+    <div class="filters">
+        <div class="filter-text">FILTERS</div>
+        <div class="d-flex justify-content-between">
+            <div class="details-item">
+                <label for="sel4">
+                    <div class="details-card-text">BIKE SEARCH TYPE</div>
+                </label>
+
+                <select class="select-css form-control" id="sel4" name="sellist1" >
+                <option >
+                Outstation Round Trip
+                </option>
+                <option>Hourly Rental</option>
+            
+            </select>      
+            </div>
+            <div class="details-item">
+                <label for="sel5">
+                    <div class="details-card-text">PICKUP LOCATION</div>
+                </label>
+                <select class="select-css form-control" id="sel5" name="sellist1" >
+                    <option >
+                    Mumbai
+                    </option>
+                    <option>Bengaluru</option>
+                    <option>Ludiana</option>
+                    <option>Delhi</option>
+                    <option>Jaipur</option>
+                    <option>Mysore</option>
+                    <option>Barmer</option>
+                    <option>Patiala</option>
+                    <option>Gurgaon</option>
+                </select>   
+            </div>
         </div>
-        <div class="details-item d-flex justify-content-around col-3">
-            <div class="second-departure">
-
+        <div class="d-flex justify-content-between">
+            <div class="details-item second-departure">
                 <div class="details-card-text"> 
                     <div class="d-flex align-items-center">
                         DEPARTURE
                         <span class="material-icons-outlined"> keyboard_arrow_down </span>
                     </div>
                 </div>
-                <input type="date">
+                <input class="date-second" type="date">
             </div>
-            <div class="second-return">
-
+            <div class="details-item">
+                <label for="sel6">
+                    <div class="details-card-text">PICKUP TIME</div>
+                </label>
+                <select class="select-css-timing form-control" id="sel6" name="sellist1" >
+                    <option >12:00 AM</option>
+                    <option>12:30 AM</option>
+                    <option>1:00 AM</option>
+                    <option>1:30 AM</option>
+                    <option>2:00 AM</option>
+                    <option>2:30 AM</option>
+                    <option>3:00 AM</option>
+                    <option>3:30 AM</option>
+                    <option>4:00 AM</option>
+                    <option>4:30 AM</option>
+                    <option>5:00 AM</option>
+                    <option>5:30 AM</option>
+                    <option>6:00 AM</option>
+                    <option>6:30 AM</option>
+                    <option>7:00 AM</option>
+                </select>
+            </div>
+        </div>
+        <div class="d-flex justify-content-between">
+            <div class="details-item second-return">
                 <div class="details-card-text"> 
                     <div class="d-flex align-items-center">
-              RETURN
-              <span class="material-icons-outlined"> keyboard_arrow_down </span>
+                        RETURN
+                        <span class="material-icons-outlined"> keyboard_arrow_down </span>
+                    </div>
+                </div>
+                <input class="date-second" type="date">
+            </div>
+            <div class="details-item">
+                <label for="sel7">
+                <div class="details-card-text">DROP TIME</div>
+                </label>
+
+                <select class="select-css-timing form-control" id="sel7" name="sellist1" >
+                    <option >12:00 AM</option>
+                    <option>12:30 AM</option>
+                    <option>1:00 AM</option>
+                    <option>1:30 AM</option>
+                    <option>2:00 AM</option>
+                    <option>2:30 AM</option>
+                    <option>3:00 AM</option>
+                    <option>3:30 AM</option>
+                    <option>4:00 AM</option>
+                    <option>4:30 AM</option>
+                    <option>5:00 AM</option>
+                    <option>5:30 AM</option>
+                    <option>6:00 AM</option>
+                    <option>6:30 AM</option>
+                    <option>7:00 AM</option>
+                </select>
+            </div>  
+        </div>
+        <div class="d-flex justify-content-between">
+            <div class="details-item">
+                <label for="sel7">
+                <div class="details-card-text">PRICE RANGE</div>
+                </label>
+
+                <select class="select-css-timing form-control" id="sel7" name="sellist1" >
+                    <option >1,000 to 2,000</option>
+                    <option>12:30 AM</option>
+                    <option>1:00 AM</option>
+                    <option>1:30 AM</option>
+                    <option>2:00 AM</option>
+                    <option>2:30 AM</option>
+                    <option>3:00 AM</option>
+                    <option>3:30 AM</option>
+                    <option>4:00 AM</option>
+                    <option>4:30 AM</option>
+                    <option>5:00 AM</option>
+                    <option>5:30 AM</option>
+                    <option>6:00 AM</option>
+                    <option>6:30 AM</option>
+                    <option>7:00 AM</option>
+                </select>
+            </div>
+            <div class="details-item">
+                <label for="sel7">
+                <div class="details-card-text">BIKE NAME</div>
+                </label>
+
+                <select class="select-css-timing form-control" id="sel7" name="sellist1" >
+                    <option >Honda</option>
+                    <option>Avenger</option>
+                    <option>1:00 AM</option>
+                    <option>1:30 AM</option>
+                    <option>2:00 AM</option>
+                    <option>2:30 AM</option>
+                    <option>3:00 AM</option>
+                    <option>3:30 AM</option>
+                    <option>4:00 AM</option>
+                    <option>4:30 AM</option>
+                    <option>5:00 AM</option>
+                    <option>5:30 AM</option>
+                    <option>6:00 AM</option>
+                    <option>6:30 AM</option>
+                    <option>7:00 AM</option>
+                </select>
             </div>
         </div>
-        <input type="date">
-    </div>
-        </div>
-        <div class="details-item col-1.5">
-            <label for="sel6">
-            <div class="details-card-text">PICKUP TIME</div>
-            </label>
+            <div class="details-item">
+                <label for="sel7">
+                <div class="details-card-text">BIKE TYPE</div>
+                </label>
 
-            <select class="select-css-timing form-control" id="sel6" name="sellist1" >
-                <option >12:00 AM</option>
-                <option>12:30 AM</option>
-                <option>1:00 AM</option>
-                <option>1:30 AM</option>
-                <option>2:00 AM</option>
-                <option>2:30 AM</option>
-                <option>3:00 AM</option>
-                <option>3:30 AM</option>
-                <option>4:00 AM</option>
-                <option>4:30 AM</option>
-                <option>5:00 AM</option>
-                <option>5:30 AM</option>
-                <option>6:00 AM</option>
-                <option>6:30 AM</option>
-                <option>7:00 AM</option>
-            </select>
-        </div>
-        <div class="details-item col-1.5">
-            <label for="sel7">
-            <div class="details-card-text">DROP TIME</div>
-            </label>
-
-            <select class="select-css-timing form-control" id="sel7" name="sellist1" >
-                <option >12:00 AM</option>
-                <option>12:30 AM</option>
-                <option>1:00 AM</option>
-                <option>1:30 AM</option>
-                <option>2:00 AM</option>
-                <option>2:30 AM</option>
-                <option>3:00 AM</option>
-                <option>3:30 AM</option>
-                <option>4:00 AM</option>
-                <option>4:30 AM</option>
-                <option>5:00 AM</option>
-                <option>5:30 AM</option>
-                <option>6:00 AM</option>
-                <option>6:30 AM</option>
-                <option>7:00 AM</option>
-            </select>
-        </div>
-        <div class="ridobiko-btn col-1 d-flex align-items-center justify-content-center"><div class="">RidoBiko</div></div>
-    </div>
-</div>
-
-<!-- Main Section  -->
-
-<div class="d-flex">
-    <div class="filters w-25">
-        Filters
+                <select class="select-css-timing form-control" id="sel7" name="sellist1" >
+                    <option >Petrol</option>
+                    <option >Electric Scooter</option>
+                </select>
+            </div>
     </div>
     <div class="d-flex flex-column bike-list-main w-100">
-        
-            <div class="main-card d-flex flex-column">
+        <!-- Sort By  -->
+        <div class="sort-main d-flex align-items-center">
+            <div class="sort-text">
+                Sort By: 
+            </div>
+            <div class="d-flex justify-content-around w-50">
+                <div class="sort-item sort-item-active" id="sort-item-1"onclick="getSortActive('sort-item-1')">
+                    Price - Low to High
+                </div>
+                <div class="sort-item " id="sort-item-2" onclick="getSortActive('sort-item-2')">
+                    Price - High to Low
+                </div>
+                <div class="sort-item " id="sort-item-3" onclick="getSortActive('sort-item-3')">
+                    Distance
+                </div>
+            </div>
+        </div>
+        <!-- Cards  -->
+        <div class="main-card d-flex flex-column">
             <div class="bike-main-card d-flex">
                 <div class="bike-card d-flex w-100">
                     <img class="card-bike-img" src="images/Bikes/Bike_Second.png" alt="error">
@@ -268,7 +339,7 @@
                     expand_less
                 </span>
             </div>
-            <div class="main-card d-flex flex-column">
+        <div class="main-card d-flex flex-column">
             <div class="bike-main-card d-flex">
                 <div class="bike-card d-flex w-100">
                     <img class="card-bike-img" src="images/Bikes/Bike_Second.png" alt="error">
@@ -425,7 +496,7 @@
                     expand_less
                 </span>
             </div>
-            <div class="main-card d-flex flex-column">
+        <div class="main-card d-flex flex-column">
             <div class="bike-main-card d-flex">
                 <div class="bike-card d-flex w-100">
                     <img class="card-bike-img" src="images/Bikes/Bike_Second.png" alt="error">

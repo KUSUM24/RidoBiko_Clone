@@ -5,18 +5,16 @@
 }
 
 /* Details  */
-.details-main {
-  padding: 0% 5%;
-  margin: 2% 0%;
-}
+
 .details-item {
   background-color: white;
   border-radius: 5px;
-  border: 1px solid gray;
-  padding: 5px !important;
+  /* border: 1px solid gray; */
+  padding: 10px 15px !important;
+  font-size: 15px;
 }
 .details-card-text {
-  font-size: 15px;
+  font-size: 13px;
   font-weight: 550;
   color: #7c7a7a;
 }
@@ -25,16 +23,33 @@
 }
 .ridobiko-btn {
   border-radius: 10px;
-  border: 1px solid white;
+  border: 1px solid var(--darkRed);
   padding: 0%;
   cursor: pointer;
+  height: 50px;
+  border-radius: 30px;
+}
+.ridobiko-btn:hover {
+  background-color: var(--darkRed);
+  color: white;
 }
 
 /* Main CSS  */
 .filters {
   background-color: white;
-  padding: 2%;
+  padding: 2% 0%;
   font-size: 20px;
+  width: 40%;
+  border: 5px solid var(--darkRed);
+}
+.filter-text {
+  background-color: #fcafac;
+  /* background-color: var(--darkRed); */
+  background-color: rgb(139, 137, 137);
+  color: white;
+  text-align: center;
+  padding: 2% 0%;
+  margin: 0% 2%;
 }
 .bike-list-main {
   background-color: white;
@@ -203,4 +218,23 @@
 }
 #more-details-btn {
   display: flex;
+}
+.date-second {
+  color: gray;
+  border: 1px solid rgb(177, 175, 175);
+  border-radius: 3px;
+  padding: 5px 6px;
+}
+/* Sort  */
+.sort-main {
+  margin: 1%;
+  background-color: rgb(211, 208, 208);
+  padding: 1%;
+}
+.sort-item {
+  padding: 5px;
+  cursor: pointer;
+}
+.sort-item-active {
+  background-color: white;
 }

@@ -112,20 +112,8 @@
 
                 <select class="select-css-timing form-control" id="sel7" name="sellist1" >
                     <option >1,000 to 2,000</option>
-                    <option>12:30 AM</option>
-                    <option>1:00 AM</option>
-                    <option>1:30 AM</option>
-                    <option>2:00 AM</option>
-                    <option>2:30 AM</option>
-                    <option>3:00 AM</option>
-                    <option>3:30 AM</option>
-                    <option>4:00 AM</option>
-                    <option>4:30 AM</option>
-                    <option>5:00 AM</option>
-                    <option>5:30 AM</option>
-                    <option>6:00 AM</option>
-                    <option>6:30 AM</option>
-                    <option>7:00 AM</option>
+                    <option>2,000 to 3,000</option>
+                    
                 </select>
             </div>
             <div class="details-item">
@@ -136,19 +124,6 @@
                 <select class="select-css-timing form-control" id="sel7" name="sellist1" >
                     <option >Honda</option>
                     <option>Avenger</option>
-                    <option>1:00 AM</option>
-                    <option>1:30 AM</option>
-                    <option>2:00 AM</option>
-                    <option>2:30 AM</option>
-                    <option>3:00 AM</option>
-                    <option>3:30 AM</option>
-                    <option>4:00 AM</option>
-                    <option>4:30 AM</option>
-                    <option>5:00 AM</option>
-                    <option>5:30 AM</option>
-                    <option>6:00 AM</option>
-                    <option>6:30 AM</option>
-                    <option>7:00 AM</option>
                 </select>
             </div>
         </div>
@@ -236,7 +211,11 @@
                             <s class="original-price">1300</s>
                             <b class="discount-price" >₹ 1245</b>
                     </div>
-                    <button class="book-now">BOOK NOW</button>
+                    <button class="book-now">
+                        <a class="cart-btn" target="_blank" href="cart-page.php">
+                            BOOK NOW
+                        </a>
+                    </button>
                 </div>
             </div>
             <div class="more-details-section" id="more-details-1">
@@ -393,7 +372,11 @@
                             <s class="original-price">1300</s>
                             <b class="discount-price" >₹ 1245</b>
                     </div>
-                    <button class="book-now">BOOK NOW</button>
+                    <button class="book-now">
+                        <a class="cart-btn" target="_blank" href="cart-page.php">
+                            BOOK NOW
+                        </a>
+                    </button>
                 </div>
             </div>
             <div class="more-details-section" id="more-details-2">
@@ -550,7 +533,11 @@
                             <s class="original-price">1300</s>
                             <b class="discount-price" >₹ 1245</b>
                     </div>
-                    <button class="book-now">BOOK NOW</button>
+                    <button class="book-now">
+                        <a class="cart-btn" target="_blank" href="cart-page.php">
+                            BOOK NOW
+                        </a>
+                    </button>
                 </div>
             </div>
             <div class="more-details-section" id="more-details-3">

@@ -43,10 +43,7 @@
   border: 5px solid var(--darkRed);
 }
 .filter-text {
-  background-color: #fcafac;
-  /* background-color: var(--darkRed); */
-  background-color: rgb(139, 137, 137);
-  color: white;
+  background-color: rgb(211, 208, 208);
   text-align: center;
   padding: 2% 0%;
   margin: 0% 2%;
@@ -224,6 +221,14 @@
   border: 1px solid rgb(177, 175, 175);
   border-radius: 3px;
   padding: 5px 6px;
+}
+.cart-btn {
+  color: white;
+  text-decoration: none;
+}
+.cart-btn:hover {
+  color: white;
+  text-decoration: none;
 }
 /* Sort  */
 .sort-main {

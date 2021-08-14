@@ -218,8 +218,9 @@
 }
 .date-second {
   color: gray;
-  border: 1px solid rgb(177, 175, 175);
-  border-radius: 3px;
+  border: none;
+  border-bottom: 1px solid;
+  /* border-radius: 3px; */
   padding: 5px 6px;
 }
 .cart-btn {
@@ -229,6 +230,11 @@
 .cart-btn:hover {
   color: white;
   text-decoration: none;
+}
+.select-css-2 {
+  border: 1px solid transparent;
+  border-bottom: 1px solid;
+  border-radius: 0%;
 }
 /* Sort  */
 .sort-main {

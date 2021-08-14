@@ -10,7 +10,7 @@
                     <div class="details-card-text">BIKE SEARCH TYPE</div>
                 </label>
 
-                <select class="select-css form-control" id="sel4" name="sellist1" >
+                <select class="select-css-2 form-control" id="sel4" name="sellist1" >
                 <option >
                 Outstation Round Trip
                 </option>
@@ -22,7 +22,7 @@
                 <label for="sel5">
                     <div class="details-card-text">PICKUP LOCATION</div>
                 </label>
-                <select class="select-css form-control" id="sel5" name="sellist1" >
+                <select class="select-css-2 form-control" id="sel5" name="sellist1" >
                     <option >
                     Mumbai
                     </option>
@@ -51,7 +51,7 @@
                 <label for="sel6">
                     <div class="details-card-text">PICKUP TIME</div>
                 </label>
-                <select class="select-css-timing form-control" id="sel6" name="sellist1" >
+                <select class="select-css-2 form-control" id="sel6" name="sellist1" >
                     <option >12:00 AM</option>
                     <option>12:30 AM</option>
                     <option>1:00 AM</option>
@@ -85,7 +85,7 @@
                 <div class="details-card-text">DROP TIME</div>
                 </label>
 
-                <select class="select-css-timing form-control" id="sel7" name="sellist1" >
+                <select class="select-css-2 form-control" id="sel7" name="sellist1" >
                     <option >12:00 AM</option>
                     <option>12:30 AM</option>
                     <option>1:00 AM</option>
@@ -106,33 +106,33 @@
         </div>
         <div class="d-flex justify-content-between">
             <div class="details-item">
-                <label for="sel7">
+                <label for="sel8">
                 <div class="details-card-text">PRICE RANGE</div>
                 </label>
 
-                <select class="select-css-timing form-control" id="sel7" name="sellist1" >
+                <select class="select-css-2 form-control" id="sel8" name="sellist1" >
                     <option >1,000 to 2,000</option>
                     <option>2,000 to 3,000</option>
                     
                 </select>
             </div>
             <div class="details-item">
-                <label for="sel7">
+                <label for="sel9">
                 <div class="details-card-text">BIKE NAME</div>
                 </label>
 
-                <select class="select-css-timing form-control" id="sel7" name="sellist1" >
+                <select class="select-css-2 form-control" id="sel9" name="sellist1" >
                     <option >Honda</option>
                     <option>Avenger</option>
                 </select>
             </div>
         </div>
             <div class="details-item">
-                <label for="sel7">
+                <label for="sel10">
                 <div class="details-card-text">BIKE TYPE</div>
                 </label>
 
-                <select class="select-css-timing form-control" id="sel7" name="sellist1" >
+                <select class="select-css-2 form-control" id="sel10" name="sellist1" >
                     <option >Petrol</option>
                     <option >Electric Scooter</option>
                 </select>

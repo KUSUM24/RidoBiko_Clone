@@ -9,9 +9,8 @@ include "common/link.php";
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/header.css">
-    <link rel="stylesheet" href="css/first-page.css">
     <link rel="stylesheet" href="css/footer.css">
-    <link rel="stylesheet" href="css/carousel.css">
+    <link rel="stylesheet" href="css/cart.css">
 
     <title>Cart Page</title>
     
@@ -27,5 +26,6 @@ include "common/link.php";
 
     <script src="js/scroll.js"></script>
     <script src="js/location.js"></script>
+    <script src="js/cart.js"></script>
   </body>
 </html>

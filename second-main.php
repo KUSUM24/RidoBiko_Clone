@@ -26,6 +26,6 @@ include "common/link.php";
     <script src="js/location.js"></script>
     <script src="js/second-page.js"></script>
     <script src="js/sort.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js"></script>
+    <script src="js/deleteCard.js"></script>
   </body>
 </html>

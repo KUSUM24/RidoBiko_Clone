@@ -163,6 +163,7 @@
                 </div>
             </div>
         </div>
+        <hr class="hr-sort">
         <!-- Cards  -->
         <div class="main-card d-flex flex-column">
             <div class="bike-main-card d-flex">
@@ -219,7 +220,7 @@
                             <b class="discount-price" >₹ 1245</b>
                     </div>
                     <button class="book-now">
-                        <a class="cart-btn" target="_blank" href="cart-page.php">
+                        <a class="cart-btn" target="_blank" href="cart-main.php">
                             BOOK NOW
                         </a>
                     </button>
@@ -313,18 +314,40 @@
                 </div>    
                     <!-- </div> -->
         </div>
-            <div class="more-details justify-content-between" id="more-details-btn-1" onclick="getMoreDetails('more-details-1','more-details-btn-1', 'less-details-1')">
-                More Details
-                <span class="more-down-details material-icons-outlined">
-                    expand_more
-                </span>
+        <div class="more-details justify-content-between" id="more-details-btn-1" onclick="getMoreDetails('more-details-1','more-details-btn-1', 'less-details-1')">
+            More Details
+            <span class="more-down-details material-icons-outlined">
+                expand_more
+            </span>
+        </div>
+        <div class="less-details justify-content-between"id="less-details-1" onclick="getLessDetails('more-details-1','more-details-btn-1', 'less-details-1')">
+            Less Details
+            <span class="more-down-details material-icons-outlined">
+                expand_less
+            </span>
+        </div>
+        <div class="subscription d-flex" id="subscribe-card">
+            <img class="activa-card" src="images/Bikes/Activa-card.png" alt="error">
+            <div class="subscribe-inner d-flex flex-column justify-content-between w-100">
+                <div class="heading-close d-flex justify-content-between align-items-center">
+                    <div class="activa-card-heading">
+                        Introducing Ridobiko Long term subscription 
+                    </div>
+                    <div class="close-div" onclick="deleteCard('subscribe-card')">
+                        <span class="material-icons">
+                        cancel
+                        </span>
+                    </div>
+                
+                </div>
+                <div class="d-flex justify-content-between align-items-center">
+                    <div class="description-card">Get a hassle-free personal two-wheeler for 1 month or more</div>
+                    <button class="activa-card-btn">Read More</button>
+                </div>
             </div>
-            <div class="less-details justify-content-between"id="less-details-1" onclick="getLessDetails('more-details-1','more-details-btn-1', 'less-details-1')">
-                Less Details
-                <span class="more-down-details material-icons-outlined">
-                    expand_less
-                </span>
-            </div>
+        </div>
+
+
         <div class="main-card d-flex flex-column">
             <div class="bike-main-card d-flex">
                 <div class="bike-card d-flex w-100">
@@ -380,7 +403,7 @@
                             <b class="discount-price" >₹ 1245</b>
                     </div>
                     <button class="book-now">
-                        <a class="cart-btn" target="_blank" href="cart-page.php">
+                        <a class="cart-btn" target="_blank" href="cart-main.php">
                             BOOK NOW
                         </a>
                     </button>
@@ -541,7 +564,7 @@
                             <b class="discount-price" >₹ 1245</b>
                     </div>
                     <button class="book-now">
-                        <a class="cart-btn" target="_blank" href="cart-page.php">
+                        <a class="cart-btn" target="_blank" href="cart-main.php">
                             BOOK NOW
                         </a>
                     </button>

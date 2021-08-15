@@ -12,10 +12,10 @@
       integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
       crossorigin="anonymous"
       />
-      <script
+      <!-- <script
       src="https://kit.fontawesome.com/yourcode.js"
       crossorigin="anonymous"
-    ></script>
+    ></script> -->
     <script
       src="https://use.fontawesome.com/releases/v5.15.3/js/all.js"
       data-auto-replace-svg="nest"
@@ -27,7 +27,6 @@
   ></script>
   <!-- <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css"> -->
   <!-- <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script> -->
-  <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
   <script
     src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
     integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"

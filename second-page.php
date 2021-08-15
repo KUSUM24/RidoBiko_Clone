@@ -3,9 +3,9 @@
 <div class="d-flex">
     <!-- Filters  -->
     <div class="filters">
-        <div class="filter-text">FILTERS</div>
-        <div class="d-flex justify-content-between">
-            <div class="details-item">
+        <!-- <div class="filter-text">FILTERS</div> -->
+        <div class=" date-time-div d-flex justify-content-around">
+            <div class="details-item ">
                 <label for="sel4">
                     <div class="details-card-text">BIKE SEARCH TYPE</div>
                 </label>
@@ -18,7 +18,7 @@
             
             </select>      
             </div>
-            <div class="details-item">
+            <div class="details-item ">
                 <label for="sel5">
                     <div class="details-card-text">PICKUP LOCATION</div>
                 </label>
@@ -37,10 +37,10 @@
                 </select>   
             </div>
         </div>
-        <div class="d-flex justify-content-between">
+        <div class="date-time-div d-flex justify-content-around">
             <div class="details-item second-departure">
                 <div class="details-card-text"> 
-                    <div class="d-flex align-items-center">
+                    <div class="d-flex align-items-center" >
                         DEPARTURE
                         <span class="material-icons-outlined"> keyboard_arrow_down </span>
                     </div>
@@ -70,7 +70,7 @@
                 </select>
             </div>
         </div>
-        <div class="d-flex justify-content-between">
+        <div class="date-time-div d-flex justify-content-around">
             <div class="details-item second-return">
                 <div class="details-card-text"> 
                     <div class="d-flex align-items-center">
@@ -104,8 +104,13 @@
                 </select>
             </div>  
         </div>
-        <div class="d-flex justify-content-between">
-            <div class="details-item">
+        <div class="d-flex justify-content-center">
+            <button class="search-btn" type="submit">
+                Search
+            </button>
+        </div>
+        <div class="filter-bottom d-flex flex-column justify-content-between">
+            <div class="details-item-bottom">
                 <label for="sel8">
                 <div class="details-card-text">PRICE RANGE</div>
                 </label>
@@ -116,7 +121,8 @@
                     
                 </select>
             </div>
-            <div class="details-item">
+            <hr class="hr-filter">
+            <div class="details-item-bottom">
                 <label for="sel9">
                 <div class="details-card-text">BIKE NAME</div>
                 </label>
@@ -126,8 +132,8 @@
                     <option>Avenger</option>
                 </select>
             </div>
-        </div>
-            <div class="details-item">
+            <hr class="hr-filter">
+            <div class="details-item-bottom">
                 <label for="sel10">
                 <div class="details-card-text">BIKE TYPE</div>
                 </label>
@@ -137,6 +143,7 @@
                     <option >Electric Scooter</option>
                 </select>
             </div>
+        </div>
     </div>
     <div class="d-flex flex-column bike-list-main w-100">
         <!-- Sort By  -->

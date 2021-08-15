@@ -5,7 +5,7 @@
     </div>
     <img src="images/Bikes/Bike_Second.png" alt="Bike-image">
     <div class="name-bike">
-        AVENGER
+        AVENGER <span class="helmets">(2 Helmets)</span>
     </div>
     <hr class="hr-summary">
     <div class="pick-drop d-flex align-items-center justify-content-between">
@@ -55,6 +55,47 @@
     </div>
 </div>
 <div class="checkout d-flex flex-column">
-    CHECKOUT
+    <div class="px-4">
+        CHECKOUT
+    </div>
+    <hr class="hr-checkout">
+    <div class="d-flex justify-content-between px-4">
+        <div>Rental Fee</div>
+        <div>₹ 2,200</div>
+    </div>
+    <hr class="hr-checkout">
+    <a class="view-offers" href="#">
+        <div class="d-flex justify-content-between px-4">
+            <div class="d-flex justify-content-between align-items-center">
+                <span class="material-icons">
+                stars
+                </span>
+                <div class="mx-2">View Offers</div>
+            </div>
+            <span class="material-icons">
+            chevron_right
+            </span>
+        </div>
+    </a>
+    <hr class="hr-checkout">
+    <div class="d-flex justify-content-between px-4">
+        <div>CGST(14%)</div>
+        <div>₹ 50</div>
+    </div>
+    <hr class="hr-checkout">
+    <div class="d-flex justify-content-between px-4">
+        <div>SGST(14%)</div>
+        <div>₹ 60</div>
+    </div>
+    <hr class="hr-checkout">
+    <div class="d-flex justify-content-between px-4">
+        <div>Security Deposit</div>
+        <div>₹ 0</div>
+    </div>
+    <hr class="hr-checkout">
+    <div class="d-flex justify-content-between px-4">
+        <div>Total Payable Amount</div>
+        <div>₹ 2,500</div>
+    </div>
 </div>
 </div>

@@ -6,17 +6,24 @@
   margin: 2%;
   width: 20%;
 }
-.checkout {
-  background-color: white;
-  border: 1px solid rgb(153, 151, 151);
-  padding: 2%;
-  width: 50%;
-  margin: 2%;
-  margin-left: 0%;
-}
 .hr-summary {
   width: 100%;
   border-top: 1px solid rgba(128, 128, 128, 0.623);
 }
 
 /* Checkout  */
+.checkout {
+  background-color: white;
+  border: 1px solid rgb(153, 151, 151);
+  padding: 1% 0%;
+  width: 50%;
+  margin: 2%;
+  margin-left: 0%;
+}
+.hr-checkout {
+  width: 100%;
+  border-top: 1px solid rgba(128, 128, 128, 0.623);
+}
+.view-offers {
+  color: green !important;
+}

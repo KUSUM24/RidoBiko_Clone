@@ -5,6 +5,7 @@
   padding: 2%;
   margin: 2%;
   width: 20%;
+  /* flex: 1; */
 }
 .hr-summary {
   width: 100%;
@@ -13,17 +14,28 @@
 
 /* Checkout  */
 .checkout {
-  background-color: white;
-  border: 1px solid rgb(153, 151, 151);
-  padding: 1% 0%;
   width: 50%;
   margin: 2%;
   margin-left: 0%;
+  /* flex: 4; */
+  align-self: flex-start;
+}
+.checkout-box {
+  background-color: white;
+  border: 1px solid rgb(153, 151, 151);
 }
 .hr-checkout {
   width: 100%;
   border-top: 1px solid rgba(128, 128, 128, 0.623);
+  margin: 0%;
 }
 .view-offers {
   color: green !important;
+  background-color: rgb(223, 252, 223);
+}
+.view-offers:hover {
+  text-decoration: none;
+}
+.payment-button {
+  width: 25%;
 }

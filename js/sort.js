@@ -17,7 +17,3 @@ const getSortActive = (id) => {
 
   console.log("ccked");
 };
-const deleteCard = () => {
-  document.getElementById("subscribe-card").style.display = "none";
-  console.log("card delete");
-};

@@ -6,7 +6,7 @@ let year = fullYear.charAt(2) + fullYear.charAt(3);
 
 let dateArr = today.toDateString().split(" ");
 let dateReturn = dateArr[2] + " ";
-let finalDate = dateArr[1] + "'" + year + ",    ";
+let finalDate = dateArr[1] + "'" + year + ", ";
 console.log(finalDate);
 // Date
 document.getElementById("pick-date").innerHTML = dateReturn;

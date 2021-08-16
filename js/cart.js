@@ -17,8 +17,8 @@ document.getElementById("drop-month-year").innerHTML = finalDate;
 
 let dayIndex = today.getDay();
 let day = days[dayIndex];
-console.log(dateReturn, finalDate, day.toUpperCase());
+console.log(dateReturn, finalDate, day);
 
 // Day
-document.getElementById("pick-day").innerHTML = day.toUpperCase();
-document.getElementById("drop-day").innerHTML = day.toUpperCase();
+document.getElementById("pick-day").innerHTML = day;
+document.getElementById("drop-day").innerHTML = day;

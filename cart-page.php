@@ -5,7 +5,10 @@
         </div>
         <img src="images/Bikes/Bike_Second.png" alt="Bike-image">
         <div class="name-bike">
-            AVENGER <span class="helmets">(2 Helmets)</span>
+            <b>
+                AVENGER
+            </b>
+            , Bajaj
         </div>
         <hr class="hr-summary">
         <div class="pick-drop d-flex align-items-center justify-content-between">
@@ -13,16 +16,28 @@
                 <div id="pick-time">7:00 PM</div>
                 <div class="pick-date-div d-flex">
                     <div id="pick-date"></div>
+                    &nbsp;
                     <div id="pick-month-year"></div>
+                    &nbsp;
                     <div id="pick-day"></div>
                 </div>
             </div>
-            <div>To</div>
+            <div class="d-flex align-items-center">
+                <span class="material-icons-outlined">
+                horizontal_rule
+                </span>
+                To 
+                <span class="material-icons-outlined">
+                horizontal_rule
+                </span>
+            </div>
             <div class="drop-date-time">
                 <div id="drop-time">7:00 PM</div>
-                <div class="drop-date-div d-flex">
-                    <div id="drop-date"></div>
+                <div class="drop-date-div d-flex justify-content-between">
+                    <div id="drop-date"></div>  
+                    &nbsp;
                     <div id="drop-month-year"></div>
+                    &nbsp;
                     <div id="drop-day"></div>
                 </div>
             </div>
@@ -75,7 +90,7 @@
                         <span class="material-icons">
                             stars
                         </span>
-                        <div class="mx-2">View Offers</div>
+                        <div class="view-offers-text mx-2">View Offers</div>
                     </div>
                     <span class="material-icons">
                     chevron_right
@@ -100,7 +115,7 @@
             </div>
         </div>
         <div class="d-flex justify-content-center">
-            <button class="payment-button">Proceed To Pay</button>
+            <button class="payment-button bg-success">Proceed To Pay</button>
         </div>
     </div>
 </div>

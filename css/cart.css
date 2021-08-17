@@ -28,12 +28,12 @@
 }
 .hr-checkout {
   width: 100%;
-  border-top: 1px solid rgba(128, 128, 128, 0.623);
+  border-top: 1px solid rgba(201, 198, 198, 0.623);
   margin: 0%;
 }
 .view-offers {
   color: green !important;
-  background-color: rgb(223, 252, 223);
+  background-color: rgb(233, 250, 233);
 }
 .view-offers:hover {
   text-decoration: none;
@@ -53,4 +53,7 @@
 }
 .view-offers-text {
   text-decoration: underline;
+}
+.total-amt-div {
+  background-color: rgb(233, 250, 233);
 }

@@ -109,8 +109,8 @@
             </div>
             
             <hr class="hr-checkout">
-            <div class="d-flex justify-content-between px-4 py-3">
-                <div>Total Payable Amount</div>
+            <div class="total-amt-div d-flex justify-content-between px-4 py-3">
+                <div class="total-amt">Total Payable Amount</div>
                 <div>₹ 2,500</div>
             </div>
         </div>

@@ -13,7 +13,7 @@
         <hr class="hr-summary">
         <div class="pick-drop d-flex align-items-center justify-content-between">
             <div class="pick-date-time">
-                <div id="pick-time">7:00 PM</div>
+                <div id="pick-time time-text">7:00 PM</div>
                 <div class="pick-date-div d-flex">
                     <div id="pick-date"></div>
                     &nbsp;
@@ -32,7 +32,7 @@
                 </span>
             </div>
             <div class="drop-date-time">
-                <div id="drop-time">7:00 PM</div>
+                <div id="drop-time time-text">7:00 PM</div>
                 <div class="drop-date-div d-flex justify-content-between">
                     <div id="drop-date"></div>  
                     &nbsp;
@@ -48,26 +48,26 @@
             location_on
             </span>
             <div class="location-summary">
-                Mumbai, Terminal 
+                Mumbai, Terminal  
             </div>
             <a href=""> (View Map)</a>
         </div>
         <hr class="hr-summary">
         <div>
-            <div class="d-flex justify-content-between">
-                <div>Speed Limit</div>
+            <div class="d-flex justify-content-between mb-2">
+                <div>Speed Limit (?)</div>
                 <div>50 Km/Hr</div>
             </div>
-            <div class="d-flex justify-content-between">
-                <div>KM Limit</div>
+            <div class="d-flex justify-content-between mb-2">
+                <div>KM Limit (?)</div>
                 <div>72.0 Km</div>
             </div>
-            <div class="d-flex justify-content-between">
-                <div>Excess Km</div>
+            <div class="d-flex justify-content-between mb-2">
+                <div>Excess Km (?)</div>
                 <div>₹ 18/Km</div>
             </div>
             <div class="d-flex justify-content-between">
-                <div>Security Deposit</div>
+                <div>Security Deposit (?)</div>
                 <div>₹ 0</div>
             </div>
             
@@ -75,7 +75,7 @@
     </div>
     <div class="checkout d-flex flex-column">
         <div class="checkout-box d-flex flex-column">
-            <div class="px-4 py-3">
+            <div class="checkout-text px-4 py-3">
                 CHECKOUT
             </div>
             <hr class="hr-checkout">

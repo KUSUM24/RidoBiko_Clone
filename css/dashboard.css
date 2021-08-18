@@ -1,0 +1,78 @@
+.container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 12px;
+}
+.left-body {
+  width: 25%;
+  border: 1px solid rgba(0, 0, 0, 0.308);
+  background-color: white;
+}
+.right-body {
+  width: 75%;
+  border: 1px solid rgba(0, 0, 0, 0.377);
+  border-left: none;
+}
+/* left body */
+.section-userinfo {
+  display: flex;
+  margin-top: 20px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.section-userinfo .content {
+  margin: 2px 0px;
+}
+.section-userinfo .name {
+  font-size: 15px;
+}
+.section-userinfo .email {
+  padding: 0px 20px 5px 20px;
+  /* border-bottom: 1px solid #323a44; */
+}
+.userinfo-hr {
+  border: 0;
+  clear: both;
+  display: block;
+  width: 80%;
+  margin: 0% 1rem;
+  background-color: rgba(0, 0, 0, 0.1);
+  height: 1px;
+}
+.status--container {
+  margin: 10px;
+}
+.status--container span {
+  margin-right: 5px;
+}
+.section-balance {
+  margin-bottom: 10px;
+}
+.section-navbar .item {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  font-size: 15px;
+  color: #323a44;
+}
+/* right-body */
+.card-body {
+  padding-top: 1rem;
+}
+.heading {
+  padding: 1rem 0%;
+  display: flex;
+  font-size: 25px;
+  justify-content: center;
+  border-bottom: 1px solid #ccc;
+}
+.account-form--heading {
+  font-size: 20px;
+  padding: 2px;
+  margin: 10px;
+  border-bottom: 1px solid #ccc;
+}
+.permanent-address {
+  margin: 2% 2% 3% 2%;
+}

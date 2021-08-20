@@ -19,7 +19,7 @@ include "common/link.php";
     <!-- Header HTML  -->
     <?php include "common/header.php"; ?>
     <!-- Main Section  -->
-    <?php include "dashboard-page.html"; ?>
+    <?php include "dashboard-page.php"; ?>
     <!-- Footer -->
     <?php include "common/footer.php"; ?>
 

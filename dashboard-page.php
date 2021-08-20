@@ -108,7 +108,7 @@
               <input
                 class="form-control size-13"
                 name="address-2"
-                placeholder="landmark, Street Name"
+                placeholder="Landmark, Street Name"
                 type="text"
               />
             </div>
@@ -202,6 +202,9 @@
             </div>
           </div>
         </div>
+      </div>
+      <div class="submit-dashboard">
+        <button type="submit" class="submit-btn">UPDATE </button>
       </div>
     </div>
   </div>

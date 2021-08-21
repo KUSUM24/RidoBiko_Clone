@@ -56,6 +56,18 @@
   font-size: 15px;
   color: #323a44;
 }
+#numberStatus {
+  color: rgb(120, 182, 67);
+  font-size: 16px;
+}
+.section-status .active-icon {
+  color: rgb(120, 182, 67);
+  font-size: 16px;
+}
+.section-status .inactive-icon {
+  color: rgb(190, 50, 50);
+  font-size: 16px;
+}
 /* right-body */
 .card-body {
   padding-top: 1rem;

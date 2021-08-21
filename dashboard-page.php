@@ -1,7 +1,7 @@
 <div class="container d-flex">
   <div class="left-body d-flex flex-column">
     <div class="section-userinfo">
-      <img src="assets/img/userinfo.png" alt="userinfo" />
+      <img src="images/userinfo.png" alt="userinfo" />
       <div class="name content"><b>John doe</b></div>
       <div class="number content">9999988888</div>
       <div class="email content">johndoe@gmail.com</div>
@@ -9,46 +9,45 @@
     <hr class="userinfo-hr" />
     <div class="section-status">
       <div class="status--container d-flex align-items-center">
-        <span
-          class="tab_icons fa fl fa-times-circle-o"
-          style="color: rgb(190, 50, 50)"
-        ></span>
+        <span class="material-icons-outlined inactive-icon" id="documentStatus">
+        highlight_off
+        </span>
         <div>Profile Document</div>
       </div>
       <div class="status--container d-flex align-items-center">
-        <span
-          class="tab_icons fa fa-check-circle-o fl"
-          id="numberStatus"
-          style="color: rgb(120, 182, 67)"
-        ></span>
+        <span class="material-icons-outlined active-icon" id="numberStatus">
+          check_circle_outline
+        </span>
         <div>Mobile Number</div>
       </div>
       <div class="status--container d-flex align-items-center">
-        <span
-          class="tab_icons fa fl fa-times-circle-o"
-          style="color: rgb(190, 50, 50)"
-        ></span>
+        <span class="material-icons-outlined inactive-icon" id="paymentStatus">
+          highlight_off
+        </span>
         <div>Payment Wallet</div>
       </div>
       <hr />
     </div>
     <div class="section-balance">
-      <div class="d-flex">
-        <img src="assets/img/creds.jpg" width="12%" height="10%" alt="cred" />
-        <div class="h5 mx-2">₹ 0</div>
-      </div>
-      <div class="d-flex justify-content-around">
-        <div>Credits Balance</div>
-        <div>Show History</div>
+      <div class="d-flex align-items-start px-2">
+        <img src="images/creds.png" width="12%" height="10%" alt="cred" />
+        <div class="d-flex flex-column w-100">
+          <div class="h5 mx-2 my-0">₹ 0</div>
+          <div class="d-flex justify-content-around w-100">
+            <div>Credits Balance</div>
+            <div>Show History</div>
+          </div>   
+        </div>
       </div>
       <!-- <hr class="balance-hr" /> -->
     </div>
     <div class="section-navbar">
-      <li class="item">My Bookings</li>
-      <li class="item">Saved Cards</li>
-      <li class="item">Account</li>
-      <li class="item">Profile Verification</li>
-      <li class="item">Co-driver</li>
+      <li class="item">Live Orders</li>
+      <li class="item">My Booking History</li>
+      <li class="item">Raise Ticket</li>
+      <li class="item">Refer and Earn</li>
+      <li class="item">My Profile</li>
+      <li class="item">Security Deposit</li>
     </div>
   </div>
   <div class="right-body card">

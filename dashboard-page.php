@@ -42,22 +42,23 @@
       <!-- <hr class="balance-hr" /> -->
     </div>
     <div class="section-navbar">
-      <li class="item">Live Orders</li>
-      <li class="item">My Booking History</li>
-      <li class="item">Raise Ticket</li>
-      <li class="item">Refer and Earn</li>
-      <li class="item">My Profile</li>
-      <li class="item">Security Deposit</li>
+      <li class="item" onclick="getRightSection('')">Live Orders</li>
+      <li class="item" onclick="getRightSection('')">My Booking History</li>
+      <li class="item" onclick="getRightSection('')">Raise Ticket</li>
+      <li class="item" onclick="getRightSection('')">Refer and Earn</li>
+      <li class="item" onclick="getRightSection('account-main')">My Profile</li>
+      <li class="item" onclick="getRightSection('verify-main')">Profile Verification</li>
+      <li class="item" onclick="getRightSection('')">Security Deposit</li>
     </div>
   </div>
-  <!-- <div class="d-flex flex-column"> -->
-    <div class="right-body card w-100">
-      <div class="heading">My ACCOUNT</div>
+  <div class="right-body card w-100">
+    <div class="account-main flex-column h-100" style="display:none" id="account-main">
+      <div class="heading">MY PROFILE</div>
       <div class="card-body">
         <div class="account-form card">
           <div class="account-form--heading">Account Details</div>
           <div class="row form-group px-3 align-items-center">
-            <div class="col-sm-2 p-t5">Name</div>
+            <label class="col-sm-2 p-t5 m-0">Name</label>
             <div class="col-sm-4">
               <input
               class="form-control size-13"
@@ -68,7 +69,7 @@
             </div>
           </div>
           <div class="row form-group px-3 align-items-center">
-            <div class="col-sm-2 p-t5">Email</div>
+            <label class="col-sm-2 p-t5">Email</label>
             <div class="col-sm-4">
               <input
               class="form-control size-13"
@@ -79,7 +80,7 @@
             </div>
           </div>
           <div class="row form-group px-3 align-items-center">
-            <div class="col-sm-2 p-t5">Mobile</div>
+            <label class="col-sm-2 p-t5">Mobile</label>
             <div class="col-sm-4">
               <input
               class="form-control size-13"
@@ -92,7 +93,7 @@
           <div class="account-form--heading">Current Address</div>
           <div class="d-flex">
             <div class="row form-group px-3 align-items-center w-100">
-              <div class="col-sm-4 p-t5">Address 1</div>
+              <label class="col-sm-4 p-t5">Address 1</label>
               <div class="col-8">
                 <input
                 class="form-control size-13"
@@ -103,7 +104,7 @@
               </div>
             </div>
             <div class="row form-group px-3 align-items-center w-100">
-              <div class="col-sm-4 p-t5">Address 2</div>
+              <label class="col-sm-4 p-t5">Address 2</label>
               <div class="col-8">
                 <input
                 class="form-control size-13"
@@ -116,7 +117,7 @@
           </div>
           <div class="d-flex">
             <div class="row form-group px-3 align-items-center w-100">
-              <div class="col-sm-4 p-t5">City</div>
+              <label class="col-sm-4 p-t5">City</label>
               <div class="col-8">
                 <input
                 class="form-control size-13"
@@ -127,7 +128,7 @@
               </div>
             </div>
             <div class="row form-group px-3 align-items-center w-100">
-              <div class="col-sm-4 p-t5">Zipcode</div>
+              <label class="col-sm-4 p-t5">Zipcode</label>
               <div class="col-8">
                 <input
                 class="form-control size-13"
@@ -155,7 +156,7 @@
             <div class="account-form--heading">Permanent Address</div>
             <div class="d-flex">
               <div class="row form-group px-3 align-items-center w-100">
-                <div class="col-sm-4 p-t5">Address 1</div>
+                <label class="col-sm-4 p-t5">Address 1</label>
                 <div class="col-8">
                   <input
                   class="form-control size-13"
@@ -166,7 +167,7 @@
                 </div>
               </div>
               <div class="row form-group px-3 align-items-center w-100">
-                <div class="col-sm-4 p-t5">Address 2</div>
+                <label class="col-sm-4 p-t5">Address 2</label>
                 <div class="col-8">
                   <input
                   class="form-control size-13"
@@ -179,7 +180,7 @@
             </div>
             <div class="d-flex">
               <div class="row form-group px-3 align-items-center w-100">
-                <div class="col-sm-4 p-t5">City</div>
+                <label class="col-sm-4 p-t5">City</label>
                 <div class="col-8">
                   <input
                     class="form-control size-13"
@@ -190,7 +191,7 @@
                   </div>
               </div>
               <div class="row form-group px-3 align-items-center w-100">
-                <div class="col-sm-4 p-t5">Zipcode</div>
+                <label class="col-sm-4 p-t5">Zipcode</label>
                 <div class="col-8">
                   <input
                   class="form-control size-13"
@@ -208,7 +209,73 @@
         </div>
       </div>
     </div>
-  <!-- </div> -->
+    <div class="verify-main flex-column h-100" id="verify-main">
+      <div class="heading">PROFILE VERIFICATION</div>
+      <div class="card-body">
+        <div class="account-form card">
+          <div class="account-form--heading">Aadhar Card</div>
+          <div class="row form-group px-3 align-items-center">
+            <label class="col-sm-2 p-t5 m-0" for="aadhar-front">Front Side</label>
+            <div class="col-sm-4">
+              <input
+              class=" size-13"
+              name="aadhar-front"
+              id="aadhar-front"
+              accept=".png,.jpg,.jpeg"
+              placeholder="John Doe"
+              type="file"
+              />
+            </div>
+          </div>
+          <div class="row form-group px-3 align-items-center">
+            <label class="col-sm-2 p-t5 m-0" for="aadhar-back">Back Side</label>
+            <div class="col-sm-4">
+              <input
+              class=" size-13"
+              name="aadhar-back"
+              id="aadhar-back"
+              accept=".png,.jpg,.jpeg"
+              placeholder="John Doe"
+              type="file"
+              />
+            </div>
+          </div>
+          <div class="account-form--heading">Pan Card</div>
+          <div class="row form-group px-3 align-items-center">
+            <label class="col-sm-2 p-t5 m-0" for="pancard">Pan Card</label>
+            <div class="col-sm-4">
+              <input
+              class=" size-13"
+              name="pancard"
+              id="pancard"
+              accept=".png,.jpg,.jpeg"
+              placeholder="Pan Card"
+              type="file"
+              />
+            </div>
+          </div>
+          <div class="account-form--heading">Driving License</div>
+          <div class="row form-group px-3 align-items-center">
+            <label class="col-sm-2 p-t5 m-0" for="license">Driving License</label>
+            <div class="col-sm-4">
+              <input
+              class=" size-13"
+              name="license"
+              id="license"
+              accept=".png,.jpg,.jpeg"
+              placeholder="Driving License"
+              type="file"
+              />
+            </div>
+          </div>
+          
+        </div>
+        <div class="submit-dashboard">
+          <button type="submit" class="submit-btn">UPDATE </button>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
 <script>
   const permanentAddress = () => {

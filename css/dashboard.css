@@ -4,12 +4,12 @@
   font-size: 15px;
 }
 .left-body {
-  width: 40%;
+  width: 35%;
   border: 1px solid rgba(0, 0, 0, 0.308);
   background-color: white;
 }
 .right-body {
-  width: 75%;
+  width: 65%;
   border: 1px solid rgba(0, 0, 0, 0.377);
   border-left: none;
 }
@@ -67,6 +67,9 @@
 .section-status .inactive-icon {
   color: rgb(190, 50, 50);
   font-size: 16px;
+}
+.section-navbar .active-status {
+  border: 2px solid red;
 }
 /* right-body */
 .card-body {

@@ -42,13 +42,13 @@
       <!-- <hr class="balance-hr" /> -->
     </div>
     <div class="section-navbar">
-      <li class="item" onclick="getRightSection('')">Live Orders</li>
-      <li class="item" onclick="getRightSection('')">My Booking History</li>
-      <li class="item" onclick="getRightSection('')">Raise Ticket</li>
-      <li class="item" onclick="getRightSection('')">Refer and Earn</li>
-      <li class="item" onclick="getRightSection('account-main')">My Profile</li>
-      <li class="item" onclick="getRightSection('verify-main')">Profile Verification</li>
-      <li class="item" onclick="getRightSection('')">Security Deposit</li>
+      <li class="item" id="item-1" onclick="getRightSection('','item-1')">Live Orders</li>
+      <li class="item" id="item-2" onclick="getRightSection('','item-2')">My Booking History</li>
+      <li class="item" id="item-3" onclick="getRightSection('','item-3')">Raise Ticket</li>
+      <li class="item" id="item-4" onclick="getRightSection('','item-4')">Refer and Earn</li>
+      <li class="item" id="item-5" onclick="getRightSection('account-main','item-5')">My Profile</li>
+      <li class="item" id="item-6" onclick="getRightSection('verify-main','item-6')">Profile Verification</li>
+      <li class="item" id="item-7" onclick="getRightSection('','item-7')">Security Deposit</li>
     </div>
   </div>
   <div class="right-body card w-100">
@@ -278,15 +278,5 @@
   </div>
 </div>
 <script>
-  const permanentAddress = () => {
-    const checkBox = document.getElementById("permanentAddress");
-    const permanentAddressForm = document.getElementById(
-      "permanentAddressForm"
-    );
-    if (checkBox.checked == true) {
-      permanentAddressForm.style.display = "none";
-    } else {
-      permanentAddressForm.style.display = "block";
-    }
-  };
+  
 </script>

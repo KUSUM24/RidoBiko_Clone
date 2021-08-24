@@ -209,7 +209,7 @@
         </div>
       </div>
     </div>
-    <div class="verify-main flex-column h-100" id="verify-main">
+    <div class="verify-main flex-column h-100" style="display:none" id="verify-main">
       <div class="heading">PROFILE VERIFICATION</div>
       <div class="card-body">
         <div class="account-form card">
@@ -272,6 +272,19 @@
         </div>
         <div class="submit-dashboard">
           <button type="submit" class="submit-btn">UPDATE </button>
+        </div>
+      </div>
+    </div>
+    <div class="refer-main flex-column h-100"  id="verify-main">
+      <div class="heading">REFER AND EARN</div>
+      <div class="card-body">
+        <div class="account-form card">
+          <div class="account-form--heading">Refer & Earn</div>
+          <div class="referral-div d-flex flex-column align-items-center justify-content-center">
+            <img class="referral-img" src="images/referral.jpg" alt="Refer and Earn">
+            <div class="referral-heading">Invite Friends and get Cashback upto ₹99</div>
+            <div class="referral-btn btn btn-dark">Coming Soon</div>
+          </div>
         </div>
       </div>
     </div>

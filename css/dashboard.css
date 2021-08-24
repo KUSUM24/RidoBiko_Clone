@@ -111,3 +111,17 @@
 .verify-main {
   display: flex;
 }
+/* Refer And Earn  */
+.referral-div {
+  padding-bottom: 3%;
+}
+.referral-img {
+  width: 80% !important;
+  /* padding-top: 2%; */
+}
+.referral-heading {
+  font-size: 240%;
+  font-weight: 600;
+  color: red;
+  padding: 2%;
+}

@@ -42,13 +42,12 @@
       <!-- <hr class="balance-hr" /> -->
     </div>
     <div class="section-navbar">
-      <li class="item" id="item-1" onclick="getRightSection('','item-1')">Live Orders</li>
-      <li class="item" id="item-2" onclick="getRightSection('','item-2')">My Booking History</li>
-      <li class="item" id="item-3" onclick="getRightSection('','item-3')">Raise Ticket</li>
-      <li class="item" id="item-4" onclick="getRightSection('','item-4')">Refer and Earn</li>
-      <li class="item" id="item-5" onclick="getRightSection('account-main','item-5')">My Profile</li>
-      <li class="item" id="item-6" onclick="getRightSection('verify-main','item-6')">Profile Verification</li>
-      <li class="item" id="item-7" onclick="getRightSection('','item-7')">Security Deposit</li>
+      <li class="item" id="item-1" onclick="getRightSection('bookings-main','item-1')">My Bookings</li>
+      <li class="item" id="item-2" onclick="getRightSection('ticket-main','item-2')">Raise Ticket</li>
+      <li class="item" id="item-3" onclick="getRightSection('refer-main','item-3')">Refer and Earn</li>
+      <li class="item" id="item-4" onclick="getRightSection('account-main','item-4')">My Profile</li>
+      <li class="item" id="item-5" onclick="getRightSection('verify-main','item-5')">Profile Verification</li>
+      <li class="item" id="item-6" onclick="getRightSection('deposit-main','item-6')">Security Deposit</li>
     </div>
   </div>
   <div class="right-body card w-100">
@@ -275,7 +274,7 @@
         </div>
       </div>
     </div>
-    <div class="refer-main flex-column h-100"  id="verify-main">
+    <div class="refer-main flex-column h-100" style="display:none" id="refer-main">
       <div class="heading">REFER AND EARN</div>
       <div class="card-body">
         <div class="account-form card">
@@ -284,6 +283,47 @@
             <img class="referral-img" src="images/referral.jpg" alt="Refer and Earn">
             <div class="referral-heading">Invite Friends and get Cashback upto ₹99</div>
             <div class="referral-btn btn btn-dark">Coming Soon</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="bookings-main flex-column h-100" style="display:none"  id="bookings-main">
+      <div class="heading">MY BOOKINGS</div>
+      <div class="card-body">
+        <div class="account-form card">
+          <div class="booking--heading">
+            <div class="bookings-nav d-flex justify-content-around">
+              <div class="item">
+                LIVE BOOKINGS
+              </div>
+              <div class="item">
+                BOOKING HISTORY
+              </div>
+              <div class="item">
+                SUBSCRIPTION
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    <div class="deposit-main flex-column h-100" style="display:none" id="deposit-main">
+      <div class="heading">Security Deposit</div>
+      <div class="card-body">
+        <div class="account-form card">
+          <div class="deposit--heading">
+            Deposit
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="ticket-main flex-column h-100" id="ticket-main">
+      <div class="heading">Raise Ticket</div>
+      <div class="card-body">
+        <div class="account-form card">
+          <div class="ticket--heading">
+            ticket
           </div>
         </div>
       </div>

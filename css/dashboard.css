@@ -55,6 +55,10 @@
   padding: 10px;
   font-size: 15px;
   color: #323a44;
+  cursor: pointer;
+}
+.section-navbar .item :hover {
+  text-decoration: underline;
 }
 #numberStatus {
   color: rgb(120, 182, 67);
@@ -124,4 +128,17 @@
   font-weight: 600;
   color: red;
   padding: 2%;
+}
+/* Bookings Section */
+.booking--heading {
+  margin: 10px;
+  border-bottom: 1px solid #ccc;
+  color: rgb(85, 83, 83);
+}
+.bookings-nav .item {
+  border-bottom: 2px solid red;
+  padding: 0 3%;
+  padding-bottom: 5px;
+  margin-bottom: -1px;
+  /* font-size: 100%; */
 }

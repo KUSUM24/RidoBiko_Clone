@@ -146,3 +146,16 @@
   margin-bottom: -1px;
   /* font-size: 100%; */
 }
+/* Deposits Section  */
+.deposit-main .btn {
+  background-color: rgb(172, 171, 170);
+}
+.deposit-body .card {
+  width: 32%;
+}
+#card-1 {
+  border-bottom: 3px solid blue;
+}
+.deposit-amt {
+  font-size: 200%;
+}

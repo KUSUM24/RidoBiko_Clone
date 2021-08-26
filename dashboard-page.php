@@ -309,24 +309,83 @@
       </div>
     </div>
     <div class="deposit-main flex-column h-100"  id="deposit-main">
-      <div class="heading">Security Deposit</div>
-      <div class="card-body d-flex">
-        <div class="card">
-          <div class="deposit--heading card-header">
-            Deposit
+      <div class="deposit-heading heading">Security Deposit</div>
+      <div class="deposit-body card-body d-flex justify-content-between">
+        <div class="card" id="card-1">
+          <div class="card-body">
+            <div class="deposit--heading card-tite">
+              ACTIVE DEPOSIT
+            </div>
+            <div class="card-text deposit-amt">
+              ₹360
+            </div>
+            <hr class="deposit-hr">
+            <div class="card-text">
+              This includes the active deposit you have in your account
+            </div>
+            <a href="#" class="btn bg-primary text-white mt-2">Active Deposit</a>
           </div>
         </div>
-        <div class="card">
-          <div class="deposit--heading">
-            Deposit
+        <div class="card" id="card-2">
+        <div class="card-body">
+            <div class="deposit--heading card-tite">
+              ADD DEPOSIT
+            </div>
+            <div class="card-text deposit-amt">
+              ₹360
+            </div>
+            <hr class="deposit-hr">
+            <div class="card-text">
+              This includes the amount you want to add to your current account
+            </div>
+            <a href="#" class="btn bg-success text-white mt-2">Add Deposit</a>
           </div>
         </div>
-        <div class="card">
-          <div class="deposit--heading">
-            Deposit
+        <div class="card" id="card-3">
+        <div class="card-body d-flex flex-column justify-content-between">
+            <div class="deposit--heading card-tite">
+              WITHDRAW DEPOSIT
+            </div>
+            <div class="card-text deposit-amt">
+              ₹360
+            </div>
+            <hr class="deposit-hr w-100">
+            <div class="card-text">
+              This includes the amount you want to withdraw from your account 
+            </div>
+            <a href="#" class="btn bg-dark text-white mt-2">Withdraw Deposit</a>
           </div>
         </div>
       </div>
+      <table class="table table-hover">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">First</th>
+            <th scope="col">Last</th>
+            <th scope="col">Handle</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>@mdo</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Jacob</td>
+            <td>Thornton</td>
+            <td>@fat</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td colspan="2">Larry the Bird</td>
+            <td>@twitter</td>
+          </tr>
+        </tbody>
+      </table>
     </div>
     <div class="ticket-main flex-column h-100" style="display:none" id="ticket-main">
       <div class="heading">Raise Ticket</div>

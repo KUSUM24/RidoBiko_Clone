@@ -7,6 +7,7 @@
   width: 35%;
   border: 1px solid rgba(0, 0, 0, 0.308);
   background-color: white;
+  padding: 2% 0%;
 }
 .right-body {
   width: 65%;
@@ -56,6 +57,9 @@
   font-size: 15px;
   color: #323a44;
   cursor: pointer;
+}
+#item-6 {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 .section-navbar .item :hover {
   text-decoration: underline;

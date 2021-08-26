@@ -308,17 +308,27 @@
         </div>
       </div>
     </div>
-    <div class="deposit-main flex-column h-100" style="display:none" id="deposit-main">
+    <div class="deposit-main flex-column h-100"  id="deposit-main">
       <div class="heading">Security Deposit</div>
-      <div class="card-body">
-        <div class="account-form card">
+      <div class="card-body d-flex">
+        <div class="card">
+          <div class="deposit--heading card-header">
+            Deposit
+          </div>
+        </div>
+        <div class="card">
+          <div class="deposit--heading">
+            Deposit
+          </div>
+        </div>
+        <div class="card">
           <div class="deposit--heading">
             Deposit
           </div>
         </div>
       </div>
     </div>
-    <div class="ticket-main flex-column h-100" id="ticket-main">
+    <div class="ticket-main flex-column h-100" style="display:none" id="ticket-main">
       <div class="heading">Raise Ticket</div>
       <div class="card-body">
         <div class="account-form card">

@@ -68,3 +68,13 @@
   font-size: 20px;
   font-weight: 600;
 }
+.time-text {
+  font-weight: 800;
+  font-size: 110%;
+}
+.pick-drop .to {
+  border-radius: 50%;
+  background-color: black;
+  color: white;
+  padding: 1% 5%;
+}

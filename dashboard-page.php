@@ -305,17 +305,16 @@
             </div>
           </div>
           <div class="booking-card-main flex flex-column">
-            <div class="booking-card card d-flex flex-row align-items-center justify-content-between px-2">
-              <div>
-
+            <div class="booking-card card px-2">
+              <div class="d-flex flex-row align-items-center justify-content-between">
                 <img src="images/Bikes/Bike_Second.png" class="booking-img w-25" alt="">
                 <div>
                   Avenger,
                   Bajaj
                 </div>
                 <div class="pick-drop d-flex align-items-center justify-content-between">
-                  <div class="pick-date-time">
-                    <div id="pick-time time-text">7:00 PM</div>
+                  <div class="pick-date-time d-flex flex-column align-items-center">
+                    <div class=" time-text" id="pick-time">7:00 PM</div>
                     <div class="pick-date-div d-flex">
                       <div id="pick-date"></div>
                       &nbsp;
@@ -328,13 +327,15 @@
                     <span class="material-icons-outlined">
                       horizontal_rule
                     </span>
-                    To 
+                    <div class="to">
+                      To 
+                    </div>
                     <span class="material-icons-outlined">
                       horizontal_rule
                     </span>
                   </div>
-                  <div class="drop-date-time">
-                    <div id="drop-time time-text">7:00 PM</div>
+                  <div class="drop-date-time d-flex flex-column align-items-center px-2">
+                    <div class="time-text" id="drop-time">7:00 PM</div>
                     <div class="drop-date-div d-flex justify-content-between">
                       <div id="drop-date"></div>  
                       &nbsp;

@@ -13,7 +13,7 @@
         <hr class="hr-summary">
         <div class="pick-drop d-flex align-items-center justify-content-between">
             <div class="pick-date-time">
-                <div id="pick-time time-text">7:00 PM</div>
+                <div class="time-text" id="pick-time">7:00 PM</div>
                 <div class="pick-date-div d-flex">
                     <div id="pick-date"></div>
                     &nbsp;
@@ -26,13 +26,15 @@
                 <span class="material-icons-outlined">
                 horizontal_rule
                 </span>
-                To 
+                <div class="to">
+                    To 
+                </div>
                 <span class="material-icons-outlined">
                 horizontal_rule
                 </span>
             </div>
             <div class="drop-date-time">
-                <div id="drop-time time-text">7:00 PM</div>
+                <div class="time-text" id="drop-time">7:00 PM</div>
                 <div class="drop-date-div d-flex justify-content-between">
                     <div id="drop-date"></div>  
                     &nbsp;

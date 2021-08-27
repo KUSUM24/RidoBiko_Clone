@@ -146,21 +146,24 @@
   margin-bottom: -1px;
   /* font-size: 100%; */
 }
-.booking-card-main .booking-img {
-  /* width: 200px; */
-}
+
 .booking-card {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
 }
-/* .booking-card .pick-date-time {
-  border: 2px solid;
+
+.pick-drop .to {
+  border-radius: 50%;
+  background-color: black;
+  color: white;
+  padding: 1% 5%;
 }
-.booking-card .drop-date-time {
-  border: 2px solid;
-} */
+.time-text {
+  font-weight: 800;
+  font-size: 110%;
+}
 /* Deposits Section  */
 .deposit-main .btn {
   background-color: rgb(172, 171, 170);

@@ -27,5 +27,6 @@ include "common/link.php";
     <script src="js/scroll.js"></script>
     <script src="js/location.js"></script>
     <script src="js/dashboard.js"></script>
+    <script src="js/cart.js"></script>
   </body>
 </html>

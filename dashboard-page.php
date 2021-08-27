@@ -287,7 +287,7 @@
         </div>
       </div>
     </div>
-    <div class="bookings-main flex-column h-100"  id="bookings-main">
+    <div class="bookings-main flex-column h-100" id="bookings-main">
       <div class="heading">MY BOOKINGS</div>
       <div class="card-body">
         <div class="account-form card">
@@ -305,15 +305,62 @@
             </div>
           </div>
           <div class="booking-card-main flex flex-column">
+            <div class="booking-card card d-flex flex-row align-items-center justify-content-between px-2">
+              <div>
+
+                <img src="images/Bikes/Bike_Second.png" class="booking-img w-25" alt="">
+                <div>
+                  Avenger,
+                  Bajaj
+                </div>
+                <div class="pick-drop d-flex align-items-center justify-content-between">
+                  <div class="pick-date-time">
+                    <div id="pick-time time-text">7:00 PM</div>
+                    <div class="pick-date-div d-flex">
+                      <div id="pick-date"></div>
+                      &nbsp;
+                      <div id="pick-month-year"></div>
+                      &nbsp;
+                      <div id="pick-day"></div>
+                    </div>
+                  </div>
+                  <div class="d-flex align-items-center">
+                    <span class="material-icons-outlined">
+                      horizontal_rule
+                    </span>
+                    To 
+                    <span class="material-icons-outlined">
+                      horizontal_rule
+                    </span>
+                  </div>
+                  <div class="drop-date-time">
+                    <div id="drop-time time-text">7:00 PM</div>
+                    <div class="drop-date-div d-flex justify-content-between">
+                      <div id="drop-date"></div>  
+                      &nbsp;
+                      <div id="drop-month-year"></div>
+                      &nbsp;
+                      <div id="drop-day"></div>
+                    </div>
+                  </div>
+                </div>
+                <div>my nai</div>
+              </div>
+
+            </div>
             <div class="booking-card card d-flex">
-              <img src="images/Bikes/Bike_Second.png" class="booking-img w-25" alt="">
+              <img src="images/Bikes/Bike_Second.png" class="booking-img w-100" alt="">
+              <div>
+                Avenger,
+                Bajaj
+              </div>
             </div>
           </div>
           
         </div>
       </div>
     </div>
-    <div class="deposit-main flex-column h-100 px-4" style="display:none" id="deposit-main">
+    <div class="deposit-main flex-column h-100 px-4" id="deposit-main">
       <div class="deposit-heading heading">Security Deposit</div>
       <div class="deposit-body card-body d-flex justify-content-between px-0">
         <div class="card" id="card-1">

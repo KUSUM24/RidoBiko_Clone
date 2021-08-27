@@ -287,7 +287,7 @@
         </div>
       </div>
     </div>
-    <div class="bookings-main flex-column h-100" style="display:none"  id="bookings-main">
+    <div class="bookings-main flex-column h-100"  id="bookings-main">
       <div class="heading">MY BOOKINGS</div>
       <div class="card-body">
         <div class="account-form card">
@@ -304,13 +304,18 @@
               </div>
             </div>
           </div>
+          <div class="booking-card-main flex flex-column">
+            <div class="booking-card card d-flex">
+              <img src="images/Bikes/Bike_Second.png" class="booking-img w-25" alt="">
+            </div>
+          </div>
           
         </div>
       </div>
     </div>
-    <div class="deposit-main flex-column h-100"  id="deposit-main">
+    <div class="deposit-main flex-column h-100 px-4" style="display:none" id="deposit-main">
       <div class="deposit-heading heading">Security Deposit</div>
-      <div class="deposit-body card-body d-flex justify-content-between">
+      <div class="deposit-body card-body d-flex justify-content-between px-0">
         <div class="card" id="card-1">
           <div class="card-body">
             <div class="deposit--heading card-tite">
@@ -323,11 +328,11 @@
             <div class="card-text">
               This includes the active deposit you have in your account
             </div>
-            <a href="#" class="btn bg-primary text-white mt-2">Active Deposit</a>
+            <!-- <a href="#" class="btn bg-primary text-white mt-2">Active Deposit</a> -->
           </div>
         </div>
         <div class="card" id="card-2">
-        <div class="card-body">
+          <div class="card-body">
             <div class="deposit--heading card-tite">
               ADD DEPOSIT
             </div>
@@ -342,7 +347,7 @@
           </div>
         </div>
         <div class="card" id="card-3">
-        <div class="card-body d-flex flex-column justify-content-between">
+          <div class="card-body d-flex flex-column justify-content-between">
             <div class="deposit--heading card-tite">
               WITHDRAW DEPOSIT
             </div>
@@ -357,32 +362,37 @@
           </div>
         </div>
       </div>
-      <table class="table table-hover">
+      <table class="table table-hover px-2">
         <thead>
           <tr>
-            <th scope="col">#</th>
-            <th scope="col">First</th>
-            <th scope="col">Last</th>
-            <th scope="col">Handle</th>
+            <!-- <th scope="col">#</th> -->
+            <th scope="col">Deposit Paid On</th>
+            <th scope="col">Mode of Payment</th>
+            <th scope="col">Transaction ID/Ref No.</th>
+            <th scope="col">Amount</th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <th scope="row">1</th>
-            <td>Mark</td>
-            <td>Otto</td>
-            <td>@mdo</td>
+            <!-- <th scope="row">1</th> -->
+            <td scope="row">07 Apr 2021</td>
+            <td>Online Payment</td>
+            <td>order_cb02h78hnk5pave70k49cioe89</td>
+            <td>₹360/-</td>
           </tr>
           <tr>
-            <th scope="row">2</th>
-            <td>Jacob</td>
-            <td>Thornton</td>
-            <td>@fat</td>
+            <!-- <th scope="row">2</th> -->
+            <td scope="row">07 Apr 2021</td>
+            <td>Online Payment</td>
+            <td>order_cb02h78hnk5pave70k49cioe89</td>
+            <td>₹360/-</td>
           </tr>
           <tr>
-            <th scope="row">3</th>
-            <td colspan="2">Larry the Bird</td>
-            <td>@twitter</td>
+            <!-- <th scope="row">1</th> -->
+            <td scope="row">07 Apr 2021</td>
+            <td>Online Payment</td>
+            <td>order_cb02h78hnk5pave70k49cioe89</td>
+            <td>₹360/-</td>
           </tr>
         </tbody>
       </table>

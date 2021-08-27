@@ -146,12 +146,18 @@
   margin-bottom: -1px;
   /* font-size: 100%; */
 }
+.booking-card-main .booking-img {
+  width: 20px;
+}
 /* Deposits Section  */
 .deposit-main .btn {
   background-color: rgb(172, 171, 170);
 }
 .deposit-body .card {
   width: 32%;
+}
+.deposit-body {
+  padding: 0% !important;
 }
 #card-1 {
   border-bottom: 3px solid blue;

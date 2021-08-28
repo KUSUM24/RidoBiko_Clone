@@ -287,7 +287,7 @@
         </div>
       </div>
     </div>
-    <div class="bookings-main flex-column h-100" id="bookings-main">
+    <div class="bookings-main flex-column h-100" style="display:none" id="bookings-main">
       <div class="heading">MY BOOKINGS</div>
       <div class="card-body">
         <div class="account-form card">
@@ -305,12 +305,16 @@
             </div>
           </div>
           <div class="booking-card-main flex flex-column">
-            <div class="booking-card card px-2">
+            <div class="booking-card card d-flex flex-column">
               <div class="d-flex flex-row align-items-center justify-content-between">
                 <img src="images/Bikes/Bike_Second.png" class="booking-img w-25" alt="">
-                <div>
-                  Avenger,
-                  Bajaj
+                <div class="bike-name d-flex flex-column">
+                  <b>
+                    AVENGER,
+                  </b>
+                  <span>
+                    Bajaj
+                  </span>
                 </div>
                 <div class="pick-drop d-flex align-items-center justify-content-between">
                   <div class="pick-date-time d-flex flex-column align-items-center">
@@ -345,23 +349,33 @@
                     </div>
                   </div>
                 </div>
-                <div>my nai</div>
+                <a href="#">View Details</a>
               </div>
-
-            </div>
-            <div class="booking-card card d-flex">
-              <img src="images/Bikes/Bike_Second.png" class="booking-img w-100" alt="">
-              <div>
-                Avenger,
-                Bajaj
+              <hr class="w-100 mt-0">
+              <div class="order-details d-flex justify-content-between w-100">
+                <div class="d-flex flex-column">
+                  <div>Order Date:</div>
+                  <div class="order-item--bold" id="orderDate">2021-08-23</div>
+                </div>
+                <div class="d-flex flex-column">
+                  <div>Order ID:</div>
+                  <div class="order-item--bold">#2456FHN788990M</div>
+                </div>
+                <div class="d-flex flex-column">
+                  <div>Order Type:</div>
+                  <div class="order-item--bold">Subscribed</div>
+                </div>
+                <div class="d-flex flex-column">
+                  <div>Total Rent:</div>
+                  <div class="order-item--bold">₹3300</div>
+                </div>
               </div>
             </div>
           </div>
-          
         </div>
       </div>
     </div>
-    <div class="deposit-main flex-column h-100 px-4" id="deposit-main">
+    <div class="deposit-main flex-column h-100 px-4" style="display:none" id="deposit-main">
       <div class="deposit-heading heading">Security Deposit</div>
       <div class="deposit-body card-body d-flex justify-content-between px-0">
         <div class="card" id="card-1">
@@ -445,12 +459,37 @@
         </tbody>
       </table>
     </div>
-    <div class="ticket-main flex-column h-100" style="display:none" id="ticket-main">
+    <div class="ticket-main flex-column h-100" id="ticket-main">
       <div class="heading">Raise Ticket</div>
       <div class="card-body">
         <div class="account-form card">
           <div class="ticket--heading">
             ticket
+          </div>
+          <div class="table-responsive">
+            <table class="table">
+              <thead class="thead-light">
+                <tr>
+                  <th scope="col">Sr No</th>
+                  <th scope="col">Description</th>
+                  <th scope="col">Request ID</th>
+                  <th scope="col">Request Type</th>
+                  <th scope="col">Request Date</th>
+                  <th scope="col">Status</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>I think you should the search functionality</td>
+                  <td>#13BHNJ</td>
+                  <td>Suggestion</td>
+                  <td>2021-07-23</td>
+                  <td>None</td>
+                </tr>
+                
+              </tbody>
+            </table>
           </div>
         </div>
       </div>

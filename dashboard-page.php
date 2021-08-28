@@ -42,16 +42,164 @@
       <!-- <hr class="balance-hr" /> -->
     </div>
     <div class="section-navbar">
-      <li class="item" id="item-1" onclick="getRightSection('bookings-main','item-1')">My Bookings</li>
-      <li class="item" id="item-2" onclick="getRightSection('ticket-main','item-2')">Raise Ticket</li>
-      <li class="item" id="item-3" onclick="getRightSection('refer-main','item-3')">Refer and Earn</li>
-      <li class="item" id="item-4" onclick="getRightSection('account-main','item-4')">My Profile</li>
-      <li class="item" id="item-5" onclick="getRightSection('verify-main','item-5')">Profile Verification</li>
-      <li class="item" id="item-6" onclick="getRightSection('deposit-main','item-6')">Security Deposit</li>
+      <li class="item active-status" id="item-0" onclick="getRightSection('0')">My Bookings</li>
+      <li class="item" id="item-1" onclick="getRightSection('1')">Raise Ticket</li>
+      <li class="item" id="item-2" onclick="getRightSection('2')">Refer and Earn</li>
+      <li class="item" id="item-3" onclick="getRightSection('3')">My Profile</li>
+      <li class="item" id="item-4" onclick="getRightSection('4')">Profile Verification</li>
+      <li class="item" id="item-5" onclick="getRightSection('5')">Security Deposit</li>
     </div>
   </div>
   <div class="right-body card w-100">
-    <div class="account-main flex-column h-100" style="display:none" id="account-main">
+    <div class="bookings-main flex-column h-100" style="display:none" id="main-right-0">
+      <div class="heading">MY BOOKINGS</div>
+      <div class="card-body">
+        <div class="card">
+          <div class="booking--heading">
+            <div class="bookings-nav d-flex justify-content-around">
+              <div class="item">
+                LIVE BOOKINGS
+              </div>
+              <div class="item">
+                BOOKING HISTORY
+              </div>
+              <div class="item">
+                SUBSCRIPTION
+              </div>
+            </div>
+          </div>
+          <div class="booking-card-main flex flex-column">
+            <div class="booking-card card d-flex flex-column">
+              <div class="d-flex flex-row align-items-center justify-content-between">
+                <img src="images/Bikes/Bike_Second.png" class="booking-img w-25" alt="">
+                <div class="bike-name d-flex flex-column">
+                  <b>
+                    AVENGER,
+                  </b>
+                  <span>
+                    Bajaj
+                  </span>
+                </div>
+                <div class="pick-drop d-flex align-items-center justify-content-between">
+                  <div class="pick-date-time d-flex flex-column align-items-center">
+                    <div class=" time-text" id="pick-time">7:00 PM</div>
+                    <div class="pick-date-div d-flex">
+                      <div id="pick-date"></div>
+                      &nbsp;
+                      <div id="pick-month-year"></div>
+                      &nbsp;
+                      <div id="pick-day"></div>
+                    </div>
+                  </div>
+                  <div class="d-flex align-items-center">
+                    <span class="material-icons-outlined">
+                      horizontal_rule
+                    </span>
+                    <div class="to">
+                      To 
+                    </div>
+                    <span class="material-icons-outlined">
+                      horizontal_rule
+                    </span>
+                  </div>
+                  <div class="drop-date-time d-flex flex-column align-items-center px-2">
+                    <div class="time-text" id="drop-time">7:00 PM</div>
+                    <div class="drop-date-div d-flex justify-content-between">
+                      <div id="drop-date"></div>  
+                      &nbsp;
+                      <div id="drop-month-year"></div>
+                      &nbsp;
+                      <div id="drop-day"></div>
+                    </div>
+                  </div>
+                </div>
+                <a href="#">View Details</a>
+              </div>
+              <hr class="w-100 mt-0">
+              <div class="order-details d-flex justify-content-between w-100">
+                <div class="d-flex flex-column">
+                  <div>Order Date:</div>
+                  <div class="order-item--bold" id="orderDate">2021-08-23</div>
+                </div>
+                <div class="d-flex flex-column">
+                  <div>Order ID:</div>
+                  <div class="order-item--bold">#2456FHN788990M</div>
+                </div>
+                <div class="d-flex flex-column">
+                  <div>Order Type:</div>
+                  <div class="order-item--bold">Subscribed</div>
+                </div>
+                <div class="d-flex flex-column">
+                  <div>Total Rent:</div>
+                  <div class="order-item--bold">₹3300</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="ticket-main flex-column h-100" id="main-right-1">
+      <div class="heading">Raise Ticket</div>
+      <div class="card-body">
+        <div class="raise-ticket card">
+          <div class="sub-heading">
+            Raise New Ticket
+          </div>
+          <div class="new-request">
+            <div class="">Need some more help? Create a New Request.</div>
+            <div class="btn btn-primary">New Request</div>
+          </div>
+          <div class="sub-heading">
+            Raised Requests
+          </div>
+          <div class="table-responsive">
+            <table class="table raise-ticket--table">
+              <caption>
+                <b>
+                  9971770131
+                </b>
+              </caption>
+              <thead class="thead-light">
+                <tr>
+                  <th scope="col">Sr No</th>
+                  <th scope="col">Description</th>
+                  <th scope="col">Request ID</th>
+                  <th scope="col">Request Type</th>
+                  <th scope="col">Request Date</th>
+                  <th scope="col">Status</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>I think you should the search functionality</td>
+                  <td>#13BHNJ</td>
+                  <td>Suggestion</td>
+                  <td>2021-07-23</td>
+                  <td>None</td>
+                </tr>
+                
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="refer-main flex-column h-100" style="display:none" id="main-right-2">
+      <div class="heading">REFER AND EARN</div>
+      <div class="card-body">
+        <div class="card">
+          <div class="sub-heading">Refer & Earn</div>
+          <div class="referral-div d-flex flex-column align-items-center justify-content-center">
+            <img class="referral-img" src="images/referral.jpg" alt="Refer and Earn">
+            <div class="referral-heading">Invite Friends and get Cashback upto ₹99</div>
+            <div class="referral-btn btn btn-dark">Coming Soon</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="account-main flex-column h-100" style="display:none" id="main-right-3">
       <div class="heading">MY PROFILE</div>
       <div class="card-body">
         <div class="account-form card">
@@ -208,11 +356,11 @@
         </div>
       </div>
     </div>
-    <div class="verify-main flex-column h-100" style="display:none" id="verify-main">
+    <div class="verify-main flex-column h-100" style="display:none" id="main-right-4">
       <div class="heading">PROFILE VERIFICATION</div>
       <div class="card-body">
-        <div class="account-form card">
-          <div class="account-form--heading">Aadhar Card</div>
+        <div class="card">
+          <div class="sub-heading">Aadhar Card</div>
           <div class="row form-group px-3 align-items-center">
             <label class="col-sm-2 p-t5 m-0" for="aadhar-front">Front Side</label>
             <div class="col-sm-4">
@@ -239,7 +387,7 @@
               />
             </div>
           </div>
-          <div class="account-form--heading">Pan Card</div>
+          <div class="sub-heading">Pan Card</div>
           <div class="row form-group px-3 align-items-center">
             <label class="col-sm-2 p-t5 m-0" for="pancard">Pan Card</label>
             <div class="col-sm-4">
@@ -253,7 +401,7 @@
               />
             </div>
           </div>
-          <div class="account-form--heading">Driving License</div>
+          <div class="sub-heading">Driving License</div>
           <div class="row form-group px-3 align-items-center">
             <label class="col-sm-2 p-t5 m-0" for="license">Driving License</label>
             <div class="col-sm-4">
@@ -274,108 +422,7 @@
         </div>
       </div>
     </div>
-    <div class="refer-main flex-column h-100" style="display:none" id="refer-main">
-      <div class="heading">REFER AND EARN</div>
-      <div class="card-body">
-        <div class="account-form card">
-          <div class="account-form--heading">Refer & Earn</div>
-          <div class="referral-div d-flex flex-column align-items-center justify-content-center">
-            <img class="referral-img" src="images/referral.jpg" alt="Refer and Earn">
-            <div class="referral-heading">Invite Friends and get Cashback upto ₹99</div>
-            <div class="referral-btn btn btn-dark">Coming Soon</div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="bookings-main flex-column h-100" style="display:none" id="bookings-main">
-      <div class="heading">MY BOOKINGS</div>
-      <div class="card-body">
-        <div class="account-form card">
-          <div class="booking--heading">
-            <div class="bookings-nav d-flex justify-content-around">
-              <div class="item">
-                LIVE BOOKINGS
-              </div>
-              <div class="item">
-                BOOKING HISTORY
-              </div>
-              <div class="item">
-                SUBSCRIPTION
-              </div>
-            </div>
-          </div>
-          <div class="booking-card-main flex flex-column">
-            <div class="booking-card card d-flex flex-column">
-              <div class="d-flex flex-row align-items-center justify-content-between">
-                <img src="images/Bikes/Bike_Second.png" class="booking-img w-25" alt="">
-                <div class="bike-name d-flex flex-column">
-                  <b>
-                    AVENGER,
-                  </b>
-                  <span>
-                    Bajaj
-                  </span>
-                </div>
-                <div class="pick-drop d-flex align-items-center justify-content-between">
-                  <div class="pick-date-time d-flex flex-column align-items-center">
-                    <div class=" time-text" id="pick-time">7:00 PM</div>
-                    <div class="pick-date-div d-flex">
-                      <div id="pick-date"></div>
-                      &nbsp;
-                      <div id="pick-month-year"></div>
-                      &nbsp;
-                      <div id="pick-day"></div>
-                    </div>
-                  </div>
-                  <div class="d-flex align-items-center">
-                    <span class="material-icons-outlined">
-                      horizontal_rule
-                    </span>
-                    <div class="to">
-                      To 
-                    </div>
-                    <span class="material-icons-outlined">
-                      horizontal_rule
-                    </span>
-                  </div>
-                  <div class="drop-date-time d-flex flex-column align-items-center px-2">
-                    <div class="time-text" id="drop-time">7:00 PM</div>
-                    <div class="drop-date-div d-flex justify-content-between">
-                      <div id="drop-date"></div>  
-                      &nbsp;
-                      <div id="drop-month-year"></div>
-                      &nbsp;
-                      <div id="drop-day"></div>
-                    </div>
-                  </div>
-                </div>
-                <a href="#">View Details</a>
-              </div>
-              <hr class="w-100 mt-0">
-              <div class="order-details d-flex justify-content-between w-100">
-                <div class="d-flex flex-column">
-                  <div>Order Date:</div>
-                  <div class="order-item--bold" id="orderDate">2021-08-23</div>
-                </div>
-                <div class="d-flex flex-column">
-                  <div>Order ID:</div>
-                  <div class="order-item--bold">#2456FHN788990M</div>
-                </div>
-                <div class="d-flex flex-column">
-                  <div>Order Type:</div>
-                  <div class="order-item--bold">Subscribed</div>
-                </div>
-                <div class="d-flex flex-column">
-                  <div>Total Rent:</div>
-                  <div class="order-item--bold">₹3300</div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="deposit-main flex-column h-100 px-4" style="display:none" id="deposit-main">
+    <div class="deposit-main flex-column h-100 px-4" style="display:none" id="main-right-5">
       <div class="deposit-heading heading">Security Deposit</div>
       <div class="deposit-body card-body d-flex justify-content-between px-0">
         <div class="card" id="card-1">
@@ -459,41 +506,7 @@
         </tbody>
       </table>
     </div>
-    <div class="ticket-main flex-column h-100" id="ticket-main">
-      <div class="heading">Raise Ticket</div>
-      <div class="card-body">
-        <div class="account-form card">
-          <div class="ticket--heading">
-            ticket
-          </div>
-          <div class="table-responsive">
-            <table class="table">
-              <thead class="thead-light">
-                <tr>
-                  <th scope="col">Sr No</th>
-                  <th scope="col">Description</th>
-                  <th scope="col">Request ID</th>
-                  <th scope="col">Request Type</th>
-                  <th scope="col">Request Date</th>
-                  <th scope="col">Status</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <th scope="row">1</th>
-                  <td>I think you should the search functionality</td>
-                  <td>#13BHNJ</td>
-                  <td>Suggestion</td>
-                  <td>2021-07-23</td>
-                  <td>None</td>
-                </tr>
-                
-              </tbody>
-            </table>
-          </div>
-        </div>
-      </div>
-    </div>
+    
   </div>
 </div>
 <script>

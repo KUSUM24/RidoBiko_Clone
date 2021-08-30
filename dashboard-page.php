@@ -57,13 +57,13 @@
         <div class="card">
           <div class="booking--heading">
             <div class="bookings-nav d-flex justify-content-around">
-              <div class="item">
+              <div class="item active-booking" id="booking-0" onclick="getBookingSection('0')">
                 LIVE BOOKINGS
               </div>
-              <div class="item">
+              <div class="item" id="booking-1" onclick="getBookingSection('1')">
                 BOOKING HISTORY
               </div>
-              <div class="item">
+              <div class="item" id="booking-2" onclick="getBookingSection('2')">
                 SUBSCRIPTION
               </div>
             </div>

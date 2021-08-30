@@ -152,10 +152,13 @@
   color: rgb(85, 83, 83);
 }
 .bookings-nav .item {
-  border-bottom: 2px solid red;
+  cursor: pointer;
   padding: 0 3%;
   padding-bottom: 5px;
   margin-bottom: -1px;
+}
+.bookings-nav .active-booking {
+  border-bottom: 2px solid red;
 }
 .order-details {
   font-size: 110%;

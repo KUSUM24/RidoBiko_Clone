@@ -20,3 +20,15 @@ const getRightSection = (id) => {
     }
   }
 };
+
+const getBookingSection = (bookingId) => {
+  for (let i = 0; i < 3; i++) {
+    let bookingItem = document.getElementById(`booking-${i}`);
+    console.log(bookingId, `booking-${i}`);
+    if (bookingId == i) {
+      bookingItem.classList.add("active-booking");
+    } else {
+      bookingItem.classList.remove("active-booking");
+    }
+  }
+};

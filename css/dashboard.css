@@ -100,7 +100,7 @@
 .sub-heading {
   font-size: 20px;
   padding: 2px;
-  margin: 10px 0;
+  margin: 10px;
   border-bottom: 1px solid #ccc;
 }
 
@@ -207,7 +207,7 @@
   font-size: 115%;
 }
 .raise-ticket {
-  padding: 2%;
+  /* padding: 2%; */
 }
 .raise-ticket--table caption {
   font-size: 130%;

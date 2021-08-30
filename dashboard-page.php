@@ -146,7 +146,7 @@
           <div class="sub-heading">
             Raise New Ticket
           </div>
-          <div class="new-request">
+          <div class="new-request px-3">
             <div class="">Need some more help? Create a New Request.</div>
             <div class="btn btn-primary">New Request</div>
           </div>
@@ -442,7 +442,7 @@
     <div class="deposit-main flex-column px-4" style="display:none" id="main-right-5">
       <div class="deposit-heading heading">Security Deposit</div>
       <div class="deposit-body card-body d-flex justify-content-between px-0">
-        <div class="card" id="card-1">
+        <div class="card" id="card-0">
           <div class="card-body ">
             <div class="deposit--heading card-tite">
               ACTIVE DEPOSIT
@@ -457,7 +457,7 @@
             <!-- <a href="#" class="btn bg-primary text-white mt-2">Active Deposit</a> -->
           </div>
         </div>
-        <div class="card" id="card-2">
+        <div class="card" id="card-1">
           <div class="card-body">
             <div class="deposit--heading card-tite">
               ADD DEPOSIT
@@ -472,7 +472,7 @@
             <a href="#" class="btn bg-success text-white mt-2">Add Deposit</a>
           </div>
         </div>
-        <div class="card" id="card-3">
+        <div class="card" id="card-2">
           <div class="card-body">
             <div class="deposit--heading card-tite">
               WITHDRAW DEPOSIT

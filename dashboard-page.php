@@ -139,7 +139,7 @@
         </div>
       </div>
     </div>
-    <div class="ticket-main flex-column"  id="main-right-1">
+    <div class="ticket-main flex-column" style="display:none" id="main-right-1">
       <div class="heading">
         <div>Raise Ticket</div>
       </div>
@@ -155,7 +155,7 @@
             </b>
           </div>
           <div class="new-request px-3">
-            <div class="">Need some more help? Create a New Request.</div>
+            <div>Need some more help? Create a New Request.</div>
             <button class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">New Request</button>
             <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
               <div class="modal-dialog" role="document">
@@ -167,51 +167,31 @@
                     </button>
                   </div>
                   <div class="modal-body">
-                    <form class="d-flex flex-column align-items-center" action="" id="new-request">
-                      <div class="form-group col-sm-6">
-                        <label for="description">Description</label>
-                        <input type="text" class="form-control" id="description" placeholder="Description">
+                    <form class="request-form" action method="POST" id="new-request">
+                      <div class="form-group mt-2">
+                        <label for="inputState">Request Type: </label>
+                        <select id="inputState" class="form-control" name="type">
+                          <option value="select" hidden> Select Type </option>
+                          <option value="booking-issue"> Booking Issue </option>
+                          <option value="payment-refund"> Payment and Refund</option>
+                          <option value="dealer-issue"> Dealer Issue </option>
+                          <option value="corporate-banking">Corporate Banking </option>
+                          <option value="careers"> Careers </option>
+                          <option value="suggestion">Suggestion </option>
+                          <option value="others"> Others </option>
+                        </select>
                       </div>
-                      <label for="request-type">Request Type</label>
-                      <select class="mx-2" id="request-type">
-                        <option value="0">Select car:</option>
-                        <option value="1">Audi</option>
-                        <option value="2">BMW</option>
-                        <option value="3">Citroen</option>
-                        <option value="4">Ford</option>
-                        <option value="5">Honda</option>
-                        <option value="6">Jaguar</option>
-                        <option value="7">Land Rover</option>
-                        <option value="8">Mercedes</option>
-                      </select>
+                      <div class="form-group">
+                        <label for="comment">Description:</label>
+                        <textarea class="form-control" rows="5" id="comment" name="description"></textarea>
+                      </div>
+                      <button type="button" class="btn btn-primary">Save Request</button>
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                     </form>
-                  </div>
-                  <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
                   </div>
                 </div>
               </div>
             </div>
-            <!-- <form >
-              <div class="row m-0 justify-content-end">
-                <div class="col-sm-5 p-0">
-                  <input type="text" class="form-control" placeholder="Description">
-                </div>
-                <select class="mx-2">
-                  <option value="0">Select car:</option>
-                  <option value="1">Audi</option>
-                  <option value="2">BMW</option>
-                  <option value="3">Citroen</option>
-                  <option value="4">Ford</option>
-                  <option value="5">Honda</option>
-                  <option value="6">Jaguar</option>
-                  <option value="7">Land Rover</option>
-                  <option value="8">Mercedes</option>
-                </select>
-                <button class="">submit</button>
-              </div>
-            </form> -->
           </div>
           <div class="sub-heading">
             Raised Requests
@@ -240,6 +220,11 @@
               </tbody>
             </table>
           </div>
+          <div class="request-cards--main">
+            <div class="card">
+
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -263,7 +248,7 @@
           <div class="account-form--heading">Account Details</div>
           <div class="row form-group px-3 align-items-center">
             <label class="col-sm-2 p-t5 m-0">Name</label>
-            <div class="col-sm-4">
+            <div class="col-sm-4 p-0">
               <input
               class="form-control size-13"
               name="name"
@@ -413,63 +398,67 @@
         </div>
       </div>
     </div>
-    <div class="verify-main flex-column h-100" style="display:none" id="main-right-4">
+    <div class="verify-main flex-column h-100"  id="main-right-4">
       <div class="heading">PROFILE VERIFICATION</div>
       <div class="card-body">
         <div class="card">
           <div class="sub-heading">Aadhar Card</div>
           <div class="row form-group px-3 align-items-center">
-            <label class="col-sm-2 p-t5 m-0" for="aadhar-front">Front Side</label>
-            <div class="col-sm-4">
+            <label class="col-sm-2 p-t5 m-0 pr-0" for="aadhar-front">Front Side</label>
+            <div class="col-sm-6 p-0 align-items-center">
               <input
-              class=" size-13"
               name="aadhar-front"
               id="aadhar-front"
               accept=".png,.jpg,.jpeg"
               placeholder="John Doe"
               type="file"
+              onChange="img_pathUrl(this,'front-img');"
               />
+              <img src="" class="preview-img mt-2" style="display:none" id="front-img" alt="Front-image">
             </div>
           </div>
           <div class="row form-group px-3 align-items-center">
-            <label class="col-sm-2 p-t5 m-0" for="aadhar-back">Back Side</label>
-            <div class="col-sm-4">
+            <label class="col-sm-2 p-t5 m-0 pr-0" for="aadhar-back">Back Side</label>
+            <div class="col-sm-4 p-0 ">
               <input
-              class=" size-13"
               name="aadhar-back"
               id="aadhar-back"
               accept=".png,.jpg,.jpeg"
               placeholder="John Doe"
               type="file"
+              onChange="img_pathUrl(this,'back-img');"
               />
+              <img src="" class="preview-img mt-2" style="display:none" id="back-img" alt="Back-image">
             </div>
           </div>
           <div class="sub-heading">Pan Card</div>
           <div class="row form-group px-3 align-items-center">
             <label class="col-sm-2 p-t5 m-0" for="pancard">Pan Card</label>
-            <div class="col-sm-4">
+            <div class="col-sm-4 p-0">
               <input
-              class=" size-13"
               name="pancard"
               id="pancard"
               accept=".png,.jpg,.jpeg"
               placeholder="Pan Card"
               type="file"
+              onChange="img_pathUrl(this,'pan-img');"
               />
+              <img src="" class="preview-img mt-2" style="display:none" id="pan-img" alt="Pan-image">
             </div>
           </div>
           <div class="sub-heading">Driving License</div>
           <div class="row form-group px-3 align-items-center">
             <label class="col-sm-2 p-t5 m-0" for="license">Driving License</label>
-            <div class="col-sm-4">
+            <div class="col-sm-4 p-0">
               <input
-              class=" size-13"
               name="license"
               id="license"
               accept=".png,.jpg,.jpeg"
               placeholder="Driving License"
               type="file"
+              onChange="img_pathUrl(this,'license-img');"
               />
+              <img src="" class="preview-img mt-2" style="display:none" id="license-img" alt="License-image">
             </div>
           </div>
           

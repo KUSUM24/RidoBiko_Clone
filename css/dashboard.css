@@ -215,7 +215,26 @@
 .raise-ticket .contact-section {
   font-size: 110%;
 }
-.select:focus,
-.select:active {
+select:focus,
+select:active {
   outline: none;
+}
+.request-type-main select {
+  padding: 8px 70px 8px 5px;
+  color: #818385;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  font-weight: 400;
+  line-height: 1.5;
+  font-size: 95%;
+}
+.new-request .modal {
+  z-index: 1200 !important;
+}
+/* Profile Verification  */
+.preview-img {
+  background: #ddd;
+  width: 100px;
+  height: 90px;
+  display: block;
 }

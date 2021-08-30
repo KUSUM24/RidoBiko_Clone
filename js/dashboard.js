@@ -33,3 +33,11 @@ const getBookingSection = (bookingId) => {
     }
   }
 };
+
+function img_pathUrl(input, id) {
+  $(`#${id}`).css("display", "block");
+  $(`#${id}`)[0].src = (window.URL ? URL : webkitURL).createObjectURL(
+    input.files[0]
+  );
+}
+console.log("dashboard");

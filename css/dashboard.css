@@ -79,8 +79,9 @@
   font-size: 16px;
 }
 .section-navbar .active-status {
-  border: 2px solid red;
+  border: 1px solid rgb(97, 96, 96);
   list-style-type: disc;
+  background-color: rgb(241, 239, 239);
 }
 /* right-body */
 .card-body {

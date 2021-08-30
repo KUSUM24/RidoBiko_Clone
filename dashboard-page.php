@@ -422,11 +422,11 @@
         </div>
       </div>
     </div>
-    <div class="deposit-main flex-column h-100 px-4" style="display:none" id="main-right-5">
+    <div class="deposit-main flex-column px-4" style="display:none" id="main-right-5">
       <div class="deposit-heading heading">Security Deposit</div>
       <div class="deposit-body card-body d-flex justify-content-between px-0">
         <div class="card" id="card-1">
-          <div class="card-body">
+          <div class="card-body ">
             <div class="deposit--heading card-tite">
               ACTIVE DEPOSIT
             </div>
@@ -456,7 +456,7 @@
           </div>
         </div>
         <div class="card" id="card-3">
-          <div class="card-body d-flex flex-column justify-content-between">
+          <div class="card-body">
             <div class="deposit--heading card-tite">
               WITHDRAW DEPOSIT
             </div>

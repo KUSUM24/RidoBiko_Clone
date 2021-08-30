@@ -51,7 +51,7 @@
     </div>
   </div>
   <div class="right-body card w-100">
-    <div class="bookings-main flex-column h-100" style="display:none" id="main-right-0">
+    <div class="bookings-main flex-column h-100" id="main-right-0">
       <div class="heading">MY BOOKINGS</div>
       <div class="card-body">
         <div class="card">
@@ -139,7 +139,7 @@
         </div>
       </div>
     </div>
-    <div class="ticket-main flex-column h-100" id="main-right-1">
+    <div class="ticket-main flex-column" style="display:none" id="main-right-1">
       <div class="heading">Raise Ticket</div>
       <div class="card-body">
         <div class="raise-ticket card">
@@ -156,8 +156,11 @@
           <div class="table-responsive">
             <table class="table raise-ticket--table">
               <caption>
-                <b>
-                  9971770131
+                <b class="d-flex">
+                  <span class="material-icons">
+                  phone
+                  </span>  
+                  9971770131 - Contact Us
                 </b>
               </caption>
               <thead class="thead-light">
@@ -173,7 +176,7 @@
               <tbody>
                 <tr>
                   <th scope="row">1</th>
-                  <td>I think you should the search functionality</td>
+                  <td>I think you should add the search functionality</td>
                   <td>#13BHNJ</td>
                   <td>Suggestion</td>
                   <td>2021-07-23</td>
@@ -182,6 +185,20 @@
                 
               </tbody>
             </table>
+          </div>
+          <div class="sub-heading">
+            Contact Us
+          </div>
+          <div class="contact-section d-flex justify-content-between">
+            <div>
+              Contact at any time with 24/7 service 
+            </div>
+            <b class="d-flex">
+              <span class="material-icons">
+              phone
+              </span>  
+              9971770131
+            </b>
           </div>
         </div>
       </div>

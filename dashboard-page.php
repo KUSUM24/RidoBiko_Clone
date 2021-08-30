@@ -139,7 +139,7 @@
         </div>
       </div>
     </div>
-    <div class="ticket-main flex-column" style="display:none" id="main-right-1">
+    <div class="ticket-main flex-column"  id="main-right-1">
       <div class="heading">
         <div>Raise Ticket</div>
       </div>
@@ -220,9 +220,87 @@
               </tbody>
             </table>
           </div>
-          <div class="request-cards--main">
+          <div class="request-cards--main d-flex justify-content-between">
             <div class="card">
-
+              <div class="card-body ">
+                <div class="card-title d-flex justify-content-between">
+                  <div class="d-flex flex-column">
+                    <span>Type:</span>
+                    Suggestion
+                  </div>
+                  <div class="d-flex flex-column">
+                    <span>Id:</span>
+                    #13BHNJ
+                  </div>
+                </div>
+                <hr class="request-hr">
+                <div class="card-text">
+                  I think you should add the search functionality
+                </div>
+                <hr class="request-hr">
+                <div class="card-text d-flex justify-content-between">
+                  <div>
+                    2021-07-23
+                  </div>
+                  <div>
+                    Pending...
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-body ">
+                <div class="card-title d-flex justify-content-between">
+                  <div class="d-flex flex-column">
+                    <span>Type:</span>
+                    Suggestion
+                  </div>
+                  <div class="d-flex flex-column">
+                    <span>Id:</span>
+                    #13BHNJ
+                  </div>
+                </div>
+                <hr class="request-hr">
+                <div class="card-text">
+                  I think you should add the search functionality
+                </div>
+                <hr class="request-hr">
+                <div class="card-text d-flex justify-content-between">
+                  <div>
+                    2021-07-23
+                  </div>
+                  <div>
+                    Pending...
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-body ">
+                <div class="card-title d-flex justify-content-between">
+                  <div class="d-flex flex-column">
+                    <span>Type:</span>
+                    Suggestion
+                  </div>
+                  <div class="d-flex flex-column">
+                    <span>Id:</span>
+                    #13BHNJ
+                  </div>
+                </div>
+                <hr class="request-hr">
+                <div class="card-text">
+                  I think you should add the search functionality
+                </div>
+                <hr class="request-hr">
+                <div class="card-text d-flex justify-content-between">
+                  <div>
+                    2021-07-23
+                  </div>
+                  <div>
+                    Pending...
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -398,7 +476,7 @@
         </div>
       </div>
     </div>
-    <div class="verify-main flex-column h-100"  id="main-right-4">
+    <div class="verify-main flex-column h-100" style="display:none" id="main-right-4">
       <div class="heading">PROFILE VERIFICATION</div>
       <div class="card-body">
         <div class="card">
@@ -489,7 +567,7 @@
         <div class="card" id="card-1">
           <div class="card-body">
             <div class="deposit--heading card-tite">
-              ADD DEPOSIT
+              ADDED AMOUNT
             </div>
             <div class="card-text deposit-amt">
               ₹360
@@ -504,7 +582,7 @@
         <div class="card" id="card-2">
           <div class="card-body">
             <div class="deposit--heading card-tite">
-              WITHDRAW DEPOSIT
+              WITHDRAWABLE AMOUNT
             </div>
             <div class="card-text deposit-amt">
               ₹360

@@ -13,6 +13,7 @@
 $(document).ready(function () {
   $("#more-details-btn-1").click(function () {
     $("#more-details-1").toggle("slow");
+    $("#more-details-1").text("less-details");
   });
 });
 console.log("my name");

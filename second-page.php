@@ -158,9 +158,6 @@
                 <div class="sort-item " id="sort-item-2" onclick="getSortActive('sort-item-2')">
                     Price - High to Low
                 </div>
-                <div class="sort-item " id="sort-item-3" onclick="getSortActive('sort-item-3')">
-                    Distance
-                </div>
             </div>
         </div>
         <hr class="hr-sort">

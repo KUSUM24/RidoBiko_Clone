@@ -51,7 +51,7 @@
     </div>
   </div>
   <div class="right-body card w-100">
-    <div class="bookings-main flex-column h-100" id="main-right-0">
+    <div class="bookings-main flex-column h-100" style="display:none" id="main-right-0">
       <div class="heading">MY BOOKINGS</div>
       <div class="card-body">
         <div class="card">
@@ -139,30 +139,85 @@
         </div>
       </div>
     </div>
-    <div class="ticket-main flex-column" style="display:none" id="main-right-1">
-      <div class="heading">Raise Ticket</div>
+    <div class="ticket-main flex-column"  id="main-right-1">
+      <div class="heading">
+        <div>Raise Ticket</div>
+      </div>
       <div class="card-body">
         <div class="raise-ticket card">
-          <div class="sub-heading">
+          <div class="sub-heading d-flex justify-content-between">
             Raise New Ticket
+            <b class="d-flex align-items-center">
+              <span class="material-icons">
+              phone
+              </span>  
+              9971770131
+            </b>
           </div>
           <div class="new-request px-3">
             <div class="">Need some more help? Create a New Request.</div>
-            <div class="btn btn-primary">New Request</div>
+            <button class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">New Request</button>
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">New Request</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <form class="d-flex flex-column align-items-center" action="" id="new-request">
+                      <div class="form-group col-sm-6">
+                        <label for="description">Description</label>
+                        <input type="text" class="form-control" id="description" placeholder="Description">
+                      </div>
+                      <label for="request-type">Request Type</label>
+                      <select class="mx-2" id="request-type">
+                        <option value="0">Select car:</option>
+                        <option value="1">Audi</option>
+                        <option value="2">BMW</option>
+                        <option value="3">Citroen</option>
+                        <option value="4">Ford</option>
+                        <option value="5">Honda</option>
+                        <option value="6">Jaguar</option>
+                        <option value="7">Land Rover</option>
+                        <option value="8">Mercedes</option>
+                      </select>
+                    </form>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- <form >
+              <div class="row m-0 justify-content-end">
+                <div class="col-sm-5 p-0">
+                  <input type="text" class="form-control" placeholder="Description">
+                </div>
+                <select class="mx-2">
+                  <option value="0">Select car:</option>
+                  <option value="1">Audi</option>
+                  <option value="2">BMW</option>
+                  <option value="3">Citroen</option>
+                  <option value="4">Ford</option>
+                  <option value="5">Honda</option>
+                  <option value="6">Jaguar</option>
+                  <option value="7">Land Rover</option>
+                  <option value="8">Mercedes</option>
+                </select>
+                <button class="">submit</button>
+              </div>
+            </form> -->
           </div>
           <div class="sub-heading">
             Raised Requests
           </div>
           <div class="table-responsive px-3">
             <table class="table raise-ticket--table">
-              <caption>
-                <b class="d-flex">
-                  <span class="material-icons">
-                  phone
-                  </span>  
-                  9971770131 - Contact Us
-                </b>
-              </caption>
               <thead class="thead-light">
                 <tr>
                   <th scope="col">Sr No</th>
@@ -182,23 +237,8 @@
                   <td>2021-07-23</td>
                   <td>None</td>
                 </tr>
-                
               </tbody>
             </table>
-          </div>
-          <div class="sub-heading">
-            Contact Us
-          </div>
-          <div class="contact-section d-flex justify-content-between px-3 pb-3">
-            <div>
-              Contact at any time with 24/7 service 
-            </div>
-            <b class="d-flex">
-              <span class="material-icons">
-              phone
-              </span>  
-              9971770131
-            </b>
           </div>
         </div>
       </div>

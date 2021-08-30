@@ -7,6 +7,7 @@ const permanentAddress = () => {
     permanentAddressForm.style.display = "block";
   }
 };
+
 const getRightSection = (id) => {
   for (let i = 0; i <= 5; i++) {
     let main = document.getElementById(`main-right-${i}`);

@@ -153,7 +153,7 @@
           <div class="sub-heading">
             Raised Requests
           </div>
-          <div class="table-responsive">
+          <div class="table-responsive px-3">
             <table class="table raise-ticket--table">
               <caption>
                 <b class="d-flex">
@@ -189,7 +189,7 @@
           <div class="sub-heading">
             Contact Us
           </div>
-          <div class="contact-section d-flex justify-content-between">
+          <div class="contact-section d-flex justify-content-between px-3 pb-3">
             <div>
               Contact at any time with 24/7 service 
             </div>

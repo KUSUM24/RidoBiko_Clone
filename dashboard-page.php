@@ -405,7 +405,7 @@
           <div class="sub-heading">Aadhar Card</div>
           <div class="row form-group px-3 align-items-center">
             <label class="col-sm-2 p-t5 m-0 pr-0" for="aadhar-front">Front Side</label>
-            <div class="col-sm-6 p-0 align-items-center">
+            <div class="col-sm-6 p-0 d-flex flex-row align-items-center">
               <input
               name="aadhar-front"
               id="aadhar-front"

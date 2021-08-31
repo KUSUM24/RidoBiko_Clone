@@ -196,7 +196,6 @@
           <div class="sub-heading">
             Raised Requests
           </div>
-          
           <div class="request-cards--main d-flex justify-content-between">
             <div class="card" id="request-card-0">
               <div class="card-body ">
@@ -486,7 +485,7 @@
           </div>
           <div class="row form-group px-3 align-items-center">
             <label class="col-sm-2 p-t5 m-0 pr-0" for="aadhar-back">Back Side</label>
-            <div class="col-sm-4 p-0 ">
+            <div class="col-sm-6 p-0 d-flex flex-row align-items-center">
               <input
               name="aadhar-back"
               id="aadhar-back"
@@ -501,7 +500,7 @@
           <div class="sub-heading">Pan Card</div>
           <div class="row form-group px-3 align-items-center">
             <label class="col-sm-2 p-t5 m-0" for="pancard">Pan Card</label>
-            <div class="col-sm-4 p-0">
+            <div class="col-sm-6 p-0 d-flex flex-row align-items-center">
               <input
               name="pancard"
               id="pancard"
@@ -516,7 +515,7 @@
           <div class="sub-heading">Driving License</div>
           <div class="row form-group px-3 align-items-center">
             <label class="col-sm-2 p-t5 m-0" for="license">Driving License</label>
-            <div class="col-sm-4 p-0">
+            <div class="col-sm-6 p-0 d-flex flex-row align-items-center">
               <input
               name="license"
               id="license"

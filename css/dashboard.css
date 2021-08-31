@@ -233,15 +233,26 @@ select:active {
   z-index: 1200 !important;
 }
 .request-cards--main {
-  margin: 2%;
+  margin: 2% 2% 4% 2%;
 }
 .request-cards--main .card {
   width: 30%;
   /* border: 1px solid red; */
-  /* background-color: rgb(248, 247, 247); */
+}
+.request-cards--main .card:hover {
+  transform: scale(1.1);
+}
+#request-card-0 {
+  background-color: rgb(236, 250, 247);
+}
+#request-card-1 {
+  background-color: rgb(250, 236, 241);
+}
+#request-card-2 {
+  background-color: rgba(224, 185, 250, 0.521);
 }
 .request-hr {
-  border-top: 1px solid red;
+  /* border-top: 1px solid red;  */
 }
 /* Profile Verification  */
 .preview-img {

@@ -196,41 +196,20 @@
           <div class="sub-heading">
             Raised Requests
           </div>
-          <div class="table-responsive px-3">
-            <table class="table raise-ticket--table">
-              <thead class="thead-light">
-                <tr>
-                  <th scope="col">Sr No</th>
-                  <th scope="col">Description</th>
-                  <th scope="col">Request ID</th>
-                  <th scope="col">Request Type</th>
-                  <th scope="col">Request Date</th>
-                  <th scope="col">Status</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <th scope="row">1</th>
-                  <td>I think you should add the search functionality</td>
-                  <td>#13BHNJ</td>
-                  <td>Suggestion</td>
-                  <td>2021-07-23</td>
-                  <td>None</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
+          
           <div class="request-cards--main d-flex justify-content-between">
-            <div class="card">
+            <div class="card" id="request-card-0">
               <div class="card-body ">
                 <div class="card-title d-flex justify-content-between">
                   <div class="d-flex flex-column">
                     <span>Type:</span>
-                    Suggestion
+                    <b>
+                      Suggestion
+                    </b>
                   </div>
                   <div class="d-flex flex-column">
                     <span>Id:</span>
-                    #13BHNJ
+                    <b>#13BHNJ</b>
                   </div>
                 </div>
                 <hr class="request-hr">
@@ -239,25 +218,29 @@
                 </div>
                 <hr class="request-hr">
                 <div class="card-text d-flex justify-content-between">
-                  <div>
-                    2021-07-23
+                <div class="d-flex flex-column">
+                    <span>Date:</span>
+                    <b>2019-07-20</b>
                   </div>
-                  <div>
-                    Pending...
+                  <div class="d-flex flex-column">
+                    <span>Status:</span>
+                    <b>Pending...</b>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="card">
+            <div class="card" id="request-card-1">
               <div class="card-body ">
                 <div class="card-title d-flex justify-content-between">
                   <div class="d-flex flex-column">
                     <span>Type:</span>
-                    Suggestion
+                    <b>
+                      Suggestion
+                    </b>
                   </div>
                   <div class="d-flex flex-column">
                     <span>Id:</span>
-                    #13BHNJ
+                    <b>#13BHNJ</b>
                   </div>
                 </div>
                 <hr class="request-hr">
@@ -266,25 +249,29 @@
                 </div>
                 <hr class="request-hr">
                 <div class="card-text d-flex justify-content-between">
-                  <div>
-                    2021-07-23
+                <div class="d-flex flex-column">
+                    <span>Date:</span>
+                    <b>2019-07-20</b>
                   </div>
-                  <div>
-                    Pending...
+                  <div class="d-flex flex-column">
+                    <span>Status:</span>
+                    <b>Pending...</b>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="card">
+            <div class="card" id="request-card-2">
               <div class="card-body ">
                 <div class="card-title d-flex justify-content-between">
                   <div class="d-flex flex-column">
                     <span>Type:</span>
-                    Suggestion
+                    <b>
+                      Suggestion
+                    </b>
                   </div>
                   <div class="d-flex flex-column">
                     <span>Id:</span>
-                    #13BHNJ
+                    <b>#13BHNJ</b>
                   </div>
                 </div>
                 <hr class="request-hr">
@@ -293,11 +280,13 @@
                 </div>
                 <hr class="request-hr">
                 <div class="card-text d-flex justify-content-between">
-                  <div>
-                    2021-07-23
+                <div class="d-flex flex-column">
+                    <span>Date:</span>
+                    <b>2019-07-20</b>
                   </div>
-                  <div>
-                    Pending...
+                  <div class="d-flex flex-column">
+                    <span>Status:</span>
+                    <b>Pending...</b>
                   </div>
                 </div>
               </div>

@@ -1,13 +1,4 @@
-const permanentAddress = () => {
-  const checkBox = document.getElementById("permanentAddress");
-  const permanentAddressForm = document.getElementById("permanentAddressForm");
-  if (checkBox.checked == true) {
-    permanentAddressForm.style.display = "none";
-  } else {
-    permanentAddressForm.style.display = "block";
-  }
-};
-
+// Left Sidebar functioning
 const getRightSection = (id) => {
   for (let i = 0; i <= 5; i++) {
     let main = document.getElementById(`main-right-${i}`);
@@ -21,7 +12,17 @@ const getRightSection = (id) => {
     }
   }
 };
-
+// My profile section
+const permanentAddress = () => {
+  const checkBox = document.getElementById("permanentAddress");
+  const permanentAddressForm = document.getElementById("permanentAddressForm");
+  if (checkBox.checked == true) {
+    permanentAddressForm.style.display = "none";
+  } else {
+    permanentAddressForm.style.display = "block";
+  }
+};
+// Booking NavBar
 const getBookingSection = (bookingId) => {
   for (let i = 0; i < 3; i++) {
     let bookingItem = document.getElementById(`booking-${i}`);
@@ -33,7 +34,7 @@ const getBookingSection = (bookingId) => {
     }
   }
 };
-
+// More Details Toggle - SearchBike section
 function img_pathUrl(input, id) {
   $(`#${id}`).css("display", "block");
   $(`#${id}`)[0].src = (window.URL ? URL : webkitURL).createObjectURL(
@@ -41,3 +42,10 @@ function img_pathUrl(input, id) {
   );
 }
 console.log("dashboard");
+// Deposit Section
+const getAddInput = () => {
+  let addBtn = document.getElementById("add-deposit--btn");
+  let addInput = document.getElementById("add-deposit--input");
+  addBtn.style.display = "none";
+  addInput.style.display = "flex";
+};

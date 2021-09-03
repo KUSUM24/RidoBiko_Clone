@@ -139,7 +139,7 @@
         </div>
       </div>
     </div>
-    <div class="ticket-main flex-column"  id="main-right-1">
+    <div class="ticket-main flex-column" style="display:none" id="main-right-1">
       <div class="heading">
         <div>Raise Ticket</div>
       </div>
@@ -534,7 +534,7 @@
         </div>
       </div>
     </div>
-    <div class="deposit-main flex-column px-4" style="display:none" id="main-right-5">
+    <div class="deposit-main flex-column px-4"  id="main-right-5">
       <div class="deposit-heading heading">Security Deposit</div>
       <div class="deposit-body card-body d-flex justify-content-between px-0">
         <div class="card" id="card-0">
@@ -549,7 +549,6 @@
             <div class="card-text">
               This includes the active deposit you have in your account
             </div>
-            <!-- <a href="#" class="btn bg-primary text-white mt-2">Active Deposit</a> -->
           </div>
         </div>
         <div class="card" id="card-1">
@@ -564,7 +563,11 @@
             <div class="card-text">
               This includes the amount you want to add to your current account
             </div>
-            <a href="#" class="btn bg-success text-white mt-2">Add Deposit</a>
+            <a href="#" class="btn bg-success text-white mt-2" id="add-deposit--btn" onclick="getAddInput()">Add Deposit</a>
+            <form action method="post" class="add-deposit--form" id="add-deposit--input">
+              <input class="form-control mr-3" type="number">
+              <button class="btn btn-primary" type="submit">ADD</button>
+            </form>
           </div>
         </div>
         <div class="card" id="card-2">

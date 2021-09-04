@@ -22,10 +22,8 @@ include "common/link.php";
     <!-- Footer -->
     <?php include "common/footer.php"; ?>
 
-    <script src="js/scroll.js"></script>
-    <script src="js/location.js"></script>
+    <script src="js/header.js"></script>
+    <script src="js/footer.js"></script>
     <script src="js/searchBikes-page.js"></script>
-    <script src="js/sort.js"></script>
-    <script src="js/deleteCard.js"></script>
   </body>
 </html>

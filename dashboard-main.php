@@ -24,8 +24,8 @@ include "common/link.php";
     <?php include "common/footer.php"; ?>
 
 
-    <script src="js/scroll.js"></script>
-    <script src="js/location.js"></script>
+    <script src="js/header.js"></script>
+    <script src="js/footer.js"></script>
     <script src="js/dashboard.js"></script>
     <script src="js/cart.js"></script>
   </body>

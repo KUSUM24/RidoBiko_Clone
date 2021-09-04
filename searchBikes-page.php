@@ -259,41 +259,52 @@
 
                     <div>Policies</div>
                     <div class="cancellation d-flex">
-                        <div class="text">
+                        <div class="text w-25">
                             Cancellation:         
                         </div>
                         <div class="cancel-policy policy">
                             <div>
-                                Cancellation made after booking start: No refund
+                                No show during pick - 100% rent amount will be deducted and only security deposit will be refunded (If paid in advance by customer)
                             </div>
                             <div>
-                                Cancellation made more than 24 hours before the booking start: Rs 200
+                                Between 0 - 24 hrs before the pickup time - No cancellation &amp; 100% amount will be deducted.
                             </div>
                             <div>
-                                Cancellation made with 24 hours of booking start: Rs 200 or 50% of Booking fee (whichever is greater)
+                                Between 24-48 hrs before the pickup time: 75% of total booking amount or total amount paid whichever will lower)
                             </div>
+                            <div>
+                                More than 48hrs before the pickup time: 50% of total booking amount or total amount paid whichever is lower will be refunded.
+                            </div>  
                         </div>  
                     </div>
                     <div class="late-return d-flex">
-                        <div class="text">
+                        <div class="text w-25">
                             Late Return:
                         </div>
                         <div class="late-return-policy policy">
-                            <div>  
-                                Standard hourly fee will be applicable per hour of delay. Weekend or weekday delays will be charged accordingly.
-                            </div>
-                            <div>  
-                                In addition to the standard hourly fee, every hour of delay would be charged at Rs. 300/hour                            </div>
+                            <div>
+                                <div>  
+                                    Non Geared Scooters: First 2 hours of delay would be charged at ₹100 + more than 2 hr full day rent will be charged
+                                </div>
+                                <div>  
+                                    Geared two wheeler: First 2 hours of delay would be charged at ₹200 + more than 2 hr full day rent will be charged                            </div>
+                                </div>
+                                <div>
+                                    Post 2 Hours:, Above hourly charges will be applicable on weekdays (Mon–Fri)
+                                </div>
                             </div>
                         </div>
                         <div class="vehicle-damage d-flex">
                             <div class="text">
-                                Vehicle Damage:
+                                Accident Policy:
                             </div>
                             <div class="vehicle-damage-policy policy">        
                                 <div>
-                                    Any unintentional damage or accident will be liable for damage charge upto Rs 10000/-(full-wrap insurance covers the rest)
-                                </div>               
+                                    For any damages incurred to an Ridobiko asset (the two-wheeler), the user will be held responsible for bearing all the charges up to INR ₹10,000.
+                                </div> 
+                                <div>
+                                    For any damages incurred to an Ridobiko asset (the two-wheeler) amounting more than INR ₹10,000, the user is eligible to claim insurance to cover the charges that imply including the rental cost incurred during downtime period of the asset which is a time period otherwise utilized by another Ridobiko user
+                                </div>              
                             </div>
                         </div>
                         <div class="penalties d-flex">
@@ -305,7 +316,7 @@
                             </div>
                         </div>
                         <div class="more-policies">
-                            For more policies <a href="#">Click here</a>
+                            For more policies <a href="https://www.ridobiko.com/Policy">Click here</a>
                         </div>
                     </div>
                 </div>    
@@ -488,7 +499,7 @@
                             </div>
                         </div>
                         <div class="more-policies">
-                            For more policies <a href="#">Click here</a>
+                            For more policies <a href="https://www.ridobiko.com/Policy">Click here</a>
                         </div>
                     </div>
                 </div>    
@@ -649,7 +660,7 @@
                             </div>
                         </div>
                         <div class="more-policies">
-                            For more policies <a href="#">Click here</a>
+                            For more policies <a href="https://www.ridobiko.com/Policy">Click here</a>
                         </div>
                     </div>
                 </div>    

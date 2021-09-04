@@ -10,7 +10,7 @@ include "common/link.php";
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/footer.css">
-    <link rel="stylesheet" href="css/second-page.css">
+    <link rel="stylesheet" href="css/searchBikes-page.css">
     <title>RidoBiko-Second</title>
 </head>
 <body>
@@ -18,13 +18,13 @@ include "common/link.php";
     <!-- Header HTML  -->
     <?php include "common/header.php"; ?>
     <!-- Details  -->
-    <?php include "second-page.php" ?>
+    <?php include "searchBikes-page.php" ?>
     <!-- Footer -->
     <?php include "common/footer.php"; ?>
 
     <script src="js/scroll.js"></script>
     <script src="js/location.js"></script>
-    <script src="js/second-page.js"></script>
+    <script src="js/searchBikes-page.js"></script>
     <script src="js/sort.js"></script>
     <script src="js/deleteCard.js"></script>
   </body>

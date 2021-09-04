@@ -9,7 +9,7 @@ include "common/link.php";
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/header.css">
-    <link rel="stylesheet" href="css/first-page.css">
+    <link rel="stylesheet" href="css/index-page.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/carousel.css">
 
@@ -22,7 +22,7 @@ include "common/link.php";
     <!-- Header HTML  -->
     <?php include "common/header.php"; ?>
     <!-- Main Section  -->
-    <?php include "first-page.php"; ?>
+    <?php include "index-page.php"; ?>
     <!-- Footer -->
     <?php include "common/footer.php"; ?>
 

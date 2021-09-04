@@ -200,6 +200,9 @@
 .deposit-amt {
   font-size: 200%;
 }
+.add-deposit--form {
+  display: none;
+}
 /* Raise Ticket  */
 .ticket-main .new-request {
   display: flex;

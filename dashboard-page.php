@@ -156,12 +156,12 @@
           </div>
           <div class="new-request px-3">
             <div>Need some more help? Create a New Request.</div>
-            <button class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">New Request</button>
-            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <button class="btn btn-primary" data-toggle="modal" data-target="#ticketModal">New Request</button>
+            <div class="modal fade" id="ticketModal" tabindex="-1" role="dialog" aria-labelledby="ticketModalLabel" aria-hidden="true">
               <div class="modal-dialog" role="document">
                 <div class="modal-content">
                   <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">New Request</h5>
+                    <h5 class="modal-title" id="ticketModalLabel">New Request</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                       <span aria-hidden="true">&times;</span>
                     </button>
@@ -564,7 +564,7 @@
               This includes the amount you want to add to your current account
             </div>
             <a href="#" class="btn bg-success text-white mt-2" id="add-deposit--btn" onclick="getAddInput()">Add Deposit</a>
-            <form action method="post" class="add-deposit--form" id="add-deposit--input">
+            <form action method="post" class="add-deposit--form mt-2" id="add-deposit--input">
               <input class="form-control mr-3" type="number">
               <button class="btn btn-primary" type="submit">ADD</button>
             </form>
@@ -582,7 +582,33 @@
             <div class="card-text">
               This includes the amount you want to withdraw from your account 
             </div>
-            <a href="#" class="btn bg-dark text-white mt-2">Withdraw Deposit</a>
+            <a href="#" class="btn bg-dark text-white mt-2" data-toggle="modal" data-target="#depositModal">Withdraw Deposit</a>
+            <div class="modal fade" id="depositModal" tabindex="-1" role="dialog" aria-labelledby="depositModalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="depositModalLabel">New Request</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <form class="request-form" action method="POST" id="new-request">
+                      <div class="form-group">
+                        <label for="withdraw-amount">Amount to Withdraw</label>
+                        <input type="number" class="form-control" id="withdraw-amount" placeholder="Amount">
+                      </div>
+                      <div class="form-group">
+                        <label for="comment">Description:</label>
+                        <textarea class="form-control" rows="5" id="comment" name="description"></textarea>
+                      </div>
+                      <button type="button" class="btn btn-primary">Save Request</button>
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>

@@ -13,13 +13,20 @@
 $(document).ready(function () {
   $("#more-details-btn-1").click(function () {
     $("#more-details-1").toggle("slow", () => {
-      var isVisible = $("#more-details-1").is(":hidden");
+      var isVisible = $("#more-details-1").is(":visible");
       console.log(isVisible);
+      if (isVisible) {
+        $("#more-details-btn-1").html(`<div class="d-flex">
+        Less Details
+        <span class="more-down-details material-icons-outlined">expand_less</span>
+        </div>`);
+      } else {
+        $("#more-details-btn-1").html(`<div class="d-flex">
+        More Details
+        <span class="more-down-details material-icons-outlined">expand_more</span>
+        </div>`);
+      }
     });
-    $("#more-details-btn-1").html(`<div class="d-flex">
-    Less Details
-    <span class="more-down-details material-icons-outlined">expand_less</span>
-    </div>`);
   });
 });
 

@@ -21,6 +21,12 @@
         <div>Mobile Number</div>
       </div>
       <div class="status--container d-flex align-items-center">
+        <span class="material-icons-outlined inactive-icon" id="emergencyNumberStatus">
+          highlight_off
+        </span>
+        <div>Emergency Mobile Number</div>
+      </div>
+      <div class="status--container d-flex align-items-center">
         <span class="material-icons-outlined inactive-icon" id="paymentStatus">
           highlight_off
         </span>
@@ -69,9 +75,157 @@
             </div>
           </div>
           <div class="booking-card-main flex flex-column">
-            <div class="booking-card card d-flex flex-column">
-              <div class="d-flex justify-content-end">Booking Status: <span> CONFIRM </span></div>
-              <hr class="m-0">
+            <div class="booking-card m-3 card d-flex flex-column ">
+              <div class="d-flex justify-content-end">
+                <div class="py-2">
+                  ORDER STATUS: <span class="booking-status booking-confirm px-1"> CONFIRM </span>
+                </div>
+              </div>
+              <!-- <hr class="m-0"> -->
+              <div class="d-flex flex-row align-items-center justify-content-between">
+                <img src="images/Bikes/Bike_Second.png" class="booking-img w-25" alt="">
+                <div class="bike-name d-flex flex-column">
+                  <b>
+                    AVENGER,
+                  </b>
+                  <span>
+                    Bajaj
+                  </span>
+                </div>
+                <div class="pick-drop d-flex align-items-center justify-content-between">
+                  <div class="pick-date-time d-flex flex-column align-items-center">
+                    <div class=" time-text" id="pick-time">7:00 PM</div>
+                    <div class="pick-date-div d-flex">
+                      <div id="pick-date"></div>
+                      &nbsp;
+                      <div id="pick-month-year"></div>
+                      &nbsp;
+                      <div id="pick-day"></div>
+                    </div>
+                  </div>
+                  <div class="d-flex align-items-center">
+                    <span class="material-icons-outlined">
+                      horizontal_rule
+                    </span>
+                    <div class="to">
+                      To 
+                    </div>
+                    <span class="material-icons-outlined">
+                      horizontal_rule
+                    </span>
+                  </div>
+                  <div class="drop-date-time d-flex flex-column align-items-center px-2">
+                    <div class="time-text" id="drop-time">7:00 PM</div>
+                    <div class="drop-date-div d-flex justify-content-between">
+                      <div id="drop-date"></div>  
+                      &nbsp;
+                      <div id="drop-month-year"></div>
+                      &nbsp;
+                      <div id="drop-day"></div>
+                    </div>
+                  </div>
+                </div>
+                <a href="#">View Details</a>
+              </div>
+              <hr class="w-100 mt-0">
+              <div class="order-details d-flex justify-content-between w-100">
+                <div class="d-flex flex-column">
+                  <div>Order Date:</div>
+                  <div class="order-item--bold" id="orderDate">2021-08-23</div>
+                </div>
+                <div class="d-flex flex-column">
+                  <div>Order ID:</div>
+                  <div class="order-item--bold">#2456FHN788990M</div>
+                </div>
+                <div class="d-flex flex-column">
+                  <div>Order Type:</div>
+                  <div class="order-item--bold">Subscribed</div>
+                </div>
+                <div class="d-flex flex-column">
+                  <div>Total Rent:</div>
+                  <div class="order-item--bold">₹3300</div>
+                </div>
+              </div>
+            </div>
+            <div class="booking-card m-3 card d-flex flex-column">
+              <div class="d-flex justify-content-end">
+                <div class="py-2">
+                  ORDER STATUS: <span class="booking-status booking-cancel px-1"> CANCEL </span>
+                </div>
+              </div>
+              <!-- <hr class="m-0"> -->
+              <div class="d-flex flex-row align-items-center justify-content-between">
+                <img src="images/Bikes/Bike_Second.png" class="booking-img w-25" alt="">
+                <div class="bike-name d-flex flex-column">
+                  <b>
+                    AVENGER,
+                  </b>
+                  <span>
+                    Bajaj
+                  </span>
+                </div>
+                <div class="pick-drop d-flex align-items-center justify-content-between">
+                  <div class="pick-date-time d-flex flex-column align-items-center">
+                    <div class=" time-text" id="pick-time">7:00 PM</div>
+                    <div class="pick-date-div d-flex">
+                      <div id="pick-date"></div>
+                      &nbsp;
+                      <div id="pick-month-year"></div>
+                      &nbsp;
+                      <div id="pick-day"></div>
+                    </div>
+                  </div>
+                  <div class="d-flex align-items-center">
+                    <span class="material-icons-outlined">
+                      horizontal_rule
+                    </span>
+                    <div class="to">
+                      To 
+                    </div>
+                    <span class="material-icons-outlined">
+                      horizontal_rule
+                    </span>
+                  </div>
+                  <div class="drop-date-time d-flex flex-column align-items-center px-2">
+                    <div class="time-text" id="drop-time">7:00 PM</div>
+                    <div class="drop-date-div d-flex justify-content-between">
+                      <div id="drop-date"></div>  
+                      &nbsp;
+                      <div id="drop-month-year"></div>
+                      &nbsp;
+                      <div id="drop-day"></div>
+                    </div>
+                  </div>
+                </div>
+                <a href="#">View Details</a>
+              </div>
+              <hr class="w-100 mt-0">
+              <div class="order-details d-flex justify-content-between w-100">
+                <div class="d-flex flex-column">
+                  <div>Order Date:</div>
+                  <div class="order-item--bold" id="orderDate">2021-08-23</div>
+                </div>
+                <div class="d-flex flex-column">
+                  <div>Order ID:</div>
+                  <div class="order-item--bold">#2456FHN788990M</div>
+                </div>
+                <div class="d-flex flex-column">
+                  <div>Order Type:</div>
+                  <div class="order-item--bold">Subscribed</div>
+                </div>
+                <div class="d-flex flex-column">
+                  <div>Total Rent:</div>
+                  <div class="order-item--bold">₹3300</div>
+                </div>
+              </div>
+            </div>
+            <div class="booking-card m-3 card d-flex flex-column">
+              <div class="d-flex justify-content-end">
+                <div class="py-2">
+                  ORDER STATUS: <span class="booking-status booking-pending px-1"> PENDING </span>
+                </div>
+              </div>
+              <!-- <hr class="m-0"> -->
               <div class="d-flex flex-row align-items-center justify-content-between">
                 <img src="images/Bikes/Bike_Second.png" class="booking-img w-25" alt="">
                 <div class="bike-name d-flex flex-column">
@@ -600,11 +754,14 @@
                         <div>Withdrawable Amount: </div>
                         <div>₹360</div>
                       </div>
-                        <div class="form-group">
+                      <div class="form-group">
                         <label for="withdraw-amount">Amount to Withdraw</label>
                         <input type="number" class="form-control" id="withdraw-amount" placeholder="Amount">
                       </div>
-                      
+                      <div class="form-group">
+                        <label for="withdraw-amount">Account No.</label>
+                        <input type="number" class="form-control" id="withdraw-amount" placeholder="Account No.">
+                      </div>
                       <button type="button" class="btn btn-dark">Withdraw</button>
                       <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
                     </form>

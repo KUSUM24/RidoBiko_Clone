@@ -75,10 +75,10 @@
             </div>
           </div>
           <div class="booking-card-main flex flex-column">
-            <div class="booking-card m-3 card d-flex flex-column ">
+            <div class="booking-card mt-3 mx-3 card d-flex flex-column ">
               <div class="d-flex justify-content-end">
                 <div class="py-2">
-                  ORDER STATUS: <span class="booking-status booking-confirm px-1"> CONFIRM </span>
+                  BOOKING STATUS: <span class="booking-status booking-confirm px-1"> CONFIRM </span>
                 </div>
               </div>
               <!-- <hr class="m-0"> -->
@@ -147,10 +147,20 @@
                 </div>
               </div>
             </div>
+            <div class="d-flex justify-content-center">
+              <div class="card">
+                <div class="card-body">
+                  <div class="card-text">
+                    Booking Details
+                  </div>
+                  <hr>
+                </div>
+              </div>
+            </div>
             <div class="booking-card m-3 card d-flex flex-column">
               <div class="d-flex justify-content-end">
                 <div class="py-2">
-                  ORDER STATUS: <span class="booking-status booking-cancel px-1"> CANCEL </span>
+                  BOOKING STATUS: <span class="booking-status booking-cancel px-1"> CANCEL </span>
                 </div>
               </div>
               <!-- <hr class="m-0"> -->
@@ -219,10 +229,11 @@
                 </div>
               </div>
             </div>
+
             <div class="booking-card m-3 card d-flex flex-column">
               <div class="d-flex justify-content-end">
                 <div class="py-2">
-                  ORDER STATUS: <span class="booking-status booking-pending px-1"> PENDING </span>
+                  BOOKING STATUS: <span class="booking-status booking-pending px-1"> PENDING </span>
                 </div>
               </div>
               <!-- <hr class="m-0"> -->

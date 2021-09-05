@@ -51,7 +51,7 @@
     </div>
   </div>
   <div class="right-body card w-100">
-    <div class="bookings-main flex-column h-100" style="display:none" id="main-right-0">
+    <div class="bookings-main flex-column h-100"  id="main-right-0">
       <div class="heading">MY BOOKINGS</div>
       <div class="card-body">
         <div class="card">
@@ -70,6 +70,8 @@
           </div>
           <div class="booking-card-main flex flex-column">
             <div class="booking-card card d-flex flex-column">
+              <div class="d-flex justify-content-end">Booking Status: <span> CONFIRM </span></div>
+              <hr class="m-0">
               <div class="d-flex flex-row align-items-center justify-content-between">
                 <img src="images/Bikes/Bike_Second.png" class="booking-img w-25" alt="">
                 <div class="bike-name d-flex flex-column">
@@ -534,7 +536,7 @@
         </div>
       </div>
     </div>
-    <div class="deposit-main flex-column px-4"  id="main-right-5">
+    <div class="deposit-main flex-column px-4" style="display:none" id="main-right-5">
       <div class="deposit-heading heading">Security Deposit</div>
       <div class="deposit-body card-body d-flex justify-content-between px-0">
         <div class="card" id="card-0">
@@ -595,15 +597,16 @@
                   <div class="modal-body">
                     <form class="request-form" action method="POST" id="new-request">
                       <div class="form-group">
+                        <div>Withdrawable Amount: </div>
+                        <div>₹360</div>
+                      </div>
+                        <div class="form-group">
                         <label for="withdraw-amount">Amount to Withdraw</label>
                         <input type="number" class="form-control" id="withdraw-amount" placeholder="Amount">
                       </div>
-                      <div class="form-group">
-                        <label for="comment">Description:</label>
-                        <textarea class="form-control" rows="5" id="comment" name="description"></textarea>
-                      </div>
-                      <button type="button" class="btn btn-primary">Save Request</button>
-                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                      
+                      <button type="button" class="btn btn-dark">Withdraw</button>
+                      <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
                     </form>
                   </div>
                 </div>

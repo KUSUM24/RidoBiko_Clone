@@ -194,6 +194,9 @@
   width: 32%;
   background-color: rgb(248, 247, 247);
 }
+.deposit-body .modal {
+  z-index: 1200 !important;
+}
 #card-1 {
   border-bottom: 3px solid blue;
 }

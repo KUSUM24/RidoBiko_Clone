@@ -10,25 +10,27 @@
 //   document.getElementById(lessId).style.display = "none";
 //   document.getElementById(moreId).style.display = "flex";
 // };
-$(document).ready(function () {
-  $("#more-details-btn-1").click(function () {
-    $("#more-details-1").toggle("slow", () => {
-      var isVisible = $("#more-details-1").is(":visible");
-      console.log(isVisible);
-      if (isVisible) {
-        $("#more-details-btn-1").html(`<div class="d-flex">
+for (let i = 1; i < 4; i++) {
+  $(document).ready(function () {
+    $(`#more-details-btn-${i}`).click(function () {
+      $(`#more-details-${i}`).toggle("slow", () => {
+        var isVisible = $(`#more-details-${i}`).is(":visible");
+        console.log(isVisible);
+        if (isVisible) {
+          $(`#more-details-btn-${i}`).html(`<div class="d-flex">
         Less Details
         <span class="more-down-details material-icons-outlined">expand_less</span>
         </div>`);
-      } else {
-        $("#more-details-btn-1").html(`<div class="d-flex">
+        } else {
+          $(`#more-details-btn-${i}`).html(`<div class="d-flex">
         More Details
         <span class="more-down-details material-icons-outlined">expand_more</span>
         </div>`);
-      }
+        }
+      });
     });
   });
-});
+}
 
 // Delete activa card
 const deleteCard = (id) => {

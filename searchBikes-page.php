@@ -680,3 +680,26 @@
             </div>
     </div>
 </div>
+<script>
+    for (let i = 1; i < 4; i++) {
+  $(document).ready(function () {
+    $(`#more-details-btn-${i}`).click(function () {
+      $(`#more-details-${i}`).toggle("slow", () => {
+        var isVisible = $(`#more-details-${i}`).is(":visible");
+        console.log(isVisible);
+        if (isVisible) {
+          $(`#more-details-btn-${i}`).html(`<div class="d-flex">
+        Less Details
+        <span class="more-down-details material-icons-outlined">expand_less</span>
+        </div>`);
+        } else {
+          $(`#more-details-btn-${i}`).html(`<div class="d-flex">
+        More Details
+        <span class="more-down-details material-icons-outlined">expand_more</span>
+        </div>`);
+        }
+      });
+    });
+  });
+}
+</script>

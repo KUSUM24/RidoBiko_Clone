@@ -153,35 +153,34 @@
                   <div class="card-text">
                     Booking Details
                   </div>
-                  <hr>
                   <table class="table">
                     <tbody>
                       <tr>
-                        <th scope="row">Subscription Date</th>
+                        <th scope="row">Booking Date</th>
                         <td>Mark</td>
                       </tr>
                       <tr>
-                        <th scope="row">1</th>
+                        <th scope="row">Pickup Date</th>
                         <td>Mark</td>
                       </tr>
                       <tr>
-                        <th scope="row">1</th>
+                        <th scope="row">Drop Date</th>
                         <td>Mark</td>
                       </tr>
                       <tr>
-                        <th scope="row">1</th>
+                        <th scope="row">Total Rent</th>
                         <td>Mark</td>
                       </tr>
                       <tr>
-                        <th scope="row">1</th>
+                        <th scope="row">Amount Paid</th>
                         <td>Mark</td>
                       </tr>
                       <tr>
-                        <th scope="row">1</th>
+                        <th scope="row">Remaining Amount</th>
                         <td>Mark</td>
                       </tr>
                       <tr>
-                        <th scope="row">1</th>
+                        <th scope="row">Booking Status</th>
                         <td>Mark</td>
                       </tr>
                     </tbody>

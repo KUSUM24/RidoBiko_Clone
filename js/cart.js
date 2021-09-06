@@ -22,3 +22,11 @@ console.log(dateReturn, finalDate, day);
 // Day
 document.getElementById("pick-day").innerHTML = day;
 document.getElementById("drop-day").innerHTML = day;
+
+// View Offers Section
+$(document).ready(function () {
+  $("#view-offers-btn").click(function () {
+    $("#view-offers").toggle("slow");
+    console.log("toggled");
+  });
+});

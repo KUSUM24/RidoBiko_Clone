@@ -86,19 +86,31 @@
                 <div>₹ 2,200</div>
             </div>
             <hr class="hr-checkout">
-            <a class="view-offers" href="#">
-                <div class="d-flex justify-content-between px-4 py-3">
-                    <div class="d-flex justify-content-between align-items-center">
+                <a class="view-offers" href="#" id="view-offers-btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <div class="d-flex justify-content-between px-4 py-3">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <span class="material-icons">
+                                stars
+                            </span>
+                            <div class="view-offers-text mx-2">View Offers</div>
+                        </div>
                         <span class="material-icons">
-                            stars
+                            chevron_right
                         </span>
-                        <div class="view-offers-text mx-2">View Offers</div>
                     </div>
-                    <span class="material-icons">
-                    chevron_right
-                    </span>
+                </a>
+                <div id="view-offers" style="display:none">
+                    <hr class="hr-checkout">
+                    <div class="d-flex justify-content-between px-4 py-3">
+                        <b>Special Price</b>
+                        <div>Get extra 10% off (price inclusive of discount)</div>
+                    </div>
+                    <hr class="hr-checkout">
+                    <div class="d-flex  justify-content-between px-4 py-3">
+                        <b>Bank Offer</b>
+                        <div>Get extra 10% off on Bank of Baroda Credit Card</div>
+                    </div>
                 </div>
-            </a>
             <hr class="hr-checkout">
             <div class="d-flex justify-content-between px-4 py-3">
                 <div>CGST(14%)</div>
@@ -121,3 +133,11 @@
         </div>
     </div>
 </div>
+<script>
+    $(document).ready(function () {
+    $("#view-offers-btn").click(function () {
+        $("#view-offers").toggle("slow");
+        console.log("toggled");
+    });
+    });
+</script>

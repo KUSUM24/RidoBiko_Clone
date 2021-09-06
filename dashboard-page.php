@@ -148,12 +148,44 @@
               </div>
             </div>
             <div class="d-flex justify-content-center">
-              <div class="card">
+              <div class="card view-details-section">
                 <div class="card-body">
                   <div class="card-text">
                     Booking Details
                   </div>
                   <hr>
+                  <table class="table">
+                    <tbody>
+                      <tr>
+                        <th scope="row">Subscription Date</th>
+                        <td>Mark</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">1</th>
+                        <td>Mark</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">1</th>
+                        <td>Mark</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">1</th>
+                        <td>Mark</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">1</th>
+                        <td>Mark</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">1</th>
+                        <td>Mark</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">1</th>
+                        <td>Mark</td>
+                      </tr>
+                    </tbody>
+                  </table>
                 </div>
               </div>
             </div>

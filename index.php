@@ -222,7 +222,7 @@ include "common/link.php";
         </div>
       </div>
       <button class="ridobiko-btn">
-        <a class="btn-inner" href="second-main.php" target="_blank">
+        <a class="btn-inner" href="searchBikes-main.php" target="_blank">
           SEARCH
         </a>
       </button>

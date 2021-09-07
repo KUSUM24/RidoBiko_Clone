@@ -125,7 +125,7 @@
                     </div>
                   </div>
                 </div>
-                <a href="#">View Details</a>
+                <button class="btn btn-dark" id="view-details-btn">View Details</button>
               </div>
               <hr class="w-100 mt-0">
               <div class="order-details d-flex justify-content-between w-100">
@@ -146,45 +146,46 @@
                   <div class="order-item--bold">₹3300</div>
                 </div>
               </div>
-            </div>
-            <div class="d-flex justify-content-center">
-              <div class="card view-details-section">
-                <div class="card-body">
-                  <div class="card-text">
-                    Booking Details
+              <hr>
+              <div class="d-flex justify-content-center" id="view-details" style="display:none">
+                <div class="card view-details-section">
+                  <div class="card-body">
+                    <div class="card-text">
+                      Booking Details
+                    </div>
+                    <table class="table">
+                      <tbody>
+                        <tr>
+                          <th scope="row">Booking Date</th>
+                          <td>2021-06-17</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">Pickup Date</th>
+                          <td>2021-06-17 <span>09:00:00</span></td>
+                        </tr>
+                        <tr>
+                          <th scope="row">Drop Date</th>
+                          <td>2021-06-17 <span>09:00:00</span></td>
+                        </tr>
+                        <tr>
+                          <th scope="row">Total Rent</th>
+                          <td>₹1,150</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">Amount Paid</th>
+                          <td>₹1,000</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">Remaining Amount</th>
+                          <td>₹150</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">Booking Status</th>
+                          <td class="view-details--status">Pending</td>
+                        </tr>
+                      </tbody>
+                    </table>
                   </div>
-                  <table class="table">
-                    <tbody>
-                      <tr>
-                        <th scope="row">Booking Date</th>
-                        <td>Mark</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">Pickup Date</th>
-                        <td>Mark</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">Drop Date</th>
-                        <td>Mark</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">Total Rent</th>
-                        <td>Mark</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">Amount Paid</th>
-                        <td>Mark</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">Remaining Amount</th>
-                        <td>Mark</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">Booking Status</th>
-                        <td>Mark</td>
-                      </tr>
-                    </tbody>
-                  </table>
                 </div>
               </div>
             </div>

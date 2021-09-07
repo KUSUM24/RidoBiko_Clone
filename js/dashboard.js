@@ -49,3 +49,10 @@ const getAddInput = () => {
   addBtn.style.display = "none";
   addInput.style.display = "flex";
 };
+// View Details Section
+$(document).ready(function () {
+  $("#view-details-btn").click(function () {
+    $("#view-details").toggle("slow");
+    console.log("toggled");
+  });
+});

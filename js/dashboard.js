@@ -24,13 +24,17 @@ const permanentAddress = () => {
 };
 // Booking NavBar
 const getBookingSection = (bookingId) => {
-  for (let i = 0; i < 3; i++) {
+  let n = 3;
+  for (let i = 0; i < n; i++) {
     let bookingItem = document.getElementById(`booking-${i}`);
+    let bookingSection = document.getElementById(`booking-section-main-${i}`);
     console.log(bookingId, `booking-${i}`);
     if (bookingId == i) {
       bookingItem.classList.add("active-booking");
+      bookingSection.style.display = "flex";
     } else {
       bookingItem.classList.remove("active-booking");
+      bookingSection.style.display = "none";
     }
   }
 };
@@ -57,10 +61,10 @@ for (let i = 1; i < 4; i++) {
       console.log("toggled");
     });
   });
-}
-$(document).ready(function () {
-  $(`#view-details-btn-1`).click(function () {
-    $(`#view-details-1`).toggle("slow");
-    console.log("toggled");
+  $(document).ready(function () {
+    $(`#subscription-details-btn-${i}`).click(function () {
+      $(`#subscription-details-${i}`).toggle("slow");
+      console.log("toggled");
+    });
   });
-});
+}

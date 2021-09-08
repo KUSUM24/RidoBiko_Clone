@@ -53,6 +53,4 @@ const getSortActive = (id) => {
     document.getElementById(id1).classList.remove("sort-item-active");
     document.getElementById(id2).classList.remove("sort-item-active");
   }
-
-  console.log("ccked");
 };

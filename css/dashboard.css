@@ -199,6 +199,10 @@
 .booking-card-main .table {
   margin-bottom: 0% !important;
 }
+.booking-details-heading {
+  font-size: 140%;
+  font-weight: 700;
+}
 /* Deposits Section  */
 .deposit-main .btn {
   /* background-color: rgb(172, 171, 170); */

@@ -50,9 +50,17 @@ const getAddInput = () => {
   addInput.style.display = "flex";
 };
 // View Details Section
+for (let i = 1; i < 4; i++) {
+  $(document).ready(function () {
+    $(`#view-details-btn-${i}`).click(function () {
+      $(`#view-details-${i}`).toggle("slow");
+      console.log("toggled");
+    });
+  });
+}
 $(document).ready(function () {
-  $("#view-details-btn").click(function () {
-    $("#view-details").toggle("slow");
+  $(`#view-details-btn-1`).click(function () {
+    $(`#view-details-1`).toggle("slow");
     console.log("toggled");
   });
 });

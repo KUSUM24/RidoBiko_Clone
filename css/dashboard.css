@@ -188,7 +188,7 @@
 .bookings-main .view-details-section {
   width: 70% !important;
 }
-#view-details-btn {
+.view-details-btn {
   color: blue;
   text-decoration: underline;
   cursor: pointer;

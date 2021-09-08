@@ -193,6 +193,12 @@
   text-decoration: underline;
   cursor: pointer;
 }
+.view-details--pending {
+  color: red;
+}
+.booking-card-main .table {
+  margin-bottom: 0% !important;
+}
 /* Deposits Section  */
 .deposit-main .btn {
   /* background-color: rgb(172, 171, 170); */

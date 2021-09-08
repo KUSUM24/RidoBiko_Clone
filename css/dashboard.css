@@ -186,7 +186,12 @@
   font-size: 110%;
 }
 .bookings-main .view-details-section {
-  width: 50% !important;
+  width: 70% !important;
+}
+#view-details-btn {
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
 }
 /* Deposits Section  */
 .deposit-main .btn {

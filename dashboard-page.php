@@ -125,7 +125,7 @@
                     </div>
                   </div>
                 </div>
-                <button class="btn btn-dark" id="view-details-btn">View Details</button>
+                <div id="view-details-btn">View Details</div>
               </div>
               <hr class="w-100 mt-0">
               <div class="order-details d-flex justify-content-between w-100">
@@ -147,8 +147,8 @@
                 </div>
               </div>
               <hr>
-              <div class="d-flex justify-content-center" id="view-details" style="display:none">
-                <div class="card view-details-section">
+              <div class="d-flex justify-content-center"  >
+                <div class="card view-details-section" id="view-details" style="display:none">
                   <div class="card-body">
                     <div class="card-text">
                       Booking Details

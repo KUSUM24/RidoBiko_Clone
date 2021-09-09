@@ -14,13 +14,13 @@
         </span>
         <div>Profile Document</div>
       </div>
-      <div class="status--container d-flex align-items-center">
+      <div class="status--container d-flex align-items-center" onclick="getRightSection('6')">
         <span class="material-icons-outlined active-icon" id="numberStatus">
           check_circle_outline
         </span>
         <div>Mobile Number</div>
       </div>
-      <div class="status--container d-flex align-items-center">
+      <div class="status--container d-flex align-items-center" onclick="getRightSection('7')">
         <span class="material-icons-outlined inactive-icon" id="emergencyNumberStatus">
           highlight_off
         </span>
@@ -57,7 +57,7 @@
     </div>
   </div>
   <div class="right-body card w-100">
-    <div class="bookings-main flex-column h-100"  id="main-right-0">
+    <div class="bookings-main flex-column h-100" style="display:none" id="main-right-0">
       <div class="heading">MY BOOKINGS</div>
       <div class="card-body">
         <div class="card">
@@ -1645,9 +1645,92 @@
         </tbody>
       </table>
     </div>
-    
+    <div class="otp-verify-main flex-column" id="main-right-6">
+      <div class="heading">
+        <div>OTP Verification</div>
+      </div>
+      <div class="card-body">
+        <div class="card">
+          <div class="sub-heading">OTP Verification</div>
+          <form action="" method="POST">
+            <div class="row form-group px-3 align-items-center">
+              <label class="col-sm-3 p-t5 m-0" for="mobile-otp">Mobile Number</label>
+              <div class="col-sm-4 mt-2" >
+                <input
+                class="form-control size-13"
+                name="name"
+                placeholder="9875689248"
+                type="text"
+                id="mobile-otp"
+                />
+              </div>
+            </div>
+            <div class="row form-group px-3 align-items-center">
+              <label class="col-sm-3 p-t5 m-0" for="mobile-otp">Verify OTP</label>
+              <div class="col-sm-4 mt-2" >
+                <input
+                class="form-control size-13"
+                name="name"
+                placeholder="Enter OTP"
+                type="text"
+                id="mobile-otp"
+                />
+              </div>
+            </div>
+            <!-- <div class="w-50 mx-2"> -->
+            <hr class="mx-3">
+            <!-- </div> -->
+            <div class="text-center ">
+              <button class="otp-verify-btn bg-white">SUBMIT</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="otp-verify-main flex-column" id="main-right-7">
+      <div class="heading">
+        <div>OTP Verification</div>
+      </div>
+      <div class="card-body">
+        <div class="card">
+          <div class="sub-heading">OTP Verification</div>
+          <form action="" method="POST">
+            <div class="row form-group px-3 align-items-center">
+              <label class="col-sm-3 p-t5 m-0" for="mobile-otp">Mobile Number</label>
+              <div class="col-sm-4 mt-2" >
+                <input
+                class="form-control size-13"
+                name="name"
+                placeholder="9875689248"
+                type="text"
+                id="mobile-otp"
+                />
+              </div>
+            </div>
+            <div class="row form-group px-3 align-items-center">
+              <label class="col-sm-3 p-t5 m-0" for="mobile-otp">Verify OTP</label>
+              <div class="col-sm-4 mt-2" >
+                <input
+                class="form-control size-13"
+                name="name"
+                placeholder="Enter OTP"
+                type="text"
+                id="mobile-otp"
+                />
+              </div>
+            </div>
+            <!-- <div class="w-50 mx-2"> -->
+            <hr class="mx-3">
+            <!-- </div> -->
+            <div class="text-center ">
+              <button class="otp-verify-btn bg-white">Send OTP</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 <script>
   
-</script>
+  </script>

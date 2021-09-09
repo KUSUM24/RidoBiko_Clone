@@ -1,6 +1,7 @@
 // Left Sidebar functioning
 const getRightSection = (id) => {
-  for (let i = 0; i <= 5; i++) {
+  let n = 10;
+  for (let i = 0; i <= n; i++) {
     let main = document.getElementById(`main-right-${i}`);
     let item = document.getElementById(`item-${i}`);
     if (id == i) {

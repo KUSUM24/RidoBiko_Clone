@@ -296,3 +296,12 @@ select:active {
   height: 90px;
   display: block;
 }
+/* OTP Verification */
+.otp-verify-main {
+  display: flex;
+}
+.otp-verify-btn {
+  border: 2px solid black;
+  padding: 0.5% 2%;
+  font-size: 110%;
+}

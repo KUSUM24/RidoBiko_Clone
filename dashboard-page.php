@@ -1696,7 +1696,7 @@
       <div class="card-body">
         <div class="card">
           <div class="sub-heading">Emergency OTP Verification</div>
-          <form action="" method="POST" id="emergency-mobile">
+          <form action="" method="POST" id="emergency-mobile" style="display:none" >
             <div class="row form-group px-3 align-items-center">
               <label class="col-sm-4 p-t5 m-0" for="mobile-otp">Emergency Mobile Number</label>
               <div class="col-sm-4 mt-2" >
@@ -1713,7 +1713,7 @@
               <button class="otp-verify-btn bg-white" onclick="getOtpEmergency()">Send OTP</button>
             </div>
           </form>
-          <form action="" method="POST" style="display:none" id="emergency-otp">
+          <form action="" method="POST" id="emergency-otp">
             <div class="row form-group px-3 align-items-center">
               <label class="col-sm-3 p-t5 m-0" for="emergency-mobile-otp">Verify OTP</label>
               <div class="col-sm-4 mt-2" >

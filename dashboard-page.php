@@ -1645,14 +1645,14 @@
         </tbody>
       </table>
     </div>
-    <div class="otp-verify-main flex-column" id="main-right-6">
+    <div class="otp-verify-main flex-column" id="main-right-6" style="display:none">
       <div class="heading">
         <div>OTP Verification</div>
       </div>
       <div class="card-body">
         <div class="card">
           <div class="sub-heading">OTP Verification</div>
-          <form action="" method="POST">
+          <form action="" method="POST" id="mobile-form">
             <div class="row form-group px-3 align-items-center">
               <label class="col-sm-3 p-t5 m-0" for="mobile-otp">Mobile Number</label>
               <div class="col-sm-4 mt-2" >
@@ -1665,6 +1665,11 @@
                 />
               </div>
             </div>
+            <div class="text-center">
+              <button class="otp-verify-btn bg-white" onclick="getOtp()">Send OTP</button>
+            </div>
+          </form>
+          <form action="" method="POST" id="otp-verification" style="display:none">
             <div class="row form-group px-3 align-items-center">
               <label class="col-sm-3 p-t5 m-0" for="mobile-otp">Verify OTP</label>
               <div class="col-sm-4 mt-2" >
@@ -1677,9 +1682,6 @@
                 />
               </div>
             </div>
-            <!-- <div class="w-50 mx-2"> -->
-            <hr class="mx-3">
-            <!-- </div> -->
             <div class="text-center ">
               <button class="otp-verify-btn bg-white">SUBMIT</button>
             </div>
@@ -1693,10 +1695,10 @@
       </div>
       <div class="card-body">
         <div class="card">
-          <div class="sub-heading">OTP Verification</div>
-          <form action="" method="POST">
+          <div class="sub-heading">Emergency OTP Verification</div>
+          <form action="" method="POST" id="emergency-mobile">
             <div class="row form-group px-3 align-items-center">
-              <label class="col-sm-3 p-t5 m-0" for="mobile-otp">Mobile Number</label>
+              <label class="col-sm-4 p-t5 m-0" for="mobile-otp">Emergency Mobile Number</label>
               <div class="col-sm-4 mt-2" >
                 <input
                 class="form-control size-13"
@@ -1707,23 +1709,25 @@
                 />
               </div>
             </div>
+            <div class="text-center ">
+              <button class="otp-verify-btn bg-white" onclick="getOtpEmergency()">Send OTP</button>
+            </div>
+          </form>
+          <form action="" method="POST" style="display:none" id="emergency-otp">
             <div class="row form-group px-3 align-items-center">
-              <label class="col-sm-3 p-t5 m-0" for="mobile-otp">Verify OTP</label>
+              <label class="col-sm-3 p-t5 m-0" for="emergency-mobile-otp">Verify OTP</label>
               <div class="col-sm-4 mt-2" >
                 <input
                 class="form-control size-13"
                 name="name"
                 placeholder="Enter OTP"
                 type="text"
-                id="mobile-otp"
+                id="emergency-mobile-otp"
                 />
               </div>
             </div>
-            <!-- <div class="w-50 mx-2"> -->
-            <hr class="mx-3">
-            <!-- </div> -->
-            <div class="text-center ">
-              <button class="otp-verify-btn bg-white">Send OTP</button>
+            <div class="text-center">
+              <button class="otp-verify-btn bg-white">SUBMIT</button>
             </div>
           </form>
         </div>

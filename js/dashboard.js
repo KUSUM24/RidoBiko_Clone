@@ -69,3 +69,15 @@ for (let i = 1; i < 4; i++) {
     });
   });
 }
+// OTP Verification
+const getOtp = () => {
+  document.getElementById("otp-verification").style.display = "block";
+  document.getElementById("mobile-form").style.display = "none";
+  console.log("otp reached");
+};
+// OTP Emergency
+const getOtpEmergency = () => {
+  document.getElementById("emergency-otp").style.display = "block";
+  document.getElementById("emergency-mobile").style.display = "none";
+  console.log("otp reached");
+};

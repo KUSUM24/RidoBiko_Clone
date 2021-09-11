@@ -1600,6 +1600,10 @@
                         <label for="withdraw-amount">Account No.</label>
                         <input type="number" class="form-control" id="withdraw-amount" placeholder="Account No.">
                       </div>
+                      <div class="form-group">
+                        <label for="withdraw-amount">IFSC Code</label>
+                        <input type="text" class="form-control" id="withdraw-amount" placeholder="IFSC Code">
+                      </div>
                       <button type="button" class="btn btn-dark">Withdraw</button>
                       <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
                     </form>

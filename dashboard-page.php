@@ -57,7 +57,7 @@
     </div>
   </div>
   <div class="right-body card w-100">
-    <div class="bookings-main flex-column h-100" id="main-right-0">
+    <div class="bookings-main flex-column h-100" style="display:none" id="main-right-0">
       <div class="heading">MY BOOKINGS</div>
       <div class="card-body">
         <div class="card">
@@ -1477,14 +1477,14 @@
         </div>
       </div>
     </div>
-    <div class="verify-main flex-column h-100" style="display:none" id="main-right-4">
+    <div class="verify-main flex-column h-100"  id="main-right-4">
       <div class="heading">PROFILE VERIFICATION</div>
       <div class="card-body">
         <div class="card">
           <div class="sub-heading">Aadhar Card</div>
           <div class="row form-group px-3 align-items-center">
             <label class="col-sm-2 p-t5 m-0 pr-0" for="aadhar-front">Front Side</label>
-            <div class="col-sm-6 p-0 d-flex flex-row align-items-center">
+            <div class="col-sm-10 p-0 d-flex flex-row align-items-center">
               <input
               name="aadhar-front"
               id="aadhar-front"
@@ -1494,6 +1494,10 @@
               onChange="img_pathUrl(this,'front-img');"
               />
               <img src="" class="preview-img mt-2" style="display:none" id="front-img" alt="Front-image">
+              <div class="profile-view-image d-flex align-items-between" style="display:none">
+                  <button class="btn btn-primary m-2 ml-3">Save</button>
+                  <button class="btn btn-danger m-2">Change</button>
+              </div>
             </div>
           </div>
           <div class="row form-group px-3 align-items-center">

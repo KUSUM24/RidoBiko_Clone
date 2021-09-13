@@ -310,6 +310,9 @@ select:active {
   height: 90px;
   display: block;
 }
+.profile-view-image {
+  flex: 1;
+}
 /* OTP Verification */
 .otp-verify-main {
   display: flex;

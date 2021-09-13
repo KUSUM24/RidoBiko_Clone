@@ -203,6 +203,20 @@
   font-size: 140%;
   font-weight: 700;
 }
+.booking-card table {
+  /* table-layout: fixed; */
+  font-size: 15px;
+}
+.booking-card .table2 th {
+  padding: 9px;
+  /* white-space: nowrap; */
+}
+.booking-card .table2 td {
+  /* white-space: nowrap; */
+  padding: 9px;
+  vertical-align: middle;
+  text-align: center;
+}
 /* Deposits Section  */
 .deposit-main .btn {
   /* background-color: rgb(172, 171, 170); */

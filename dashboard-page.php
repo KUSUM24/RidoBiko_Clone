@@ -419,7 +419,7 @@
               </div>
             </div>
           </div>
-          <div class="booking-card-main flex flex-column" id="booking-section-main-1" > 
+          <div class="booking-card-main flex flex-column" id="booking-section-main-1"  style="display:none"> 
             <div class="booking-card mt-3 mx-3 card d-flex flex-column ">
               <div class="d-flex justify-content-end">
                 <div class="py-2">
@@ -869,14 +869,14 @@
                     </table>
                   </div>
                 </div>
-                <div class="table-responsive m-2">
+                <div class="table-responsive table2 m-2">
                   <table class="table table-bordered">
                     <thead>
                       <tr>
                         <th>Order ID</th>
                         <th>Tenure</th>
                         <th>Total Rent</th>
-                        <th>Late Fee(₹100/day)</th>
+                        <th>Late Fee (₹100/ day)</th>
                         <th>Amount Paid</th>
                         <th>Amount Left</th>
                         <th>Payment Status</th>
@@ -886,15 +886,34 @@
                     <tbody>
                       <tr>
                         <td>JOKSHURVGY456BSY</td>
-                        <td>2021-03-25 to 2021-06-24</td>
+                        <td>01 May 2021 - 21 Aug 2021</td>
                         <td>₹4,105</td>
                         <td>₹0</td>
                         <td>₹4,105</td>
                         <td>₹0</td>
                         <td>Done</td>
-                        <td><button class="btn btn-success">Pay</button></td>
+                        <td><button class="btn btn-success px-2 py-1">Pay</button></td>
                       </tr>
-                      
+                      <tr>
+                        <td>JOKSHURVGY456BSY</td>
+                        <td>01 May 2021 - 21 Aug 2021</td>
+                        <td>₹4,105</td>
+                        <td>₹0</td>
+                        <td>₹4,105</td>
+                        <td>₹0</td>
+                        <td>Done</td>
+                        <td><button class="btn btn-success px-2 py-1">Pay</button></td>
+                      </tr>
+                      <tr>
+                        <td>JOKSHURVGY456BSY</td>
+                        <td>01 May 2021 - 21 Aug 2021</td>
+                        <td>₹4,105</td>
+                        <td>₹0</td>
+                        <td>₹4,105</td>
+                        <td>₹0</td>
+                        <td>Done</td>
+                        <td><button class="btn btn-success px-2 py-1">Pay</button></td>
+                      </tr>
                     </tbody>
                   </table>
                 </div>

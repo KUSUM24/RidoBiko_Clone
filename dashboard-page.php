@@ -1491,12 +1491,12 @@
               accept=".png,.jpg,.jpeg"
               placeholder="John Doe"
               type="file"
-              onChange="img_pathUrl(this,'front-img');"
+              onChange="img_pathUrl(this,'front-img','btn-preview-section');"
               />
               <img src="" class="preview-img mt-2" style="display:none" id="front-img" alt="Front-image">
-              <div class="profile-view-image d-flex align-items-between" style="display:none">
+              <div id="btn-preview-section" class="profile-view-image align-items-between" style="display:none" >
                   <button class="btn btn-primary m-2 ml-3">Save</button>
-                  <button class="btn btn-danger m-2">Change</button>
+                  <label for="aadhar-front" class="label-preview--change btn btn-danger m-2">Change</label>
               </div>
             </div>
           </div>

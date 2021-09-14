@@ -88,7 +88,7 @@
   padding-top: 1rem;
 }
 .card-body label {
-  margin: 0% !important;
+  /* margin-bottom: 0% !important; */
 }
 .heading {
   padding: 1rem 0%;
@@ -311,7 +311,10 @@ select:active {
   display: block;
 }
 .profile-view-image {
-  flex: 1;
+  display: flex;
+}
+.label-preview--change {
+  margin-bottom: 0.5rem !important;
 }
 /* OTP Verification */
 .otp-verify-main {

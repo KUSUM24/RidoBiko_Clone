@@ -40,11 +40,12 @@ const getBookingSection = (bookingId) => {
   }
 };
 // More Details Toggle - SearchBike section
-function img_pathUrl(input, id) {
+function img_pathUrl(input, id, btnId) {
   $(`#${id}`).css("display", "block");
   $(`#${id}`)[0].src = (window.URL ? URL : webkitURL).createObjectURL(
     input.files[0]
   );
+  $(`#${btnId}`).css("display", "flex");
 }
 console.log("dashboard");
 // Deposit Section
@@ -81,3 +82,29 @@ const getOtpEmergency = () => {
   document.getElementById("emergency-mobile").style.display = "none";
   console.log("otp reached");
 };
+
+// Cancel Preview Image
+$(function () {
+  var inputElement = $("#testFile");
+  var cancelButton = $("#pseudoCancel");
+  var numFiles = 0;
+
+  inputElement.on("change", function (e) {
+    var target = e.target || e.srcElement;
+    console.log(target, "changed.");
+    console.log(e);
+    if ($(target).val().length == 0) {
+      console.log("Suspect Cancel was hit, no files selected.");
+      if (numFiles == target.files.length) {
+        cancelButton.click();
+      }
+    } else {
+      console.log("File selected: ", target.value);
+      numFiles = target.files.length;
+    }
+  });
+
+  cancelButton.click(function (e) {
+    console.log("Pseudo Cancel button clicked.");
+  });
+});

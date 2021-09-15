@@ -139,12 +139,33 @@
   width: 80% !important;
 }
 .referral-heading {
-  font-size: 240%;
+  font-size: 250%;
   font-weight: 600;
-  color: red;
+  color: blue;
   padding: 2%;
 }
-
+.referral-heading .refer-money {
+  color: red;
+}
+.referral-div .referral-first {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fbeec1;
+  padding: 2%;
+  margin: 2%;
+}
+.referral-div .refer-image {
+  width: 300px;
+  height: 155px;
+}
+.referral-div .referral-email {
+  width: 80%;
+}
+.referral-div .referral-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 /* Bookings Section */
 .booking--heading {
   margin: 10px;

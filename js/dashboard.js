@@ -44,6 +44,15 @@ const getBookingSection = (bookingId) => {
     }
   }
 };
+//Profile-Image functioning
+function getProfileImg(input, id, btnId, defaultId) {
+  $(`#${id}`).css("display", "block");
+  $(`#${id}`)[0].src = (window.URL ? URL : webkitURL).createObjectURL(
+    input.files[0]
+  );
+  $(`#${btnId}`).css("display", "flex");
+  $(`#${defaultId}`).css("display", "none");
+}
 // More Details Toggle - SearchBike section
 function img_pathUrl(input, id, btnId) {
   $(`#${id}`).css("display", "block");

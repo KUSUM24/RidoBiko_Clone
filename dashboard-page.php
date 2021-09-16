@@ -1,7 +1,8 @@
 <div class="container d-flex">
   <div class="left-body d-flex flex-column">
     <div class="section-userinfo">
-      <img src="images/userinfo.png" alt="userinfo" />
+      <img src="images/userinfo.png" alt="userinfo" id="default-profile" />
+      <img src="" class="profile-img mt-2" style="display:none" id="profile-img" alt="Profile-image">
       <div class="name content"><b>John doe</b></div>
       <div class="number content">9999988888</div>
       <div class="email content">johndoe@gmail.com</div>
@@ -1374,6 +1375,22 @@
               />
             </div>
           </div>
+          <div class="row form-group px-3 align-items-center">
+            <label class="col-sm-2 p-t5">Profile Image</label>
+            <div class="col-sm-4">
+              <input
+              name="profile-input"
+              id="profile-input"
+              type="file"
+              accept=".png,.jpg,.jpeg"
+              onChange="getProfileImg(this,'profile-img','btn-preview-section-5','default-profile');"
+              />
+            </div>
+            <div id="btn-preview-section-5" class="profile-view-image align-items-between" style="display:none" >
+                <button class="btn btn-primary m-2 ml-3">Save</button>
+                <label for="license" class="label-preview--change btn btn-danger m-2">Change</label>
+            </div>
+          </div>
           <div class="account-form--heading">Current Address</div>
           <div class="d-flex">
             <div class="row form-group px-3 align-items-center w-100">
@@ -1433,7 +1450,7 @@
             checked
             />
             <label class="form-check-label" for="permanentAddress">
-              Permanent Address same as current Address
+              Permanent Address same as Current Address
             </label>
           </div>
           <div id="permanentAddressForm" style="display: none">
@@ -1505,7 +1522,6 @@
               name="aadhar-front"
               id="aadhar-front"
               accept=".png,.jpg,.jpeg"
-              placeholder="John Doe"
               type="file"
               onChange="img_pathUrl(this,'front-img','btn-preview-section-0');"
               />
@@ -1523,7 +1539,6 @@
               name="aadhar-back"
               id="aadhar-back"
               accept=".png,.jpg,.jpeg"
-              placeholder="John Doe"
               type="file"
               onChange="img_pathUrl(this,'back-img','btn-preview-section-1');"
               />
@@ -1542,7 +1557,6 @@
               name="pancard"
               id="pancard"
               accept=".png,.jpg,.jpeg"
-              placeholder="Pan Card"
               type="file"
               onChange="img_pathUrl(this,'pan-img','btn-preview-section-2');"
               />
@@ -1561,7 +1575,6 @@
               name="license"
               id="license"
               accept=".png,.jpg,.jpeg"
-              placeholder="Driving License"
               type="file"
               onChange="img_pathUrl(this,'license-img','btn-preview-section-3');"
               />

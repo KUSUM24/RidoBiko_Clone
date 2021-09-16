@@ -30,6 +30,13 @@
 .section-userinfo .name {
   font-size: 15px;
 }
+.section-userinfo .profile-img {
+  background: #ddd;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  display: block;
+}
 .section-userinfo .email {
   padding: 0px 20px 5px 20px;
   /* border-bottom: 1px solid #323a44; */

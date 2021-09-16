@@ -21,10 +21,12 @@
         <span class="material-icons-outlined icon"> shopping_cart </span>
         <div class="text-header">Cart</div>
       </div>
-      <div class="item-header cd-signin d-flex align-items-center">
-        <span class="material-icons-outlined icon"> person </span>
-        <div class="text-header">Login/Signup</div>
-      </div>
+	  <nav class="main-nav">
+		  <div class="item-header cd-signin d-flex align-items-center">
+			  <span class="material-icons-outlined icon"> person </span>
+			  <div class="text-header">Login/Signup</div>
+			</div>
+		</nav>
       <div class="item-header d-flex align-items-center" id="mobile">
         <span class="material-icons-outlined icon"> call </span>
         <div class="text-header">9191919191</div>

@@ -1313,13 +1313,9 @@
         <div class="card">
           <div class="sub-heading">Refer & Earn</div>
           <div class="referral-div d-flex flex-column align-items-center justify-content-center">
-            <!-- <img class="referral-img" src="images/referral.jpg" alt="Refer and Earn">
-            <div class="referral-heading">Invite Friends and get Cashback upto ₹99</div>
-            <div class="referral-btn btn btn-dark">Coming Soon</div> -->
             <div class="referral-first">
               <div class="referral-left text-center m-2">
                 <div class="referral-heading">Invite Friends to get Cashback upto <span class="refer-money"> ₹99</span></div>
-                <!-- <div class="referral-btn btn btn-dark">Coming Soon</div> -->
                 <hr class="w-100">
                 <div class="referral-email input-group mb-3">
                   <input type="text" class="form-control" placeholder="Enter Email Address" aria-label="Enter Email Address" aria-describedby="button-addon2">
@@ -1340,14 +1336,14 @@
         </div>
       </div>
     </div>
-    <div class="account-main flex-column h-100" style="display:none" id="main-right-3">
+    <div class="account-main flex-column h-100" id="main-right-3">
       <div class="heading">MY PROFILE</div>
       <div class="card-body">
         <div class="account-form card">
           <div class="account-form--heading">Account Details</div>
           <div class="row form-group px-3 align-items-center">
             <label class="col-sm-2 p-t5 m-0">Name</label>
-            <div class="col-sm-4 p-0">
+            <div class="col-sm-4">
               <input
               class="form-control size-13"
               name="name"
@@ -1704,7 +1700,7 @@
         </tbody>
       </table>
     </div>
-    <div class="otp-verify-main flex-column" id="main-right-6" style="display:none">
+    <div class="otp-verify-main flex-column" style="display:none" id="main-right-6">
       <div class="heading">
         <div>OTP Verification</div>
       </div>

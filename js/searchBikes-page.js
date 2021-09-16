@@ -1,3 +1,8 @@
+// Scroll Top
+$(document).ready(function () {
+  $(window).scrollTop(0);
+});
+
 // More Details Section
 // const getMoreDetails = (id, moreId, lessId) => {
 //   document.getElementById(id).style.display = "block";

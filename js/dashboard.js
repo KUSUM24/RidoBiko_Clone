@@ -1,3 +1,8 @@
+// Scroll Top
+$(document).ready(function () {
+  $(window).scrollTop(0);
+});
+
 // Left Sidebar functioning
 const getRightSection = (id) => {
   let n = 10;

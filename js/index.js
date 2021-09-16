@@ -1,3 +1,7 @@
+// Scroll Top
+$(document).ready(function () {
+  $(window).scrollTop(0);
+});
 // Radio CSS
 const changeRadioInput = (radioIndex) => {
   const radio1 = document.getElementById("radio-1");

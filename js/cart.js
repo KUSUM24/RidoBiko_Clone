@@ -1,3 +1,8 @@
+// Scroll Top
+$(document).ready(function () {
+  $(window).scrollTop(0);
+});
+
 var days = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
 let today = new Date();
 let month = today.getMonth() + 1; //As January is 0.

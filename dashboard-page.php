@@ -1307,7 +1307,7 @@
         </div>
       </div>
     </div>
-    <div class="refer-main flex-column h-100" id="main-right-2">
+    <div class="refer-main flex-column h-100" style="display:none" id="main-right-2">
       <div class="heading">REFER AND EARN</div>
       <div class="card-body">
         <div class="card">
@@ -1330,7 +1330,12 @@
               </div>
               <img class="refer-image" src="images/refer-and-earn.png" alt="Refer and earn">
             </div>
-            <hr class="w-100 mx-2">
+            <hr class="w-100">
+            <div class="referral-second">
+              <div class="no-referrals">
+                No Referrals 
+              </div>
+            </div>
           </div>
         </div>
       </div>

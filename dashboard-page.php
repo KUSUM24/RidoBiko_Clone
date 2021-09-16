@@ -1388,7 +1388,7 @@
             </div>
             <div id="btn-preview-section-5" class="profile-view-image align-items-between" style="display:none" >
                 <button class="btn btn-primary m-2 ml-3">Save</button>
-                <label for="license" class="label-preview--change btn btn-danger m-2">Change</label>
+                <label for="profile-input" class="label-preview--change btn btn-danger m-2">Change</label>
             </div>
           </div>
           <div class="account-form--heading">Current Address</div>

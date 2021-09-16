@@ -120,7 +120,6 @@ body {
   font-size: 100%;
   font-family: "PT Sans", sans-serif;
   color: #505260;
-  background-color: #454751;
 }
 
 a {
@@ -128,9 +127,9 @@ a {
   text-decoration: none;
 }
 
-img {
+/* img {
   max-width: 100%;
-}
+} */
 
 input,
 textarea {
@@ -140,7 +139,7 @@ textarea {
 }
 input::-ms-clear,
 textarea::-ms-clear {
-  display: none;
+  /* display: none; */
 }
 
 /* -------------------------------- 

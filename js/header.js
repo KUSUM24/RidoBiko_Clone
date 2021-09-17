@@ -17,6 +17,11 @@ window.onscroll = () => {
   fixedHeader();
 };
 
+const getOtpDetails = (mobId, otpId) => {
+  document.getElementById(mobId).style.display = "none";
+  document.getElementById(otpId).style.display = "block";
+};
+
 jQuery(document).ready(function ($) {
   var $form_modal = $(".cd-user-modal"),
     $form_login = $form_modal.find("#cd-login"),

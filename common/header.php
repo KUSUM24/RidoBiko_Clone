@@ -42,30 +42,30 @@
 
 			<div id="cd-login"> <!-- log in form -->
 				<form class="cd-form">
+					<div class="mobile-form" id="mobile-form">
+						<p class="fieldset">
+							<label class="image-replace cd-email" for="signin-mobile">Mobile Number</label>
+							<input class="full-width has-padding has-border" id="signin-mobile" type="mobile" placeholder="Mobile Number">
+							<span class="cd-error-message">Please fill the required field</span>
+						</p>
+					
 					<p class="fieldset">
-						<label class="image-replace cd-email" for="signin-email">E-mail</label>
-						<input class="full-width has-padding has-border" id="signin-email" type="email" placeholder="E-mail">
-						<span class="cd-error-message">Error message here!</span>
+						<input class="full-width" type="submit" value="Send OTP" onclick="getOtpDetails('mobile-form','otp-form')">
 					</p>
-
-					<p class="fieldset">
-						<label class="image-replace cd-password" for="signin-password">Password</label>
-						<input class="full-width has-padding has-border" id="signin-password" type="text"  placeholder="Password">
-						<a href="#0" class="hide-password">Hide</a>
-						<span class="cd-error-message">Error message here!</span>
-					</p>
-
-					<p class="fieldset">
-						<input type="checkbox" id="remember-me" checked>
-						<label for="remember-me">Remember me</label>
-					</p>
-
-					<p class="fieldset">
-						<input class="full-width" type="submit" value="Login">
-					</p>
+					</div>
+					<div class="OTP-form" id="otp-form" style="display:none">
+						<p class="fieldset">
+							<label class="image-replace cd-email" for="signin-mobile">Enter OTP</label>
+							<input class="full-width has-padding has-border" id="signin-mobile" type="mobile" placeholder="Enter OTP">
+							<span class="cd-error-message">Please fill the required field</span>
+						</p>
+						<p class="fieldset">
+							<input class="full-width" type="submit" value="Submit">
+						</p>
+					</div>
 				</form>
 				
-				<p class="cd-form-bottom-message"><a href="#0">Forgot your password?</a></p>
+				<!-- <p class="cd-form-bottom-message"><a href="#0">Forgot your password?</a></p> -->
 				<!-- <a href="#0" class="cd-close-form">Close</a> -->
 			</div> <!-- cd-login -->
 
@@ -124,3 +124,9 @@
 		</div> <!-- cd-user-modal-container -->
 	</div> <!-- cd-user-modal -->
 </div>
+<script>
+	const getOtpDetails = (mobId, otpId) => {
+  document.getElementById(mobId).style.display = "none";
+  document.getElementById(otpId).style.display = "block";
+};
+</script>

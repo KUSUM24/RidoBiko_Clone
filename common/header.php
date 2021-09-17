@@ -71,36 +71,53 @@
 
 			<div id="cd-signup"> <!-- sign up form -->
 				<form class="cd-form">
+					<div class="mobile-form" id="mobile-form-signup">
+						<p class="fieldset">
+							<label class="image-replace cd-email" for="signin-mobile">Mobile Number</label>
+							<input class="full-width has-padding has-border" id="signin-mobile" type="mobile" placeholder="Mobile Number">
+							<span class="cd-error-message">Please fill the required field</span>
+						</p>
+					
 					<p class="fieldset">
-						<label class="image-replace cd-username" for="signup-username">Username</label>
-						<input class="full-width has-padding has-border" id="signup-username" type="text" placeholder="Username">
-						<span class="cd-error-message">Error message here!</span>
+						<input class="full-width" type="submit" value="Send OTP" onclick="getOtpDetails('mobile-form-signup','otp-form-signup')">
 					</p>
-
-					<p class="fieldset">
-						<label class="image-replace cd-email" for="signup-email">E-mail</label>
-						<input class="full-width has-padding has-border" id="signup-email" type="email" placeholder="E-mail">
-						<span class="cd-error-message">Error message here!</span>
-					</p>
-
-					<p class="fieldset">
-						<label class="image-replace cd-password" for="signup-password">Password</label>
-						<input class="full-width has-padding has-border" id="signup-password" type="text"  placeholder="Password">
-						<a href="#0" class="hide-password">Hide</a>
-						<span class="cd-error-message">Error message here!</span>
-					</p>
-
-					<p class="fieldset">
-						<input type="checkbox" id="accept-terms">
-						<label for="accept-terms">I agree to the <a href="#0">Terms</a></label>
-					</p>
-
-					<p class="fieldset">
-						<input class="full-width has-padding" type="submit" value="Create account">
-					</p>
+					</div>
+					<div class="OTP-form" id="otp-form-signup" style="display:none">
+						<p class="fieldset">
+							<label class="image-replace cd-email" for="signin-mobile">Enter OTP</label>
+							<input class="full-width has-padding has-border" id="signin-mobile" type="mobile" placeholder="Enter OTP">
+							<span class="cd-error-message">Please fill the required field</span>
+						</p>
+						<p class="fieldset">
+							<input class="full-width" type="submit" value="Submit" onclick="getOtpDetails('otp-form-signup','signup-form')">
+						</p>
+					</div>
+					<div id="signup-form" style="display:none">
+						<p class="fieldset">
+							<label class="image-replace cd-email" for="signin-mobile">Mobile Number</label>
+							<input class="full-width has-padding has-border" id="signin-mobile" type="mobile" placeholder="Mobile Number">
+							<span class="cd-error-message">Please fill the required field</span>
+						</p>
+						
+						<p class="fieldset">
+							<label class="image-replace cd-email" for="signup-email">E-mail</label>
+							<input class="full-width has-padding has-border" id="signup-email" type="email" placeholder="E-mail">
+							<span class="cd-error-message">Please fill the required field</span>
+						</p>
+						
+						<!-- <p class="fieldset">
+							<label class="image-replace cd-password" for="signup-password">Password</label>
+							<input class="full-width has-padding has-border" id="signup-password" type="text"  placeholder="Password">
+							<a href="#0" class="hide-password">Hide</a>
+							<span class="cd-error-message">Error message here!</span>
+						</p> -->
+						<p class="fieldset">
+							<input class="full-width has-padding" type="submit" value="Create account">
+						</p>
+					</div>
 				</form>
 
-				<!-- <a href="#0" class="cd-close-form">Close</a> -->
+				<a href="#0" class="cd-close-form">Close</a>
 			</div> <!-- cd-signup -->
 
 			<div id="cd-reset-password"> <!-- reset password form -->
@@ -124,9 +141,9 @@
 		</div> <!-- cd-user-modal-container -->
 	</div> <!-- cd-user-modal -->
 </div>
-<script>
+<!-- <script>
 	const getOtpDetails = (mobId, otpId) => {
-  document.getElementById(mobId).style.display = "none";
-  document.getElementById(otpId).style.display = "block";
-};
-</script>
+		document.getElementById(mobId).style.display = "none";
+		document.getElementById(otpId).style.display = "block";
+	};
+</script> -->

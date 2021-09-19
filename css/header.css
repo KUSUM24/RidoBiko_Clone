@@ -56,53 +56,6 @@ body {
   }
 }
 
-/* https://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
-/* HTML5 display-role reset for older browsers */
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section {
-  display: block;
-}
-body {
-  line-height: 1;
-}
-ol,
-ul {
-  list-style: none;
-}
-blockquote,
-q {
-  quotes: none;
-}
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
-  content: "";
-  content: none;
-}
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
-
-/* -------------------------------- 
-
-Primary style
-
--------------------------------- */
 html * {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -127,26 +80,11 @@ a {
   text-decoration: none;
 }
 
-/* img {
-  max-width: 100%;
-} */
-
-input,
-textarea {
-  font-family: "PT Sans", sans-serif;
-  font-size: 16px;
-  font-size: 1rem;
-}
 input::-ms-clear,
 textarea::-ms-clear {
   /* display: none; */
 }
 
-/* -------------------------------- 
-
-xcody-info 
-
--------------------------------- */
 #cody-info {
   position: relative;
   background: #fff;
@@ -231,11 +169,8 @@ xcody-info
   }
 }
 
-/* -------------------------------- 
+/* Main components  */
 
-Main components 
-
--------------------------------- */
 header[role="banner"] {
   position: relative;
   height: 50px;
@@ -244,7 +179,6 @@ header[role="banner"] {
 header[role="banner"] #cd-logo {
   float: left;
   margin: 4px 0 0 5%;
-  /* reduce logo size on mobile and make sure it is left aligned with the transform-origin property */
   -webkit-transform-origin: 0 50%;
   -moz-transform-origin: 0 50%;
   -ms-transform-origin: 0 50%;
@@ -363,11 +297,8 @@ header[role="banner"]::after {
   }
 }
 
-/* -------------------------------- 
+/* xsigin/signup popup  */
 
-xsigin/signup popup 
-
--------------------------------- */
 .cd-user-modal {
   position: fixed;
   top: 0;
@@ -457,9 +388,6 @@ xsigin/signup popup
   }
 }
 
-.cd-form {
-  padding: 1.4em;
-}
 .cd-form .fieldset {
   position: relative;
   margin: 1.4em 0;
@@ -475,7 +403,6 @@ xsigin/signup popup
   font-size: 0.875rem;
 }
 .cd-form label.image-replace {
-  /* replace text with an icon */
   display: inline-block;
   position: absolute;
   left: 15px;
@@ -533,10 +460,9 @@ xsigin/signup popup
   border: 1px solid #d76666;
 }
 .cd-form input[type="password"] {
-  /* space left for the HIDE button */
   padding-right: 65px;
 }
-.cd-form input[type="submit"] {
+.cd-form input[type="button"] {
   padding: 16px 0;
   cursor: pointer;
   background: #2f889a;
@@ -549,72 +475,13 @@ xsigin/signup popup
   -o-appearance: none;
   appearance: none;
 }
-.no-touch .cd-form input[type="submit"]:hover,
-.no-touch .cd-form input[type="submit"]:focus {
+.no-touch .cd-form input[type="button"]:hover,
+.no-touch .cd-form input[type="button"]:focus {
   background: #3599ae;
   outline: none;
 }
-.cd-form .hide-password {
-  display: inline-block;
-  position: absolute;
-  right: 0;
-  top: 0;
-  padding: 6px 15px;
-  border-left: 1px solid #d2d8d8;
-  top: 50%;
-  bottom: auto;
-  -webkit-transform: translateY(-50%);
-  -moz-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  -o-transform: translateY(-50%);
-  transform: translateY(-50%);
-  font-size: 14px;
-  font-size: 0.875rem;
-  color: #343642;
-}
-.cd-form .cd-error-message {
-  display: inline-block;
-  position: absolute;
-  left: -5px;
-  bottom: -35px;
-  background: rgba(215, 102, 102, 0.9);
-  padding: 0.8em;
-  z-index: 2;
-  color: #fff;
-  font-size: 13px;
-  font-size: 0.8125rem;
-  border-radius: 0.25em;
-  /* prevent click and touch events */
-  pointer-events: none;
-  visibility: hidden;
-  opacity: 0;
-  -webkit-transition: opacity 0.2s 0, visibility 0 0.2s;
-  -moz-transition: opacity 0.2s 0, visibility 0 0.2s;
-  transition: opacity 0.2s 0, visibility 0 0.2s;
-}
-.cd-form .cd-error-message::after {
-  /* triangle */
-  content: "";
-  position: absolute;
-  left: 22px;
-  bottom: 100%;
-  height: 0;
-  width: 0;
-  border-left: 8px solid transparent;
-  border-right: 8px solid transparent;
-  border-bottom: 8px solid rgba(215, 102, 102, 0.9);
-}
-.cd-form .cd-error-message.is-visible {
-  opacity: 1;
-  visibility: visible;
-  -webkit-transition: opacity 0.2s 0, visibility 0 0;
-  -moz-transition: opacity 0.2s 0, visibility 0 0;
-  transition: opacity 0.2s 0, visibility 0 0;
-}
+
 @media only screen and (min-width: 600px) {
-  .cd-form {
-    padding: 2em;
-  }
   .cd-form .fieldset {
     margin: 2em 0;
   }
@@ -688,4 +555,9 @@ xsigin/signup popup
 #cd-signup.is-selected,
 #cd-reset-password.is-selected {
   display: block;
+}
+
+.cd-user-modal-container {
+  list-style-type: none;
+  text-decoration: none;
 }

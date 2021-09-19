@@ -17,11 +17,27 @@ window.onscroll = () => {
   fixedHeader();
 };
 
-const getOtpDetails = (mobId, otpId) => {
+const getOtpDetails = (mobId, otpId, btnId) => {
   document.getElementById(mobId).style.display = "none";
   document.getElementById(otpId).style.display = "block";
 };
+$(`#send-otp--btn`)
+  .off("click")
+  .click(function (clickEvent) {
+    clickEvent.preventDefault();
+    clickEvent.stopPropagation();
+    console.log("hey");
+  });
 
+var timeleft = 10;
+var downloadTimer = setInterval(function () {
+  if (timeleft <= 0) {
+    clearInterval(downloadTimer);
+  }
+  document.getElementById("progressBar").value = 10 - timeleft;
+  timeleft -= 1;
+}, 1000);
+<progress value="0" max="10" id="progressBar"></progress>;
 // const getOtpDetailsSignup = (mobId, otpId) => {
 //   document.getElementById(mobId).style.display = "none";
 //   document.getElementById(otpId).style.display = "block";
@@ -76,7 +92,7 @@ jQuery(document).ready(function ($) {
   //switch from a tab to another
   $form_modal_tab.on("click", function (event) {
     event.preventDefault();
-    $(event.target).is($tab_login) ? login_selected() : signup_selected();
+    $(event.target).is($tab_login) ? signup_selected() : login_selected();
   });
 
   //hide or show password
@@ -93,24 +109,24 @@ jQuery(document).ready(function ($) {
   });
 
   //show forgot-password form
-  $forgot_password_link.on("click", function (event) {
-    event.preventDefault();
-    forgot_password_selected();
-  });
+  // $forgot_password_link.on("click", function (event) {
+  //   event.preventDefault();
+  //   forgot_password_selected();
+  // });
 
   //back to login from the forgot-password form
-  $back_to_login_link.on("click", function (event) {
-    event.preventDefault();
-    login_selected();
-  });
+  // $back_to_login_link.on("click", function (event) {
+  //   event.preventDefault();
+  //   login_selected();
+  // });
 
-  function login_selected() {
-    $form_login.addClass("is-selected");
-    $form_signup.removeClass("is-selected");
-    $form_forgot_password.removeClass("is-selected");
-    $tab_login.addClass("selected");
-    $tab_signup.removeClass("selected");
-  }
+  // function login_selected() {
+  //   $form_login.addClass("is-selected");
+  //   $form_signup.removeClass("is-selected");
+  //   $form_forgot_password.removeClass("is-selected");
+  //   $tab_login.addClass("selected");
+  //   $tab_signup.removeClass("selected");
+  // }
 
   function signup_selected() {
     $form_login.removeClass("is-selected");
@@ -120,11 +136,11 @@ jQuery(document).ready(function ($) {
     $tab_signup.addClass("selected");
   }
 
-  function forgot_password_selected() {
-    $form_login.removeClass("is-selected");
-    $form_signup.removeClass("is-selected");
-    $form_forgot_password.addClass("is-selected");
-  }
+  // function forgot_password_selected() {
+  //   $form_login.removeClass("is-selected");
+  //   $form_signup.removeClass("is-selected");
+  //   $form_forgot_password.addClass("is-selected");
+  // }
 
   //REMOVE THIS - it's just to show error messages
   $form_login.find('input[type="submit"]').on("click", function (event) {

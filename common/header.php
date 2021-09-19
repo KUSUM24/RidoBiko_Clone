@@ -17,12 +17,9 @@
         <div class="text-header">More</div>
         <span class="material-icons-outlined icon"> keyboard_arrow_down </span>
       </div>
-      <div class="item-header d-flex align-items-center">
-        <span class="material-icons-outlined icon"> shopping_cart </span>
-        <div class="text-header">Cart</div>
-      </div>
+     
 	  <nav class="main-nav">
-		  <div class="item-header cd-signin d-flex align-items-center">
+		  <div class="item-header d-flex align-items-center"  data-toggle="modal" data-target="#loginModal">
 			  <span class="material-icons-outlined icon"> person </span>
 			  <div class="text-header">Login/Signup</div>
 			</div>
@@ -33,113 +30,67 @@
       </div>
     </div>
   </div>
-  <div class="cd-user-modal"> <!-- this is the entire modal form, including the background -->
-		<div class="cd-user-modal-container"> <!-- this is the container wrapper -->
-			<ul class="cd-switcher">
-				<li><a href="#0">Sign in</a></li>
-				<li><a href="#0">New account</a></li>
-			</ul>
-
-			<div id="cd-login"> <!-- log in form -->
-				<form class="cd-form">
-					<div class="mobile-form" id="mobile-form">
-						<p class="fieldset">
-							<label class="image-replace cd-email" for="signin-mobile">Mobile Number</label>
-							<input class="full-width has-padding has-border" id="signin-mobile" type="mobile" placeholder="Mobile Number">
-							<span class="cd-error-message">Please fill the required field</span>
-						</p>
-					
-					<p class="fieldset">
-						<input class="full-width" type="submit" value="Send OTP" onclick="getOtpDetails('mobile-form','otp-form')">
-					</p>
-					</div>
-					<div class="OTP-form" id="otp-form" style="display:none">
-						<p class="fieldset">
-							<label class="image-replace cd-email" for="signin-mobile">Enter OTP</label>
-							<input class="full-width has-padding has-border" id="signin-mobile" type="mobile" placeholder="Enter OTP">
-							<span class="cd-error-message">Please fill the required field</span>
-						</p>
-						<p class="fieldset">
-							<input class="full-width" type="submit" value="Submit">
-						</p>
-					</div>
-				</form>
-				
-				<!-- <p class="cd-form-bottom-message"><a href="#0">Forgot your password?</a></p> -->
-				<!-- <a href="#0" class="cd-close-form">Close</a> -->
-			</div> <!-- cd-login -->
-
-			<div id="cd-signup"> <!-- sign up form -->
+  
+	<div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel" aria-hidden="true" >
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="loginModalLabel">LOG IN</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<div class="modal-body">
 				<form class="cd-form">
 					<div class="mobile-form" id="mobile-form-signup">
 						<p class="fieldset">
 							<label class="image-replace cd-email" for="signin-mobile">Mobile Number</label>
 							<input class="full-width has-padding has-border" id="signin-mobile" type="mobile" placeholder="Mobile Number">
-							<span class="cd-error-message">Please fill the required field</span>
 						</p>
-					
+						<progress value="0" max="10" id="progressBar"></progress>
 					<p class="fieldset">
-						<input class="full-width" type="submit" value="Send OTP" onclick="getOtpDetails('mobile-form-signup','otp-form-signup')">
+						<input class="full-width" type="button" value="Send OTP" onclick="getOtpDetails('mobile-form-signup','otp-form-signup')">
 					</p>
 					</div>
 					<div class="OTP-form" id="otp-form-signup" style="display:none">
 						<p class="fieldset">
 							<label class="image-replace cd-email" for="signin-mobile">Enter OTP</label>
 							<input class="full-width has-padding has-border" id="signin-mobile" type="mobile" placeholder="Enter OTP">
-							<span class="cd-error-message">Please fill the required field</span>
 						</p>
 						<p class="fieldset">
-							<input class="full-width" type="submit" value="Submit" onclick="getOtpDetails('otp-form-signup','signup-form')">
+							<input id="send-otp--btn" class="full-width" type="button" value="Submit" onclick="getOtpDetails('otp-form-signup','signup-form')">
 						</p>
 					</div>
 					<div id="signup-form" style="display:none">
 						<p class="fieldset">
-							<label class="image-replace cd-email" for="signin-mobile">Mobile Number</label>
-							<input class="full-width has-padding has-border" id="signin-mobile" type="mobile" placeholder="Mobile Number">
-							<span class="cd-error-message">Please fill the required field</span>
+							<label class="image-replace cd-email" for="signin-mobile">First Name</label>
+							<input class="full-width has-padding has-border" id="signin-mobile" type="text" placeholder="Enter First Name">
+						</p>
+						
+						<p class="fieldset">
+							<label class="image-replace cd-email" for="signup-email">Last Name</label>
+							<input class="full-width has-padding has-border" id="signup-email" type="email" placeholder="Enter Last Name">
+						</p>
+
+						<p class="fieldset">
+							<label class="image-replace cd-email" for="signup-email">E-mail</label>
+							<input class="full-width has-padding has-border" id="signup-email" type="email" placeholder="Enter E-mail">
 						</p>
 						
 						<p class="fieldset">
 							<label class="image-replace cd-email" for="signup-email">E-mail</label>
 							<input class="full-width has-padding has-border" id="signup-email" type="email" placeholder="E-mail">
-							<span class="cd-error-message">Please fill the required field</span>
 						</p>
-						
-						<!-- <p class="fieldset">
-							<label class="image-replace cd-password" for="signup-password">Password</label>
-							<input class="full-width has-padding has-border" id="signup-password" type="text"  placeholder="Password">
-							<a href="#0" class="hide-password">Hide</a>
-							<span class="cd-error-message">Error message here!</span>
-						</p> -->
+
 						<p class="fieldset">
-							<input class="full-width has-padding" type="submit" value="Create account">
+							<input class="full-width has-padding" type="button" value="Create account">
 						</p>
 					</div>
 				</form>
-
-				<a href="#0" class="cd-close-form">Close</a>
-			</div> <!-- cd-signup -->
-
-			<div id="cd-reset-password"> <!-- reset password form -->
-				<p class="cd-form-message">Lost your password? Please enter your email address. You will receive a link to create a new password.</p>
-
-				<form class="cd-form">
-					<p class="fieldset">
-						<label class="image-replace cd-email" for="reset-email">E-mail</label>
-						<input class="full-width has-padding has-border" id="reset-email" type="email" placeholder="E-mail">
-						<span class="cd-error-message">Error message here!</span>
-					</p>
-
-					<p class="fieldset">
-						<input class="full-width has-padding" type="submit" value="Reset password">
-					</p>
-				</form>
-
-				<p class="cd-form-bottom-message"><a href="#0">Back to log-in</a></p>
-			</div> <!-- cd-reset-password -->
-			<a href="#0" class="cd-close-form">Close</a>
-		</div> <!-- cd-user-modal-container -->
-	</div> <!-- cd-user-modal -->
+			</div>
+			</div>
+		</div>
+	</div>
 </div>
 <!-- <script>
 	const getOtpDetails = (mobId, otpId) => {

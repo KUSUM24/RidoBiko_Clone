@@ -20,6 +20,19 @@ window.onscroll = () => {
 const getOtpDetails = (mobId, otpId, btnId) => {
   document.getElementById(mobId).style.display = "none";
   document.getElementById(otpId).style.display = "block";
+  if (otpId == "otp-form-signup") {
+    var otpTimer = document.getElementById("otp-timer");
+    var timer = 59;
+    var downloadTimer = setInterval(function () {
+      if (timer <= 0) {
+        clearInterval(downloadTimer);
+      }
+      if (timer < 10) otpTimer.innerHTML = "0:0" + timer;
+      else otpTimer.innerHTML = "0:" + timer;
+      console.log("tiemr");
+      timer -= 1;
+    }, 1000);
+  }
 };
 $(`#send-otp--btn`)
   .off("click")
@@ -29,15 +42,6 @@ $(`#send-otp--btn`)
     console.log("hey");
   });
 
-var timeleft = 10;
-var downloadTimer = setInterval(function () {
-  if (timeleft <= 0) {
-    clearInterval(downloadTimer);
-  }
-  document.getElementById("progressBar").value = 10 - timeleft;
-  timeleft -= 1;
-}, 1000);
-<progress value="0" max="10" id="progressBar"></progress>;
 // const getOtpDetailsSignup = (mobId, otpId) => {
 //   document.getElementById(mobId).style.display = "none";
 //   document.getElementById(otpId).style.display = "block";

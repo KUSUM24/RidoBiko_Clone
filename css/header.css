@@ -55,6 +55,10 @@ body {
     /* overflow: scroll; */
   }
 }
+#otp-timer {
+  font-weight: 600;
+  font-size: 120%;
+}
 
 html * {
   -webkit-font-smoothing: antialiased;

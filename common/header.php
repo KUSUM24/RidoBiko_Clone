@@ -47,39 +47,43 @@
 							<label class="image-replace cd-email" for="signin-mobile">Mobile Number</label>
 							<input class="full-width has-padding has-border" id="signin-mobile" type="mobile" placeholder="Mobile Number">
 						</p>
-						<progress value="0" max="10" id="progressBar"></progress>
+						
 					<p class="fieldset">
 						<input class="full-width" type="button" value="Send OTP" onclick="getOtpDetails('mobile-form-signup','otp-form-signup')">
 					</p>
 					</div>
 					<div class="OTP-form" id="otp-form-signup" style="display:none">
-						<p class="fieldset">
+						<p class="fieldset mb-3">
 							<label class="image-replace cd-email" for="signin-mobile">Enter OTP</label>
 							<input class="full-width has-padding has-border" id="signin-mobile" type="mobile" placeholder="Enter OTP">
 						</p>
-						<p class="fieldset">
+						<div class="d-flex justify-content-end align-items-center">
+							<div>Resend OTP in &nbsp;</div>
+							<div id="otp-timer">1:00</div>
+						</div>
+						<p class="fieldset mt-3">
 							<input id="send-otp--btn" class="full-width" type="button" value="Submit" onclick="getOtpDetails('otp-form-signup','signup-form')">
 						</p>
 					</div>
 					<div id="signup-form" style="display:none">
 						<p class="fieldset">
 							<label class="image-replace cd-email" for="signin-mobile">First Name</label>
-							<input class="full-width has-padding has-border" id="signin-mobile" type="text" placeholder="Enter First Name">
+							<input class="full-width has-padding has-border" id="signin-mobile" type="text" placeholder="First Name">
 						</p>
 						
 						<p class="fieldset">
 							<label class="image-replace cd-email" for="signup-email">Last Name</label>
-							<input class="full-width has-padding has-border" id="signup-email" type="email" placeholder="Enter Last Name">
+							<input class="full-width has-padding has-border" id="signup-email" type="email" placeholder="Last Name">
 						</p>
 
 						<p class="fieldset">
 							<label class="image-replace cd-email" for="signup-email">E-mail</label>
-							<input class="full-width has-padding has-border" id="signup-email" type="email" placeholder="Enter E-mail">
+							<input class="full-width has-padding has-border" id="signup-email" type="email" placeholder="E-mail">
 						</p>
 						
 						<p class="fieldset">
-							<label class="image-replace cd-email" for="signup-email">E-mail</label>
-							<input class="full-width has-padding has-border" id="signup-email" type="email" placeholder="E-mail">
+							<label class="image-replace cd-email" for="signup-email">City</label>
+							<input class="full-width has-padding has-border" id="signup-email" type="email" placeholder="City">
 						</p>
 
 						<p class="fieldset">

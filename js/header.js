@@ -19,11 +19,14 @@ window.onscroll = () => {
 const displayResend = () => {
   resendText = document.getElementById("resend-otp-text");
   resendBtn = document.getElementById("resend-otp-btn");
+  btnMain = document.getElementById("resend-btn-main");
 
   resendText.classList.remove("d-flex");
   resendText.style.display = "none";
   resendBtn.classList.remove("disabled");
   resendBtn.removeAttribute("disabled");
+  btnMain.classList.remove("justify-content-between");
+  btnMain.classList.add("justify-content-end");
 };
 const sendOtp = () => {
   let mobileNumber = sessionStorage.getItem("mobileNumber");

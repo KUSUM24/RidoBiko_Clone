@@ -62,12 +62,12 @@
 								<div>Resend OTP in &nbsp;</div>
 								<div id="otp-timer">1:00</div>
 							</div>
-							<div class="d-flex align-items-center">
-								<button class="disabled btn btn-primary" type="button" id="resend-otp-btn" disabled onclick="sendOtp()">Resent OTP</button>
+							<div class="d-flex align-items-center" id="resend-btn-main">
+								<button class="disabled btn btn-primary" type="button" id="resend-otp-btn" disabled onclick="sendOtp()">Resend OTP</button>
 							</div>
 						</div>
 						<p class="fieldset mt-3">
-							<input id="send-otp--btn" class="full-width" type="submit" value="Submit" onchange="getValue()" onclick="submitOtpDetails('otp-form-signup','signup-form')">
+							<input id="send-otp--btn" class="full-width" type="button" value="Submit"  onclick="submitOtpDetails('otp-form-signup','signup-form')">
 						</p>
 					</div>
 					<div id="signup-form" style="display:none">

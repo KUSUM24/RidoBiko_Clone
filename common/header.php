@@ -45,24 +45,29 @@
 					<div class="mobile-form" id="mobile-form-signup">
 						<p class="fieldset">
 							<label class="image-replace cd-email" for="signin-mobile">Mobile Number</label>
-							<input class="full-width has-padding has-border" id="signin-mobile" type="mobile" placeholder="Mobile Number">
+							<input id="mobile-input" class="full-width has-padding has-border" id="signin-mobile" type="number" placeholder="Mobile Number">
 						</p>
 						
 					<p class="fieldset">
-						<input class="full-width" type="button" value="Send OTP" onclick="getOtpDetails('mobile-form-signup','otp-form-signup')">
+						<input  class="full-width" type="button" value="Send OTP" onclick="getOtpDetails('mobile-form-signup','otp-form-signup')">
 					</p>
 					</div>
 					<div class="OTP-form" id="otp-form-signup" style="display:none">
 						<p class="fieldset mb-3">
 							<label class="image-replace cd-email" for="signin-mobile">Enter OTP</label>
-							<input class="full-width has-padding has-border" id="signin-mobile" type="mobile" placeholder="Enter OTP">
+							<input class="full-width has-padding has-border" id="signin-mobile" type="number" placeholder="Enter OTP">
 						</p>
-						<div class="d-flex justify-content-end align-items-center">
-							<div>Resend OTP in &nbsp;</div>
-							<div id="otp-timer">1:00</div>
+						<div class="d-flex justify-content-between align-items-center">
+							<div class=" d-flex align-items-center" id="resend-otp-text">
+								<div>Resend OTP in &nbsp;</div>
+								<div id="otp-timer">1:00</div>
+							</div>
+							<div class="d-flex align-items-center">
+								<button class="disabled btn btn-primary" type="button" id="resend-otp-btn" disabled onclick="sendOtp()">Resent OTP</button>
+							</div>
 						</div>
 						<p class="fieldset mt-3">
-							<input id="send-otp--btn" class="full-width" type="button" value="Submit" onclick="getOtpDetails('otp-form-signup','signup-form')">
+							<input id="send-otp--btn" class="full-width" type="submit" value="Submit" onchange="getValue()" onclick="submitOtpDetails('otp-form-signup','signup-form')">
 						</p>
 					</div>
 					<div id="signup-form" style="display:none">
@@ -96,9 +101,3 @@
 		</div>
 	</div>
 </div>
-<!-- <script>
-	const getOtpDetails = (mobId, otpId) => {
-		document.getElementById(mobId).style.display = "none";
-		document.getElementById(otpId).style.display = "block";
-	};
-</script> -->

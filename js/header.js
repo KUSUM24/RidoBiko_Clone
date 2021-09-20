@@ -16,38 +16,71 @@ const fixedHeader = () => {
 window.onscroll = () => {
   fixedHeader();
 };
+const displayResend = () => {
+  resendText = document.getElementById("resend-otp-text");
+  resendBtn = document.getElementById("resend-otp-btn");
 
-const getOtpDetails = (mobId, otpId, btnId) => {
+  resendText.classList.remove("d-flex");
+  resendText.style.display = "none";
+  resendBtn.classList.remove("disabled");
+  resendBtn.removeAttribute("disabled");
+};
+const sendOtp = () => {
+  let mobileNumber = sessionStorage.getItem("mobileNumber");
+  console.log(mobileNumber);
+  //Backend Code Here
+  resetOtpTimer();
+  resendBtn = document.getElementById("resend-otp-btn");
+  resendBtn.setAttribute("disabled", true);
+};
+const resetOtpTimer = () => {
+  let otpTimer = document.getElementById("otp-timer");
+  document.getElementById("resend-otp-text").style.display = "flex";
+  let timer = 59;
+  let downloadTimer = setInterval(function () {
+    if (timer <= 0) {
+      displayResend();
+      clearInterval(downloadTimer);
+    }
+    if (timer < 10) otpTimer.innerHTML = "0:0" + timer;
+    else otpTimer.innerHTML = "0:" + timer;
+    timer -= 1;
+    console.log("timer");
+  }, 1000);
+};
+const getOtpDetails = (mobId, otpId) => {
   document.getElementById(mobId).style.display = "none";
   document.getElementById(otpId).style.display = "block";
-  if (otpId == "otp-form-signup") {
-    var otpTimer = document.getElementById("otp-timer");
-    var timer = 59;
-    var downloadTimer = setInterval(function () {
-      if (timer <= 0) {
-        clearInterval(downloadTimer);
-      }
-      if (timer < 10) otpTimer.innerHTML = "0:0" + timer;
-      else otpTimer.innerHTML = "0:" + timer;
-      console.log("tiemr");
-      timer -= 1;
-    }, 1000);
-  }
+  let mobileNumber = 676767676767;
+  sessionStorage.setItem("mobileNumber", mobileNumber.toString());
+  sendOtp();
 };
 $(`#send-otp--btn`)
   .off("click")
   .click(function (clickEvent) {
     clickEvent.preventDefault();
     clickEvent.stopPropagation();
-    console.log("hey");
+    // console.log("submit-prevent");
   });
+const verifyOtp = (otp) => {
+  let myOtp = 4567;
+  if (otp == myOtp) return true;
+  return false;
+};
+const submitOtpDetails = (mobId, otpId) => {
+  //OTP Checker
+  let userOtp = document.getElementById("signin-mobile").value;
+  // console.log("my-otp", myOtp, "user-otp", userOtp);
+  if (verifyOtp(userOtp)) {
+    window.alert("otp matched");
+    document.getElementById(mobId).style.display = "none";
+    document.getElementById(otpId).style.display = "block";
+  } else {
+    window.alert("OTP not matched with 4567");
+  }
+  console.log(document.getElementById("signin-mobile").value);
+};
 
-// const getOtpDetailsSignup = (mobId, otpId) => {
-//   document.getElementById(mobId).style.display = "none";
-//   document.getElementById(otpId).style.display = "block";
-//   console.log("context");
-// };
-// const getSignupForm = () => {};
 jQuery(document).ready(function ($) {
   var $form_modal = $(".cd-user-modal"),
     $form_login = $form_modal.find("#cd-login"),

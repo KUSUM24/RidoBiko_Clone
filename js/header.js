@@ -30,8 +30,18 @@ const displayResend = () => {
 };
 const sendOtp = () => {
   let mobileNumber = sessionStorage.getItem("mobileNumber");
-  console.log(mobileNumber);
+  // console.log(mobileNumber);
   //Backend Code Here
+  let randomOtp = Math.floor(1000 + Math.random() * 9000);
+  console.log(randomOtp);
+  $.ajax({
+    url: "ajax/tenure_filter.php",
+    type: "POST",
+    data: { mob: mobileNumber, otp: 4567 },
+    success: function (data) {
+      console.log(data);
+    },
+  });
   resetOtpTimer();
   resendBtn = document.getElementById("resend-otp-btn");
   resendBtn.setAttribute("disabled", true);

@@ -64,7 +64,7 @@ const resetOtpTimer = () => {
 const getOtpDetails = (mobId, otpId) => {
   document.getElementById(mobId).style.display = "none";
   document.getElementById(otpId).style.display = "block";
-  let mobileNumber = 676767676767;
+  let mobileNumber = 6767676767;
   sessionStorage.setItem("mobileNumber", mobileNumber.toString());
   sendOtp();
 };

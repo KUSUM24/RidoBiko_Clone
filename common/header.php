@@ -54,8 +54,8 @@
 					</div>
 					<div class="OTP-form" id="otp-form-signup" style="display:none">
 						<p class="fieldset mb-3">
-							<label class="image-replace cd-email" for="signin-mobile">Enter OTP</label>
-							<input class="full-width has-padding has-border" id="signin-mobile" type="number" placeholder="Enter OTP">
+							<label class="image-replace cd-email" for="user-otp">Enter OTP</label>
+							<input class="full-width has-padding has-border" id="user-otp" type="number" placeholder="Enter OTP">
 						</p>
 						<div class="d-flex justify-content-between align-items-center">
 							<div class=" d-flex align-items-center" id="resend-otp-text">

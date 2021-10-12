@@ -21,6 +21,8 @@ a {
 .header {
   border-bottom: 1px solid #e2e8f0;
   z-index: 1100;
+  background-color: #101010;
+  color: white;
 }
 
 .navbar {
@@ -40,7 +42,7 @@ a {
   margin: 5px auto;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  background-color: #101010;
+  background-color: white;
 }
 .nav-menu {
   display: flex;
@@ -71,14 +73,15 @@ a {
   .nav-menu {
     position: fixed;
     left: -100%;
-    top: 5rem;
+    top: 7rem;
     flex-direction: column;
     background-color: #fff;
     width: 100%;
-    border-radius: 10px;
+    /* border-radius: 10px; */
     text-align: center;
     transition: 0.3s;
     box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+    z-index: 1100;
   }
 
   .nav-menu.active {

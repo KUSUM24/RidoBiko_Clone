@@ -28,7 +28,7 @@ body {
 }
 .header {
   /* padding: 0.5% 2%; */
-  background-color: black;
+  /* background-color: black; */
   z-index: 1100;
 }
 .text-header {

@@ -12,6 +12,7 @@ include "common/link.php";
     <link rel="stylesheet" href="css/index-page.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/carousel.css">
+    <link rel="stylesheet" href="css/header-resp.css">
 
     <title>RidoBiko</title>
     
@@ -20,7 +21,7 @@ include "common/link.php";
     <!-- Background Image  -->
     <img class="background-img" src="images/background.jpeg" alt="BACKGROUND">
     <!-- Header HTML  -->
-    <?php include "common/header.php"; ?>
+    <?php include "common/header.html"; ?>
     <!-- Trip Section  -->
     <div class="trip-main d-flex justify-content-center flex-column align-items-center">
       <div class="radio-div d-flex justify-content-between align-items-center">

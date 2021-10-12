@@ -1,0 +1,83 @@
+<div class="header bg-dark">
+  <nav class="navbar navbar-expand-md">
+    <!-- Brand -->
+    <a class="navbar-brand" href="index.html">
+      <div class="logo">
+        <img class="logo-img" src="../images/creds.png" alt="LOGO" />
+      </div>
+    </a>
+
+    <!-- Toggler/collapsibe Button -->
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-toggle="collapse"
+      data-target="#collapsibleNavbar"
+    >
+      <span>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="30"
+          height="30"
+          fill="currentColor"
+          class="bi bi-list"
+          viewBox="0 0 16 16"
+        >
+          <path
+            fill-rule="evenodd"
+            d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"
+          />
+        </svg>
+      </span>
+    </button>
+
+    <!-- Navbar links -->
+    <div
+      class="collapse navbar-collapse justify-content-end"
+      id="collapsibleNavbar"
+    >
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <div
+            class="item-header item-header--clicked d-flex align-items-center"
+            id="item-header"
+            onclick="document.getElementById('item-header').style.color = '#1dc0a2' "
+          >
+            <span class="material-icons-outlined icon"> home </span>
+            <div class="text-header">Home</div>
+          </div>
+        </li>
+        <li class="nav-item">
+          <div class="item-header d-flex align-items-center">
+            <span class="material-icons-outlined icon"> description </span>
+            <div class="text-header">Blog</div>
+          </div>
+        </li>
+        <li class="nav-item">
+          <div class="item-header d-flex align-items-center">
+            <div class="text-header">More</div>
+            <span class="material-icons-outlined icon">
+              keyboard_arrow_down
+            </span>
+          </div>
+        </li>
+        <li class="nav-item">
+          <div
+            class="item-header d-flex align-items-center"
+            data-toggle="modal"
+            data-target="#loginModal"
+          >
+            <span class="material-icons-outlined icon"> person </span>
+            <div class="text-header">Login/Signup</div>
+          </div>
+        </li>
+        <li class="nav-item">
+          <div class="item-header d-flex align-items-center" id="mobile">
+            <span class="material-icons-outlined icon"> call </span>
+            <div class="text-header">9191919191</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</div>

@@ -560,7 +560,7 @@ focus {
     margin: 3% 0% 10% 0%;
   }
   .pickup-details {
-    padding: 0%;
+    padding: 4% 0%;
   }
   .select-css,
   .select-css-timing {
@@ -568,6 +568,7 @@ focus {
   }
   input[type="date"] {
     font-size: 15px;
+    padding: 10px 5px;
   }
   .pick-item {
     padding: 5px;
@@ -577,6 +578,16 @@ focus {
   }
   .trip-main-div {
     padding: 0;
+  }
+  .time-main-div {
+    padding: 0 13px;
+  }
+  .pickup-time,
+  .drop-time {
+    width: 100%;
+  }
+  .location-title {
+    padding: 0 15px;
   }
 }
 

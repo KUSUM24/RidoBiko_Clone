@@ -2,6 +2,9 @@
   --darkRed: #fc3831;
   --lightRed: #fdedec;
 }
+body {
+  font-size: 16px;
+}
 /* Trip CSS  */
 
 .trip-main {
@@ -243,7 +246,7 @@ focus {
   background-color: #ffffff;
   border-radius: 15px;
   padding: 1.5% 2%;
-  margin: 5% 8% !important;
+  margin: 5% 8% 2.5% 8% !important;
 }
 .motorcycle-heading {
   font-weight: 550;
@@ -275,7 +278,7 @@ focus {
 }
 .hr-motor {
   position: relative;
-  top: -17px;
+  top: -11px;
 }
 .motorcycle-content {
   padding: 2% 0%;
@@ -413,13 +416,13 @@ focus {
 .booking-main {
   background-color: #f0f2f5 !important;
   margin: 0%;
-  padding: 5%;
+  padding: 2.5% 8% 0% 8%;
 }
 .booking {
   background-color: #ffffff;
   border-radius: 15px;
   padding: 3% 2%;
-  margin: 0% 8% !important;
+  /* margin: 0% 8% !important; */
 }
 .booking-heading {
   font-weight: 550;
@@ -469,13 +472,12 @@ focus {
 .traveler-main {
   background-color: #f0f2f5 !important;
   margin: 0%;
-  padding: 5%;
+  padding: 5% 8%;
 }
 .traveler-story {
   background-color: #ffffff;
   border-radius: 15px;
   padding: 1.5% 1%;
-  margin: 0% 8% !important;
 }
 .traveler-header {
   font-weight: 550;
@@ -558,6 +560,31 @@ focus {
   }
 }
 
+/* Mobile Responsive  */
+@media screen and (max-width: 1000px) {
+  .offers-section {
+    flex-direction: column;
+    align-items: center;
+  }
+  .activa-section {
+    flex-direction: column;
+    align-items: center;
+  }
+  .scooter-card {
+    margin: 2% 0%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .motorcycle {
+    padding: 5% 3%;
+  }
+  .motorcycle-content {
+    margin-top: 25px;
+  }
+  .card-motorcycle {
+    margin: 5% 0% 10% 0%;
+  }
+}
 /* Carousel CSS  */
 @media (min-width: 768px) {
   /* show 3 items */

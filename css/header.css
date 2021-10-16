@@ -31,16 +31,14 @@ body {
   /* background-color: black; */
   z-index: 1100;
 }
+.close {
+  font-size: 2.5rem !important;
+}
+.modal {
+  color: black !important;
+}
 .text-header {
   padding: 0px 10px 0px 0px;
-}
-#mobile {
-  background-color: white;
-  color: black;
-  text-align: center;
-  width: 150px;
-  border-radius: 25px;
-  padding: 4px 10px;
 }
 .sticky {
   position: fixed;
@@ -58,8 +56,11 @@ body {
 #otp-timer {
   font-weight: 600;
   font-size: 120%;
+  color: black;
 }
-
+#resend-btn-main {
+  font-size: 1.5rem;
+}
 html * {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

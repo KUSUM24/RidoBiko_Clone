@@ -6,18 +6,30 @@ $(document).ready(function () {
 const changeRadioInput = (radioIndex) => {
   const radio1 = document.getElementById("radio-1");
   const radio2 = document.getElementById("radio-2");
-  if (radioIndex == 1) {
-    radio2.classList.remove("radio-btn--checked");
-    radio1.classList.add("radio-btn--checked");
-    document.getElementById("outstation-trip").style.display = "flex";
-    document.getElementById("hourly-trip").style.display = `none`;
+  const radio3 = document.getElementById("radio-3");
+  for (let i = 1; i <= 3; i++) {
+    let radioBtn = document.getElementById(`radio-${i}`);
+    let radioContent = document.getElementById(`radio-content-${i}`);
+    if (radioIndex == i) {
+      radioBtn.classList.add("radio-btn--checked");
+      radioContent.style.display = "flex";
+    } else {
+      radioBtn.classList.remove("radio-btn--checked");
+      radioContent.style.display = "none";
+    }
   }
-  if (radioIndex == 2) {
-    radio1.classList.remove("radio-btn--checked");
-    radio2.classList.add("radio-btn--checked");
-    document.getElementById("outstation-trip").style.display = "none";
-    document.getElementById("hourly-trip").style.display = `flex`;
-  }
+  // if (radioIndex == 1) {
+  //   radio2.classList.remove("radio-btn--checked");
+  //   radio1.classList.add("radio-btn--checked");
+  //   document.getElementById("outstation-trip").style.display = "flex";
+  //   document.getElementById("hourly-trip").style.display = `none`;
+  // }
+  // if (radioIndex == 2) {
+  //   radio1.classList.remove("radio-btn--checked");
+  //   radio2.classList.add("radio-btn--checked");
+  //   document.getElementById("outstation-trip").style.display = "none";
+  //   document.getElementById("hourly-trip").style.display = `flex`;
+  // }
 };
 
 // Bike starting from details

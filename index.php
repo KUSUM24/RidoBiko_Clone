@@ -21,7 +21,7 @@ include "common/link.php";
     <!-- Background Image  -->
     <img class="background-img" src="images/background.jpeg" alt="BACKGROUND">
     <!-- Header HTML  -->
-    <?php include "common/header.html"; ?>
+    <?php include "common/header.php"; ?>
     <!-- Trip Section  -->
     <div class="trip-main d-flex justify-content-center flex-column align-items-center">
       <div class="radio-div d-flex justify-content-between align-items-center">
@@ -37,16 +37,22 @@ include "common/link.php";
           />
           <span class="trip-time-checkmark"></span>
         </label>
+        
         <label id="radio-2" class="radio-btn trip-time-container radio-2"
           >HOURLY RENTAL
           <input onchange="changeRadioInput(2)" type="radio" name="trip-time" />
+          <span class="trip-time-checkmark"></span>
+        </label>
+        <label id="radio-3" class="radio-btn trip-time-container radio-3 mx-0"
+          >SHORT TERM RENTAL
+          <input onchange="changeRadioInput(3)" type="radio" name="trip-time" />
           <span class="trip-time-checkmark"></span>
         </label>
       </div>
       <div
         class="row pickup-details w-100 justify-content-start"
         style="display: flex"
-        id="outstation-trip"
+        id="radio-content-1"
       >
         <div class="location-title city-main pick-item col-md-3 col-xs-15">
           <label class="pickup-text" for="sel1"> PICKUP LOCATION </label>
@@ -62,10 +68,10 @@ include "common/link.php";
             <option>Gurgaon</option>
           </select>
         </div>
-        <div class="date pick-item col-md-4 col-xs-15">
+        <div class="date pick-item col-md-4 col-xs-15 pt-1">
           <div id="date-view" class="date-flex d-flex justify-content-around">
             <a class="date-div btn">
-              <div class="pickup-text d-flex align-items-center">
+              <div class="pickup-text d-flex align-items-center ml-4 mb-2">
                 DEPARTURE
                 <span class="material-icons-outlined"> keyboard_arrow_down </span>
               </div>
@@ -74,7 +80,7 @@ include "common/link.php";
             </a>
 
             <a class="date-div btn">
-              <div class="pickup-text d-flex align-items-center">
+              <div class="pickup-text d-flex align-items-center ml-4 mb-2">
                 RETURN
                 <span class="material-icons-outlined"> keyboard_arrow_down </span>
               </div>
@@ -83,42 +89,39 @@ include "common/link.php";
             </a>
           </div>
         </div>
-        <div class="pickup-time pick-item col-md-3 col-xs-15">
-          
-          <label for="sel1">
-            <span>
-              <div class="pickup-text">PICKUP TIME</div>
-            </span>
-          </label>
-          <select class="select-css-timing form-control" id="sel1" name="sellist1">
-            <option>12:00 AM</option>
-            <option>12:30 AM</option>
-            <option>1:00 AM</option>
-            <option>1:30 AM</option>
-            <option>2:00 AM</option>
-            <option>2:30 AM</option>
-            <option>3:00 AM</option>
-            <option>3:30 AM</option>
-            <option>4:00 AM</option>
-            <option>4:30 AM</option>
-            <option>5:00 AM</option>
-            <option>5:30 AM</option>
-            <option>6:00 AM</option>
-            <option>6:30 AM</option>
-            <option>7:00 AM</option>
-          </select>
-        </div>
-        <div class="drop-time pick-item col-md-2 col-xs-15">
-          <label for="sel1">
-            <span>
-              <div class="pickup-text">DROP TIME</div>
-            </span>
-          </label>
-          <select
+        <div class="time-main-div d-flex justify-content-between w-100 col-md-5 col-xs-15">
+
+          <div class="pickup-time pick-item ">
+            <label for="sel1">
+                <div class="pickup-text">PICKUP TIME</div>
+            </label>
+            <select class="select-css-timing form-control" id="sel1" name="sellist1">
+              <option>12:00 AM</option>
+              <option>12:30 AM</option>
+              <option>1:00 AM</option>
+              <option>1:30 AM</option>
+              <option>2:00 AM</option>
+              <option>2:30 AM</option>
+              <option>3:00 AM</option>
+              <option>3:30 AM</option>
+              <option>4:00 AM</option>
+              <option>4:30 AM</option>
+              <option>5:00 AM</option>
+              <option>5:30 AM</option>
+              <option>6:00 AM</option>
+              <option>6:30 AM</option>
+              <option>7:00 AM</option>
+            </select>
+          </div>
+          <div class="drop-time pick-item ">
+            <label for="sel1">
+                <div class="pickup-text">DROP TIME</div>
+            </label>
+            <select
             class="select-css-timing form-control"
             id="drop-timing"
             name="sellist1"
-          >
+            >
             <option>12:00 AM</option>
             <option>12:30 AM</option>
             <option>1:00 AM</option>
@@ -137,9 +140,10 @@ include "common/link.php";
           </select>
         </div>
       </div>
+      </div>
       <div
         class="row pickup-details w-100 justify-content-start"
-        id="hourly-trip"
+        id="radio-content-2"
         style="display: none"
       >
         <div class="location-title city-main pick-item col-md-4 col-xs-15">
@@ -176,52 +180,54 @@ include "common/link.php";
               </a>
             </div>
           </div>
-          
         </div>
-        <div class="pickup-time pick-item col-md-2 col-xs-15">
-          <label for="sel1">
-            <span>
-              <div class="pickup-text">PICKUP TIME</div>
-            </span>
-          </label>
-          <select class="select-css-timing form-control" id="sel1" name="sellist1">
-            <option>12:00 AM</option>
-            <option>12:30 AM</option>
-            <option>1:00 AM</option>
-            <option>1:30 AM</option>
-            <option>2:00 AM</option>
-            <option>2:30 AM</option>
-            <option>3:00 AM</option>
-            <option>3:30 AM</option>
-            <option>4:00 AM</option>
-            <option>4:30 AM</option>
-            <option>5:00 AM</option>
-            <option>5:30 AM</option>
-            <option>6:00 AM</option>
-            <option>6:30 AM</option>
-            <option>7:00 AM</option>
-          </select>
-        </div>
-        <div class="drop-time pick-item col-md-3 col-xs-15">
-          <label for="sel1">
+        <div class="time-main-div d-flex justify-content-center">
+          <div class="pickup-time pick-item col-md-2 col-xs-15">
+            <label for="sel1">
+              <span>
+                <div class="pickup-text">PICKUP TIME</div>
+              </span>
+            </label>
+            <select class="select-css-timing form-control" id="sel1" name="sellist1">
+              <option>12:00 AM</option>
+              <option>12:30 AM</option>
+              <option>1:00 AM</option>
+              <option>1:30 AM</option>
+              <option>2:00 AM</option>
+              <option>2:30 AM</option>
+              <option>3:00 AM</option>
+              <option>3:30 AM</option>
+              <option>4:00 AM</option>
+              <option>4:30 AM</option>
+              <option>5:00 AM</option>
+              <option>5:30 AM</option>
+              <option>6:00 AM</option>
+              <option>6:30 AM</option>
+              <option>7:00 AM</option>
+            </select>
+         </div>
+         <div class="drop-time pick-item col-md-3 col-xs-15">
+            <label for="sel1">
             <span>
               <div class="pickup-text">DURATION</div>
             </span>
-          </label>
-          <select class="select-css-timing form-control" id="sel1" name="sellist1">
-            <option>1hrs 10kms</option>
-            <option>2hrs 20kms</option>
-            <option>3hrs 30kms</option>
-            <option>4hrs 40kms</option>
-            <option>5hrs 50kms</option>
-            <option>6hrs 60kms</option>
-            <option>7hrs 70kms</option>
-            <option>8hrs 80kms</option>
-            <option>9hrs 90kms</option>
-            <option>10hrs 100kms</option>
-          </select>
+            </label>
+            <select class="select-css-timing form-control" id="sel1" name="sellist1">
+              <option>1hrs 10kms</option>
+              <option>2hrs 20kms</option>
+              <option>3hrs 30kms</option>
+              <option>4hrs 40kms</option>
+              <option>5hrs 50kms</option>
+              <option>6hrs 60kms</option>
+              <option>7hrs 70kms</option>
+              <option>8hrs 80kms</option>
+              <option>9hrs 90kms</option>
+              <option>10hrs 100kms</option>
+            </select>
+          </div>
         </div>
       </div>
+      <div id="radio-content-3"></div>
       <button class="ridobiko-btn">
         <a class="btn-inner" href="searchBikes-main.php" target="_blank">
           SEARCH
@@ -433,7 +439,7 @@ include "common/link.php";
             </div>
             </div>
         </div>
-        
+        <hr class="hr-traveler w-100 mb-5">
         <div class="traveler-content-main d-flex justify-content-between " id="motorcycle-content" >
             <div class="card-traveler">
                 <div class="d-flex align-items-center">

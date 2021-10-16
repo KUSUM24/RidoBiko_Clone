@@ -14,9 +14,10 @@ body {
   margin: 2% 8% 5% 8% !important;
 }
 .pickup-details {
-  border-radius: 15px;
+  border-radius: 10px;
   border: 2px solid #d9d9d9;
   margin: 2% 0%;
+  padding: 10px;
   /* align-items: center; */
 }
 .pick-item {
@@ -80,7 +81,7 @@ body {
   font-size: 120%;
 }
 .pick-item {
-  border-right: 2px solid #d9d9d9 !important;
+  /* border-right: 2px solid #d9d9d9 !important; */
 }
 .drop-time {
   border-radius: 0px 15px 15px 0px;
@@ -210,17 +211,17 @@ option {
 
 input[type="date"] {
   font-family: "Helvetica", arial, sans-serif;
-  font-size: 18px;
+  font-size: 20px;
   border: 1px solid #c8c9c9;
   border-radius: 5px;
   background: white;
-  padding: 15px 5px;
+  padding: 13px 5px;
   display: inline-block !important;
   visibility: visible !important;
   width: 90%;
   font-weight: 700;
   color: black !important;
-  margin: 5% 0%;
+  /* margin: 5% 0%; */
 }
 
 input[type="date"],
@@ -558,31 +559,59 @@ focus {
     width: 90%;
     margin: 3% 0% 10% 0%;
   }
+  .pickup-details {
+    padding: 0%;
+  }
+  .select-css,
+  .select-css-timing {
+    font-size: 20px;
+  }
+  input[type="date"] {
+    font-size: 15px;
+  }
+  .pick-item {
+    padding: 5px;
+  }
+  .pickup-text {
+    justify-content: start;
+  }
+  .trip-main-div {
+    padding: 0;
+  }
 }
 
 /* Mobile Responsive  */
 @media screen and (max-width: 1000px) {
-  .offers-section {
-    flex-direction: column;
-    align-items: center;
-  }
+  .offers-section,
   .activa-section {
     flex-direction: column;
     align-items: center;
   }
+
   .scooter-card {
     margin: 2% 0%;
   }
 }
 @media screen and (max-width: 500px) {
-  .motorcycle {
-    padding: 5% 3%;
+  .motorcycle,
+  .traveler-story {
+    padding: 4% 3%;
   }
   .motorcycle-content {
     margin-top: 25px;
   }
-  .card-motorcycle {
+  .traveler-content-main {
+    margin-top: 40px;
+  }
+  .card-motorcycle,
+  .card-traveler {
     margin: 5% 0% 10% 0%;
+  }
+  .footer-item.subscribe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
   }
 }
 /* Carousel CSS  */

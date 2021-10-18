@@ -172,7 +172,7 @@ include "common/link.php";
           >
             <div class="dropdown show">
               <a class="btn dropdown-btn">
-                <div class="pickup-text d-flex align-items-center">
+                <div class="pickup-text d-flex align-items-center ml-2 mb-2">
                   DEPARTURE
                   <span class="material-icons-outlined"> keyboard_arrow_down </span>
                 </div>
@@ -181,8 +181,8 @@ include "common/link.php";
             </div>
           </div>
         </div>
-        <div class="time-main-div d-flex justify-content-center">
-          <div class="pickup-time pick-item col-md-2 col-xs-15">
+        <div class="time-main-div d-flex justify-content-between w-100 col-md-5 col-xs-15">
+          <div class="pickup-time pick-item">
             <label for="sel1">
               <span>
                 <div class="pickup-text">PICKUP TIME</div>
@@ -206,7 +206,7 @@ include "common/link.php";
               <option>7:00 AM</option>
             </select>
          </div>
-         <div class="drop-time pick-item col-md-3 col-xs-15">
+         <div class="drop-time pick-item">
             <label for="sel1">
             <span>
               <div class="pickup-text">DURATION</div>

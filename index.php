@@ -228,7 +228,7 @@ include "common/link.php";
         </div>
       </div>
       <div id="radio-content-3"></div>
-      <button class="ridobiko-btn">
+      <button class="ridobiko-btn d-flex justify-content-center">
         <a class="btn-inner" href="searchBikes-main.php" target="_blank">
           SEARCH
         </a>

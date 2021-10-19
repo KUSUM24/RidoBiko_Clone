@@ -105,7 +105,7 @@
   <nav class="navbar">
     <div class="nav-logo">
       <div class="logo">
-        <img class="logo-img" src="../images/icon.png" alt="LOGO" />
+        <img class="logo-img" src="images/icon.png" alt="LOGO" />
       </div>
     </div>
     <ul class="nav-menu">

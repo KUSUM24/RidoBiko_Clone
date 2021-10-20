@@ -43,11 +43,11 @@ include "common/link.php";
           <input onchange="changeRadioInput(2)" type="radio" name="trip-time" />
           <span class="trip-time-checkmark"></span>
         </label>
-        <label id="radio-3" class="radio-btn trip-time-container radio-3 mx-0"
+        <!-- <label id="radio-3" class="radio-btn trip-time-container radio-3 mx-0"
           >SHORT TERM RENTAL
           <input onchange="changeRadioInput(3)" type="radio" name="trip-time" />
           <span class="trip-time-checkmark"></span>
-        </label>
+        </label> -->
       </div>
       <div
         class="row pickup-details w-100 justify-content-start"
@@ -89,7 +89,7 @@ include "common/link.php";
             </a>
           </div>
         </div>
-        <div class="time-main-div d-flex justify-content-between w-100 col-md-5 col-xs-15">
+        <div class="time-main-div d-flex justify-content-start w-100 col-md-5 col-xs-15">
 
           <div class="pickup-time pick-item ">
             <label for="sel1">
@@ -181,7 +181,7 @@ include "common/link.php";
             </div>
           </div>
         </div>
-        <div class="time-main-div d-flex justify-content-between w-100 col-md-5 col-xs-15">
+        <div class="time-main-div d-flex justify-content-start w-100 col-md-5 col-xs-15">
           <div class="pickup-time pick-item">
             <label for="sel1">
               <span>
@@ -245,18 +245,18 @@ include "common/link.php";
                 <div class="scroll-title active-title" id="offers" onclick="setHeaderTitle('offers')">Super Offers</div>
                 <div class="scroll-title" id="bikes" onclick="setHeaderTitle('bikes')">Bikes Starting From</div>
             </div>
-            <div class="scroll-icons-1 d-flex">
+            <!-- <div class="scroll-icons-1 d-flex">
                 <div class="scroll-icon">
-                <span class="material-icons-outlined">
-                    chevron_left
-                </span>
+                  <span class="material-icons-outlined">
+                      chevron_left
+                  </span>
                 </div>
                 <div class="scroll-icon">
-                <span class="material-icons-outlined">
-                    chevron_right
-                </span>
+                  <span class="material-icons-outlined">
+                      chevron_right
+                  </span>
                 </div>
-            </div>
+            </div> -->
         </div>
         <hr class="hr-motor">
         <div class="motorcycle-content" id="motorcycle-content" >
@@ -426,7 +426,7 @@ include "common/link.php";
                     Traveler Stories
                 </b>
             </div>
-            <div class="scroll-icons-2 d-flex">
+            <!-- <div class="scroll-icons-2 d-flex">
                 <div class="scroll-icon">
                 <span class="material-icons-outlined">
                     chevron_left
@@ -436,8 +436,8 @@ include "common/link.php";
                     <span class="material-icons-outlined">
                     chevron_right
                 </span>
-            </div>
-            </div>
+                </div>
+            </div> -->
         </div>
         <hr class="hr-traveler w-100 mb-5">
         <div class="traveler-content-main d-flex justify-content-between " id="motorcycle-content" >
@@ -455,9 +455,9 @@ include "common/link.php";
                 <div class="traveler-content">
                 Ritik is self–employed and runs his own coaching institute in Bhopal, Madhya Pradesh for the students who are preparing for the engineering and medical entrance exams
                 </div>
-                <div class="bike-footer d-flex justify-content-around align-items-center">
+                <!-- <div class="bike-footer d-flex justify-content-around align-items-center">
                     <div class="read-more">Read More</div>
-                </div>
+                </div> -->
 
             </div>
             <div class="card-traveler">
@@ -474,9 +474,9 @@ include "common/link.php";
                 <div class="traveler-content">
                     Ritik is self–employed and runs his own coaching institute in Bhopal, Madhya Pradesh for the students who are preparing for the engineering and medical entrance exams
                 </div>
-                <div class="bike-footer d-flex justify-content-around align-items-center">
+                <!-- <div class="bike-footer d-flex justify-content-around align-items-center">
                     <div class="read-more">Read More</div>
-                </div>
+                </div> -->
             </div>
             <div class="card-traveler">
                 <div class="d-flex align-items-center justify-content-between">
@@ -492,9 +492,9 @@ include "common/link.php";
                 <div class="traveler-content">
                     Ritik is self–employed and runs his own coaching institute in Bhopal, Madhya Pradesh for the students who are preparing for the engineering and medical entrance exams
                 </div>
-                <div class="bike-footer d-flex justify-content-around align-items-center">
+                <!-- <div class="bike-footer d-flex justify-content-around align-items-center">
                     <div class="read-more">Read More</div>
-                </div>
+                </div> -->
             </div>
         </div>
     </div>

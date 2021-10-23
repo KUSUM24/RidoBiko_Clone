@@ -85,6 +85,7 @@ body {
 }
 .drop-time {
   border-radius: 0px 15px 15px 0px;
+  margin-left: 10px;
 }
 .dropdown {
   background-color: transparent;
@@ -585,6 +586,9 @@ focus {
   .pickup-time,
   .drop-time {
     width: 100%;
+  }
+  .drop-time {
+    margin-left: 0;
   }
   .location-title {
     padding: 0 15px;

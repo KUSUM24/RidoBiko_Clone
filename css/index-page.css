@@ -448,6 +448,15 @@ focus {
   justify-content: space-between;
   height: 100%;
 }
+.pair-images {
+  width: 50%;
+}
+.booking-hr {
+  margin-bottom: 0%;
+}
+.row {
+  margin: 0%;
+}
 @media screen and (max-width: 1200px) {
   .pair-images {
     justify-content: space-around !important;
@@ -461,6 +470,11 @@ focus {
 @media screen and (max-width: 780px) {
   .images-main {
     width: 100% !important;
+    flex-direction: column;
+  }
+  .pair-images {
+    width: 100%;
+    margin-top: 20px;
   }
 }
 @media screen and (max-width: 500px) {

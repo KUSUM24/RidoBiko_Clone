@@ -394,9 +394,9 @@ include "common/link.php";
             <div class="booking-heading h1 text-center">
                 Why Book with Ridobiko ?
             </div>
-        <hr>
+        <hr class="booking-hr">
         <div class="row images-main justify-content-between ">
-            <div class="pair-images d-flex justify-content-around w-50">
+            <div class="pair-images d-flex justify-content-around">
                 <div class="img-col col-md-6">
                     <div class="img-description d-flex flex-column align-items-center justify-content-between h-100">
                       <img class="book-1 img-book" src="images/booking/book-1.png" alt="error">
@@ -410,7 +410,7 @@ include "common/link.php";
                   </div>
                 </div>
             </div>
-            <div class="pair-images d-flex justify-content-around w-50">
+            <div class="pair-images d-flex justify-content-around">
                 <div class="img-col col-md-6">
                   <div class="img-description d-flex flex-column align-items-center justify-content-between h-100">
                     <img class="book-3 img-book" src="images/booking/book-3.png" alt="error">

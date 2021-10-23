@@ -23,9 +23,7 @@ body {
 .pick-item {
   padding: 5px;
 }
-.city-main {
-  border-radius: 15px 0px 0px 15px;
-}
+
 .pick-item:hover {
   border: 1px solid var(--darkRed);
   transition: 0.2s;
@@ -84,7 +82,6 @@ body {
   /* border-right: 2px solid #d9d9d9 !important; */
 }
 .drop-time {
-  border-radius: 0px 15px 15px 0px;
   margin-left: 10px;
 }
 .dropdown {
@@ -431,7 +428,6 @@ focus {
 }
 .images-main {
   padding: 1% 0%;
-  width: 90% !important;
 }
 .img-col {
   text-align: center;
@@ -444,6 +440,13 @@ focus {
 .book-3 {
   width: 115px;
   height: 115px;
+}
+.img-description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
 }
 @media screen and (max-width: 1200px) {
   .pair-images {
@@ -586,9 +589,6 @@ focus {
   .pickup-time,
   .drop-time {
     width: 100%;
-  }
-  .drop-time {
-    margin-left: 0;
   }
   .location-title {
     padding: 0 15px;

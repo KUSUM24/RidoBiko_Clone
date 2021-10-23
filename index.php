@@ -395,21 +395,33 @@ include "common/link.php";
                 Why Book with Ridobiko ?
             </div>
         <hr>
-        <div class="row images-main justify-content-around ">
-            <div class="pair-images d-flex justify-content-between ">
-                <div class="img-col col-md-3">
-                    <img class="book-1 img-book" src="images/booking/book-1.png" alt="error">
-                </div>
-                <div class="img-col col-md-3">
+        <div class="row images-main justify-content-between ">
+            <div class="pair-images d-flex justify-content-around w-50">
+                <div class="img-col col-md-6">
+                    <div class="img-description d-flex flex-column align-items-center justify-content-between h-100">
+                      <img class="book-1 img-book" src="images/booking/book-1.png" alt="error">
+                      <div> Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, sunt.</div>
+                    </div>
+                  </div>
+                <div class="img-col col-md-6">
+                  <div class="img-description d-flex flex-column align-items-center justify-content-between h-100">
                     <img class="book-2 img-book " src="images/booking/book-2.png" alt="error">
+                    <div> Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, sunt.</div>
+                  </div>
                 </div>
             </div>
-            <div class="pair-images d-flex justify-content-between ">
-                <div class="img-col col-md-3">
+            <div class="pair-images d-flex justify-content-around w-50">
+                <div class="img-col col-md-6">
+                  <div class="img-description d-flex flex-column align-items-center justify-content-between h-100">
                     <img class="book-3 img-book" src="images/booking/book-3.png" alt="error">
+                    <div> Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, sunt.</div>
+                  </div>
                 </div>
-                <div class="img-col col-md-3">
-                <img class="book-4 img-book" src="images/booking/book-4.png" alt="error">
+                <div class="img-col col-md-6">
+                  <div class="img-description d-flex flex-column align-items-center justify-content-between h-100">
+                    <img class="book-4 img-book" src="images/booking/book-4.png" alt="error">
+                    <div> Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, sunt.</div>
+                  </div>
                 </div>
             </div>
         </div>

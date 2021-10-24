@@ -25,7 +25,9 @@ include "common/link.php";
           <div class="summary-text">
               SUMMARY
           </div>
-          <img src="images/Bikes/Bike_Second.png" alt="Bike-image">
+          <!-- <div class="text-center"> -->
+              <img class="cart-bike-img" src="images/Bikes/Bike_Second.png" alt="Bike-image">
+            <!-- </div> -->
           <div class="name-bike">
               <b>
                   AVENGER

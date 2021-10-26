@@ -12,7 +12,7 @@ include "common/link.php";
     <link rel="stylesheet" href="css/header-resp.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/searchBikes-page.css">
-    <title>RidoBiko-Second</title>
+    <title>Search Bikes</title>
 </head>
 <body>
     

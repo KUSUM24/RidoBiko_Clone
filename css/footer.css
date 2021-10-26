@@ -94,6 +94,25 @@
     color: var(--darkRed);
     font-size: 450%;
   } */
+  .main-footer {
+    padding: 2%;
+  }
+  .footer-item {
+    margin-top: 10px;
+  }
+  .footer-item .heading-footer {
+    text-align: center !important;
+  }
+  .footer-item .content-footer {
+    text-align: center;
+    align-items: center !important;
+  }
+  .footer-item.subscribe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
 }
 
 /* Copyright  */

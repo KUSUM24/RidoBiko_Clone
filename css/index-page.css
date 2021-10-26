@@ -547,6 +547,8 @@ focus {
   box-shadow: 0px 0px 10px rgb(197, 196, 196);
   margin-top: -35px;
 }
+
+/* Mobile Responsive  */
 @media screen and (max-width: 1000px) {
   .traveler-content-main {
     flex-direction: column;
@@ -556,6 +558,15 @@ focus {
     padding: 0%;
     margin: 2% 0% 6% 0%;
     width: 60%;
+  }
+  .offers-section,
+  .activa-section {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .scooter-card {
+    margin: 2% 0%;
   }
 }
 @media screen and (max-width: 780px) {
@@ -607,21 +618,6 @@ focus {
   .location-title {
     padding: 0 15px;
   }
-}
-
-/* Mobile Responsive  */
-@media screen and (max-width: 1000px) {
-  .offers-section,
-  .activa-section {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .scooter-card {
-    margin: 2% 0%;
-  }
-}
-@media screen and (max-width: 500px) {
   .motorcycle,
   .traveler-story {
     padding: 4% 3%;
@@ -636,22 +632,7 @@ focus {
   .card-traveler {
     margin: 5% 0% 10% 0%;
   }
-  .footer-item.subscribe {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-  .footer-item {
-    margin-top: 10px;
-  }
-  .footer-item .heading-footer {
-    text-align: center !important;
-  }
-  .footer-item .content-footer {
-    text-align: center;
-    align-items: center !important;
-  }
+
   .radio-div .radio-btn {
     margin: 0%;
   }
@@ -664,10 +645,8 @@ focus {
   .social-media .social-icon {
     margin: 0 5px;
   }
-  .main-footer {
-    padding: 2%;
-  }
 }
+
 /* Carousel CSS  */
 @media (min-width: 768px) {
   /* show 3 items */

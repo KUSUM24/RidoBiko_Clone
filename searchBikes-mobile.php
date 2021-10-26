@@ -20,7 +20,7 @@ include "common/link.php";
     <?php include "common/header.php"; ?>
     <!-- Details  -->
     <!-- Main Section  -->
-
+    
     <!-- Footer -->
     <?php include "common/footer.php"; ?>
 

@@ -15,6 +15,7 @@ $(document).ready(function () {
 //   document.getElementById(lessId).style.display = "none";
 //   document.getElementById(moreId).style.display = "flex";
 // };
+
 for (let i = 1; i < 4; i++) {
   $(document).ready(function () {
     $(`#more-details-btn-${i}`).click(function () {

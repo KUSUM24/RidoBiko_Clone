@@ -30,16 +30,14 @@ include "common/link.php";
                     <label for="sel4">
                         <div class="details-card-text">BIKE SEARCH TYPE</div>
                     </label>
-
                     <select class="select-css-2 form-control" id="sel4" name="sellist1" >
-                    <option >
-                    Outstation Round Trip
-                    </option>
-                    <option>Hourly Rental</option>
-                
-                </select>      
+                        <option >
+                        Outstation Round Trip
+                        </option>
+                        <option>Hourly Rental</option>
+                    </select>      
                 </div>
-                <div class="details-item ">
+                <div class="details-item">
                     <label for="sel5">
                         <div class="details-card-text">PICKUP LOCATION</div>
                     </label>
@@ -55,7 +53,7 @@ include "common/link.php";
                         <option>Barmer</option>
                         <option>Patiala</option>
                         <option>Gurgaon</option>
-                    </select>   
+                    </select>
                 </div>
             </div>
             <div class="date-time-div d-flex justify-content-around">

@@ -1,0 +1,8 @@
+.filter-header {
+  display: flex;
+  justify-content: space-between;
+}
+input[type="date"] {
+  background: transparent;
+  border: none;
+}

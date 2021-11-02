@@ -89,6 +89,43 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 .discount-price {
   font-size: 22px;
 }
+/* Subscription   */
+.subscription {
+  background-color: var(--midRed);
+  padding: 0% 1.5%;
+  border: 2px solid rgb(161, 160, 160);
+  margin: 1%;
+}
+.activa-card {
+  width: 100px;
+  /* height: 35px; */
+}
+.close-div {
+  cursor: pointer;
+}
+.activa-card-heading {
+  font-weight: 800;
+  font-size: 20px;
+}
+.activa-card-btn {
+  background-color: black;
+  border-radius: 15px;
+  color: white;
+  padding: 0.5% 3%;
+  cursor: pointer;
+}
+.activa-card-btn:focus {
+  outline: none;
+}
+.heading-close {
+  width: 100%;
+}
+.subscribe-inner {
+  padding: 1.5%;
+}
+.description-card {
+  font-size: 18px;
+}
 @media screen and (max-width: 500px) {
   .time-arrow {
     font-size: 40px;

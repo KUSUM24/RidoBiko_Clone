@@ -170,6 +170,26 @@ include "common/link.php";
           </div>
         </div>
       </div>
+      <div class="subscription d-flex" id="subscribe-card">
+        <img class="activa-card" src="images/Bikes/Activa-card.png" alt="error">
+          <div class="subscribe-inner d-flex flex-column justify-content-between w-100">
+            <div class="heading-close d-flex justify-content-between align-items-center">
+              <div class="activa-card-heading">
+                Introducing Ridobiko Long Term Subscription
+              </div>
+              <div class="close-div" onclick="deleteCard('subscribe-card')">
+                <span class="material-icons">
+                  cancel
+                </span>
+              </div>
+                    
+            </div>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="description-card">Get a hassle-free two-wheeler for 1 month or more</div>
+              <button class="activa-card-btn">Read More</button>
+            </div>
+          </div>
+      </div>
       <div class="bike-card-main my-2 d-flex w-100">
         <div class="bike-card w-100 justify-content-between">
           <img class="card-bike-img" src="images/Bikes/Bike_Second.png" alt="error">

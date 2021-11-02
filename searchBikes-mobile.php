@@ -19,91 +19,198 @@ include "common/link.php";
     <!-- <?php include "common/header.php"; ?> -->
     <!-- Details  -->
     <!-- Main Section  -->
-    <div class="search-main">
-      <div class="filters">
-        <div class="filter-header d-flex justify-content-between p-2 pb-0">
-          <div class="filter-title h5 m-0">Search</div>
-          <div class="drop-down">
-            <span class="material-icons-outlined"> arrow_drop_down </span>
+    <div class="mobile-main">
+      <div class="search-main">
+        <div class="filters">
+          <div class="filter-header d-flex justify-content-between p-2 pb-0">
+            <div class="filter-title h5 m-0">Search</div>
+            <div class="drop-down">
+              <span class="material-icons-outlined"> arrow_drop_down </span>
+            </div>
+          </div>
+          <div class="bike-main px-2 pb-3">
+            <div class="bike-location">
+              <select
+                class="mobile-select form-control"
+                id="sel5"
+                name="sellist1"
+                >
+                <option>Mumbai</option>
+                <option>Bengaluru</option>
+                <option>Ludiana</option>
+                <option>Delhi</option>
+                <option>Jaipur</option>
+                <option>Mysore</option>
+                <option>Barmer</option>
+                <option>Patiala</option>
+                <option>Gurgaon</option>
+              </select>
+            </div>
+            <div class="date-time-main d-flex align-items-center">
+              <div class="pick-date-main">
+                <input class="date-second" type="date" value="2021-07-22" />
+                <select
+                  class="mobile-select form-control"
+                  id="sel6"
+                  name="sellist1"
+                >
+                  <option>12:00 AM</option>
+                  <option>12:30 AM</option>
+                  <option>1:00 AM</option>
+                  <option>1:30 AM</option>
+                  <option>2:00 AM</option>
+                  <option>2:30 AM</option>
+                  <option>3:00 AM</option>
+                  <option>3:30 AM</option>
+                  <option>4:00 AM</option>
+                  <option>4:30 AM</option>
+                  <option>5:00 AM</option>
+                  <option>5:30 AM</option>
+                  <option>6:00 AM</option>
+                  <option>6:30 AM</option>
+                  <option>7:00 AM</option>
+                </select>
+              </div>
+              <span class="time-arrow material-icons-outlined"> arrow_circle_right </span>
+              <div class="drop-date-main">
+                <input class="date-second" type="date" value="2021-08-22" />
+                <select
+                class="mobile-select form-control"
+                id="sel6"
+                name="sellist1"
+                >
+                <option>12:00 AM</option>
+                <option>12:30 AM</option>
+                  <option>1:00 AM</option>
+                  <option>1:30 AM</option>
+                  <option>2:00 AM</option>
+                  <option>2:30 AM</option>
+                  <option>3:00 AM</option>
+                  <option>3:30 AM</option>
+                  <option>4:00 AM</option>
+                  <option>4:30 AM</option>
+                  <option>5:00 AM</option>
+                  <option>5:30 AM</option>
+                  <option>6:00 AM</option>
+                  <option>6:30 AM</option>
+                  <option>7:00 AM</option>
+                </select>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="bike-main px-2">
-          <div class="bike-location">
-            <select
-              class="mobile-select form-control"
-              id="sel5"
-              name="sellist1"
-            >
-              <option>Mumbai</option>
-              <option>Bengaluru</option>
-              <option>Ludiana</option>
-              <option>Delhi</option>
-              <option>Jaipur</option>
-              <option>Mysore</option>
-              <option>Barmer</option>
-              <option>Patiala</option>
-              <option>Gurgaon</option>
-            </select>
+      </div>
+      <div class="bike-card-main my-2 d-flex w-100">
+        <div class="bike-card w-100 justify-content-between">
+          <img class="card-bike-img" src="images/Bikes/Bike_Second.png" alt="error">
+          <div class="bike-details">
+            <div class="bike-name-card">
+              <div>
+                <span>Avenger,</span> Bajaj
+              </div>
+              <div class="home-card">
+                <span class="material-icons">home</span>
+              </div>
+            </div>
+            <div class="bike-location">
+              4 Bikes Available
+            </div>
+            <div class="bike-location">
+              <span class="material-icons-outlined">
+              location_on
+              </span>
+              Karol Bagh
+            </div>
           </div>
-          <div class="date-time-main d-flex align-items-center">
-            <div class="pick-date-main">
-              <input class="date-second" type="date" />
-              <select
-                class="select-css-2 form-control"
-                id="sel6"
-                name="sellist1"
-              >
-                <option>12:00 AM</option>
-                <option>12:30 AM</option>
-                <option>1:00 AM</option>
-                <option>1:30 AM</option>
-                <option>2:00 AM</option>
-                <option>2:30 AM</option>
-                <option>3:00 AM</option>
-                <option>3:30 AM</option>
-                <option>4:00 AM</option>
-                <option>4:30 AM</option>
-                <option>5:00 AM</option>
-                <option>5:30 AM</option>
-                <option>6:00 AM</option>
-                <option>6:30 AM</option>
-                <option>7:00 AM</option>
-              </select>
+          <div class="rating d-flex flex-column justify-content-between w-25">
+            <div class="d-flex flex-column align-items-end">
+              <s class="original-price">1300</s>
+              <b class="discount-price" >₹ 1245</b>
             </div>
-            <span class="material-icons-outlined"> arrow_circle_right </span>
-            <div class="drop-date-main">
-              <input class="date-second" type="date" />
-              <select
-                class="select-css-2 form-control"
-                id="sel6"
-                name="sellist1"
-              >
-                <option>12:00 AM</option>
-                <option>12:30 AM</option>
-                <option>1:00 AM</option>
-                <option>1:30 AM</option>
-                <option>2:00 AM</option>
-                <option>2:30 AM</option>
-                <option>3:00 AM</option>
-                <option>3:30 AM</option>
-                <option>4:00 AM</option>
-                <option>4:30 AM</option>
-                <option>5:00 AM</option>
-                <option>5:30 AM</option>
-                <option>6:00 AM</option>
-                <option>6:30 AM</option>
-                <option>7:00 AM</option>
-              </select>
+            <button class="book-now mb-2">
+              <a class="cart-btn" target="_blank" href="cart-main.php">
+              BOOK NOW
+              </a>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="bike-card-main my-2 d-flex w-100">
+        <div class="bike-card w-100 justify-content-between">
+          <img class="card-bike-img" src="images/Bikes/Bike_Second.png" alt="error">
+          <div class="bike-details">
+            <div class="bike-name-card">
+              <div>
+                <span>Avenger,</span> Bajaj
+              </div>
+              <div class="home-card">
+                <span class="material-icons">home</span>
+              </div>
             </div>
+            <div class="bike-location">
+              4 Bikes Available
+            </div>
+            <div class="bike-location">
+              <span class="material-icons-outlined">
+              location_on
+              </span>
+              Karol Bagh
+            </div>
+          </div>
+          <div class="rating d-flex flex-column justify-content-between w-25">
+            <div class="d-flex flex-column align-items-end">
+              <s class="original-price">1300</s>
+              <b class="discount-price" >₹ 1245</b>
+            </div>
+            <button class="book-now mb-2">
+              <a class="cart-btn" target="_blank" href="cart-main.php">
+              BOOK NOW
+              </a>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="bike-card-main my-2 d-flex w-100">
+        <div class="bike-card w-100 justify-content-between">
+          <img class="card-bike-img" src="images/Bikes/Bike_Second.png" alt="error">
+          <div class="bike-details">
+            <div class="bike-name-card">
+              <div>
+                <span>Avenger,</span> Bajaj
+              </div>
+              <div class="home-card">
+                <span class="material-icons">home</span>
+              </div>
+            </div>
+            <div class="bike-location">
+              4 Bikes Available
+            </div>
+            <div class="bike-location">
+              <span class="material-icons-outlined">
+              location_on
+              </span>
+              Karol Bagh
+            </div>
+          </div>
+          <div class="rating d-flex flex-column justify-content-between w-25">
+            <div class="d-flex flex-column align-items-end">
+              <s class="original-price">1300</s>
+              <b class="discount-price" >₹ 1245</b>
+            </div>
+            <button class="book-now mb-2">
+              <a class="cart-btn" target="_blank" href="cart-main.php">
+              BOOK NOW
+              </a>
+            </button>
           </div>
         </div>
       </div>
     </div>
     <!-- Footer -->
     <!-- <?php include "common/footer.php"; ?> -->
-
+    
     <script src="js/header.js"></script>
     <script src="js/footer.js"></script>
     <script src="js/searchBikes-page.js"></script>
   </body>
-</html>
+  </html>

@@ -1,8 +1,116 @@
+.filters {
+  background-color: black;
+  color: white;
+}
 .filter-header {
   display: flex;
+  justify-content: space-between;
+}
+.date-time-main {
+  display: flex;
+  align-items: center;
   justify-content: space-between;
 }
 input[type="date"] {
   background: transparent;
   border: none;
+  color: white;
+  padding: 10px 0px;
+  width: 165px;
+}
+input[type="date"]::-webkit-calendar-picker-indicator {
+  filter: invert(1);
+}
+.mobile-select {
+  background-color: black;
+  color: white;
+  /* margin: 0 10px; */
+}
+.pick-date-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.time-arrow {
+  font-size: 30px;
+  position: absolute;
+  left: 45%;
+}
+/* Bike Cards  */
+.bike-card {
+  display: flex;
+  border: 2px solid #e5e6e6;
+}
+.card-bike-img {
+  width: 105px;
+  height: 85px;
+  margin: 2%;
+  margin-left: 0;
+}
+.bike-details {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  border-left: 2px solid #e5e6e6;
+  border-right: 2px solid #e5e6e6;
+  padding: 1%;
+  justify-content: space-between;
+}
+.rating {
+  width: 55%;
+}
+.bike-name-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.bike-name-card span {
+  font-weight: 700;
+  font-size: 110%;
+}
+.bike-name-card .home-card {
+  font-size: 130%;
+}
+.bike-location {
+  display: flex;
+  align-items: center;
+}
+.book-now {
+  background-color: red;
+  border: none;
+  cursor: pointer;
+  color: white !important;
+  border-radius: 15px;
+  padding: 4px 5px;
+}
+.book-now a {
+  color: white !important;
+}
+.discount-price {
+  font-size: 22px;
+}
+@media screen and (max-width: 500px) {
+  .time-arrow {
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .time-arrow {
+    font-size: 35px;
+  }
+}
+@media screen and (max-width: 370px) {
+  .pick-date-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  input[type="date"] {
+    width: 140px;
+  }
+}
+@media screen and (min-width: 500px) {
+  .mobile-main {
+    display: none;
+  }
 }

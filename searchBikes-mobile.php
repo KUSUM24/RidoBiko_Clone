@@ -134,6 +134,20 @@ include "common/link.php";
             </button>
           </div>
         </div>
+        <div class="bike-coverage">
+          <div class="bike-coverage-detail">
+            <div class="number">Rs. 2000</div>
+            <div class="detail">Security Deposit</div>
+          </div>
+          <div class="bike-coverage-detail">
+            <div class="number">150</div>
+            <div class="detail">KM Limit</div>
+          </div>
+          <div class="bike-coverage-detail">
+            <div class="number">60Kmph</div>
+            <div class="detail">Speed Limit</div>
+          </div>
+        </div>
       </div>
       <div class="bike-card-main my-2 d-flex w-100">
         <div class="bike-card w-100 justify-content-between">
@@ -169,11 +183,25 @@ include "common/link.php";
             </button>
           </div>
         </div>
+        <div class="bike-coverage">
+          <div class="bike-coverage-detail">
+            <div class="number">Rs. 2000</div>
+            <div class="detail">Security Deposit</div>
+          </div>
+          <div class="bike-coverage-detail">
+            <div class="number">150</div>
+            <div class="detail">KM Limit</div>
+          </div>
+          <div class="bike-coverage-detail">
+            <div class="number">60Kmph</div>
+            <div class="detail">Speed Limit</div>
+          </div>
+        </div>
       </div>
-      <div class="subscription d-flex" id="subscribe-card">
+      <div class="subscription d-flex align-items-center" id="subscribe-card">
         <img class="activa-card" src="images/Bikes/Activa-card.png" alt="error">
           <div class="subscribe-inner d-flex flex-column justify-content-between w-100">
-            <div class="heading-close d-flex justify-content-between align-items-center">
+            <div class="heading-close d-flex justify-content-between">
               <div class="activa-card-heading">
                 Introducing Ridobiko Long Term Subscription
               </div>
@@ -224,10 +252,24 @@ include "common/link.php";
             </button>
           </div>
         </div>
+        <div class="bike-coverage">
+          <div class="bike-coverage-detail">
+            <div class="number">Rs. 2000</div>
+            <div class="detail">Security Deposit</div>
+          </div>
+          <div class="bike-coverage-detail">
+            <div class="number">150</div>
+            <div class="detail">KM Limit</div>
+          </div>
+          <div class="bike-coverage-detail">
+            <div class="number">60Kmph</div>
+            <div class="detail">Speed Limit</div>
+          </div>
+        </div>
       </div>
     </div>
     <!-- Footer -->
-    <!-- <?php include "common/footer.php"; ?> -->
+    <?php include "common/footer.php"; ?>
     
     <script src="js/header.js"></script>
     <script src="js/footer.js"></script>

@@ -101,9 +101,9 @@ include "common/link.php";
             </div>
           </div>
           <div class="d-flex justify-content-center">
-            <div class="btn btn-light w-50" id="show-filters">Filters</div>
+            <div class="btn btn-light w-50 mb-2" id="show-filters">Filters</div>
           </div>
-          <div class="additional-filters" id="additional-filters">
+          <div class="additional-filters" style="display:none" id="additional-filters">
             <div class="details-item-bottom">
               <label for="sel8">
                 <div class="details-card-text">PRICE RANGE</div>

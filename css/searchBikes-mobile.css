@@ -94,13 +94,15 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 /* Sort  */
 .sort-main {
   margin: 1%;
-  /* background-color: rgb(211, 208, 208); */
   padding: 1%;
   margin-bottom: 0%;
   padding-bottom: 0%;
 }
+.sort-text {
+  font-weight: 700;
+}
 .sort-item {
-  padding: 5px;
+  padding: 5px 10px;
   cursor: pointer;
 }
 .sort-item-active {
@@ -177,6 +179,12 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 @media screen and (max-width: 400px) {
   .time-arrow {
     font-size: 35px;
+  }
+  .sort-main {
+    font-size: 14px;
+  }
+  .sort-item {
+    padding: 5px;
   }
 }
 @media screen and (max-width: 370px) {

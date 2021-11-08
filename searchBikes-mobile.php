@@ -104,7 +104,7 @@ include "common/link.php";
       </div>
       <div class="sort-main d-flex align-items-center">
         <div class="sort-text">Sort By:</div>
-        <div class="d-flex justify-content-around w-50">
+        <div class="d-flex justify-content-around">
           <div
             class="sort-item sort-item-active"
             id="sort-item-1"

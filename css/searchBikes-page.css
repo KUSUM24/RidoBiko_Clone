@@ -300,11 +300,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   cursor: pointer;
 }
 .sort-item-active {
-  /* background-color: white; */
   border-bottom: 2px solid var(--darkRed);
-  /* border-top: 2px solid var(--darkRed); */
-
-  /* box-shadow: 0px 0px 5px red; */
 }
 .hr-sort {
   width: 100%;

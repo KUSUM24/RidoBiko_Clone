@@ -91,6 +91,26 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 .discount-price {
   font-size: 22px;
 }
+/* Sort  */
+.sort-main {
+  margin: 1%;
+  /* background-color: rgb(211, 208, 208); */
+  padding: 1%;
+  margin-bottom: 0%;
+  padding-bottom: 0%;
+}
+.sort-item {
+  padding: 5px;
+  cursor: pointer;
+}
+.sort-item-active {
+  border-bottom: 2px solid var(--darkRed);
+}
+.hr-sort {
+  width: 100%;
+  color: black;
+  margin-top: 0%;
+}
 /* Subscription   */
 .subscription {
   background-color: var(--midRed);

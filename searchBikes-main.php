@@ -131,19 +131,18 @@ include "common/link.php";
             <div class="filter-bottom d-flex flex-column justify-content-between">
                 <div class="details-item-bottom">
                     <label for="sel8">
-                    <div class="details-card-text">PRICE RANGE</div>
+                        <div class="details-card-text">PRICE RANGE</div>
                     </label>
 
                     <select class="select-css-2 form-control" id="sel8" name="sellist1" >
                         <option >1,000 to 2,000</option>
                         <option>2,000 to 3,000</option>
-                        
                     </select>
                 </div>
                 <hr class="hr-filter">
                 <div class="details-item-bottom">
                     <label for="sel9">
-                    <div class="details-card-text">BIKE NAME</div>
+                        <div class="details-card-text">BIKE NAME</div>
                     </label>
 
                     <select class="select-css-2 form-control" id="sel9" name="sellist1" >
@@ -154,7 +153,7 @@ include "common/link.php";
                 <hr class="hr-filter">
                 <div class="details-item-bottom">
                     <label for="sel10">
-                    <div class="details-card-text">BIKE TYPE</div>
+                        <div class="details-card-text">BIKE TYPE</div>
                     </label>
 
                     <select class="select-css-2 form-control" id="sel10" name="sellist1" >

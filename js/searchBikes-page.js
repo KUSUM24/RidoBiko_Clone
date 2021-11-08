@@ -63,5 +63,5 @@ const getSortActive = (id) => {
 
 // Show More Filters
 $("#show-filters").click(function () {
-  $("#filters").toggle();
+  $("#additional-filters").toggle();
 });

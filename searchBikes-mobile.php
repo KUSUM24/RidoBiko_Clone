@@ -101,10 +101,48 @@ include "common/link.php";
             </div>
           </div>
           <div class="d-flex justify-content-center">
-            <div class="btn btn-primary w-50" id="show-filters">Filters</div>
+            <div class="btn btn-light w-50" id="show-filters">Filters</div>
           </div>
-          <div id="filters">
-            filter
+          <div class="additional-filters" id="additional-filters">
+            <div class="details-item-bottom">
+              <label for="sel8">
+                <div class="details-card-text">PRICE RANGE</div>
+              </label>
+              <select
+                class="mobile-select form-control"
+                id="sel8"
+                name="sellist1"
+              >
+                <option>1,000 to 2,000</option>
+                <option>2,000 to 3,000</option>
+              </select>
+            </div>
+            <div class="details-item-bottom">
+              <label for="sel9">
+                <div class="details-card-text">BIKE NAME</div>
+              </label>
+              <select
+                class="mobile-select form-control"
+                id="sel9"
+                name="sellist1"
+              >
+                <option>Honda</option>
+                <option>Avenger</option>
+              </select>
+            </div>
+            <div class="details-item-bottom">
+              <label for="sel10">
+                <div class="details-card-text">BIKE TYPE</div>
+              </label>
+              <select
+                class="mobile-select form-control"
+                id="sel10"
+                name="sellist1"
+              >
+                <option>Petrol</option>
+                <option>Electric Scooter</option>
+              </select>
+            </div>
           </div>
         </div>
       </div>

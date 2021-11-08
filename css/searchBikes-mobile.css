@@ -36,6 +36,15 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   position: absolute;
   left: 45%;
 }
+.additional-filters {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15 0;
+}
+.details-item-bottom {
+  width: 70%;
+}
 /* Bike Cards  */
 .bike-card {
   display: flex;

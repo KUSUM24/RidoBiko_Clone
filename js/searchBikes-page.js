@@ -60,3 +60,8 @@ const getSortActive = (id) => {
     document.getElementById(id2).classList.remove("sort-item-active");
   }
 };
+
+// Show More Filters
+$("#show-filters").click(function () {
+  $("#filters").toggle();
+});

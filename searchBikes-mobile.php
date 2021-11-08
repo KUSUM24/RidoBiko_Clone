@@ -100,6 +100,12 @@ include "common/link.php";
               </div>
             </div>
           </div>
+          <div class="d-flex justify-content-center">
+            <div class="btn btn-primary w-50" id="show-filters">Filters</div>
+          </div>
+          <div id="filters">
+            filter
+          </div>
         </div>
       </div>
       <div class="sort-main d-flex align-items-center">

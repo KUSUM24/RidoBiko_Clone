@@ -213,6 +213,9 @@ include "common/link.php";
           </div>
         </div>
       </div>
+      <div class="more-details-btn d-flex justify-content-center">
+        <div class="button-details">More Details</div>
+      </div>
       <div class="bike-card-main my-2 d-flex w-100">
         <div class="bike-card w-100 justify-content-between">
           <img
@@ -259,6 +262,9 @@ include "common/link.php";
             <div class="detail">Speed Limit</div>
           </div>
         </div>
+      </div>
+      <div class="more-details-btn d-flex justify-content-center">
+        <div class="button-details">More Details</div>
       </div>
       <div class="subscription d-flex align-items-center" id="subscribe-card">
         <img
@@ -337,6 +343,9 @@ include "common/link.php";
             <div class="detail">Speed Limit</div>
           </div>
         </div>
+      </div>
+      <div class="more-details-btn d-flex justify-content-center">
+        <div class="button-details">More Details</div>
       </div>
     </div>
     <!-- Footer -->

@@ -40,17 +40,18 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 15 0;
+  padding: 5 0 15 0;
 }
 .details-item-bottom {
   width: 70%;
 }
 .button-details {
-  border: 2px solid red;
+  border: 2px solid rgb(202, 200, 200);
   padding: 0 12px;
   border-radius: 15px;
   margin-top: -21px;
   background: white;
+  color: red;
 }
 /* Bike Cards  */
 .bike-card {

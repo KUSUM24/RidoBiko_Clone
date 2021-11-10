@@ -32,10 +32,10 @@ const sendOtp = () => {
   let mobileNumber = sessionStorage.getItem("mobileNumber");
   //Backend Code Here
   let randomOtp = Math.floor(1000 + Math.random() * 9000);
-  const verifyOtp = (otp) => {
-    if (otp == randomOtp) return true;
-    return false;
-  };
+  // const verifyOtp = (otp) => {
+  //   if (otp == randomOtp) return true;
+  //   return false;
+  // };
   console.log(randomOtp);
   $.ajax({
     url: "ajax/tenure_filter.php",
@@ -48,6 +48,11 @@ const sendOtp = () => {
   resetOtpTimer();
   resendBtn = document.getElementById("resend-otp-btn");
   resendBtn.setAttribute("disabled", true);
+};
+const verifyOtp = (otp) => {
+  let myOtp = 4567;
+  if (otp == myOtp) return true;
+  return false;
 };
 const resetOtpTimer = () => {
   let otpTimer = document.getElementById("otp-timer");

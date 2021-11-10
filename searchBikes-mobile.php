@@ -100,10 +100,17 @@ include "common/link.php";
               </div>
             </div>
           </div>
-          <div class="d-flex justify-content-center">
-            <div class="btn btn-light w-50 mb-2" id="show-filters">Filters</div>
+          <div class="d-flex justify-content-center align-items-center">
+            <div class="btn btn-light w-50 mb-2" id="show-filters">
+              Filters
+              <!-- <span class="material-icons-outlined"> expand_more </span> -->
+            </div>
           </div>
-          <div class="additional-filters" style="display:none" id="additional-filters">
+          <div
+            class="additional-filters"
+            style="display: none"
+            id="additional-filters"
+          >
             <div class="details-item-bottom">
               <label for="sel8">
                 <div class="details-card-text">PRICE RANGE</div>
@@ -142,6 +149,9 @@ include "common/link.php";
                 <option>Petrol</option>
                 <option>Electric Scooter</option>
               </select>
+            </div>
+            <div class="d-flex justify-content-center">
+              <div class="apply-filters btn btn-light mt-2">Apply</div>
             </div>
           </div>
         </div>

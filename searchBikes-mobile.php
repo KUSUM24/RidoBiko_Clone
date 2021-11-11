@@ -20,136 +20,15 @@ include "common/link.php";
     <!-- Details  -->
     <!-- Main Section  -->
     <div class="mobile-main">
-      <div class="search-main">
-        <div class="filters">
-          <div class="filter-header d-flex justify-content-between p-2 pb-0">
-            <div class="filter-title h5 m-0">Search</div>
-            <div class="drop-down">
-              <span class="material-icons-outlined"> arrow_drop_down </span>
-            </div>
-          </div>
-          <div class="bike-main px-2 pb-3">
-            <div class="bike-location">
-              <select
-                class="mobile-select form-control"
-                id="sel5"
-                name="sellist1"
-              >
-                <option>Mumbai</option>
-                <option>Bengaluru</option>
-                <option>Ludiana</option>
-                <option>Delhi</option>
-                <option>Jaipur</option>
-                <option>Mysore</option>
-                <option>Barmer</option>
-                <option>Patiala</option>
-                <option>Gurgaon</option>
-              </select>
-            </div>
-            <div class="date-time-main d-flex align-items-center">
-              <div class="pick-date-main">
-                <input class="date-second" type="date" value="2021-07-22" />
-                <select
-                  class="mobile-select form-control"
-                  id="sel6"
-                  name="sellist1"
-                >
-                  <option>12:00 AM</option>
-                  <option>12:30 AM</option>
-                  <option>1:00 AM</option>
-                  <option>1:30 AM</option>
-                  <option>2:00 AM</option>
-                  <option>2:30 AM</option>
-                  <option>3:00 AM</option>
-                  <option>3:30 AM</option>
-                  <option>4:00 AM</option>
-                  <option>4:30 AM</option>
-                  <option>5:00 AM</option>
-                  <option>5:30 AM</option>
-                  <option>6:00 AM</option>
-                  <option>6:30 AM</option>
-                  <option>7:00 AM</option>
-                </select>
-              </div>
-              <span class="time-arrow material-icons-outlined">
-                arrow_circle_right
-              </span>
-              <div class="drop-date-main">
-                <input class="date-second" type="date" value="2021-08-22" />
-                <select
-                  class="mobile-select form-control"
-                  id="sel6"
-                  name="sellist1"
-                >
-                  <option>12:00 AM</option>
-                  <option>12:30 AM</option>
-                  <option>1:00 AM</option>
-                  <option>1:30 AM</option>
-                  <option>2:00 AM</option>
-                  <option>2:30 AM</option>
-                  <option>3:00 AM</option>
-                  <option>3:30 AM</option>
-                  <option>4:00 AM</option>
-                  <option>4:30 AM</option>
-                  <option>5:00 AM</option>
-                  <option>5:30 AM</option>
-                  <option>6:00 AM</option>
-                  <option>6:30 AM</option>
-                  <option>7:00 AM</option>
-                </select>
-              </div>
-            </div>
-            <div class="d-flex justify-content-center align-items-center">
-              <div class="btn btn-light w-50 mb-2">Search</div>
-            </div>
-            <div class="additional-filters" id="additional-filters">
-              <div class="details-item-bottom">
-                <label for="sel8">
-                  <div class="details-card-text">PRICE RANGE</div>
-                </label>
-                <select
-                  class="mobile-select form-control"
-                  id="sel8"
-                  name="sellist1"
-                >
-                  <option>1,000 to 2,000</option>
-                  <option>2,000 to 3,000</option>
-                </select>
-              </div>
-              <div class="details-item-bottom">
-                <label for="sel9">
-                  <div class="details-card-text">BIKE NAME</div>
-                </label>
-                <select
-                  class="mobile-select form-control"
-                  id="sel9"
-                  name="sellist1"
-                >
-                  <option>Honda</option>
-                  <option>Avenger</option>
-                </select>
-              </div>
-              <div class="details-item-bottom">
-                <label for="sel10">
-                  <div class="details-card-text">BIKE TYPE</div>
-                </label>
-                <select
-                  class="mobile-select form-control"
-                  id="sel10"
-                  name="sellist1"
-                >
-                  <option>Petrol</option>
-                  <option>Electric Scooter</option>
-                </select>
-              </div>
-              <div class="d-flex justify-content-center">
-                <div class="apply-filters btn btn-light mt-2">Apply</div>
-              </div>
-            </div>
-          </div>
-        </div>
+      <div class="search-main"></div>
+      <div
+        class="btn btn-dark w-25 mb-2"
+        id="show-filters"
+        data-toggle="modal"
+        data-target="#filterModal"
+      >
+        Filters
       </div>
-      <div class="btn btn-dark w-25 mb-2" id="show-filters" data-toggle="modal" data-target="#filterModal">Filters</div>
       <div class="sort-main d-flex align-items-center">
         <div class="sort-text">Sort By:</div>
         <div class="d-flex justify-content-around">
@@ -373,7 +252,137 @@ include "common/link.php";
               <span aria-hidden="true">&times;</span>
             </button>
           </div>
-          <div class="modal-body">...</div>
+          <div class="modal-body">
+            <div class="filters">
+              <div
+                class="filter-header d-flex justify-content-between p-2 pb-0"
+              >
+                <div class="filter-title h5 m-0">Search</div>
+                <div class="drop-down">
+                  <span class="material-icons-outlined"> arrow_drop_down </span>
+                </div>
+              </div>
+              <div class="bike-main px-2 pb-3">
+                <div class="bike-location">
+                  <select
+                    class="mobile-select form-control"
+                    id="sel5"
+                    name="sellist1"
+                  >
+                    <option>Mumbai</option>
+                    <option>Bengaluru</option>
+                    <option>Ludiana</option>
+                    <option>Delhi</option>
+                    <option>Jaipur</option>
+                    <option>Mysore</option>
+                    <option>Barmer</option>
+                    <option>Patiala</option>
+                    <option>Gurgaon</option>
+                  </select>
+                </div>
+                <div class="date-time-main d-flex align-items-center">
+                  <div class="pick-date-main">
+                    <input class="date-second" type="date" value="2021-07-22" />
+                    <select
+                      class="mobile-select form-control"
+                      id="sel6"
+                      name="sellist1"
+                    >
+                      <option>12:00 AM</option>
+                      <option>12:30 AM</option>
+                      <option>1:00 AM</option>
+                      <option>1:30 AM</option>
+                      <option>2:00 AM</option>
+                      <option>2:30 AM</option>
+                      <option>3:00 AM</option>
+                      <option>3:30 AM</option>
+                      <option>4:00 AM</option>
+                      <option>4:30 AM</option>
+                      <option>5:00 AM</option>
+                      <option>5:30 AM</option>
+                      <option>6:00 AM</option>
+                      <option>6:30 AM</option>
+                      <option>7:00 AM</option>
+                    </select>
+                  </div>
+                  <span class="time-arrow material-icons-outlined">
+                    arrow_circle_right
+                  </span>
+                  <div class="drop-date-main">
+                    <input class="date-second" type="date" value="2021-08-22" />
+                    <select
+                      class="mobile-select form-control"
+                      id="sel6"
+                      name="sellist1"
+                    >
+                      <option>12:00 AM</option>
+                      <option>12:30 AM</option>
+                      <option>1:00 AM</option>
+                      <option>1:30 AM</option>
+                      <option>2:00 AM</option>
+                      <option>2:30 AM</option>
+                      <option>3:00 AM</option>
+                      <option>3:30 AM</option>
+                      <option>4:00 AM</option>
+                      <option>4:30 AM</option>
+                      <option>5:00 AM</option>
+                      <option>5:30 AM</option>
+                      <option>6:00 AM</option>
+                      <option>6:30 AM</option>
+                      <option>7:00 AM</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="d-flex justify-content-center align-items-center">
+                  <div class="btn btn-light w-50 mb-2">Search</div>
+                </div>
+                <div class="additional-filters" id="additional-filters">
+                  <div class="details-item-bottom">
+                    <label for="sel8">
+                      <div class="details-card-text">PRICE RANGE</div>
+                    </label>
+                    <select
+                      class="mobile-select form-control"
+                      id="sel8"
+                      name="sellist1"
+                    >
+                      <option>1,000 to 2,000</option>
+                      <option>2,000 to 3,000</option>
+                    </select>
+                  </div>
+                  <div class="details-item-bottom">
+                    <label for="sel9">
+                      <div class="details-card-text">BIKE NAME</div>
+                    </label>
+                    <select
+                      class="mobile-select form-control"
+                      id="sel9"
+                      name="sellist1"
+                    >
+                      <option>Honda</option>
+                      <option>Avenger</option>
+                    </select>
+                  </div>
+                  <div class="details-item-bottom">
+                    <label for="sel10">
+                      <div class="details-card-text">BIKE TYPE</div>
+                    </label>
+                    <select
+                      class="mobile-select form-control"
+                      id="sel10"
+                      name="sellist1"
+                    >
+                      <option>Petrol</option>
+                      <option>Electric Scooter</option>
+                    </select>
+                  </div>
+                  <div class="d-flex justify-content-center">
+                    <div class="apply-filters btn btn-light mt-2">Apply</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
           <div class="modal-footer">
             <button
               type="button"

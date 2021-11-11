@@ -188,6 +188,12 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   font-weight: 700;
   padding: 0px 5px;
 }
+#show-filters {
+  position: fixed;
+  bottom: 5px;
+  box-shadow: 0 0 15px 2px rgb(167, 166, 166);
+  right: 10px;
+}
 @media screen and (max-width: 500px) {
   .time-arrow {
     font-size: 40px;

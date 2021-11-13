@@ -62,6 +62,6 @@ const getSortActive = (id) => {
 };
 
 // Show More Filters
-$("#show-filters").click(function () {
-  $("#additional-filters").toggle("slow");
-});
+// $("#show-filters").click(function () {
+//   $("#additional-filters").toggle("slow");
+// });

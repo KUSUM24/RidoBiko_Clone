@@ -22,12 +22,14 @@ include "common/link.php";
     <div class="mobile-main">
       <div class="search-main"></div>
       <div
-        class="btn btn-dark w-25 mb-2"
+        class=" mb-2"
         id="show-filters"
         data-toggle="modal"
         data-target="#filterModal"
       >
-        Filters
+      <span class="material-icons-outlined">
+        filter_alt
+      </span>
       </div>
       <div class="sort-main d-flex align-items-center">
         <div class="sort-text">Sort By:</div>
@@ -49,7 +51,7 @@ include "common/link.php";
         </div>
       </div>
       <hr class="hr-sort" />
-      <div class="bike-card-main my-2 d-flex w-100">
+      <div class="bike-card-main d-flex w-100">
         <div class="bike-card w-100 justify-content-between">
           <img
             class="card-bike-img"
@@ -63,10 +65,12 @@ include "common/link.php";
                 <span class="material-icons">home</span>
               </div>
             </div>
-            <div class="bike-location">4 Bikes Available</div>
             <div class="bike-location">
               <span class="material-icons-outlined"> location_on </span>
-              Karol Bagh
+              <div>
+                Karol Bagh
+                <span class="more-locations"> and 3 more locations </span>
+              </div>
             </div>
           </div>
           <div class="rating d-flex flex-column justify-content-between w-25">
@@ -94,12 +98,14 @@ include "common/link.php";
             <div class="number">60Kmph</div>
             <div class="detail">Speed Limit</div>
           </div>
+          <div class="bike-coverage-detail">
+            <div class="number">4</div>
+            <div class="detail">Bikes Available</div>
+          </div>
         </div>
       </div>
-      <div class="more-details-btn d-flex justify-content-center">
-        <div class="button-details">More Details</div>
-      </div>
-      <div class="bike-card-main my-2 d-flex w-100">
+      
+      <div class="bike-card-main d-flex w-100">
         <div class="bike-card w-100 justify-content-between">
           <img
             class="card-bike-img"
@@ -113,10 +119,12 @@ include "common/link.php";
                 <span class="material-icons">home</span>
               </div>
             </div>
-            <div class="bike-location">4 Bikes Available</div>
             <div class="bike-location">
               <span class="material-icons-outlined"> location_on </span>
-              Karol Bagh
+              <div>
+                Karol Bagh
+                <span class="more-locations"> and 3 more locations </span>
+              </div>
             </div>
           </div>
           <div class="rating d-flex flex-column justify-content-between w-25">
@@ -144,11 +152,13 @@ include "common/link.php";
             <div class="number">60Kmph</div>
             <div class="detail">Speed Limit</div>
           </div>
+          <div class="bike-coverage-detail">
+            <div class="number">4</div>
+            <div class="detail">Bikes Available</div>
+          </div>
         </div>
       </div>
-      <div class="more-details-btn d-flex justify-content-center">
-        <div class="button-details">More Details</div>
-      </div>
+      
       <div class="subscription d-flex align-items-center" id="subscribe-card">
         <img
           class="activa-card"
@@ -180,7 +190,7 @@ include "common/link.php";
           </div>
         </div>
       </div>
-      <div class="bike-card-main my-2 d-flex w-100">
+      <div class="bike-card-main d-flex w-100">
         <div class="bike-card w-100 justify-content-between">
           <img
             class="card-bike-img"
@@ -194,10 +204,12 @@ include "common/link.php";
                 <span class="material-icons">home</span>
               </div>
             </div>
-            <div class="bike-location">4 Bikes Available</div>
             <div class="bike-location">
               <span class="material-icons-outlined"> location_on </span>
-              Karol Bagh
+              <div>
+                Karol Bagh
+                <span class="more-locations"> and 3 more locations </span>
+              </div>
             </div>
           </div>
           <div class="rating d-flex flex-column justify-content-between w-25">
@@ -225,11 +237,13 @@ include "common/link.php";
             <div class="number">60Kmph</div>
             <div class="detail">Speed Limit</div>
           </div>
+          <div class="bike-coverage-detail">
+            <div class="number">4</div>
+            <div class="detail">Bikes Available</div>
+          </div>
         </div>
       </div>
-      <div class="more-details-btn d-flex justify-content-center">
-        <div class="button-details">More Details</div>
-      </div>
+      
     </div>
     <div
       class="modal fade"
@@ -242,7 +256,7 @@ include "common/link.php";
       <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="filterModalLabel">Modal title</h5>
+            <h5 class="modal-title" id="filterModalLabel">Filters</h5>
             <button
               type="button"
               class="close"
@@ -254,15 +268,15 @@ include "common/link.php";
           </div>
           <div class="modal-body">
             <div class="filters">
-              <div
+              <!-- <div
                 class="filter-header d-flex justify-content-between p-2 pb-0"
               >
                 <div class="filter-title h5 m-0">Search</div>
                 <div class="drop-down">
                   <span class="material-icons-outlined"> arrow_drop_down </span>
                 </div>
-              </div>
-              <div class="bike-main px-2 pb-3">
+              </div> -->
+              <div class="bike-main">
                 <div class="bike-location">
                   <select
                     class="mobile-select form-control"
@@ -334,9 +348,9 @@ include "common/link.php";
                   </div>
                 </div>
                 <div class="d-flex justify-content-center align-items-center">
-                  <div class="btn btn-light w-50 mb-2">Search</div>
+                  <div class="btn btn-light w-50 my-2">Search</div>
                 </div>
-                <div class="additional-filters" id="additional-filters">
+                <div class="additional-filters" style="display:flex" id="additional-filters">
                   <div class="details-item-bottom">
                     <label for="sel8">
                       <div class="details-card-text">PRICE RANGE</div>
@@ -376,14 +390,14 @@ include "common/link.php";
                       <option>Electric Scooter</option>
                     </select>
                   </div>
-                  <div class="d-flex justify-content-center">
+                  <div class="d-flex justify-content-center w-100">
                     <div class="apply-filters btn btn-light mt-2">Apply</div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="modal-footer">
+          <!-- <div class="modal-footer">
             <button
               type="button"
               class="btn btn-secondary"
@@ -392,7 +406,7 @@ include "common/link.php";
               Close
             </button>
             <button type="button" class="btn btn-primary">Save changes</button>
-          </div>
+          </div> -->
         </div>
       </div>
     </div>

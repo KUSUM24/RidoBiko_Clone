@@ -1,3 +1,9 @@
+:root {
+  --darkRed: #fc3831;
+  --lightRed: #fcf3f3;
+  --midRed: #fae8e8;
+}
+
 .filters {
   background-color: black;
   color: white;
@@ -36,11 +42,14 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   position: absolute;
   left: 45%;
 }
+.filters {
+  padding: 20;
+}
 .additional-filters {
-  display: flex;
+  display: flex !important;
   flex-direction: column;
   align-items: center;
-  padding: 5 0 15 0;
+  padding: 5 0 0 0;
 }
 .details-item-bottom {
   width: 70%;
@@ -51,12 +60,15 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   border-radius: 15px;
   margin-top: -21px;
   background: white;
-  color: red;
+  color: var(--darkRed);
 }
 /* Bike Cards  */
 .bike-card {
   display: flex;
   border: 2px solid #e5e6e6;
+}
+.bike-card-main {
+  margin: 20px 0px;
 }
 .card-bike-img {
   width: 105px;
@@ -91,10 +103,9 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 }
 .bike-location {
   display: flex;
-  align-items: center;
 }
 .book-now {
-  background-color: red;
+  background-color: var(--darkRed);
   border: none;
   cursor: pointer;
   color: white !important;
@@ -132,7 +143,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 }
 /* Subscription   */
 .subscription {
-  background-color: var(--midRed);
+  background-color: var(--lightRed);
   padding: 0% 1.5%;
   border: 2px solid rgb(161, 160, 160);
   margin: 1%;
@@ -193,6 +204,20 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   bottom: 5px;
   box-shadow: 0 0 15px 2px rgb(167, 166, 166);
   right: 10px;
+  background-color: rgb(32, 32, 32);
+  border-radius: 50%;
+  color: white;
+  padding: 10px;
+}
+/* .bike-coverage {
+  width: 70%;
+} */
+.bike-coverage-detail .detail {
+  font-size: 12px;
+}
+.more-locations {
+  color: var(--darkRed);
+  cursor: pointer;
 }
 @media screen and (max-width: 500px) {
   .time-arrow {
@@ -230,6 +255,12 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   }
   .activa-card-btn {
     width: 50%;
+  }
+  .bike-coverage-detail .detail {
+    font-size: 10px;
+  }
+  .bike-location {
+    font-size: 13px;
   }
 }
 @media screen and (max-width: 320px) {

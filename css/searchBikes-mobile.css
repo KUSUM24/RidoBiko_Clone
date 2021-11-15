@@ -219,6 +219,16 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   color: var(--darkRed);
   cursor: pointer;
 }
+.modal-title {
+  margin-bottom: 0;
+  line-height: 1.7;
+  font-size: 23px;
+}
+.location-item {
+  background-color: rgb(60, 252, 172);
+  margin: 5px 0;
+  padding: 10 auto;
+}
 @media screen and (max-width: 500px) {
   .time-arrow {
     font-size: 40px;

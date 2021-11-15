@@ -62,6 +62,7 @@ const getSortActive = (id) => {
 };
 
 // Show More Filters
-// $("#show-filters").click(function () {
-//   $("#additional-filters").toggle("slow");
-// });
+$("#random").click(function () {
+  $("#location-list").html("slow");
+});
+document.getElementById("location-list").innerHTML += `<div>3<div>`;

@@ -5,7 +5,7 @@
 }
 
 .filters {
-  background-color: black;
+  background-color: rgb(31, 31, 32);
   color: white;
 }
 .filter-header {
@@ -28,7 +28,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   filter: invert(1);
 }
 .mobile-select {
-  background-color: black;
+  background-color: rgb(31, 31, 32);
   color: white;
   /* margin: 0 10px; */
 }

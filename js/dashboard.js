@@ -53,7 +53,8 @@ function getProfileImg(input, id, btnId, defaultId) {
   $(`#${btnId}`).css("display", "flex");
   $(`#${defaultId}`).css("display", "none");
 }
-// More Details Toggle - SearchBike section
+
+// Image Preview and buttons display
 function img_pathUrl(input, id, btnId) {
   $(`#${id}`).css("display", "block");
   $(`#${id}`)[0].src = (window.URL ? URL : webkitURL).createObjectURL(
@@ -62,6 +63,7 @@ function img_pathUrl(input, id, btnId) {
   $(`#${btnId}`).css("display", "flex");
 }
 console.log("dashboard");
+
 // Deposit Section
 const getAddInput = () => {
   let addBtn = document.getElementById("add-deposit--btn");

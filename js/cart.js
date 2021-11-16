@@ -32,6 +32,11 @@ document.getElementById("drop-day").innerHTML = day;
 $(document).ready(function () {
   $("#view-offers-btn").click(function () {
     $("#view-offers").toggle("slow");
-    console.log("toggled");
+  });
+});
+
+$(document).ready(function togglePolicy(btnId, toggleId) {
+  $(`#${btnId}`).click(function () {
+    $(`#${toggleId}`).toggle("slow");
   });
 });

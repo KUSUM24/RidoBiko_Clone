@@ -53,7 +53,7 @@
   color: white;
   padding: 1% 2%;
   border-radius: 5px;
-  margin: 5% 0%;
+  margin: 2% 0%;
 }
 .payment-button:focus {
   outline: none;
@@ -79,10 +79,22 @@
   padding: 1% 5%;
 }
 /* Policy Section  */
+.policy-section {
+  border: 1px solid rgb(153, 151, 151);
+}
 .policy-section .policy {
-  background-color: red;
   display: flex;
   justify-content: space-between;
+  background-color: white;
+  padding: 1rem 1.5rem;
+  cursor: pointer;
+}
+.policy .policy-details {
+  padding: 1rem 1.5rem;
+  background-color: rgb(252, 238, 238);
+}
+.hidden-policy {
+  display: none;
 }
 @media screen and (max-width: 1200px) {
   .cart-main {

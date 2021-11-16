@@ -148,40 +148,73 @@ include "common/link.php";
         </div>
         <div class="policy-section">
           <div class="policy">
+            <div class="policy-heaading">POLICIES</div>
+          </div>
+          <div class="policy" id="refund-policy-btn" onclick='toggleId("refund-policy-btn","refund-policy")'>
             <div>
-              Cancellation
+              Refund Policy
+            </div>
+            <span class="material-icons-outlined" >
+              expand_more
+            </span>
+          </div>
+          <div class="hidden-policy" id="refund-policy">
+            <hr class="hr-checkout" />
+            <div class="policy-details px-4 py-3">
+              <b>1) Deposit refund - Deposit will be refunded within 2 working days.</b>
+            </div>
+            <hr class="hr-checkout" />
+            <div class="policy-details px-4 py-3">
+              <b>2) Cancelled booking refund - Refund will be processed within 3- 4 working days. Refund amount will be decided based on the cancellation policy. Further, 2% of booking amount will be charged and deducted as payment gateway charges.</b>
+            </div>
+          </div>
+          <hr class="hr-checkout" />
+          <div class="policy" id="cancellation-policy-btn" onclick='toggleId("cancellation-policy-btn","cancellation-policy")'>
+            <div>
+              Cancellation Policy
             </div>
             <span class="material-icons-outlined">
               expand_more
             </span>
           </div>
-          <div class="policy">
+          <div class="hidden-policy" id="cancellation-policy">
+            <hr class="hr-checkout" />
+            <div class="policy-details px-4 py-3">
+              <b>1) No show during pick - 100% rent amount will be deducted and only security deposit will be refunded (If paid in advance by customer).</b>
+            </div>
+            <hr class="hr-checkout" />
+            <div class="policy-details px-4 py-3">
+              <b>2) Between 0 - 24 hrs before the pickup time - No cancellation & 100% amount will be deducted.</b>
+            </div>
+            <div class="policy-details px-4 py-3">
+              <b>3) Between 24-48 hrs before the pickup time: 75% of total booking amount or total amount paid whichever is higher will be deducted.</b>
+            </div>
+            <div class="policy-details px-4 py-3">
+              <b>4) More than 48hrs before the pickup time: 50% of total booking amount or total amount paid whichever is higher will be deducted.</b>
+            </div>
+          </div>
+          <hr class="hr-checkout" />
+          <div class="policy" id="accident-policy-btn" onclick='toggleId("accident-policy-btn","accident-policy")'>
             <div>
-              Cancellation
+              Accident Policy
             </div>
             <span class="material-icons-outlined">
               expand_more
             </span>
           </div>
-          <div class="policy">
-            <div>
-              Cancellation
+          <div class="hidden-policy" id="accident-policy">
+            <hr class="hr-checkout" />
+            <div class="policy-details px-4 py-3">
+              <b>1) For any damages incurred to an Ridobiko asset (the two-wheeler), the user will be held responsible for bearing all the charges up to INR ₹10,000.</b>
             </div>
-            <span class="material-icons-outlined">
-              expand_more
-            </span>
+            <hr class="hr-checkout" />
+            <div class="policy-details px-4 py-3">
+              <b>2) For any damages incurred to an Ridobiko asset (the two-wheeler) amounting more than INR ₹10,000, the user is eligible to claim insurance to cover the charges that imply including the rental cost incurred during downtime period of the asset which is a time period otherwise utilized by another Ridobiko user.</b>
+            </div>
           </div>
         </div>
       </div>
     </div>
-    <script>
-      $(document).ready(function () {
-        $("#view-offers-btn").click(function () {
-          $("#view-offers").toggle("slow");
-          console.log("toggled");
-        });
-      });
-    </script>
     <!-- Footer -->
     <?php include "common/footer.php"; ?>
 

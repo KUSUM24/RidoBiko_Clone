@@ -62,7 +62,4 @@ const getSortActive = (id) => {
 };
 
 // Show More Filters
-$("#random").click(function () {
-  $("#location-list").html("slow");
-});
-document.getElementById("location-list").innerHTML += `<div>3<div>`;
+// document.getElementById("location-list").innerHTML += `<div>3<div>`;

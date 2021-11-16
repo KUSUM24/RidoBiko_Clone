@@ -78,6 +78,12 @@
   color: white;
   padding: 1% 5%;
 }
+/* Policy Section  */
+.policy-section .policy {
+  background-color: red;
+  display: flex;
+  justify-content: space-between;
+}
 @media screen and (max-width: 1200px) {
   .cart-main {
     align-items: center;

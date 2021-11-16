@@ -1,4 +1,4 @@
-let header = document.getElementById("fixedHeader");
+let header = document.getElementById("k");
 const fixedHeader = () => {
   if (window.pageYOffset > 10) {
     header.classList.add("sticky");
@@ -20,7 +20,6 @@ const displayResend = () => {
   resendText = document.getElementById("resend-otp-text");
   resendBtn = document.getElementById("resend-otp-btn");
   btnMain = document.getElementById("resend-btn-main");
-
   resendText.classList.remove("d-flex");
   resendText.style.display = "none";
   resendBtn.classList.remove("disabled");

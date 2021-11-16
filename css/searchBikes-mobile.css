@@ -225,9 +225,13 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   font-size: 23px;
 }
 .location-item {
-  background-color: rgb(60, 252, 172);
-  margin: 5px 0;
-  padding: 10 auto;
+  background-color: rgb(248, 219, 219);
+  /* margin: 5px 0; */
+  padding: 15px 10;
+  border: 1px solid red;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
 }
 @media screen and (max-width: 500px) {
   .time-arrow {

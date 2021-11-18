@@ -148,9 +148,10 @@ include "common/link.php";
         </div>
         <div class="policy-section">
           <div class="policy">
-            <div class="policy-heaading">POLICIES</div>
+            <div class="policy-heading">POLICIES</div>
           </div>
-          <div class="policy" id="refund-policy-btn" onclick='toggleId("refund-policy-btn","refund-policy")'>
+          <hr class="hr-checkout" />
+          <div class="policy" id="refund-policy-btn" onclick='togglePolicy("refund-policy-btn","refund-policy")'>
             <div>
               Refund Policy
             </div>
@@ -169,7 +170,7 @@ include "common/link.php";
             </div>
           </div>
           <hr class="hr-checkout" />
-          <div class="policy" id="cancellation-policy-btn" onclick='toggleId("cancellation-policy-btn","cancellation-policy")'>
+          <div class="policy" id="cancellation-policy-btn" onclick='togglePolicy("cancellation-policy-btn","cancellation-policy")'>
             <div>
               Cancellation Policy
             </div>
@@ -194,7 +195,7 @@ include "common/link.php";
             </div>
           </div>
           <hr class="hr-checkout" />
-          <div class="policy" id="accident-policy-btn" onclick='toggleId("accident-policy-btn","accident-policy")'>
+          <div class="policy" id="accident-policy-btn" onclick='togglePolicy("accident-policy-btn","accident-policy")'>
             <div>
               Accident Policy
             </div>

@@ -96,6 +96,9 @@
 .hidden-policy {
   display: none;
 }
+.policy-heading {
+  font-size: 20px;
+}
 @media screen and (max-width: 1200px) {
   .cart-main {
     align-items: center;

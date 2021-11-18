@@ -40,3 +40,9 @@ $(document).ready(function togglePolicy(btnId, toggleId) {
     $(`#${toggleId}`).toggle("slow");
   });
 });
+
+$(document).ready(function () {
+  $("#refund-policy-btn").click(function () {
+    $("#refund-policy").toggle("slow");
+  });
+});

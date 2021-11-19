@@ -420,14 +420,24 @@ include "common/link.php";
           </div>
           <div class="modal-body">
             <div class="location-list" id="location-list">
-              <div class="location-item">
-                Karol Bagh, Mumbai
+              <div class="location-item-main">
+                <div class="location-item">
+                  Karol Bagh, Mumbai
+                </div>
+                <div class="location-btn-main">
+                  <div class="location-rent"></div>
+                  <div class="location-btn"></div>
+                </div>
               </div>
-              <div class="location-item">
-                Nerul, Mumbai
+              <div class="location-item-main">
+                <div class="location-item">
+                  Nerul, Mumbai
+                </div>
               </div>
-              <div class="location-item">
-                Andheri, Mumbai
+              <div class="location-item-main">
+                <div class="location-item">
+                  Andheri, Mumbai
+                </div>
               </div>
             </div>
           </div>

@@ -2,13 +2,14 @@
   --darkRed: #fc3831;
   --lightRed: #fcf3f3;
   --midRed: #fae8e8;
-  --successGreen: rgb(233, 250, 233);
+  --lightGreen: rgb(233, 250, 233);
   --darkGreen: rgb(56, 119, 56);
+  --borderGrey: rgb(153, 151, 151);
 }
 /* Summary  */
 .summary {
   background-color: white;
-  border: 1px solid rgb(153, 151, 151);
+  border: 1px solid var(--borderGrey);
   padding: 1% 2%;
   margin: 2%;
   width: 25%;
@@ -38,7 +39,7 @@
 }
 .checkout-box {
   background-color: white;
-  border: 1px solid rgb(153, 151, 151);
+  border: 1px solid var(--borderGrey);
 }
 .hr-checkout {
   width: 100%;
@@ -47,7 +48,7 @@
 }
 .view-offers {
   color: var(--darkGreen) !important;
-  background-color: var(--successGreen);
+  background-color: var(--lightGreen);
 }
 .view-offers:hover {
   text-decoration: none;
@@ -69,7 +70,7 @@
   text-decoration: underline;
 }
 .total-amt-div {
-  background-color: var(--successGreen);
+  background-color: var(--lightGreen);
 }
 .total-amt {
   font-size: 20px;
@@ -87,7 +88,7 @@
 }
 /* Policy Section  */
 .policy-section {
-  border: 1px solid rgb(153, 151, 151);
+  border: 1px solid var(--borderGrey);
 }
 .policy-section .policy {
   display: flex;
@@ -98,7 +99,7 @@
 }
 .policy-details {
   padding: 1rem 1.5rem;
-  background-color: var(--successGreen);
+  background-color: var(--lightGreen);
 }
 .hidden-policy {
   display: none;

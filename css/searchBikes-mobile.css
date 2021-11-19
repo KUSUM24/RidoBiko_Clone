@@ -2,6 +2,7 @@
   --darkRed: #fc3831;
   --lightRed: #fcf3f3;
   --midRed: #fae8e8;
+  --borderGrey: #e5e6e6;
 }
 
 .filters {
@@ -65,7 +66,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 /* Bike Cards  */
 .bike-card {
   display: flex;
-  border: 2px solid #e5e6e6;
+  border: 2px solid var(--borderGrey);
 }
 .bike-card-main {
   margin: 20px 0px;
@@ -80,8 +81,8 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   display: flex;
   flex-direction: column;
   width: 45%;
-  border-left: 2px solid #e5e6e6;
-  border-right: 2px solid #e5e6e6;
+  border-left: 2px solid var(--borderGrey);
+  border-right: 2px solid var(--borderGrey);
   padding: 1%;
   justify-content: space-between;
 }
@@ -228,10 +229,14 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   background-color: rgb(248, 219, 219);
   /* margin: 5px 0; */
   padding: 15px 10;
-  border: 1px solid red;
+  border: 1px solid var(--darkRed);
   font-size: 16px;
   font-weight: 700;
   cursor: pointer;
+}
+.location-btn-main {
+  display: flex;
+  justify-content: space-between;
 }
 @media screen and (max-width: 500px) {
   .time-arrow {

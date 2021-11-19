@@ -225,8 +225,14 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   line-height: 1.7;
   font-size: 23px;
 }
+.location-item-main {
+  padding: 5px 5px 0 5;
+  border: 2px solid var(--borderGrey);
+  margin: 10 0;
+  border-radius: 10px;
+}
 .location-item {
-  background-color: rgb(248, 219, 219);
+  background-color: var(--midRed);
   /* margin: 5px 0; */
   padding: 15px 10;
   border: 1px solid var(--darkRed);
@@ -237,6 +243,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 .location-btn-main {
   display: flex;
   justify-content: space-between;
+  padding: 10px 5px;
 }
 @media screen and (max-width: 500px) {
   .time-arrow {

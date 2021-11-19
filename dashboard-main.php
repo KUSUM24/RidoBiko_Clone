@@ -20,8 +20,8 @@ include "common/link.php";
     <?php include "common/header.php"; ?>
     <!-- Main Section  -->
     <div class="container d-flex">
-      <div class="left-body d-flex flex-column">
-        <div class="section-userinfo">
+      <div class="left-body">
+        <div class="section-userinfo" >
           <img src="images/userinfo.png" alt="userinfo" id="default-profile" />
           <img
             src=""

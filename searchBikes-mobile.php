@@ -422,21 +422,29 @@ include "common/link.php";
             <div class="location-list" id="location-list">
               <div class="location-item-main">
                 <div class="location-item">
-                  Karol Bagh, Mumbai
+                  1) Karol Bagh, Mumbai
                 </div>
                 <div class="location-btn-main">
-                  <div class="location-rent"></div>
-                  <div class="location-btn"></div>
+                  <div class="location-rent">₹ 1325</div>
+                  <div class="location-btn book-now">Book Now</div>
                 </div>
               </div>
               <div class="location-item-main">
                 <div class="location-item">
-                  Nerul, Mumbai
+                  2) Nerul, Mumbai
+                </div>
+                <div class="location-btn-main">
+                  <div class="location-rent">₹ 1325</div>
+                  <div class="location-btn book-now">Book Now</div>
                 </div>
               </div>
               <div class="location-item-main">
                 <div class="location-item">
-                  Andheri, Mumbai
+                  3) Andheri, Mumbai
+                </div>
+                <div class="location-btn-main">
+                  <div class="location-rent">₹ 1325</div>
+                  <div class="location-btn book-now">Book Now</div>
                 </div>
               </div>
             </div>

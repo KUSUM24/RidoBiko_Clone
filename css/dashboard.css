@@ -16,6 +16,10 @@
 }
 
 /* left body */
+.left-body {
+  display: flex;
+  flex-direction: column;
+}
 .section-userinfo {
   display: flex;
   margin-top: 20px;
@@ -90,6 +94,7 @@
   list-style-type: disc;
   background-color: rgb(241, 239, 239);
 }
+
 /* right-body */
 .card-body {
   padding-top: 1rem;
@@ -352,4 +357,10 @@ select:active {
   border: 2px solid black;
   padding: 0.5% 2%;
   font-size: 110%;
+}
+@media screen and (max-width: 500px) {
+  .left-body {
+    display: none;
+    position: absolute;
+  }
 }

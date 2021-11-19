@@ -35,14 +35,18 @@ $(document).ready(function () {
   });
 });
 
-$(document).ready(function togglePolicy(btnId, toggleId) {
-  $(`#${btnId}`).click(function () {
-    $(`#${toggleId}`).toggle("slow");
-  });
-});
-
 $(document).ready(function () {
   $("#refund-policy-btn").click(function () {
     $("#refund-policy").toggle("slow");
+  });
+});
+$(document).ready(function () {
+  $("#cancellation-policy-btn").click(function () {
+    $("#cancellation-policy").toggle("slow");
+  });
+});
+$(document).ready(function () {
+  $("#accident-policy-btn").click(function () {
+    $("#accident-policy").toggle("slow");
   });
 });

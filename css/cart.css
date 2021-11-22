@@ -1,4 +1,5 @@
 :root {
+  --pureRed: red;
   --darkRed: #fc3831;
   --lightRed: #fcf3f3;
   --midRed: #fae8e8;
@@ -61,7 +62,7 @@
   color: white;
   padding: 1% 2%;
   border-radius: 5px;
-  margin: 2% 0%;
+  margin: 1% 0% 2% 0%;
 }
 .payment-button:focus {
   outline: none;
@@ -122,6 +123,8 @@ input[type="radio"] {
   width: 1.15em;
   height: 1.15em;
   border: 0.15em solid rgb(255, 98, 98);
+  border: 0.15em solid var(--darkGreen);
+
   border-radius: 50%;
   transform: translateY(-0.075em);
 
@@ -137,7 +140,8 @@ input[type="radio"]::before {
   transition: 120ms transform ease-in-out;
   box-shadow: inset 1em 1em var(grey);
   /* Windows High Contrast Mode */
-  background-color: red;
+  background-color: var(--pureRed);
+  background-color: var(--darkGreen);
 }
 
 input[type="radio"]:checked::before {
@@ -158,6 +162,7 @@ input[type="checkbox"] {
   width: 1.15em;
   height: 1.15em;
   border: 0.15em solid rgb(248, 98, 98);
+  border: 0.15em solid var(--darkGreen);
   border-radius: 0.15em;
   transform: translateY(-0.075em);
   display: grid;
@@ -172,7 +177,8 @@ input[type="checkbox"]::before {
   transform: scale(0);
   transform-origin: bottom left;
   transition: 120ms transform ease-in-out;
-  background-color: red;
+  background-color: var(--pureRed);
+  background-color: var(--darkGreen);
 }
 
 input[type="checkbox"]:checked::before {

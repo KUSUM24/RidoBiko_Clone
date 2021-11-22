@@ -2,7 +2,9 @@
 $(document).ready(function () {
   $(window).scrollTop(0);
 });
-
+$(document).ready(function () {
+  window.history.go("searchBikes-main.php");
+});
 var days = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
 let today = new Date();
 let month = today.getMonth() + 1; //As January is 0.

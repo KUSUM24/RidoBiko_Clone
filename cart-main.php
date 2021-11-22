@@ -143,6 +143,31 @@ include "common/link.php";
             <div>₹ 2,500</div>
           </div>
         </div>
+        <div>
+          <form>
+            <div class="p-2 d-flex align-items-center">
+              <input
+                type="radio"
+                id="input-radio-1"
+                name="fav_language"
+                value="Pay 100%"
+                checked
+              />
+              <div class="custom-label px-2" for="input-radio-1">Pay 100% (Rs. 10400)</div>
+              <input
+                type="radio"
+                id="input-radio-2"
+                name="fav_language"
+                value="Pay 20%"
+              />
+              <div class="custom-label px-2" for="input-radio-2">Pay 20% (Rs. 2000)</div>
+            </div>
+            <div class="px-2 d-flex align-items-center">
+              <input class="custom-label" type="checkbox" id="input-check-1" name="wallet-money" />
+              <div class="custom-label px-2" for="input-check-1">Use Rs.0 Wallet Money</div>
+            </div>
+          </form>
+        </div>
         <div class="d-flex justify-content-center">
           <button class="payment-button bg-success">Proceed To Pay</button>
         </div>
@@ -151,66 +176,100 @@ include "common/link.php";
             <div class="policy-heading">POLICIES</div>
           </div>
           <hr class="hr-checkout" />
-          <div class="policy" id="refund-policy-btn" onclick='togglePolicy("refund-policy-btn","refund-policy")'>
-            <div>
-              Refund Policy
-            </div>
-            <span class="material-icons-outlined" >
-              expand_more
-            </span>
+          <div
+            class="policy"
+            id="refund-policy-btn"
+            onclick='togglePolicy("refund-policy-btn","refund-policy")'
+          >
+            <div>Refund Policy</div>
+            <span class="material-icons-outlined"> expand_more </span>
           </div>
           <div class="hidden-policy" id="refund-policy">
             <hr class="hr-checkout" />
             <div class="policy-details px-4 py-3">
-              <b>1) Deposit refund - Deposit will be refunded within 2 working days.</b>
+              <b
+                >1) Deposit refund - Deposit will be refunded within 2 working
+                days.</b
+              >
             </div>
             <hr class="hr-checkout" />
             <div class="policy-details px-4 py-3">
-              <b>2) Cancelled booking refund - Refund will be processed within 3- 4 working days. Refund amount will be decided based on the cancellation policy. Further, 2% of booking amount will be charged and deducted as payment gateway charges.</b>
+              <b
+                >2) Cancelled booking refund - Refund will be processed within
+                3- 4 working days. Refund amount will be decided based on the
+                cancellation policy. Further, 2% of booking amount will be
+                charged and deducted as payment gateway charges.</b
+              >
             </div>
           </div>
           <hr class="hr-checkout" />
-          <div class="policy" id="cancellation-policy-btn" onclick='togglePolicy("cancellation-policy-btn","cancellation-policy")'>
-            <div>
-              Cancellation Policy
-            </div>
-            <span class="material-icons-outlined">
-              expand_more
-            </span>
+          <div
+            class="policy"
+            id="cancellation-policy-btn"
+            onclick='togglePolicy("cancellation-policy-btn","cancellation-policy")'
+          >
+            <div>Cancellation Policy</div>
+            <span class="material-icons-outlined"> expand_more </span>
           </div>
           <div class="hidden-policy" id="cancellation-policy">
             <hr class="hr-checkout" />
             <div class="policy-details px-4 py-3">
-              <b>1) No show during pick - 100% rent amount will be deducted and only security deposit will be refunded (If paid in advance by customer).</b>
+              <b
+                >1) No show during pick - 100% rent amount will be deducted and
+                only security deposit will be refunded (If paid in advance by
+                customer).</b
+              >
             </div>
             <hr class="hr-checkout" />
             <div class="policy-details px-4 py-3">
-              <b>2) Between 0 - 24 hrs before the pickup time - No cancellation & 100% amount will be deducted.</b>
+              <b
+                >2) Between 0 - 24 hrs before the pickup time - No cancellation
+                & 100% amount will be deducted.</b
+              >
             </div>
             <div class="policy-details px-4 py-3">
-              <b>3) Between 24-48 hrs before the pickup time: 75% of total booking amount or total amount paid whichever is higher will be deducted.</b>
+              <b
+                >3) Between 24-48 hrs before the pickup time: 75% of total
+                booking amount or total amount paid whichever is higher will be
+                deducted.</b
+              >
             </div>
             <div class="policy-details px-4 py-3">
-              <b>4) More than 48hrs before the pickup time: 50% of total booking amount or total amount paid whichever is higher will be deducted.</b>
+              <b
+                >4) More than 48hrs before the pickup time: 50% of total booking
+                amount or total amount paid whichever is higher will be
+                deducted.</b
+              >
             </div>
           </div>
           <hr class="hr-checkout" />
-          <div class="policy" id="accident-policy-btn" onclick='togglePolicy("accident-policy-btn","accident-policy")'>
-            <div>
-              Accident Policy
-            </div>
-            <span class="material-icons-outlined">
-              expand_more
-            </span>
+          <div
+            class="policy"
+            id="accident-policy-btn"
+            onclick='togglePolicy("accident-policy-btn","accident-policy")'
+          >
+            <div>Accident Policy</div>
+            <span class="material-icons-outlined"> expand_more </span>
           </div>
           <div class="hidden-policy" id="accident-policy">
             <hr class="hr-checkout" />
             <div class="policy-details px-4 py-3">
-              <b>1) For any damages incurred to an Ridobiko asset (the two-wheeler), the user will be held responsible for bearing all the charges up to INR ₹10,000.</b>
+              <b
+                >1) For any damages incurred to an Ridobiko asset (the
+                two-wheeler), the user will be held responsible for bearing all
+                the charges up to INR ₹10,000.</b
+              >
             </div>
             <hr class="hr-checkout" />
             <div class="policy-details px-4 py-3">
-              <b>2) For any damages incurred to an Ridobiko asset (the two-wheeler) amounting more than INR ₹10,000, the user is eligible to claim insurance to cover the charges that imply including the rental cost incurred during downtime period of the asset which is a time period otherwise utilized by another Ridobiko user.</b>
+              <b
+                >2) For any damages incurred to an Ridobiko asset (the
+                two-wheeler) amounting more than INR ₹10,000, the user is
+                eligible to claim insurance to cover the charges that imply
+                including the rental cost incurred during downtime period of the
+                asset which is a time period otherwise utilized by another
+                Ridobiko user.</b
+              >
             </div>
           </div>
         </div>
